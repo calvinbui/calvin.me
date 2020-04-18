@@ -207,26 +207,6 @@ $dark-primary: $tag;
     }
   }
 
-  .simple-posts {
-    a {
-      .each {
-        border-bottom: 1px solid $dark-border;
-        h2 {
-          color: lighten($comment, 10%);
-        }
-
-        &:hover {
-          border: 1px solid $accent;
-          background: $accent;
-
-          h2 {
-            color: white;
-          }
-        }
-      }
-    }
-  }
-
   .tag-container {
     span {
       color: $foreground;

@@ -5,12 +5,9 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
 import quotes from '../../data/quotes'
 import tania from '../../content/images/profile.jpg'
 
@@ -86,16 +83,6 @@ export default class Index extends Component {
           <section className="section">
             <h2>Open Source Projects</h2>
             <ProjectListing projects={projects} />
-          </section>
-
-          <section className="section">
-            <h2>Interviews</h2>
-            <SimpleListing simple data={podcasts} />
-          </section>
-
-          <section className="section">
-            <h2>Talks</h2>
-            <SimpleListing simple data={speaking} />
           </section>
         </div>
       </Layout>

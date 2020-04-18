@@ -463,66 +463,6 @@ h1.articles-title {
   }
 }
 
-.simple-posts {
-  a {
-    .each {
-      padding: 0.5rem 0;
-      margin: 0;
-      border: 1px solid transparent;
-      border-radius: $border-radius;
-
-      h2 {
-        justify-content: flex-start;
-        font-size: 1.2rem;
-        font-weight: 500;
-        padding: 0;
-        margin: 0;
-        color: $font-color;
-        border-bottom: none;
-        display: flex;
-        align-items: center;
-      }
-
-      img {
-        margin-right: 1rem;
-        margin-bottom: 0;
-        max-height: 30px;
-        max-width: 30px;
-      }
-
-      &:hover {
-        border: 1px solid $light;
-        background: $light;
-
-        h2 {
-          color: #111;
-        }
-      }
-    }
-  }
-}
-
-@include small-breakpoint {
-  .simple-posts {
-    a {
-      .each {
-        padding: 0.75rem 1rem;
-        margin: 0 -1rem;
-        border-bottom: 1px solid lighten($border-color, 12%);
-
-        h2 {
-          font-size: 1.3rem;
-        }
-      }
-      &:last-of-type {
-        .each {
-          border-bottom: 1px solid transparent !important;
-        }
-      }
-    }
-  }
-}
-
 .projects {
   .each {
     display: flex;
