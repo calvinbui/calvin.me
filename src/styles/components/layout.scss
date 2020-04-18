@@ -426,17 +426,6 @@ h1.articles-title {
   margin-top: 3rem;
 }
 
-h2.publication-company {
-  display: flex;
-  align-items: center;
-  font-size: 1.6rem;
-
-  img {
-    max-height: 30px;
-    margin: 0 0.75rem 0 0;
-  }
-}
-
 .alert {
   display: none;
   justify-self: flex-end;
@@ -771,80 +760,6 @@ blockquote {
 
     cite {
       font-size: 2rem;
-    }
-  }
-}
-
-.gradient-section {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 4rem 0;
-  background: radial-gradient(circle at 20% 20%, #5183f5 25%, #4640ff 100%);
-
-  h2 {
-    color: white;
-  }
-
-  &.articles {
-    margin-top: -60px;
-  }
-}
-
-.quotations {
-  display: flex;
-  flex-wrap: wrap;
-  @extend .container;
-
-  .quotation {
-    padding: 1rem;
-    margin: 1rem 0;
-    border: none;
-    background: white;
-    padding: 1.5rem 1.5rem 3.5rem !important;
-    border-radius: $border-radius;
-    position: relative;
-    box-shadow: 0.5rem 1.25rem 1.75rem 0 rgba(0, 0, 0, 0.3);
-
-    p {
-      font-size: 1.1rem;
-    }
-
-    cite {
-      display: block;
-      position: absolute;
-      bottom: 1rem;
-      right: 1.5rem;
-      color: rgba(0, 0, 0, 0.6);
-      margin-top: 1rem;
-      font-size: 1.3rem;
-      text-align: right;
-      font-family: $font-family;
-      color: $primary-color;
-      font-weight: 600;
-      font-style: normal;
-    }
-  }
-}
-
-@include small-breakpoint {
-  .quotations {
-    .quotation {
-      flex: 1 1 calc(50% - 2rem);
-      padding: 2.5rem 2.5rem 5.5rem !important;
-
-      p {
-        font-size: 1.2rem;
-      }
-
-      cite {
-        position: absolute;
-        bottom: 1.5rem;
-        right: 2.5rem;
-      }
-
-      &:nth-of-type(2n) {
-        margin-left: 2rem;
-      }
     }
   }
 }
