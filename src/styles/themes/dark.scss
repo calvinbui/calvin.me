@@ -227,23 +227,6 @@ $dark-primary: $tag;
     }
   }
 
-  .projects {
-    .each {
-      border-bottom: 1px solid $dark-border;
-    }
-    h2 {
-      color: $foreground;
-
-      a {
-        color: $foreground;
-      }
-    }
-
-    p {
-      color: $comment;
-    }
-  }
-
   .post-meta {
     color: $comment;
   }

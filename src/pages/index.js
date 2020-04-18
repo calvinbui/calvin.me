@@ -4,11 +4,8 @@ import GitHubButton from 'react-github-btn'
 import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import quotes from '../../data/quotes'
 import tania from '../../content/images/profile.jpg'
 
 export default class Index extends Component {
@@ -78,11 +75,6 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Open Source Projects</h2>
-            <ProjectListing projects={projects} />
           </section>
         </div>
       </Layout>
