@@ -422,10 +422,6 @@
   }
 }
 
-h1.articles-title {
-  margin-top: 3rem;
-}
-
 .alert {
   display: none;
   justify-self: flex-end;
@@ -1010,53 +1006,6 @@ button[disabled] {
 .no-comments {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.instruction-manuals {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 -1rem;
-  > a {
-    z-index: 2;
-    transition: all 0.2s ease;
-    display: block;
-    padding: 1rem 1.5rem;
-    background: white;
-    border-radius: $border-radius;
-    box-shadow: 0.2rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.1);
-    margin: 0.5rem;
-    &:hover {
-      transform: translateY(-1px);
-      box-shadow: 0.5rem 1.25rem 2rem 0 rgba(0, 0, 0, 0.2);
-    }
-    img {
-      display: block;
-      margin: auto;
-      width: 50px;
-      max-width: 50px;
-      max-height: 50px;
-      height: auto;
-    }
-    h3 {
-      margin: 0.5rem auto 0;
-      text-align: center;
-      font-size: 1.1rem;
-    }
-  }
-
-  @include small-breakpoint {
-    > a {
-      img {
-        width: 75px;
-        max-width: 75px;
-        max-height: 75px;
-      }
-      h3 {
-        font-size: 1.3rem;
-      }
-    }
-  }
 }
 
 ::selection {
