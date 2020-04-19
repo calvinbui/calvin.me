@@ -46,20 +46,6 @@ $dark-primary: $tag;
     }
   }
 
-  .front-page {
-    h2 {
-      a.view-all {
-        background: rgba(0, 0, 0, 0.2);
-        color: darken($foreground, 10%);
-        &:hover,
-        &:focus {
-          background: black;
-          color: $foreground;
-        }
-      }
-    }
-  }
-
   .post,
   .page {
     a:not(.button):not(.anchor):not(.gatsby-resp-image-link) {
@@ -380,19 +366,9 @@ $dark-primary: $tag;
     }
   }
 
-  .newsletter-section {
-    background: rgba(0, 0, 0, 0.2);
+  .avatar-section {
+    //background: rgba(0, 0, 0, 0.2);
     box-shadow: none;
-    a.button {
-      background: #111 !important;
-      color: $dark-primary !important;
-      &:hover,
-      &:focus,
-      &:active {
-        background: #080808 !important;
-        color: lighten($dark-primary, 10%) !important;
-      }
-    }
   }
 
   .category-container {

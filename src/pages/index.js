@@ -6,14 +6,37 @@ import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import tania from '../../content/images/profile.jpg'
+import avatar from '../images/avatar.png'
 
 export default class Index extends Component {
+  state = {
+    searchTerm: '',
+    posts: this.props.data.posts.edges,
+    filteredPosts: this.props.data.posts.edges,
+  }
+
+  handleChange = event => {
+    const { name, value } = event.target
+
+    this.setState({ [name]: value }, () => this.filterPosts())
+  }
+
+  filterPosts = () => {
+    const { posts, searchTerm } = this.state
+
+    const filteredPosts = posts.filter(post =>
+      post.node.frontmatter.title.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+
+    this.setState({ filteredPosts })
+  }
+
   render() {
     const { data } = this.props
 
-    const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    const { filteredPosts, searchTerm } = this.state
+    const filterCount = filteredPosts.length
+    const categories = this.props.data.categories.group
 
     return (
       <Layout>
@@ -21,61 +44,52 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="lead">
-            <div className="elevator">
-              <h1>{`Hey, I'm Tania 👋`} </h1>
-              <p>
-                {`I'm a full stack software developer creating `}
-                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
-                  open source
-                </a>{' '}
-                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
-                development.
-              </p>
-              <div className="social-buttons">
-                <GitHubButton
-                  href="https://github.com/taniarascia"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  taniarascia
-                </GitHubButton>
-              </div>
+            <div className="avatar-section">
+              <img src={avatar} className="avatar-image" alt="Calvin" />
             </div>
-            <div className="newsletter-section">
-              <img src={tania} className="newsletter-avatar" alt="Tania" />
-              <div>
-                <h3>Email Newsletter</h3>
-                <p>
-                  I write tutorials. Get an update when something new comes out by signing up below!
-                </p>
-                <a className="button" href="https://taniarascia.substack.com">
-                  Subscribe
-                </a>
+
+            <div className="elevator">
+              <h1>Hi, I'm Calvin 👋</h1>
+              <p>DevOps Engineer passionate about IT as a career and a hobby!</p>
+              <div className="profile-buttons">
+                <GitHubButton
+                  href="https://github.com/calvinbui"
+                  data-size="large"
+                  data-show-count="false"
+                >calvinbui</GitHubButton>
               </div>
             </div>
           </div>
         </div>
 
         <div className="container front-page">
-          <section className="section">
-            <h2>
-              Latest Articles
-              <Link to="/blog" className="view-all">
-                View all
-              </Link>
-            </h2>
-            <PostListing simple postEdges={latestPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>
-              Most Popular
-              <Link to="/categories/popular" className="view-all">
-                View all
-              </Link>
-            </h2>
-            <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          <div className="container">
+            <div className="category-container">
+              {categories.map(category => {
+                return (
+                  <Link
+                    to={`/categories/${category.fieldValue.toLowerCase()}`}
+                    className="category-filter"
+                    key={category.fieldValue}
+                  >
+                    {category.fieldValue}
+                  </Link>
+                )
+              })}
+            </div>
+            <div className="search-container">
+              <input
+                className="search"
+                type="text"
+                name="searchTerm"
+                value={searchTerm}
+                placeholder="Type here to filter posts..."
+                onChange={this.handleChange}
+              />
+              <div className="filter-count">{filterCount}</div>
+            </div>
+            <PostListing postEdges={filteredPosts} />
+          </div>
         </div>
       </Layout>
     )
@@ -114,10 +128,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    popular: allMarkdownRemark(
-      limit: 9
+    posts: allMarkdownRemark(
+      limit: 2000
       sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } } }
+      filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
         node {
@@ -125,7 +139,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt
+          excerpt(pruneLength: 180)
           timeToRead
           frontmatter {
             title
@@ -133,7 +147,7 @@ export const pageQuery = graphql`
             categories
             thumbnail {
               childImageSharp {
-                fixed(width: 150, height: 150) {
+                fixed(width: 50, height: 50) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -142,6 +156,12 @@ export const pageQuery = graphql`
             template
           }
         }
+      }
+    }
+    categories: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
       }
     }
   }
