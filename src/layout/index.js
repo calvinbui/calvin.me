@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import ThemeContext from '../context/ThemeContext'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
@@ -14,7 +14,7 @@ export default class MainLayout extends Component {
     const { dark, notFound } = this.context
     const { children } = this.props
     let themeClass = ''
-    
+
     if (dark && !notFound) {
       themeClass = 'dark'
     } else if (notFound) {

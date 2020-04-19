@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
 import SEO from '../components/SEO'
@@ -24,9 +24,6 @@ export default class PostTemplate extends Component {
 
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
-    const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
-      config.siteUrl
-      }/${post.slug}/&via=ASAPCalvin`
 
     return (
       <Layout>

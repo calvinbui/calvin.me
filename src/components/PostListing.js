@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import moment from 'moment'
 
 import { formatDate } from '../utils/global'
 
