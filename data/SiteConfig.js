@@ -11,7 +11,6 @@ const config = {
   siteDescription:
     'Tania Rascia is a full stack software developer specializing in modern JavaScript.',
   siteRss: '/rss.xml',
-  googleAnalyticsID: 'UA-42068444-1',
   postDefaultCategoryID: 'Tech',
   newsletter: 'https://taniarascia.substack.com',
   newsletterEmbed: 'https://taniarascia.substack.com/embed',
