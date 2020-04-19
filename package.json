@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "calvin.me",
   "description": "Personal website running on Gatsby, React, and Node.js.",
-  "version": "1.0.1",
-  "author": "Tania Rascia <hello@taniarascia.com>",
-  "repository": "git@github.com:taniarascia/taniarascia.com",
+  "version": "3.0.0",
+  "author": "Calvin Bui <blog@bui.io>",
+  "repository": "git@github.com:calvinbui/calvinbui.github.io",
   "dependencies": {
     "eslint-utils": "^1.4.1",
     "gatsby": "^2.13.13",
@@ -32,7 +32,6 @@
     "prismjs": "^1.15.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-github-btn": "^1.1.1",
     "react-helmet": "^5.2.0",
     "sharp": "^0.25.2",
     "url-join": "^4.0.0"
@@ -55,7 +54,7 @@
     "write-good": "^1.0.1"
   },
   "keywords": [
-    "tania rascia",
+    "calvin bui",
     "development",
     "dev",
     "tutorials",

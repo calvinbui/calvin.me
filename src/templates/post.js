@@ -3,12 +3,9 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
-import UserInfo from '../components/UserInfo'
-import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import tania from '../../content/images/profile-small.jpg'
 
 export default class PostTemplate extends Component {
   render() {
@@ -21,10 +18,6 @@ export default class PostTemplate extends Component {
       post.id = slug
     }
 
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID
-    }
-
     if (post.thumbnail) {
       thumbnail = post.thumbnail.childImageSharp.fixed
     }
@@ -33,7 +26,7 @@ export default class PostTemplate extends Component {
     const githubLink = editOnGithub(post)
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
-    }/${post.slug}/&via=taniarascia`
+      }/${post.slug}/&via=ASAPCalvin`
 
     return (
       <Layout>
@@ -47,35 +40,21 @@ export default class PostTemplate extends Component {
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <Link to="/me">
-                  <img src={tania} className="avatar-small" alt="Tania" />
-                </Link>
-                <time className="date">{date}</time>/
-                <a
-                  className="twitter-link"
-                  href={twitterShare}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Share
-                </a>
-                /
-                <a
+                <time className="date">{date}</time>
+              </div>
+              <div className="edit-link">
+                <i><a
                   className="github-link"
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                >
-                  Edit ✏️
-                </a>
+                > Suggest changes ✏️</a></i>
               </div>
-              <PostTags tags={post.tags} />
             </div>
           </header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <UserInfo config={config} />
       </Layout>
     )
   }
@@ -99,8 +78,6 @@ export const pageQuery = graphql`
         }
         slug
         date
-        categories
-        tags
         template
       }
       fields {

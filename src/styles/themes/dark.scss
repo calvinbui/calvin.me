@@ -33,16 +33,6 @@ $dark-primary: $tag;
           color: darken($dark-primary, 15%);
         }
       }
-      &.patreon:not(.button):not(.anchor):not(.gatsby-resp-image-link) {
-        background: rgba(0, 0, 0, 0.2) !important;
-        color: #f96854;
-        &:hover,
-        &:focus,
-        &:active {
-          background: darken(#f96854, 10%) !important;
-          color: white !important;
-        }
-      }
     }
   }
 
@@ -117,18 +107,6 @@ $dark-primary: $tag;
     }
   }
 
-  .note {
-    .note-container {
-      background: #191919;
-      box-shadow: none;
-      p,
-      button,
-      a {
-        color: white;
-      }
-    }
-  }
-
   p,
   ul,
   ol,
@@ -189,26 +167,6 @@ $dark-primary: $tag;
 
       .excerpt {
         color: rgba(255, 255, 255, 0.3);
-      }
-    }
-  }
-
-  .tag-container {
-    span {
-      color: $foreground;
-      background: rgba(0, 0, 0, 0.2);
-      border: none;
-
-      .count {
-        color: $secondary-color;
-      }
-
-      &:hover,
-      &:active,
-      &:focus {
-        border: none;
-        background: #111;
-        color: white;
       }
     }
   }
@@ -323,10 +281,6 @@ $dark-primary: $tag;
     }
   }
 
-  .donate-button {
-    background: transparent;
-  }
-
   .new,
   .popular {
     background: rgba(0, 0, 0, 0.2);
@@ -363,34 +317,6 @@ $dark-primary: $tag;
     &::before {
       background: $accent;
       color: #888;
-    }
-  }
-
-  .avatar-section {
-    //background: rgba(0, 0, 0, 0.2);
-    box-shadow: none;
-  }
-
-  .category-container {
-    .category-filter {
-      background: rgba(0, 0, 0, 0.2);
-      font-weight: 500;
-      color: $dark-primary;
-      cursor: pointer;
-
-      &.active {
-        background: $dark-primary !important;
-        color: white !important;
-      }
-
-      &:last-of-type {
-        margin-right: 0;
-      }
-
-      &:hover {
-        background: #111;
-        color: lighten($dark-primary, 10%);
-      }
     }
   }
 

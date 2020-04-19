@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import floppy from '../images/floppy.png'
+import floppy from '../images/avatar.png'
 import sun from '../images/sun.svg'
 import moon from '../images/moon.svg'
 import ThemeContext from '../context/ThemeContext'
@@ -39,7 +39,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link to="/">
               <img src={floppy} className="favicon" alt="Floppy Diskette" />
-              <span className="text">Tania Rascia</span>
+              <span className="text">Calvin Bui</span>
             </Link>
           </div>
           <div className="links">
@@ -59,8 +59,8 @@ export default class Navigation extends Component {
               {theme.dark ? (
                 <img src={sun} className="theme-icon" alt="Light Mode" />
               ) : (
-                <img src={moon} className="theme-icon" alt="Dark Mode" />
-              )}
+                  <img src={moon} className="theme-icon" alt="Dark Mode" />
+                )}
             </button>
           </div>
         </div>

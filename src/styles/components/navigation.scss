@@ -9,6 +9,9 @@
 
   &.scroll {
     box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+    .nav-container {
+      padding: 0 1.5rem;
+    }
   }
 
   .cta {
@@ -18,7 +21,7 @@
   }
 
   .nav-container {
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem 0;
     height: 55px;
     max-width: $width;
     margin: auto;
@@ -41,10 +44,6 @@
       &:focus {
         color: black;
       }
-    }
-
-    .text {
-      display: none;
     }
   }
 
@@ -79,11 +78,12 @@
 }
 
 .favicon {
-  height: 23px;
-  width: 23px;
-  min-width: 23px;
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
   margin-right: 1rem;
   margin-bottom: 0;
+  border-radius: 50%;
 }
 
 button.dark-switcher {
@@ -110,6 +110,11 @@ button.dark-switcher {
     &.scroll {
       .nav-container {
         height: 60px;
+      }
+      .favicon {
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
       }
     }
 
@@ -144,6 +149,9 @@ button.dark-switcher {
 
     .favicon {
       margin-right: 1rem;
+      height: 70px;
+      width: 70px;
+      min-width: 70px;
     }
 
     button.dark-switcher {

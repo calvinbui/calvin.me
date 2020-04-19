@@ -103,7 +103,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = 'Tania Rascia'
+          ret.generator = 'Calvin Bui'
           return ret
         },
         query: `
@@ -126,7 +126,6 @@ module.exports = {
             serialize(ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
-                categories: edge.node.frontmatter.tags,
                 date: edge.node.fields.date,
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
@@ -157,8 +156,6 @@ module.exports = {
                     frontmatter {
                       title
                       date
-                      categories
-                      tags
                       template
                     }
                   }
@@ -167,7 +164,7 @@ module.exports = {
             }
           `,
             output: config.siteRss,
-            title: 'Tania Rascia - RSS Feed',
+            title: 'Calvin Bui - RSS Feed',
           },
         ],
       },
