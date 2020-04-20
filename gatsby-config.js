@@ -14,8 +14,8 @@ module.exports = {
     },
   },
   plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
@@ -27,31 +27,36 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: 'assets',
         path: `${__dirname}/static/`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: 'posts',
         path: `${__dirname}/content/`,
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 850,
             },
           },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
+            },
+          },
+          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
@@ -64,17 +69,17 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-nprogress',
+      resolve: `gatsby-plugin-nprogress`,
       options: {
         color: config.themeColor,
       },
     },
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-catch-links',
-    'gatsby-plugin-sitemap',
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-sitemap`,
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: config.siteTitle,
         short_name: config.siteTitleShort,
@@ -98,7 +103,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-feed',
+      resolve: `gatsby-plugin-feed`,
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
