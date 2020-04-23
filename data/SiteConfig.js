@@ -17,12 +17,28 @@ const config = {
   userTwitter: 'ASAPCalvin',
   menuLinks: [
     {
+      name: 'Categories',
+      link: '/categories/',
+      type: 'internal',
+      mobile: true,
+    },
+    {
+      name: 'Tags',
+      link: '/tags/',
+      type: 'internal',
+      mobile: false,
+    },
+    {
       name: 'GitHub',
-      link: '/me/',
+      link: 'https://git.io/calvin',
+      type: 'external',
+      mobile: true,
     },
     {
       name: 'LinkedIn',
-      link: '/blog/',
+      link: 'https://linkedin.com/in/c-bui',
+      type: 'external',
+      mobile: true,
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.

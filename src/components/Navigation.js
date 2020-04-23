@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import avatar from '../images/avatar.png'
-import sun from '../images/sun.svg'
-import moon from '../images/moon.svg'
 import ThemeContext from '../context/ThemeContext'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { BsMoon } from 'react-icons/bs'
+import { IoMdSunny } from 'react-icons/io'
 
 export default class Navigation extends Component {
   static contextType = ThemeContext // eslint-disable-line
@@ -43,25 +44,44 @@ export default class Navigation extends Component {
             </Link>
           </div>
           <div className="links">
-            {menuLinks.map(link => (
-              <Link key={link.name} to={link.link} activeClassName="active">
-                {link.name}
-              </Link>
-            ))}
-          </div>
-          <div className="cta">
-            <button
-              className="dark-switcher"
-              onClick={theme.toggleDark}
-              aria-label="Toggle Dark Mode."
-              title="Toggle Dark Mode"
-            >
-              {theme.dark ? (
-                <img src={sun} className="theme-icon" alt="Light Mode" />
-              ) : (
-                  <img src={moon} className="theme-icon" alt="Dark Mode" />
-                )}
-            </button>
+            {menuLinks.map(link => {
+              if (link.type === "internal") {
+                return (
+                  <Link className={link.mobile ? ("") : ("nav-icon-hide-mobile")} key={link.name} to={link.link} activeClassName="active">
+                    {link.name}
+                  </Link>
+                )
+              }
+              else if (link.type == "external") {
+                if (link.name == "GitHub") {
+                  var icon = <FaGithub className="nav-icons github-nav-icon" />
+                } else if (link.name == "LinkedIn") {
+                  var icon = <FaLinkedin className="nav-icons linkedin-nav-icon" />
+                } else {
+                  var icon = link.name
+                }
+
+                return (
+                  <a key={link.name} href={link.link}>
+                    {icon}
+                  </a>
+                )
+              }
+            })}
+            <div className="cta">
+              <button
+                className="dark-switcher"
+                onClick={theme.toggleDark}
+                aria-label="Toggle Dark Mode."
+                title="Toggle Dark Mode"
+              >
+                {theme.dark ? (
+                  <IoMdSunny className="nav-icons sun-nav-icon" />
+                ) : (
+                    <BsMoon className="nav-icons moon-nav-icon" />
+                  )}
+              </button>
+            </div>
           </div>
         </div>
       </nav>

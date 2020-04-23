@@ -29,6 +29,10 @@
     align-items: center;
     justify-content: space-between;
     transition: height 0.3s ease;
+
+    .nav-icon-hide-mobile {
+      display: none;
+    }
   }
 
   .brand {
@@ -98,11 +102,28 @@ button.dark-switcher {
   }
 }
 
-.theme-icon {
-  height: 18px;
-  width: 18px;
-  min-width: 18px;
+.nav-icons {
+  height: 1.3rem;
+  width: 1.3rem;
+  min-width: 1.3rem;
   margin-bottom: 0;
+
+}
+
+.github-nav-icon {
+  color: black
+}
+
+.linkedin-nav-icon {
+  color: #0077b5
+}
+
+.sun-nav-icon {
+  color: #FCC21B
+}
+
+.moon-nav-icon {
+  color: #7890FF
 }
 
 @include small-breakpoint {
@@ -121,6 +142,9 @@ button.dark-switcher {
     .nav-container {
       height: 160px;
       padding: 0 2rem;
+      .nav-icon-hide-mobile {
+        display: flex;
+      }
     }
 
     .brand {
@@ -160,10 +184,10 @@ button.dark-switcher {
       padding: 0.75rem 1rem;
     }
 
-    .theme-icon {
-      height: 22px;
-      width: 22px;
-      min-width: 22px;
+    .nav-icons {
+      height: 1.65rem;
+      width: 1.65rem;
+      min-width: 1.65rem;
       margin-bottom: 0;
     }
   }
