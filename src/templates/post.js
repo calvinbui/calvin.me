@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
+import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
@@ -16,6 +17,10 @@ export default class PostTemplate extends Component {
 
     if (!post.id) {
       post.id = slug
+    }
+
+    if (!post.category_id) {
+      post.category_id = config.postDefaultCategoryID
     }
 
     if (post.thumbnail) {
@@ -38,18 +43,19 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <time className="date">{date}</time>
-              </div>
-              <div className="edit-link">
-                <i><a
+                /
+                <a
                   className="github-link"
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                > Suggest changes ✏️</a></i>
+                >
+                  Edit
+                </a>
               </div>
+              <PostTags tags={post.tags} />
             </div>
           </header>
-
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
       </Layout>
@@ -75,6 +81,8 @@ export const pageQuery = graphql`
         }
         slug
         date
+        categories
+        tags
         template
       }
       fields {

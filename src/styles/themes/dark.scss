@@ -171,6 +171,26 @@ $dark-primary: $tag;
     }
   }
 
+  .tag-container {
+    span {
+      color: $foreground;
+      background: rgba(0, 0, 0, 0.2);
+      border: none;
+
+      .count {
+        color: $secondary-color;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        border: none;
+        background: #111;
+        color: white;
+      }
+    }
+  }
+
   .post-meta {
     color: $comment;
   }
@@ -317,6 +337,29 @@ $dark-primary: $tag;
     &::before {
       background: $accent;
       color: #888;
+    }
+  }
+
+  .category-container {
+    .category-filter {
+      background: rgba(0, 0, 0, 0.2);
+      font-weight: 500;
+      color: $dark-primary;
+      cursor: pointer;
+
+      &.active {
+        background: $dark-primary !important;
+        color: white !important;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background: #111;
+        color: lighten($dark-primary, 10%);
+      }
     }
   }
 

@@ -32,6 +32,7 @@ export default class Index extends Component {
   render() {
     const { filteredPosts, searchTerm } = this.state
     const filterCount = filteredPosts.length
+    const categories = this.props.data.categories.group
 
     return (
       <Layout>
@@ -47,6 +48,19 @@ export default class Index extends Component {
         </div>
 
         <div className="container front-page">
+          <div className="category-container">
+            {categories.map(category => {
+              return (
+                <Link
+                  to={`/categories/${category.fieldValue.toLowerCase()}`}
+                  className="category-filter"
+                  key={category.fieldValue}
+                >
+                  {category.fieldValue}
+                </Link>
+              )
+            })}
+          </div>
           <div className="search-container">
             <input
               className="search"
@@ -67,34 +81,6 @@ export default class Index extends Component {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    latest: allMarkdownRemark(
-      limit: 5
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
-          }
-        }
-      }
-    }
     posts: allMarkdownRemark(
       limit: 2000
       sort: { fields: [fields___date], order: DESC }
@@ -110,6 +96,8 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            tags
+            categories
             thumbnail {
               childImageSharp {
                 fixed(width: 50, height: 50) {
@@ -121,6 +109,12 @@ export const pageQuery = graphql`
             template
           }
         }
+      }
+    }
+    categories: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
       }
     }
   }
