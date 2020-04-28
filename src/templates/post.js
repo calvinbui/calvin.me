@@ -65,7 +65,7 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <Disqus config={disqusConfig} />
+        <Disqus className="container" config={disqusConfig} />
       </Layout>
     )
   }
