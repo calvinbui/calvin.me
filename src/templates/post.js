@@ -7,6 +7,7 @@ import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
+import { Disqus } from 'gatsby-plugin-disqus'
 
 export default class PostTemplate extends Component {
   render() {
@@ -14,6 +15,12 @@ export default class PostTemplate extends Component {
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
     let thumbnail
+
+    let disqusConfig = {
+      url: `${config.siteUrl + location.pathname}`,
+      identifier: post.id,
+      title: post.title,
+    }
 
     if (!post.id) {
       post.id = slug
@@ -58,6 +65,7 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
+        <Disqus config={disqusConfig} />
       </Layout>
     )
   }
