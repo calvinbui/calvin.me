@@ -183,5 +183,14 @@ module.exports = {
         shortname: `calvinbui`
       }
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://matomo.bui.services',
+        siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+        dev: true,
+      }
+    },
   ],
 }
