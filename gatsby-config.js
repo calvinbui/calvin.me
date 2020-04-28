@@ -189,7 +189,7 @@ module.exports = {
         siteId: '1',
         matomoUrl: 'https://matomo.bui.services',
         siteUrl: urljoin(config.siteUrl, config.pathPrefix),
-        dev: true,
+        dev: false,
       }
     },
   ],
