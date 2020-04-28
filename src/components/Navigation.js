@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import avatar from '../images/avatar.png'
+import avatar from '../../static/avatar.png'
 import ThemeContext from '../context/ThemeContext'
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { BsMoon } from 'react-icons/bs'

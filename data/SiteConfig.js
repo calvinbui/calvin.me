@@ -2,7 +2,7 @@ const config = {
   siteTitle: 'Calvin Bui',
   siteTitleShort: 'Calvin Bui',
   siteTitleAlt: 'Calvin Bui',
-  siteLogo: '/logos/logo-1024.png',
+  siteLogo: '/favicon/favicon-1024.png',
   siteUrl: 'https://calvin.me',
   repo: 'https://github.com/calvinbui/calvinbui.github.io',
   pathPrefix: '',
