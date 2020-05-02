@@ -1,9 +1,7 @@
 ---
-date: 2020-03-31
 title: 'Understanding Default Parameters in JavaScript'
 template: post
-thumbnail: '../thumbnails/js.png'
-slug: default-parameters-javascript
+thumbnail: js.png
 categories:
   - Code
 tags:

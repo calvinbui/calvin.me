@@ -1,9 +1,7 @@
 ---
-date: 2020-04-13
 title: 'Writing an Emulator in JavaScript (and Interfacing with Multiple UIs)'
 template: post
-thumbnail: '../thumbnails/blinky.png'
-slug: writing-an-emulator-in-javascript-chip8
+thumbnail: blinky.png
 categories:
   - Code
 tags:
@@ -27,15 +25,38 @@ There are plenty of guides on how to make a Chip-8 emulator, such as [Mastering 
 
 #### Contents
 
-- [What is Chip-8](#what-is-chip-8)
+- [What is Chip-8?](#what-is-chip-8)
 - [What Goes Into a Chip-8 Interpreter?](#what-goes-into-a-chip-8-interpreter)
+  - [Memory](#memory)
+  - [Program counter](#program-counter)
+  - [Registers](#registers)
+  - [Index register](#index-register)
+  - [Stack](#stack)
+  - [Stack pointer](#stack-pointer)
+  - [Timers](#timers)
+  - [Key input](#key-input)
+  - [Graphical output](#graphical-output)
+  - [CPU](#cpu)
 - [Decoding Chip-8 Instructions](#decoding-chip-8-instructions)
-- [Reading the ROM](#reading-the-rom-data-buffer)
+  - [Bit Masking](#bit-masking)
+- [Reading the ROM](#reading-the-rom)
 - [The Instruction Cycle - Fetch, Decode, Execute](#the-instruction-cycle---fetch-decode-execute)
-- [Creating a CPU Interface for I/O](#creating-a-cpu-interface-for-i-o)
-  - [CLI App - Interfacing with the Terminal](#cli-app---interfacing-with-the-terminal)
-  - [Web App - Interfacing with the Browser](#web-app---interfacing-with-the-browser)
-  - [Native App - Interfacing with the Native Platform](#native-app---interfacing-with-the-native-platform)
+- [Creating a CPU Interface for I/O](#creating-a-cpu-interface-for-io)
+  - [Screen](#screen)
+  - [Keys](#keys)
+- [CLI App - Interfacing with the Terminal](#cli-app---interfacing-with-the-terminal)
+  - [Screen](#screen-1)
+  - [Keys](#keys-1)
+  - [Entrypoint](#entrypoint)
+- [Web App - Interfacing with the Browser](#web-app---interfacing-with-the-browser)
+  - [Screen](#screen-2)
+  - [Keys](#keys-2)
+  - [Entrypoint](#entrypoint-1)
+- [Native App - Interfacing with the Native Platform](#native-app---interfacing-with-the-native-platform)
+  - [Entrypoint](#entrypoint-2)
+  - [Screen](#screen-3)
+  - [Keys](#keys-3)
+- [Conclusion](#conclusion)
 
 ## What is Chip-8?
 
@@ -605,8 +626,8 @@ I put the keys in an array.
 // prettier-ignore
 const keyMap = [
   '1', '2', '3', '4',
-  'q', 'w', 'e', 'r', 
-  'a', 's', 'd', 'f', 
+  'q', 'w', 'e', 'r',
+  'a', 's', 'd', 'f',
   'z', 'x', 'c', 'v'
 ]
 ```
@@ -637,7 +658,7 @@ case 'SKP_VX':
   }
 ```
 
-There is one other key method, `waitKey`, where the instruction is to wait for a keypress and return the key once pressed. 
+There is one other key method, `waitKey`, where the instruction is to wait for a keypress and return the key once pressed.
 
 ## CLI App - Interfacing with the Terminal
 
@@ -870,7 +891,7 @@ I also made an experimental native UI implementation. I used [Raylib](https://ww
 
 ![](../images/connect4.png)
 
-I consider this version experimental just because it's really slow compared to the other ones, so it's less usable, but everything works correctly with the keys and screen. 
+I consider this version experimental just because it's really slow compared to the other ones, so it's less usable, but everything works correctly with the keys and screen.
 
 ### Entrypoint
 
