@@ -26,18 +26,15 @@ export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [fileAbsolutePath], order: DESC }
       filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount
       edges {
         node {
-          fields {
-            slug
-            date
-          }
           excerpt
           timeToRead
+          fileAbsolutePath
           frontmatter {
             title
             tags
@@ -49,8 +46,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            date
-            template
           }
         }
       }

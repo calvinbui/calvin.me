@@ -1,6 +1,5 @@
 ---
 title: 'Understanding Default Parameters in JavaScript'
-template: post
 thumbnail: js.png
 categories:
   - Code

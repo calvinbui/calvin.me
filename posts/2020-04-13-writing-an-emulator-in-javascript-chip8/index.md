@@ -1,6 +1,5 @@
 ---
 title: 'Writing an Emulator in JavaScript (and Interfacing with Multiple UIs)'
-template: post
 thumbnail: blinky.png
 categories:
   - Code

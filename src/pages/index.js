@@ -83,17 +83,13 @@ export const pageQuery = graphql`
   query IndexQuery {
     posts: allMarkdownRemark(
       limit: 2000
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      sort: { fields: [fileAbsolutePath], order: DESC }
     ) {
       edges {
         node {
-          fields {
-            slug
-            date
-          }
           excerpt(pruneLength: 180)
           timeToRead
+          fileAbsolutePath
           frontmatter {
             title
             tags
@@ -105,8 +101,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            date
-            template
           }
         }
       }

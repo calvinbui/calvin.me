@@ -11,24 +11,15 @@ import { Disqus } from 'gatsby-plugin-disqus'
 
 export default class PostTemplate extends Component {
   render() {
-    const { slug } = this.props.pageContext
+    console.log(this.props)
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
+
     let thumbnail
 
-    let disqusConfig = {
-      url: `${config.siteUrl + location.pathname}`,
-      identifier: post.id,
-      title: post.title,
-    }
-
-    if (!post.id) {
-      post.id = slug
-    }
-
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID
-    }
+    post.id = location.pathname
+    post.category_id = config.postDefaultCategoryID
+    post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
     if (post.thumbnail) {
       thumbnail = post.thumbnail.childImageSharp.fixed
@@ -37,12 +28,18 @@ export default class PostTemplate extends Component {
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
 
+    let disqusConfig = {
+      url: `${config.siteUrl + location.pathname}`,
+      identifier: post.id,
+      title: post.title,
+    }
+
     return (
       <Layout>
         <Helmet>
           <title>{`${post.title} – ${config.siteTitle}`}</title>
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
+        <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
             {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
@@ -73,13 +70,16 @@ export default class PostTemplate extends Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogPostBySlug($filter: String!) {
+    markdownRemark(fileAbsolutePath: {regex: $filter}) {
       html
       timeToRead
       excerpt
+      fileAbsolutePath
       frontmatter {
         title
+        categories
+        tags
         thumbnail {
           childImageSharp {
             fixed(width: 150, height: 150) {
@@ -87,15 +87,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        slug
-        date
-        categories
-        tags
-        template
-      }
-      fields {
-        slug
-        date
       }
     }
   }

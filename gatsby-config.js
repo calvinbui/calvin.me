@@ -29,15 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'assets',
-        path: `${__dirname}/static/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: 'posts',
-        path: `${__dirname}/content/`,
+        path: `${__dirname}/posts/`,
       },
     },
     {
@@ -132,11 +125,11 @@ module.exports = {
               const { rssMetadata } = ctx.query.site.siteMetadata
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,
-                date: edge.node.fields.date,
+                date: edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(0, 10),
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
-                url: rssMetadata.site_url + edge.node.fields.slug,
-                guid: rssMetadata.site_url + edge.node.fields.slug,
+                url: rssMetadata.site_url + edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
+                guid: rssMetadata.site_url + edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
                 custom_elements: [
                   { 'content:encoded': edge.node.html },
                   { author: config.userEmail },
@@ -147,24 +140,18 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                sort: { order: DESC, fields: [fields___date] },
-                filter: { frontmatter: { template: { eq: "post" } } }
+                sort: { fields: [fileAbsolutePath], order: DESC }
               ) {
                 edges {
                   node {
                     excerpt(pruneLength: 180)
                     html
                     timeToRead
-                    fields {
-                      slug
-                      date
-                    }
+                    fileAbsolutePath
                     frontmatter {
                       title
-                      date
                       categories
                       tags
-                      template
                     }
                   }
                 }

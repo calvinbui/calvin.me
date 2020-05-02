@@ -9,16 +9,6 @@ sharp.cache(false)
 const postNodes = []
 
 function addSiblingNodes(createNodeField) {
-  postNodes.sort(({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) => {
-    const dateA = moment(date1, siteConfig.dateFromFormat)
-    const dateB = moment(date2, siteConfig.dateFromFormat)
-
-    if (dateA.isBefore(dateB)) return 1
-    if (dateB.isBefore(dateA)) return -1
-
-    return 0
-  })
-
   for (let i = 0; i < postNodes.length; i += 1) {
     const nextID = i + 1 < postNodes.length ? i + 1 : 0
     const prevID = i - 1 >= 0 ? i - 1 : postNodes.length - 1
@@ -35,7 +25,7 @@ function addSiblingNodes(createNodeField) {
     createNodeField({
       node: currNode,
       name: 'nextSlug',
-      value: nextNode.fields.slug,
+      value: nextNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
     })
 
     createNodeField({
@@ -47,7 +37,7 @@ function addSiblingNodes(createNodeField) {
     createNodeField({
       node: currNode,
       name: 'prevSlug',
-      value: prevNode.fields.slug,
+      value: prevNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
     })
   }
 }
@@ -74,10 +64,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     }
 
     if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
-      if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug'))
-        slug = `/${node.frontmatter.slug}/`
-      if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'date')) {
-        const date = new Date(node.frontmatter.date)
+      if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath'))
+        slug = `/${node.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}/`
+      if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath')) {
+        const date = new Date(node.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10))
 
         createNodeField({
           node,
@@ -104,7 +94,6 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const postPage = path.resolve('src/templates/post.js')
-    const pagePage = path.resolve('src/templates/page.js')
     const tagPage = path.resolve('src/templates/tag.js')
     const categoryPage = path.resolve('src/templates/category.js')
 
@@ -115,13 +104,10 @@ exports.createPages = ({ graphql, actions }) => {
             allMarkdownRemark {
               edges {
                 node {
+                  fileAbsolutePath
                   frontmatter {
                     tags
                     categories
-                    template
-                  }
-                  fields {
-                    slug
                   }
                 }
               }
@@ -150,31 +136,19 @@ exports.createPages = ({ graphql, actions }) => {
             })
           }
 
-          if (edge.node.frontmatter.template === 'post') {
-            createPage({
-              path: edge.node.fields.slug,
-              component: postPage,
-              context: {
-                slug: edge.node.fields.slug,
-              },
-            })
-          }
-
-          if (edge.node.frontmatter.template === 'page') {
-            createPage({
-              path: edge.node.fields.slug,
-              component: pagePage,
-              context: {
-                slug: edge.node.fields.slug,
-              },
-            })
-          }
+          createPage({
+            path: edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
+            component: postPage,
+            context: {
+              filter: `/^.*\\/\\d{4}-\\d{2}-\\d{2}-${edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11)}\\/index.md$/`,
+            },
+          })
         })
 
         const tagList = Array.from(tagSet)
         tagList.forEach(tag => {
           createPage({
-            path: `/tags/${kebabCase(tag)}/`,
+            path: `/ tags / ${kebabCase(tag)} / `,
             component: tagPage,
             context: {
               tag,
@@ -185,7 +159,7 @@ exports.createPages = ({ graphql, actions }) => {
         const categoryList = Array.from(categorySet)
         categoryList.forEach(category => {
           createPage({
-            path: `/categories/${category.toLowerCase()}/`,
+            path: `/ categories / ${category.toLowerCase()} / `,
             component: categoryPage,
             context: {
               category,

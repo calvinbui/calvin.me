@@ -1,5 +1,4 @@
 ---
-template: post
 title: "OPNsense: Two WANs on Separate Networks"
 categories:
 - networking
