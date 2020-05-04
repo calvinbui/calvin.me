@@ -4,11 +4,11 @@
   top: 0;
   left: 0;
   z-index: 3;
-  width: 100%;
   background: white;
 
   &.scroll {
     box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+
     .nav-container {
       padding: 0 1.5rem;
     }
@@ -65,7 +65,7 @@
       font-size: 1.05rem;
       font-weight: 400;
       padding: 0.75rem;
-      margin: 0 .25rem;
+      margin: 0.25rem;
       color: rgba(0, 0, 0, 0.6);
       line-height: 1.2;
       text-align: center;
@@ -107,23 +107,22 @@ button.dark-switcher {
   width: 1.3rem;
   min-width: 1.3rem;
   margin-bottom: 0;
-
 }
 
 .github-nav-icon {
-  color: black
+  color: black;
 }
 
 .linkedin-nav-icon {
-  color: #0077b5
+  color: #0077b5;
 }
 
 .sun-nav-icon {
-  color: #FCC21B
+  color: #fcc21b;
 }
 
 .moon-nav-icon {
-  color: #7890FF
+  color: #7890ff;
 }
 
 @include small-breakpoint {
@@ -132,6 +131,7 @@ button.dark-switcher {
       .nav-container {
         height: 60px;
       }
+
       .favicon {
         height: 40px;
         width: 40px;
@@ -142,6 +142,7 @@ button.dark-switcher {
     .nav-container {
       height: 160px;
       padding: 0 2rem;
+
       .nav-icon-hide-mobile {
         display: flex;
       }

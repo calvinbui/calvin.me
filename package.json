@@ -78,6 +78,7 @@
     "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark posts/*/.md",
+    "lint:scss": "npx stylelint src/styles/**/*.scss",
     "write-good": "write-good $(glob 'posts/*/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
     "check": "yarn upgrade-interactive --latest"

@@ -52,7 +52,7 @@ ul li ul {
   margin: 0;
 
   li {
-    margin: .25rem 0;
+    margin: 0.25rem 0;
   }
 }
 
@@ -90,6 +90,7 @@ h3:not(:first-child) {
 h1 {
   font-size: $h1-mobile;
   font-weight: 500;
+
   code {
     font-size: $h1-mobile !important;
   }
@@ -99,6 +100,7 @@ h2 {
   font-size: $h2-mobile;
   font-weight: 500;
   padding-bottom: 0.2rem;
+
   code {
     font-size: $h2-mobile !important;
   }
@@ -147,6 +149,7 @@ h5 {
   // Heading desktop individual styles
   h1 {
     font-size: $h1;
+
     code {
       font-size: $h1 !important;
     }
@@ -154,6 +157,7 @@ h5 {
 
   h2 {
     font-size: $h2;
+
     code {
       font-size: $h2 !important;
     }
@@ -179,12 +183,13 @@ ul {
     &.task-list-item {
       padding-left: 0;
       margin-left: 0;
-      &:before {
+
+      &::before {
         content: '';
       }
     }
 
-    &:before {
+    &::before {
       content: '\2022 ';
       position: absolute;
       left: 0;
@@ -229,10 +234,12 @@ a {
   a:not(.button):not(.anchor):not(.gatsby-resp-image-link) {
     padding: 1px 2px;
     border-radius: 4px;
+
     &:hover {
       background: $link-hover-color;
       color: $primary-hover;
     }
+
     &:active,
     &:focus {
       background: darken($link-hover-color, 10%);
