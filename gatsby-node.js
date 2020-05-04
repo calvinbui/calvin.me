@@ -148,7 +148,7 @@ exports.createPages = ({ graphql, actions }) => {
         const tagList = Array.from(tagSet)
         tagList.forEach(tag => {
           createPage({
-            path: `/ tags / ${kebabCase(tag)} / `,
+            path: `/tags/${kebabCase(tag)}/`,
             component: tagPage,
             context: {
               tag,
@@ -159,7 +159,7 @@ exports.createPages = ({ graphql, actions }) => {
         const categoryList = Array.from(categorySet)
         categoryList.forEach(category => {
           createPage({
-            path: `/ categories / ${category.toLowerCase()} / `,
+            path: `/categories/${category.toLowerCase()}/`,
             component: categoryPage,
             context: {
               category,
