@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import { Disqus } from 'gatsby-plugin-disqus'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
+import Comments from '../components/Comments'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
@@ -27,12 +27,6 @@ export default class PostTemplate extends Component {
 
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
-
-    const disqusConfig = {
-      url: `${config.siteUrl + post.id}`,
-      identifier: post.id,
-      title: post.title,
-    }
 
     return (
       <Layout>
@@ -62,7 +56,7 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <Disqus className="container" config={disqusConfig} />
+        <Comments url={config.siteUrl + post.id} identifier={post.id} title={post.title} />
       </Layout>
     )
   }
