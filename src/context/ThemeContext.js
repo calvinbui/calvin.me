@@ -35,6 +35,7 @@ class ThemeProvider extends Component {
 
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
+    setTimeout(() => window.DISQUS.reset({ reload: true }), 200);
   }
 
   setNotFound = () => {
