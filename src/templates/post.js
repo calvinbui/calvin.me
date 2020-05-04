@@ -29,7 +29,7 @@ export default class PostTemplate extends Component {
     const githubLink = editOnGithub(post)
 
     const disqusConfig = {
-      url: `${config.siteUrl + postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}`,
+      url: `${config.siteUrl + post.id}`,
       identifier: post.id,
       title: post.title,
     }
