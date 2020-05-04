@@ -12,6 +12,7 @@ html {
 
 // Body base
 body {
+  transition: background 0.4s ease;
   color: $font-color;
   font-size: 1rem;
 }
