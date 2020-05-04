@@ -20,7 +20,7 @@ const config = {
       name: 'Categories',
       link: '/categories/',
       type: 'internal',
-      mobile: true,
+      mobile: false,
     },
     {
       name: 'Tags',
