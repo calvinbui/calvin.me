@@ -8,8 +8,6 @@ import favicon from '../../static/favicon/favicon-256.png'
 import '../styles/main.scss'
 
 export default class MainLayout extends Component {
-  static contextType = ThemeContext
-
   render() {
     const { dark, notFound } = this.context
     const { children } = this.props
@@ -38,3 +36,5 @@ export default class MainLayout extends Component {
     )
   }
 }
+
+MainLayout.contextType = ThemeContext

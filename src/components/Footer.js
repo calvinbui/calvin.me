@@ -7,7 +7,7 @@ export default class Footer extends Component {
         <div>
           <a href="#">
             Back To Top
-        </a>
+          </a>
         </div>
         <div>
           <a href="" target="_blank" rel="noopener noreferrer">Source</a>

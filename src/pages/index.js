@@ -7,10 +7,13 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
 export default class Index extends Component {
-  state = {
-    searchTerm: '',
-    posts: this.props.data.posts.edges,
-    filteredPosts: this.props.data.posts.edges,
+  constructor(props) {
+    super(props)
+    this.state = {
+      searchTerm: '',
+      posts: this.props.data.posts.edges,
+      filteredPosts: this.props.data.posts.edges,
+    }
   }
 
   handleChange = event => {
@@ -41,8 +44,8 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>Hi, I'm Calvin 👋</h1>
-              <p>I'm a DevOps Engineer passionate about IT as a career and hobby!</p>
+              <h1>Hi, I&apos;m Calvin 👋</h1>
+              <p>I&apos;m a DevOps Engineer passionate about IT as a career and hobby!</p>
             </div>
           </div>
         </div>

@@ -6,8 +6,6 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
 export default class NotFoundPage extends Component {
-  static contextType = ThemeContext
-
   componentDidMount() {
     const { setNotFound } = this.context
 
@@ -50,3 +48,5 @@ export default class NotFoundPage extends Component {
     )
   }
 }
+
+NotFoundPage.contextType = ThemeContext

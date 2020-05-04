@@ -9,9 +9,12 @@ const defaultState = {
 const ThemeContext = React.createContext(defaultState)
 
 class ThemeProvider extends Component {
-  state = {
-    dark: false,
-    notFound: false,
+  constructor(props) {
+    super(props)
+    this.state = {
+      dark: false,
+      notFound: false,
+    }
   }
 
   componentDidMount() {

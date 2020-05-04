@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import avatar from '../../static/avatar.png'
-import ThemeContext from '../context/ThemeContext'
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { BsMoon } from 'react-icons/bs'
 import { IoMdSunny } from 'react-icons/io'
+import avatar from '../../static/avatar.png'
+import ThemeContext from '../context/ThemeContext'
 
 export default class Navigation extends Component {
-  static contextType = ThemeContext // eslint-disable-line
-
-  state = {
-    scrolled: false,
+  constructor(props) {
+    super(props)
+    this.state = {
+      scrolled: false,
+    }
   }
 
   componentDidMount() {
@@ -33,6 +34,7 @@ export default class Navigation extends Component {
     const { scrolled } = this.state
     const { menuLinks } = this.props
     const theme = this.context
+    let icon
 
     return (
       <nav className={scrolled ? 'nav scroll' : 'nav'}>
@@ -52,13 +54,13 @@ export default class Navigation extends Component {
                   </Link>
                 )
               }
-              else if (link.type == "external") {
-                if (link.name == "GitHub") {
-                  var icon = <FaGithub className="nav-icons github-nav-icon" />
-                } else if (link.name == "LinkedIn") {
-                  var icon = <FaLinkedin className="nav-icons linkedin-nav-icon" />
+              else if (link.type === "external") {
+                if (link.name === "GitHub") {
+                  icon = <FaGithub className="nav-icons github-nav-icon" />
+                } else if (link.name === "LinkedIn") {
+                  icon = <FaLinkedin className="nav-icons linkedin-nav-icon" />
                 } else {
-                  var icon = link.name
+                  icon = link.name
                 }
 
                 return (
@@ -66,6 +68,8 @@ export default class Navigation extends Component {
                     {icon}
                   </a>
                 )
+              } else {
+                return null
               }
             })}
             <div className="cta">
@@ -78,8 +82,8 @@ export default class Navigation extends Component {
                 {theme.dark ? (
                   <IoMdSunny className="nav-icons sun-nav-icon" />
                 ) : (
-                    <BsMoon className="nav-icons moon-nav-icon" />
-                  )}
+                  <BsMoon className="nav-icons moon-nav-icon" />
+                )}
               </button>
             </div>
           </div>
@@ -88,3 +92,5 @@ export default class Navigation extends Component {
     )
   }
 }
+
+Navigation.contextType = ThemeContext

@@ -1,8 +1,7 @@
 const path = require('path')
 const kebabCase = require('lodash.kebabcase')
-const moment = require('moment')
-const siteConfig = require('./data/SiteConfig')
 const sharp = require('sharp')
+
 sharp.simd(false)
 sharp.cache(false)
 
@@ -116,6 +115,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
       ).then(result => {
         if (result.errors) {
+          // eslint-disable-next-line no-console
           console.log(result.errors)
           reject(result.errors)
         }

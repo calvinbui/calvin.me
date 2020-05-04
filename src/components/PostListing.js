@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-
 import { formatDate } from '../utils/global'
+
+const config = require('../../data/SiteConfig')
 
 export default class PostListing extends Component {
   getPostList() {
     const { postEdges } = this.props
+    const pathPrefix = config.pathPrefix === '' ? '/' : config.pathPrefix
     const postList = postEdges.map(postEdge => {
       return {
-        path: "/" + postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
+        path: pathPrefix + postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
         tags: postEdge.node.frontmatter.tags,
         thumbnail: postEdge.node.frontmatter.thumbnail,
         title: postEdge.node.frontmatter.title,

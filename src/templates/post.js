@@ -2,22 +2,22 @@ import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { Disqus } from 'gatsby-plugin-disqus'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import { Disqus } from 'gatsby-plugin-disqus'
+
 
 export default class PostTemplate extends Component {
   render() {
-    console.log(this.props)
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
 
     let thumbnail
 
-    post.id = location.pathname
+    post.id = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)
     post.category_id = config.postDefaultCategoryID
     post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
@@ -28,8 +28,8 @@ export default class PostTemplate extends Component {
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
 
-    let disqusConfig = {
-      url: `${config.siteUrl + location.pathname}`,
+    const disqusConfig = {
+      url: `${config.siteUrl + postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}`,
       identifier: post.id,
       title: post.title,
     }
@@ -68,7 +68,6 @@ export default class PostTemplate extends Component {
   }
 }
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($filter: String!) {
     markdownRemark(fileAbsolutePath: {regex: $filter}) {
