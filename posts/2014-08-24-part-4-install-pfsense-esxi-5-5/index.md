@@ -1,16 +1,13 @@
 ---
 title: 'Part 4: Install pfSense on ESXi 5.5'
 categories:
-- pfSense
-- Networking
+-   Networking
 tags:
-- esxi
-- install
-- pfsense
-- virtualised
-- vmware
-tags:
-- 
+-   esxi
+-   install
+-   pfsense
+-   virtualised
+-   vmware
 thumbnail: thumbnail.png
 ---
 
@@ -145,8 +142,8 @@ VMware Tools should be successfully installed natively on pfSense
 
 Credits:
 
-* [pfSense Docs](https://doc.pfsense.org/index.php/VMware_Tools)
-* [v-front.de](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
+*   [pfSense Docs](https://doc.pfsense.org/index.php/VMware_Tools)
+*   [v-front.de](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
 
 ### Give ESXi a static IP
 
@@ -178,10 +175,10 @@ Return to the main screen and restart when your management network when prompted
 
 If pfSense is now your router, it is very important to auto-start it with ESXi.
 
-1. Open the vSphere Client and connect to ESXi
-2. Select your host and click on the 'Configuration' tab
-3. Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
-4. Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
+1.  Open the vSphere Client and connect to ESXi
+2.  Select your host and click on the 'Configuration' tab
+3.  Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
+4.  Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
 
 {% include caption.html path="waprup5.png" caption="Ensure all the details are correct." alt="" %}
 
@@ -189,7 +186,7 @@ If pfSense is now your router, it is very important to auto-start it with ESXi.
 
 Our installation may be finished but pfSense offers many more features than such a router, firewall, DNS and DHCP server. In the future I will cover a range of popular features, packages and guides for pfSense that I feel aren't covered well enough.
 
-* pfSense is now your router, it must be on and running to get a connection to the Internet
-* Don't put your server into maintenance mode, ESXi will never start pfSense and you wont be able to access it without plugging and unplugging a bunch of things to be able to access the vSphere client and exit maintenance mode.
-* Make regular back ups of the pfSense VM. One wrong move and your network will collapse.
-* Always give static addresses to important infrastructure like ESXi, IPMI, IMM, Switches, Modems and of course, pfSense.
+*   pfSense is now your router, it must be on and running to get a connection to the Internet
+*   Don't put your server into maintenance mode, ESXi will never start pfSense and you wont be able to access it without plugging and unplugging a bunch of things to be able to access the vSphere client and exit maintenance mode.
+*   Make regular back ups of the pfSense VM. One wrong move and your network will collapse.
+*   Always give static addresses to important infrastructure like ESXi, IPMI, IMM, Switches, Modems and of course, pfSense.

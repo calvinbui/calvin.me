@@ -1,15 +1,12 @@
 ---
 title: Use the Google SMTP Server for notifications
 categories:
-- How-To
-- Networking
+-   Networking
 tags:
-- email
-- google
-- notification
-- smtp
-tags:
-- 
+-   email
+-   google
+-   notification
+-   smtp
 thumbnail: thumbnail.png
 ---
 
@@ -20,7 +17,6 @@ A lot of (the good ones at least) hardware and software give you the ability to 
 You will also have the option of having Google store and index the emails you send, so all your sent emails will be searchable and backed-up on Gmail. If you elect to use your Gmail or Google Apps account for your incoming email as well, you'll have all your email in one convenient place. Also, since Google's SMTP server does not use Port 25, you'll reduce the probability that an ISP might block your email or flag it as SPAM.
 
 {% include caption.html path="capture2.png" caption="Table from https://support.google.com/a/answer/176600?hl=en" alt="google-smtp-table" %}
-
 
 ## To utilise the Google SMTP server:
 
@@ -44,9 +40,10 @@ Port: 587
 ## Store outgoing emails
 
 Copies of outgoing emails are stored in the Gmail/Google Apps 'Sent folder'.
-  1. Log into your Gmail or Google Apps email
-  2. Click on "Settings" then on the "Forwarding/IMAP" tab
-  3. Scroll down to the "IMAP Access" section. IMAP must be enabled in order for emails to be properly copied to your sent folder.
+
+1.  Log into your Gmail or Google Apps email
+2.  Click on "Settings" then on the "Forwarding/IMAP" tab
+3.  Scroll down to the "IMAP Access" section. IMAP must be enabled in order for emails to be properly copied to your sent folder.
 
 NOTE: Google rewrites the 'From' address emails to the default 'Send' email address in your Gmail/Google Apps account settings. To fix this,  go to the "Accounts" tab and make another account the  "default" Gmail/Google Apps account.
 

@@ -1,16 +1,13 @@
 ---
 title: 'Part 2: Install pfSense on ESXi 5.5'
 categories:
-- pfSense
-- Networking
+-   Networking
 tags:
-- esxi
-- install
-- pfsense
-- virtualised
-- vmware
-tags:
-- 
+-   esxi
+-   install
+-   pfsense
+-   virtualised
+-   vmware
 thumbnail: thumbnail.png
 ---
 

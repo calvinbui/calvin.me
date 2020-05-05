@@ -1,16 +1,13 @@
 ---
 title: Port Forward Web Servers In pfSense 2
 categories:
-- Networking
-- pfSense
-- Web
+-   Networking
+-   Web
 tags:
-- https
-- pfsense
-- port forward
-- web server
-tags:
-- 
+-   https
+-   pfsense
+-   port forward
+-   web server
 thumbnail: thumbnail.png
 ---
 

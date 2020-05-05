@@ -1,11 +1,9 @@
 ---
 title: The Weekly Update (31/8/2014)
 categories:
-- Monthly Update
+-   Misc
 tags:
-- weekly update
-tags:
-- 
+-   weekly update
 thumbnail: thumbnail.png
 ---
 
@@ -27,14 +25,14 @@ I've moved to [NZBDrone](http://nzbdrone.com/) from [Sickbeard](http://sickbeard
 
 ### New Programs
 
-**[Clover ](http://ejie.me/)-** Tabbed Windows Explorer. Didn't find it useful from thinking about it but it's not that bad actually.
+**[Clover](http://ejie.me/)-** Tabbed Windows Explorer. Didn't find it useful from thinking about it but it's not that bad actually.
 
-[**Pushbullet** ](https://www.pushbullet.com/)- Send thinks like images and links from your PC to your phone instantly
+[**Pushbullet**](https://www.pushbullet.com/)- Send thinks like images and links from your PC to your phone instantly
 
-[**SpaceSniffer** ](http://www.uderzo.it/main_products/space_sniffer/)- a really good overview of what the biggest folders on my disks are so I can delete them. My laptop had 15 GB of remaining space left but now it has 40 GB after discovering a lot of things taking up space.
+[**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/)- a really good overview of what the biggest folders on my disks are so I can delete them. My laptop had 15 GB of remaining space left but now it has 40 GB after discovering a lot of things taking up space.
 
 ### What I'm interested in at the moment
 
-  * VMware vCenter Operations Management (vCOps) is something we use at work to monitor virtual machines. A really good feature of it is to calculate the best amount of CPU and memory a virtual machine really needs to optimise it. I have about 10GB of RAM left in my ESXi server so it could really help. The downside? I'll need 16GB of RAM just to run it ([4GB for the workaround](http://www.definit.co.uk/2014/01/installing-vcops-5-8-in-the-definit-lab-4gb-ram-and-2-vcpu/))
-  * Syslog and/or SNMP host. A lot of hosts have an option to send logs to a dedicated SNMP server. This might be something good to learn.
-  * [WiFi enabled lightbulb](http://au.lifx.co/) (LIFX) made by an Australian company. I've always wanted to dabble in putting technology in all parts of home life (home automation is something I really want to look into). Costs about $129 from Harvey Norman as well. I have the Edison screw version if anyone wants to buy me one...
+*   VMware vCenter Operations Management (vCOps) is something we use at work to monitor virtual machines. A really good feature of it is to calculate the best amount of CPU and memory a virtual machine really needs to optimise it. I have about 10GB of RAM left in my ESXi server so it could really help. The downside? I'll need 16GB of RAM just to run it ([4GB for the workaround](http://www.definit.co.uk/2014/01/installing-vcops-5-8-in-the-definit-lab-4gb-ram-and-2-vcpu/))
+*   Syslog and/or SNMP host. A lot of hosts have an option to send logs to a dedicated SNMP server. This might be something good to learn.
+*   [WiFi enabled lightbulb](http://au.lifx.co/) (LIFX) made by an Australian company. I've always wanted to dabble in putting technology in all parts of home life (home automation is something I really want to look into). Costs about $129 from Harvey Norman as well. I have the Edison screw version if anyone wants to buy me one...

@@ -1,16 +1,12 @@
 ---
 title: Create an NTP Server using Ubuntu 14.04
 categories:
-- How-To
-- Linux
-- Networking
+-   Networking
+-   Computer
 tags:
-- how- to
-- linux
-- ntp
-- ubuntu
-tags:
-- 
+-   linux
+-   ntp
+-   ubuntu
 thumbnail: thumbnail.png
 ---
 
@@ -20,17 +16,17 @@ Network Time Protocol (NTP) is a networking protocol for time and date synchroni
 
 ## Prerequisites
 
-* Internet connection
-* Ubuntu 14.04
-* Networking
+*   Internet connection
+*   Ubuntu 14.04
+*   Networking
 
 ## NTP Installation Guide
 
 **1.** Install Ubuntu 14.04 LTS with roughly:
 
-* 1 CPU
-* 256MB RAM
-* 5GB HDD
+*   1 CPU
+*   256MB RAM
+*   5GB HDD
 
 This will be all you need.
 
@@ -48,7 +44,7 @@ $ sudo nano /etc/ntp.conf
 
 Here are the current servers that the service is currently retrieving the time from:
 
-```config    
+```config
 server 0.ubuntu.pool.ntp.org
 server 1.ubuntu.pool.ntp.org
 server 2.ubuntu.pool.ntp.org
@@ -63,7 +59,7 @@ Place the word _iburst_ onto one pool to indicate you want to retrieve from this
 
 **4.** Add a fallback server. Ubuntu already provides their own fallback but we will use the current server's time as the default. Otherwise you can specify any other server you know of:
 
-```config     
+```config
 server 127.127.1.0
 fudge 127.127.1.0 stratum 10
 ```
@@ -78,13 +74,13 @@ Hit _CTRL+X_, enter _Y_ to confirm and hit Enter.
 
 **6.** Restart the daemon service using the command:
 
-```terminal    
+```terminal
 $ sudo /etc/init.d/ntp restart
 ```
 
 **7.** Monitor the log to see when it starts synchronising using the command:
 
-```terminal     
+```terminal
 $ tail -f /var/log/syslog
 ```
 

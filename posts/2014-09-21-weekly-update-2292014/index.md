@@ -1,11 +1,9 @@
 ---
 title: The Weekly Update (22/9/2014)
 categories:
-- Monthly Update
+-   Misc
 tags:
-- weekly update
-tags:
-- 
+-   weekly update
 thumbnail: thumbnail.png
 ---
 
@@ -25,7 +23,7 @@ I use git regularly for any development projects I work on. My first experience 
 
 ## Wiki
 
-There are two popular Wiki software, [DokuWiki ](https://www.dokuwiki.org/dokuwiki)and [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki). I tried out both and they both had their strengths and weaknesses e.g. DokuWiki was better on mobile devices and MediaWiki has the visual editor. I chose to go with MediaWiki because it's what [Wikipedia ](http://en.wikipedia.org/wiki/Main_Page)uses - what everyone else uses. Learning how to write articles in MediaWiki will definitely help whoever uses it in writing articles on Wikipedia as well.
+There are two popular Wiki software, [DokuWiki](https://www.dokuwiki.org/dokuwiki) and [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki). I tried out both and they both had their strengths and weaknesses e.g. DokuWiki was better on mobile devices and MediaWiki has the visual editor. I chose to go with MediaWiki because it's what [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) uses - what everyone else uses. Learning how to write articles in MediaWiki will definitely help whoever uses it in writing articles on Wikipedia as well.
 
 ## pfSense DMZ
 
@@ -33,5 +31,5 @@ My web servers sat on my management/control VLAN which had access to everything 
 
 ## Interested In
 
-* NZBGet: This has been picking up a lot lately as a replacement for SABnzbd. SAB is still the king but NZBGet is picking up a lot of traction from what I can see. It might be good to switch over eventually or at least give it a try.
-* Active Directory/Domain Controller: Adding another user to my network is a pain, having to create a user account literally everywhere. I'm opening up to have a LDAP/Active Directory now. My 2012 R2 server does nothing but WSUS anyway :P
+*   NZBGet: This has been picking up a lot lately as a replacement for SABnzbd. SAB is still the king but NZBGet is picking up a lot of traction from what I can see. It might be good to switch over eventually or at least give it a try.
+*   Active Directory/Domain Controller: Adding another user to my network is a pain, having to create a user account literally everywhere. I'm opening up to have a LDAP/Active Directory now. My 2012 R2 server does nothing but WSUS anyway :P

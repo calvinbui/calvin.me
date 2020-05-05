@@ -1,13 +1,10 @@
 ---
 title: WiFi and VLANs
 categories:
-- How-To
-- Networking
+-   Networking
 tags:
-- vlan
-- wifi
-tags:
-- 
+-   vlan
+-   wifi
 thumbnail: thumbnail.png
 ---
 
@@ -19,8 +16,8 @@ WiFi is so important in the household with the emergence of portable devices. Pr
 
 This is where the initial problem starts. I needed both WiFi and VLAN support but also the ability to have multiple SSIDs, one for each VLAN. After a long Google search and personal thinking I had two options:
 
-1. One AP for **each** VLAN by configuring the switch ports individually.
-2. One AP for **all** VLANs by configuring the switch port into a trunk/tagged port
+1.  One AP for **each** VLAN by configuring the switch ports individually.
+2.  One AP for **all** VLANs by configuring the switch port into a trunk/tagged port
 
 Option 1 while easier, does require multiple power bricks and wireless routers so immediately I knew the only option to go with was Option 2.
 
@@ -28,13 +25,13 @@ Option 1 while easier, does require multiple power bricks and wireless routers s
 
 The solution was to find an AP that supported VLANs and multiple SSIDs. Easy right? These units were hard to find and expensive but after more Google searches I prevailed. I was left with a few options.
 
-1. [Ubiquity Unifi AP](http://www.ubnt.com/unifi/unifi-ap/) (any home/office model): This was the best option. Unifi documented how it was possible to [assign VLANs and SSIDs to particular VLANs](http://wiki.ubnt.com/UniFi_and_switch_VLAN_configuration)  plus their products weren't ugly looking either. They packed a lot of features together and are constantly updating their software/firmware as well. The only downside that the price is a little too steep (roughly $400).
+1.  [Ubiquity Unifi AP](http://www.ubnt.com/unifi/unifi-ap/) (any home/office model): This was the best option. Unifi documented how it was possible to [assign VLANs and SSIDs to particular VLANs](http://wiki.ubnt.com/UniFi_and_switch_VLAN_configuration)  plus their products weren't ugly looking either. They packed a lot of features together and are constantly updating their software/firmware as well. The only downside that the price is a little too steep (roughly $400).
 
 
-2. [Buffalo WAPS-APG600H](http://www.buffalotech.com/products/wireless/business-class-access-points/airstation-pro-80211n-gigabit-concurrent-dual-band-poe-wireless-access-point): Apparently this had all the features I needed but I couldn't find any documentation on it so in the end couldn't trust its implementation.
+2.  [Buffalo WAPS-APG600H](http://www.buffalotech.com/products/wireless/business-class-access-points/airstation-pro-80211n-gigabit-concurrent-dual-band-poe-wireless-access-point): Apparently this had all the features I needed but I couldn't find any documentation on it so in the end couldn't trust its implementation.
 
 
-3. Some routers with [DD-WRT](http://www.dd-wrt.com/wiki/index.php/Multiple_WLANs)/OpenWrt:  This was too 'hacky' for my tastes. Usually I'm into this, and would love to give it a shot to get it working but I know all too well the feeling of failure after failure as things don't work for whatever reason. DD-WRT and other custom firmware are available for many inexpensive routers (under $100) to turn them into $300 routers.
+3.  Some routers with [DD-WRT](http://www.dd-wrt.com/wiki/index.php/Multiple_WLANs)/OpenWrt:  This was too 'hacky' for my tastes. Usually I'm into this, and would love to give it a shot to get it working but I know all too well the feeling of failure after failure as things don't work for whatever reason. DD-WRT and other custom firmware are available for many inexpensive routers (under $100) to turn them into $300 routers.
 
 ## The Decision - Unifi AP-AC
 
@@ -42,10 +39,10 @@ The solution was to find an AP that supported VLANs and multiple SSIDs. Easy rig
 
 So in the end I picked up two (yes two!) Unifi AP-AC models because it offered:
 
-* Wireless AC compared to Wireless N
-* 5Ghz at 1300Mbps compared to 450Mbps
-* 2Ghz at 450Mbps compared to 300Mbps
-* It was their latest model :P
+*   Wireless AC compared to Wireless N
+*   5Ghz at 1300Mbps compared to 450Mbps
+*   2Ghz at 450Mbps compared to 300Mbps
+*   It was their latest model :P
 
 By having two units, I could move between the two of them and connect to the one that is closer in range. This is known as a 'handoff' which is managed by the units themselves. At the time of writing this, the AP-AC mode [does not support 'zero-handoff'](https://community.ubnt.com/t5/UniFi-Feature-Requests/Zero-Handoff-on-UAP-AC/idi-p/641543) meaning you may be dropped off in specific cases such as VOIP calls. But this wasn't too big an issue for me as my VOIP calls connect to a different access point altogether.
 
@@ -55,10 +52,10 @@ Once I got both units in the mail, I first had to find a place for them, connect
 
 I had 4 main VLANs:
 
-* Admin (10)
-* User (20)
-* Guest (30)
-* Local (40)
+*   Admin (10)
+*   User (20)
+*   Guest (30)
+*   Local (40)
 
 This part is important: for the access points to have an IP address of their own, they need to be untagged on the VLAN you want them in. If I make them tagged ports instead, they would still work but would not have an IP address of their own and therefore unmanageable via the Unifi application. This is important to remember when setting up their Wireless networks.
 

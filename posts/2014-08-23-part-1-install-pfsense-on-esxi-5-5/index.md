@@ -1,16 +1,13 @@
 ---
 title: 'Part 1: Install pfSense on ESXi'
 categories:
-- pfSense
-- Networking
+-   Networking
 tags:
-- esxi
-- install
-- pfsense
-- virtualised
-- vmware
-tags:
-- 
+-   esxi
+-   install
+-   pfsense
+-   virtualised
+-   vmware
 thumbnail: thumbnail.png
 ---
 
@@ -20,12 +17,12 @@ pfSense is an open source firewall/router based on FreeBSD. It is more than just
 
 ## What you will need:
 
-* A computer or laptop - to do the configuring
-* ESXi - the hypervisor it will run on
-* Modem - used to connect to the Internet, can be your current modem/router combo
-* RJ45 cables
-* At least two network cards in your server, although you can use one it is easier to spread your connections out as LAN and WAN.
-* KVM or monitor to ESXi, required when changing its IP address.
+*   A computer or laptop - to do the configuring
+*   ESXi - the hypervisor it will run on
+*   Modem - used to connect to the Internet, can be your current modem/router combo
+*   RJ45 cables
+*   At least two network cards in your server, although you can use one it is easier to spread your connections out as LAN and WAN.
+*   KVM or monitor to ESXi, required when changing its IP address.
 
 ## Prerequisites:
 
@@ -33,9 +30,9 @@ pfSense is an open source firewall/router based on FreeBSD. It is more than just
 
 Private addresses are:
 
-* 10.0.0.0 to 10.255.255.255 (16777216 addresses)
-* 172.16.0.0 to 172.31.255.255 (1048576 addresses)
-* 192.168.0.0 to 192.168.255.255 (65536 addresses)
+*   10.0.0.0 to 10.255.255.255 (16777216 addresses)
+*   172.16.0.0 to 172.31.255.255 (1048576 addresses)
+*   192.168.0.0 to 192.168.255.255 (65536 addresses)
 
 My current home network is on the 192.168.X.X network but I am hoping to change it to 10.X.X.X to save myself some typing. pfSense uses the 192.168.1.X network by default.
 

@@ -1,13 +1,11 @@
 ---
 title: "OpenCore for ASUS ROG STRIX Z270-I"
-thumbnail: featured-image.jpg
 categories:
 -   Computers
 -   Hacking
 tags:
 -   hackintosh
-
-thumbnail: thumbnail.png
+thumbnail: featured-image.jpg
 ---
 
 OpenCore bootloader configuration and files for the ASUS ROG STRIX Z270-I GAMING motherboard.

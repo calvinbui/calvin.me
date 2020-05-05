@@ -1,21 +1,19 @@
 ---
 title: The Monthly Update (30/11/2014)
 categories:
-- Monthly Update
+-   Misc
 tags:
-- apt-cacher
-- gist
-- havp
-- lifx
-- monitoring
-- monthly update
-- pbx
-- syntax
-- usenet
-- video player
-- wordpress
-tags:
-- 
+-   apt-cacher
+-   gist
+-   havp
+-   lifx
+-   monitoring
+-   monthly update
+-   pbx
+-   syntax
+-   usenet
+-   video player
+-   wordpress
 thumbnail: thumbnail.png
 ---
 
@@ -31,10 +29,10 @@ Weekly update becomes fortnightly update becomes monthly update.
 
 After trying out the projects online:
 
-* [Gistie ](https://github.com/gmarik/Gistie)was a big buggy.
-* [pastgit](https://github.com/mmikulicic/pastgit) didn't work but its so old anyway.
-* [gitpaste](https://github.com/justinvh/gitpaste) was not bad
-* [phorkie](https://github.com/cweiske/phorkie) was the best one!
+*   [Gistie](https://github.com/gmarik/Gistie) was a big buggy.
+*   [pastgit](https://github.com/mmikulicic/pastgit) didn't work but its so old anyway.
+*   [gitpaste](https://github.com/justinvh/gitpaste) was not bad
+*   [phorkie](https://github.com/cweiske/phorkie) was the best one!
 
 I plan to use a Gist for scripts I like to update as well as pulling in information via curl/wget (by viewing it raw).
 
@@ -42,23 +40,23 @@ I plan to use a Gist for scripts I like to update as well as pulling in informat
 
 I begin having a thing for system monitoring and logging. As things grew, I wanted to be able to monitor it all - mainly disk usage and any log files it produced. Most solutions required an add-on to be installed onto the host but I found that simply ridiculous...why not specify SSH details and commands to retrieve them? There were a few popular monitoring solutions I encountered:
 
-* [Nagios](http://www.nagios.org/): the most popular one.
-* [Fully Automated Nagios](http://www.fullyautomatednagios.org/): Nagios but with popular features.
-* [OpsView](http://www.opsview.com/): A paid version of Nagios more or less.
-* [Icinga](https://www.icinga.org/): An open-source monitoring solution
-* [Reimann](http://riemann.io/):
-* [Zabbix](http://www.zabbix.com/): Nagios with an extra layer of stuff
-* [Monit](http://mmonit.com/monit/): Marketed as a simple monitor, but was confusing anyway
-* [PHP Server Monitor](http://www.phpservermonitor.org/): A really half-baked tool. I wasn't sure what he was aiming for.
-* [Statuspage.io](https://www.statuspage.io/): Popular for many website APIs and system status but doesn't do much more
-* [Stashboard](http://www.stashboard.org): Same as StatusPage.io but free.
-* [ELK Stack](http://www.elasticsearch.org/overview/): A bunch of tools put together to log a system. Very light and simple.
+*   [Nagios](http://www.nagios.org/): the most popular one.
+*   [Fully Automated Nagios](http://www.fullyautomatednagios.org/): Nagios but with popular features.
+*   [OpsView](http://www.opsview.com/): A paid version of Nagios more or less.
+*   [Icinga](https://www.icinga.org/): An open-source monitoring solution
+*   [Reimann](http://riemann.io/):
+*   [Zabbix](http://www.zabbix.com/): Nagios with an extra layer of stuff
+*   [Monit](http://mmonit.com/monit/): Marketed as a simple monitor, but was confusing anyway
+*   [PHP Server Monitor](http://www.phpservermonitor.org/): A really half-baked tool. I wasn't sure what he was aiming for.
+*   [Statuspage.io](https://www.statuspage.io/): Popular for many website APIs and system status but doesn't do much more
+*   [Stashboard](http://www.stashboard.org): Same as StatusPage.io but free.
+*   [ELK Stack](http://www.elasticsearch.org/overview/): A bunch of tools put together to log a system. Very light and simple.
 
 ### More Usenet Tools
 
 I installed Headphones, NZBMegasearcH and LazyLibarian.
 
-[Headphones](https://github.com/rembo10/headphones) is an automatic music downloader. [NZBMegasearcH ](https://github.com/pillone/usntssearch/)is a aggregate search engine which saves me having to visit a bunch of sites to manually search for content. LazyLibarian hasn't been updated in a long time but [DobyTang's fork of the project](https://github.com/DobyTang/LazyLibrarian) continues to keep the project alive. LL is used for downloading eBooks.
+[Headphones](https://github.com/rembo10/headphones) is an automatic music downloader. [NZBMegasearcH](https://github.com/pillone/usntssearch/) is a aggregate search engine which saves me having to visit a bunch of sites to manually search for content. LazyLibarian hasn't been updated in a long time but [DobyTang's fork of the project](https://github.com/DobyTang/LazyLibrarian) continues to keep the project alive. LL is used for downloading eBooks.
 
 I also tried finding an automatic games downloader. The options available, [Gamez by avjui](https://github.com/avjui/Gamez) and [GamezServer by Riveu](https://github.com/Riveu/GamezServer) both didn't work for me :disappointed: I may try again later
 
@@ -66,12 +64,12 @@ I also tried finding an automatic games downloader. The options available, [Game
 
 Got a few new plugins
 
-* [UpdraftPlus - Backup/Restore](https://wordpress.org/plugins/updraftplus/): iThemes was unable to backup my site for whatever reason so I opted for something new. Updraft is able to backup everything to my Google Drive as a remote backup.
-* CloudFlare: If you're running WordPress and CloudFlare together, CloudFlare has a [list of recommendations](https://support.cloudflare.com/hc/en-us/articles/201717894-Using-CloudFlare-and-WordPress-Five-Easy-First-Steps) for you.
-*  [EWWW Image Optimizer: ](https://wordpress.org/plugins/ewww-image-optimizer/)EWWW is a local image optimizer compared to Smush which runs on Yahoo!'s website. EWWW is much faster and doesn't suffer downtimes like Smush.
-* [Crayon Syntax Highlighter](https://wordpress.org/plugins/crayon-syntax-highlighter/): I was previously using a very outdated Syntax Highlighter plugin. Crayon is very very good though, it is able to detect languages and the wrapper has a lot of features as well.
+*   [UpdraftPlus - Backup/Restore](https://wordpress.org/plugins/updraftplus/): iThemes was unable to backup my site for whatever reason so I opted for something new. Updraft is able to backup everything to my Google Drive as a remote backup.
+*   CloudFlare: If you're running WordPress and CloudFlare together, CloudFlare has a [list of recommendations](https://support.cloudflare.com/hc/en-us/articles/201717894-Using-CloudFlare-and-WordPress-Five-Easy-First-Steps) for you.
+*   [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/): EWWW is a local image optimizer compared to Smush which runs on Yahoo!'s website. EWWW is much faster and doesn't suffer downtimes like Smush.
+*   [Crayon Syntax Highlighter](https://wordpress.org/plugins/crayon-syntax-highlighter/): I was previously using a very outdated Syntax Highlighter plugin. Crayon is very very good though, it is able to detect languages and the wrapper has a lot of features as well.
 
-I also centered the TwentyFourteen theme. Instructions were found on the [WordPress forum](https://wordpress.org/support/topic/how-to-center-the-whole-site?replies=1),  inspiration from [DSOGaming](http://www.dsogaming.com/). I'm very excited for the [TwentyFifteen ](https://make.wordpress.org/core/2014/09/09/twenty-fifteen/)theme as well.
+I also centered the TwentyFourteen theme. Instructions were found on the [WordPress forum](https://wordpress.org/support/topic/how-to-center-the-whole-site?replies=1), inspiration from [DSOGaming](http://www.dsogaming.com/). I'm very excited for the [TwentyFifteen](https://make.wordpress.org/core/2014/09/09/twenty-fifteen/) theme as well.
 
 Lastly I had a stupid error with JetPack. It kept giving me a 32601 error meaning something was up with my xmlrpc.xml file (nothing was wrong). I was able to fix this by adding the following line to my wp-config.php:
 
@@ -89,8 +87,8 @@ I contributed English translations to x-way's HAVP templates. You can find them 
 
 There were two main CI programs that I took a look at:
 
-* Teamcity: Found a easy installation guide for Linux but could not integrate it with GitLab.
-* GitLab CI: Integrates with GitLab (under the same name) but requires an extra host as a 'runner'. Installation guide was found [here](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md%20https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).
+*   Teamcity: Found a easy installation guide for Linux but could not integrate it with GitLab.
+*   GitLab CI: Integrates with GitLab (under the same name) but requires an extra host as a 'runner'. Installation guide was found [here](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md%20https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).
 
 I can say I don't have a single clue how to even use my CI. I definitely would like to though and decrease my time testing.
 
@@ -100,10 +98,10 @@ They were all very interesting PBX systems but in the end my VoIP setup wasn't t
 
 The PBX systems I found were:
 
-* [FreePBX](http://www.freepbx.org/)
-* [Elastix](http://www.elastix.org/index.php/en/)
-* [PBX In A Flash](http://pbxinaflash.com/community/home/)
-* [ AsteriskNOW](http://www.asterisk.org/downloads/asterisknow)
+*   [FreePBX](http://www.freepbx.org/)
+*   [Elastix](http://www.elastix.org/index.php/en/)
+*   [PBX In A Flash](http://pbxinaflash.com/community/home/)
+*   [AsteriskNOW](http://www.asterisk.org/downloads/asterisknow)
 
 ### LIFX Light bulb
 
@@ -139,34 +137,34 @@ My 2 year old GTX 680 isn't handling games at max settings very well anymore. I 
 
 ## Currently Interested In
 
-* Now exams are over I can focus a lot more on computers!
-* pfSense CARP failover
-* There are a bunch of things I've read that people have so I want to try them all out:
-  * Firefly (Firewall)
-  * Fog Server (PXE)
-  * Salt (system monitoring)
-  * OwnCloud (private cloud)
-  * Suricata (IDS/IPS)
-  * Syncthing (private cloud)
-  * Rdiff-backup (backup)
-  * Ansible (automation)
-  * Meshnet/hyperboria (router)
-  * Freenet / i2p / tor
-  * Tahoe-LAFS (file system)
-  * Puppet (automation)
-  * Bacula (backup)
-  * Madsonic (media streamer)
-  * [Caketop Theater](https://github.com/XanderStrike/caketop-theater) (media streamer)
-  * MythTV (DVR)
-  * [Zoneminder](http://www.zoneminder.com/) (surveillance)
-  * Zimbra (email)
-  * zPanel (web panel)
-  * Sophos UTM (firewall)
-  * Webmin (web panel)
-  * Seafile (private cloud)
-  * Torrelay
-  * Music Player Daemon (media streaming)
-  * OpenHAB (automation for home)
-  * Observium (network monitoring)
-  * Nexpose (IDS/IPS)
-  * Subsonic (media streamer)
+*   Now exams are over I can focus a lot more on computers!
+*   pfSense CARP failover
+*   There are a bunch of things I've read that people have so I want to try them all out:
+    *   Firefly (Firewall)
+    *   Fog Server (PXE)
+    *   Salt (system monitoring)
+    *   OwnCloud (private cloud)
+    *   Suricata (IDS/IPS)
+    *   Syncthing (private cloud)
+    *   Rdiff-backup (backup)
+    *   Ansible (automation)
+    *   Meshnet/hyperboria (router)
+    *   Freenet / i2p / tor
+    *   Tahoe-LAFS (file system)
+    *   Puppet (automation)
+    *   Bacula (backup)
+    *   Madsonic (media streamer)
+    *   [Caketop Theater](https://github.com/XanderStrike/caketop-theater) (media streamer)
+    *   MythTV (DVR)
+    *   [Zoneminder](http://www.zoneminder.com/) (surveillance)
+    *   Zimbra (email)
+    *   zPanel (web panel)
+    *   Sophos UTM (firewall)
+    *   Webmin (web panel)
+    *   Seafile (private cloud)
+    *   Torrelay
+    *   Music Player Daemon (media streaming)
+    *   OpenHAB (automation for home)
+    *   Observium (network monitoring)
+    *   Nexpose (IDS/IPS)
+    *   Subsonic (media streamer)

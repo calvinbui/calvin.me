@@ -1,9 +1,9 @@
 ---
 title: Currently Moving to CloudFlare!
 categories:
-- Blog
+-   Blog
 tags:
-- 
+-   cloudflare
 thumbnail: thumbnail.png
 ---
 

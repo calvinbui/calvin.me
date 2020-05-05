@@ -1,17 +1,12 @@
 ---
-
 title: Forward IP Addresses with NGINX Proxy
-
 categories:
-- How-To
-- Networking
-- Web
+-   Networking
+-   Web
 tags:
-- ip address
-- nginx
-- proxy
-tags:
-- 
+-   ip address
+-   nginx
+-   proxy
 thumbnail: thumbnail.png
 ---
 
@@ -25,7 +20,7 @@ _Off-topic: This year ASIC blocked 250000 websites because its blacklisted websi
 
 First thing is to edit your proxy server block located on the proxy server. Here's what mine basically looks like:
 
-```nginx    
+```nginx
 # redirect calvin.me to https
 server {
   listen      80 default_server;
@@ -60,9 +55,9 @@ server {
 
 It's very important to include these three lines:
 
-* Host: name and port of the proxied server.
-* X-Real-IP: sends the visitor's IP address to your virtual host
-* X-Forwarded-For: sends the visitor's IP address to your virtual host
+*   Host: name and port of the proxied server.
+*   X-Real-IP: sends the visitor's IP address to your virtual host
+*   X-Forwarded-For: sends the visitor's IP address to your virtual host
 
 ##### Edit your proxied server configuration
 
@@ -83,9 +78,9 @@ server {
 
 The three lines are:
 
-* set_real_ip_from: this tells nginx to grab the real visitor's IP from any proxy server within this range. This can also be a static IP address such as 10.0.9.2
-* real_ip_header: nginx will pick out the client's IP address from the addresses its given
-* real_ip_recursive: the proxy server's IP is replaced by the visitor's IP address
+*   set_real_ip_from: this tells nginx to grab the real visitor's IP from any proxy server within this range. This can also be a static IP address such as 10.0.9.2
+*   real_ip_header: nginx will pick out the client's IP address from the addresses its given
+*   real_ip_recursive: the proxy server's IP is replaced by the visitor's IP address
 
 ##### Example - I'm gonna the forward IP addresses !
 

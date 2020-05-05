@@ -1,13 +1,11 @@
 ---
 title: Enable HTTPS on NGINX Server Blocks
 categories:
-- How-To
-- Networking
-- Web
+-   Networking
+-   Web
 tags:
-- nginx https
-tags:
-- 
+-   nginx
+-   https
 thumbnail: thumbnail.png
 ---
 

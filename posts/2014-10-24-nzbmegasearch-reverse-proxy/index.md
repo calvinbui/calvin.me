@@ -1,12 +1,14 @@
 ---
 title: NZBmegasearcH NGINX Reverse Proxy
 categories:
-- How-To
-- Usenet
+-   Usenet
 tags:
-- nzbmegasearch nginx apache reverse proxy usenet
-tags:
-- 
+-   nzbmegasearch
+-   nginx
+-   apache
+-   reverse
+-   proxy
+-   usenet
 thumbnail: thumbnail.png
 ---
 
@@ -16,10 +18,10 @@ thumbnail: thumbnail.png
 
 It took me two days to figure this out. A lot of 'sudo service nginx restart' and 'CTRL + SHIFT + R' presses. To sum up experiences:
 
-  * NGINX cannot proxy it
-  * Apache can proxy it
-  * NGINX can proxy Apache
-  * NGINX can proxy SSL Apache
+*   NGINX cannot proxy it
+*   Apache can proxy it
+*   NGINX can proxy Apache
+*   NGINX can proxy SSL Apache
 
 Did you get that? This guide is for users running NGINX as their proxy instead of Apache. If you're using Apache, jump to my configuration file for your answer!
 
@@ -37,7 +39,7 @@ In my environment the proxy server is a different host from NZBmegasearcH. My p
 
 **2.** Install Apache 2 on to the NZBmegasearcHhost. DigitalOcean have a [terrific guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps) on installing Apache with SSL configuration.
 
-**3.** Let's try to get NZBmegasearcH up and running on its own local proxy using Apache. I found that NGINX couldn't do this for whatever reason. You just want it to show any content for now, it doesn't have to be perfect and styled. This is my Apache configuration at _/etc/apache2/sites-enabled/000-default.conf_. Thanks to [goatysix ](http://www.reddit.com/r/usenet/comments/2cz2tk/nzbmegasearch_reverse_proxy/)for this configuration.
+**3.** Let's try to get NZBmegasearcH up and running on its own local proxy using Apache. I found that NGINX couldn't do this for whatever reason. You just want it to show any content for now, it doesn't have to be perfect and styled. This is my Apache configuration at _/etc/apache2/sites-enabled/000-default.conf_. Thanks to [goatysix](http://www.reddit.com/r/usenet/comments/2cz2tk/nzbmegasearch_reverse_proxy/) for this configuration.
 
 ```apache
 <VirtualHost *:80>
@@ -90,7 +92,7 @@ After it restarts, when attempting a search it will redirect you to your new URL
 
 More or less a simple 'proxy_pass' to the Apache URL you accessed earlier.
 
-```nginx    
+```nginx
 location /nzbmegasearch {
   #put your apache URL you used earlier to access NZBmegasearcH
   proxy_pass https://apache2host/nzbmegasearch/;

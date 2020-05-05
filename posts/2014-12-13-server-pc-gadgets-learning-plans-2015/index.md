@@ -1,9 +1,10 @@
 ---
 title: Server, PC, Gadgets & Learning Plans for 2015
 categories:
-- Blog
+-   Blog
 tags:
-- 
+-   plans
+-   year
 thumbnail: thumbnail.png
 ---
 

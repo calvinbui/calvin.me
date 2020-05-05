@@ -1,11 +1,10 @@
 ---
-
 title: Twenty Fifteen Theme Problems
-
 categories:
-- Review
+-   Review
 tags:
-- 
+-   wordpress
+-   theme
 thumbnail: thumbnail.png
 ---
 

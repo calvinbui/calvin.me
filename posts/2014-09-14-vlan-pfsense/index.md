@@ -1,15 +1,11 @@
 ---
 title: VLAN on VMware, pfSense and a Switch
 categories:
-- How-To
-- Networking
-- pfSense
+-   Networking
 tags:
-- pfsense
-- vlan
-- vmware
-tags:
-- 
+-   pfsense
+-   vlan
+-   vmware
 thumbnail: thumbnail.png
 ---
 
@@ -23,18 +19,18 @@ We can do this through the use of [VLANs](http://en.wikipedia.org/wiki/Virtual_L
 
 Have some VLAN numbers in mind. Something memorable if possible. Possible VLAN numbers ranged from 0 to 4095 but never use:
 
-  * 0 - user priority data
-  * 1 - native VLAN
-  * 4095 - automatically discarded
+*   0 - user priority data
+*   1 - native VLAN
+*   4095 - automatically discarded
 
 Here are the VLANs I chose for myself that were easy to remember and had a common separation of components.:
 
-  * **Management VLAN 10**: For Administrative operations. Access to all other VLANs. Where the infrastructure and my main computers will be.
-  * **User VLAN 20**: Gives access to file server and little bit of infrastructure like a printer and sound system. Mainly for trusted family and friends.
-  * **Guest VLAN 30**: Internet Access only. No access to anything but the Internet.
-  * **Local VLAN 40**: No Internet Access. Just a plain old local area network for whatever purpose.
-  * **Voice VLAN 50**: VoIP devices go here. Traffic will be prioritised over other VLANs
-  * **Surveillance VLAN 60**: When I get some cameras and surveillance cameras this will be there they go.
+*   **Management VLAN 10**: For Administrative operations. Access to all other VLANs. Where the infrastructure and my main computers will be.
+*   **User VLAN 20**: Gives access to file server and little bit of infrastructure like a printer and sound system. Mainly for trusted family and friends.
+*   **Guest VLAN 30**: Internet Access only. No access to anything but the Internet.
+*   **Local VLAN 40**: No Internet Access. Just a plain old local area network for whatever purpose.
+*   **Voice VLAN 50**: VoIP devices go here. Traffic will be prioritised over other VLANs
+*   **Surveillance VLAN 60**: When I get some cameras and surveillance cameras this will be there they go.
 
 ## Let's Begin to VLAN
 
@@ -59,11 +55,11 @@ Continuing creating VLANs to your heart's content until you have enough.
 
 Give the interface an IPv4 address (gateway). Make sure it is unique and outside the address range of your other networks/interfaces. I chose to give each VLAN a _10.0.X.0_ address, where X is the VLAN number.
 
-  * LAN is 10.0.100.1/24 (will never be used)
-  * VLAN 10 is 10.0.0.1/23 (covers 10.0.0.1 - 10.0.1.255)
-  * VLAN 20 is 10.0.2.1/24
-  * VLAN 30 is 10.0.3.1/24
-  * VLAN 40 is 10.0.4.1/24
+*   LAN is 10.0.100.1/24 (will never be used)
+*   VLAN 10 is 10.0.0.1/23 (covers 10.0.0.1 - 10.0.1.255)
+*   VLAN 20 is 10.0.2.1/24
+*   VLAN 30 is 10.0.3.1/24
+*   VLAN 40 is 10.0.4.1/24
 
 You can return to the Interfaces page to confirm your VLANs.
 
@@ -109,8 +105,8 @@ Create a new VLAN matching your current VLAN settings.
 
 Depending on your switch, you may have the terms '_Untagged_' and '_Tagged_' or '_Access_' and '_Trunk_'. Cisco brand switches will use '_Access_' and '_Trunk_' while other vendors stick to the '_Untagged_' and '_Tagged_' convention. To make it easier to remember:
 
-  * Untagged = Access
-  * Tagged = Trunk
+*   Untagged = Access
+*   Tagged = Trunk
 
 _Untagged_ ports should be ports you wish to provide access to that particular VLAN.
 

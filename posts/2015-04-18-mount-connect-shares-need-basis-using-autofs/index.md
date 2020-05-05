@@ -141,5 +141,5 @@ $ sudo automount -f -v
 
 ###### Sources:
 
-*   [](http://wiki.centos.org/TipsAndTricks/WindowsShares)
-*   [](https://help.ubuntu.com/community/Autofs)
+*   [http://wiki.centos.org/TipsAndTricks/WindowsShares](http://wiki.centos.org/TipsAndTricks/WindowsShares)
+*   [https://help.ubuntu.com/community/Autofs](https://help.ubuntu.com/community/Autofs)

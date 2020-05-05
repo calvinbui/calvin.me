@@ -1,15 +1,11 @@
 ---
 title: Block traffic between VLANs on pfSense
 categories:
-- How-To
-- Networking
-- pfSense
+-   Networking
 tags:
-- how to
-- pfsense
-- vlan
-tags:
-- 
+-   how to
+-   pfsense
+-   vlan
 thumbnail: thumbnail.png
 ---
 
@@ -47,18 +43,18 @@ Create an alias which contains all RFC 1918 private addresses. RFC 1918 is a sta
 
 These addresses are:
 
-* 10.0.0.0/8
-* 172.16.0.0/12
-* 192.168.0.0/16
+*   10.0.0.0/8
+*   172.16.0.0/12
+*   192.168.0.0/16
 
 [![rfc 1918]({{page.images}}8.png)]({{page.images}}8.png)
 
 Create the following VLAN rules for the Internet Only VLAN:
 
-1. Any host on the Guest network **CANNOT** access the Admin network (this is a rule to ensure guests cannot access my infrastructure no matter what - redundant but safer this way)
-2. Any host on the Guest network **CAN** access the gateway (this is what provides Internet access)
-3. Any host on the Guest network **CANNOT** access any private addresses. (this blocks all access to anything on the local area network).
-4. Any host on the Guest network **CAN** access anything. (this last rule enables Internet access)
+1.  Any host on the Guest network **CANNOT** access the Admin network (this is a rule to ensure guests cannot access my infrastructure no matter what - redundant but safer this way)
+2.  Any host on the Guest network **CAN** access the gateway (this is what provides Internet access)
+3.  Any host on the Guest network **CANNOT** access any private addresses. (this blocks all access to anything on the local area network).
+4.  Any host on the Guest network **CAN** access anything. (this last rule enables Internet access)
 
 [![internet only]({{page.images}}9.png)]({{page.images}}9.png)
 
@@ -72,8 +68,8 @@ An administrative VLAN with access to anyone and anything it wants. Just create 
 
 More or less a local area network without Internet access. Hosts on this network can interact with one another but nothing more. Good environment for testing with no Internet access or access to other VLAN in case it is a virus.
 
-1. Any host on the this network **CANNOT** access the Admin network (this is a rule to ensure guests cannot access my infrastructure no matter what - redundant but safer this way)
-2. The network can communicate with itself.
-3. This network cannot communicate with anything.
+1.  Any host on the this network **CANNOT** access the Admin network (this is a rule to ensure guests cannot access my infrastructure no matter what - redundant but safer this way)
+2.  The network can communicate with itself.
+3.  This network cannot communicate with anything.
 
 [![local vlan]({{page.images}}111.png)]({{page.images}}111.png)

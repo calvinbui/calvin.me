@@ -1,23 +1,21 @@
 ---
 title: 'Install LEMP Stack on CentOS 7 (Red Hat 7)'
 categories:
-- How-To
-- Linux
-- Web
+-   Web
 tags:
-- centos
-- lemp
-- mysql
-- nginx
-- php
-tags:
-- 
+-   centos
+-   lemp
+-   mysql
+-   nginx
+-   php
 thumbnail: thumbnail.png
 ---
 
 A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as a LEMP stack on CentOS 7 (and usable on Red Hat 7 as well). _Image from Digital Ocean [link](https://twitter.com/digitalocean/status/496697898248065025)._
 
-<!-- more --> **1. Install MySQL (mariadb)**
+<!-- more -->
+
+**1. Install MySQL (mariadb)**
 
 ```terminal
 $ yum install mariadb mariadb-server
@@ -27,7 +25,7 @@ $ sudo /usr/bin/mysql_secure_installation
 
 **2. Add the NGINX repository** Create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 
-```config  
+```config
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/mainline/centos/7/$basearch/

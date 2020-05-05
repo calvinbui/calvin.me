@@ -1,11 +1,9 @@
 ---
 title: The Weekly Update (13/10/2014)
 categories:
-- Monthly Update
+-   Misc
 tags:
-- weekly update
-tags:
-- 
+-   weekly update
 thumbnail: thumbnail.png
 ---
 
@@ -29,7 +27,7 @@ Luckily there's a solution! Well a work-around, but still better than nothing! W
 
 ### CloudFlare Free SSL
 
-I [posted ](/currently-moving-cloudflare/)about this [twice already](/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
+I [posted](/currently-moving-cloudflare/) about this [twice already](/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
 
 [![SSL Issued]({{page.images}}capture1.png)]({{page.images}}capture1.png)
 
@@ -41,7 +39,7 @@ A tip I received from Dennis from VMware is to not trust password managers, beca
 
 ### Usenet Providers
 
-A year goes by very quickly and before you know it a million different renewals come up (e.g. car rego/insurance is always a bitch). I previously used Frugal (cheap but decent) and Tweaknews (slow and slower) but wanted a cheaper more reliable option. I found  [xsusenet ](https://www.xsusenet.com/)which offered a FREE lifetime account. I knew it would be slow but nonetheless a good backup. Sadly it died after 500MB and never wanted to start every again. That just shows me that they would fail their paid users if they can't even handle the free ones.
+A year goes by very quickly and before you know it a million different renewals come up (e.g. car rego/insurance is always a bitch). I previously used Frugal (cheap but decent) and Tweaknews (slow and slower) but wanted a cheaper more reliable option. I found  [xsusenet](https://www.xsusenet.com/) which offered a FREE lifetime account. I knew it would be slow but nonetheless a good backup. Sadly it died after 500MB and never wanted to start every again. That just shows me that they would fail their paid users if they can't even handle the free ones.
 
 Next I tried [Usenet Bucket](https://www.usenetbucket.com/en/) on their free trial period. The speeds were fast. I used to get 7MB/s from Tweak from this was getting me an average of 10-11/MB/s per download. The thing is though I don't need fast speeds, I just need a reliable provider with long retention because I'm usually going to be home until night to even watch or see what SABnzbd downloads.
 
@@ -49,8 +47,8 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
 
 ### Currently Interested In
 
-* [StatusPage](https://statuspage.io).io is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
+*   [StatusPage.io](https://statuspage.io) is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
 
 [![PHP Services]({{page.images}}capture2.png)]({{page.images}}capture2.png)
 
-* Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.
+*   Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.

@@ -1,17 +1,15 @@
 ---
 title: My All In One ESXi Server
 categories:
-- Server
+-   Computers
 tags:
-- esxi
-- server
-- zfs
-tags:
-- 
+-   esxi
+-   server
+-   zfs
 thumbnail: thumbnail.png
 ---
 
-Since the start of the year I've been working as a Technical Consultant at IBM. It's been a great experience, putting a lot of knowledge into practice with enterprise-grade hardware and software. The infrastructure at work is as you would expect with a lot of services and applications that are well thought out and easily to use. I wanted to learn a lot more about all the stuff at work so I came up with the idea to build my own ESXi whitebox at home (we use [VMware ](http://www.vmware.com)at work) to do some self-learning and have fun while doing it. Having a 'homelab' would give me the opportunity to learn a lot more about the stuff I love. This is the build.
+Since the start of the year I've been working as a Technical Consultant at IBM. It's been a great experience, putting a lot of knowledge into practice with enterprise-grade hardware and software. The infrastructure at work is as you would expect with a lot of services and applications that are well thought out and easily to use. I wanted to learn a lot more about all the stuff at work so I came up with the idea to build my own ESXi whitebox at home (we use [VMware](http://www.vmware.com) at work) to do some self-learning and have fun while doing it. Having a 'homelab' would give me the opportunity to learn a lot more about the stuff I love. This is the build.
 
 <!-- more -->
 
@@ -27,34 +25,34 @@ This was my first real server so it was a good starting point, perhaps in the fu
 
 ### ZFS
 
-For an all in one solution (AIO) I looked at [napp-it](http://www.napp-it.org/), a web-based ZFS NAS/SAN solution. I had heard of ZFS when working with storage in my previous home server but now this gave me a chance to try it out - and why wouldn't I? Napp-it would essentially be running on the server providing software RAID to the ESXi host. Alternatives include [Nexenta ](http://www.nexenta.com)(free up to 18TB) and [FreeNAS](http://www.freenas.org) (not recommended to be virtualised).
+For an all in one solution (AIO) I looked at [napp-it](http://www.napp-it.org/), a web-based ZFS NAS/SAN solution. I had heard of ZFS when working with storage in my previous home server but now this gave me a chance to try it out - and why wouldn't I? Napp-it would essentially be running on the server providing software RAID to the ESXi host. Alternatives include [Nexenta](http://www.nexenta.com) (free up to 18TB) and [FreeNAS](http://www.freenas.org) (not recommended to be virtualised).
 
 But to even run napp-it, I first had to install it somewhere on the host so this is why I bought a cheap pair of Intel SSDs (shown below) and used napp-it's built in feature to mirror itself onto both drives - since if napp-it dies, none of the drives are going to be usable.
 
 The main reasons for using ZFS (if you can't find it online) to me were:
 
-* software RAID
-* detects silent corruption
-* end to end check-sums tests
-* snapshots
-* compression
+*   software RAID
+*   detects silent corruption
+*   end to end check-sums tests
+*   snapshots
+*   compression
 
 ### Single Points of Failure
 
 From the point above, reducing single points of failures (SPOF) was also a goal. Basically a SPOF is the idea that if one specific part dies, it's gonna stop the entire system from working. Examples include having one power supply or one RAID card (so all your data gets lost). To best prevent this:
 
-* RAID where possible
-* Buy popular parts in case I need a 2nd hand part after failure
-* Long warranties products (5 years and up)
-* Buy from reputable stores
+*   RAID where possible
+*   Buy popular parts in case I need a 2nd hand part after failure
+*   Long warranties products (5 years and up)
+*   Buy from reputable stores
 
 ## Infrastructure
 
 I've learnt a lot of things at work (as I've said about) and there are a lot of things I'd like to implement into my own infrastructure. A lot of neat things have stood out to me:
 
-* [pfSense](https://www.pfsense.org/) - an open-source firewall, router, UTM and DNS. A great way to get enterprise-level networking without having to buy it. A great place to start setting up VLANs.
-* [Bitnami](https://bitnami.com) -  several easy and intuitive applications (as virtual appliances) that would be great for an advanced user such as git repositories, stacks and other server software.
-* Windows Services - as part of their server OS, Microsoft have PXE servers, LDAP servers, Active Directory and Windows Update servers.
+*   [pfSense](https://www.pfsense.org/) - an open-source firewall, router, UTM and DNS. A great way to get enterprise-level networking without having to buy it. A great place to start setting up VLANs.
+*   [Bitnami](https://bitnami.com) -  several easy and intuitive applications (as virtual appliances) that would be great for an advanced user such as git repositories, stacks and other server software.
+*   Windows Services - as part of their server OS, Microsoft have PXE servers, LDAP servers, Active Directory and Windows Update servers.
 
 ## The Parts
 
@@ -110,7 +108,7 @@ _Alternatives: Any USB drive that doesn't suck._
 
 ### Case - [Fractal Design Define Mini](http://www.fractal-design.com/home/product/cases/define-series/define-mini)
 
-This was the smallest mATX case that supported the most drives (I would've went with the Silverstone DS380 but it's mITX). It is the same case as the ARC Mini R2 but with noise-dampening material. To support more drives (because I had 10 drives altogether) I used two [Icydock MB343SP](http://www.icydock.com/goods.php?id=167) with [Molex-M to 2 SATA ](http://www.arc.com.au/image.php?8106)cables. The Icydock allows for two more 2.5" and one 3.5" drive to live in a 5.25" slot.
+This was the smallest mATX case that supported the most drives (I would've went with the Silverstone DS380 but it's mITX). It is the same case as the ARC Mini R2 but with noise-dampening material. To support more drives (because I had 10 drives altogether) I used two [Icydock MB343SP](http://www.icydock.com/goods.php?id=167) with [Molex-M to 2 SATA](http://www.arc.com.au/image.php?8106) cables. The Icydock allows for two more 2.5" and one 3.5" drive to live in a 5.25" slot.
 
 _Alternatives: ARC Mini R2, Node 804, maybe even a rackmount_
 
@@ -130,11 +128,11 @@ _Alternatives: There is 1500Va model that would give a few more minutes I assume
 
 The Fractal Design Define Mini has 6 fan slots but I made a few for myself (attached two to the hard drive cage for more cooling). Noctua fans are the best in my opinion for low-noise and performance, others may argue Gentle Typhoons or Noiseblockers. I had a few Noctuas lying around for the build but also bought a few extra:
 
-* Two NF-S12B fans in the front (should have been more pressuried fan given the tight space but oh well)
-* Two NF-S12B fans attached to the HDD cage (they just slide into space, they don't even need cable ties)
-* One NF-S12B intake on the bottom
-* One NF-S12B exhaust on the rear
-* One NF-P14S exhaust on the top
+*   Two NF-S12B fans in the front (should have been more pressuried fan given the tight space but oh well)
+*   Two NF-S12B fans attached to the HDD cage (they just slide into space, they don't even need cable ties)
+*   One NF-S12B intake on the bottom
+*   One NF-S12B exhaust on the rear
+*   One NF-P14S exhaust on the top
 
 Make sure you have enough cables to power the fans!
 
