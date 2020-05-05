@@ -9,6 +9,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 
+const urljoin = require('url-join')
 
 export default class PostTemplate extends Component {
   render() {
@@ -56,7 +57,7 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <Comments url={config.siteUrl + post.id} identifier={post.id} title={post.title} />
+        <Comments url={urljoin(config.siteUrl, post.id)} identifier={`/${post.id}`} title={post.title} />
       </Layout>
     )
   }
