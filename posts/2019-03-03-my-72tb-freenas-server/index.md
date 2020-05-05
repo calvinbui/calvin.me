@@ -1,10 +1,10 @@
 ---
 title: My 72TB FreeNAS Server
 categories:
-- Storage
-- Server
+-   Storage
 tags:
-- 
+-   freenas
+-   nas
 thumbnail: thumbnail.png
 ---
 

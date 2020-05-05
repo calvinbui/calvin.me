@@ -1,10 +1,10 @@
 ---
 title: Choosing a VPN Service
 categories:
-- Security
-- Privacy
+-   Security
+-   Privacy
 tags:
-- 
+-   vpn
 thumbnail: thumbnail.png
 ---
 
@@ -16,13 +16,13 @@ Picking a VPN provider and going on my way merry way around the Internet is a pi
 
 When picking a provider I had a few things I needed:
 
-- [Not part of the fourteen eyes](https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/): This throws out a bunch of names like PIA and ExpressVPN (they're not great either). Even though PIA has proved themselves in court, I have suspicions the Government is playing 4D chess by making this VPN so popular.
-- Sydney servers: Close to home, faster speeds and lower ping
-- At least 100Mbp/s download: I'm testing this via speedtest.net. Not the most scientific.
-- P2P allowed
-- At least >=3 connections allowed at once. One for OPNsense, one for my mobile and another one just in case I need it
-- No bandwidth logs, timestamp logs, IP address logs, DNS requests, traffic logs. No logs.
-- OpenVPN support
+-   [Not part of the fourteen eyes](https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/): This throws out a bunch of names like PIA and ExpressVPN (they're not great either). Even though PIA has proved themselves in court, I have suspicions the Government is playing 4D chess by making this VPN so popular.
+-   Sydney servers: Close to home, faster speeds and lower ping
+-   At least 100Mbp/s download: I'm testing this via speedtest.net. Not the most scientific.
+-   P2P allowed
+-   At least >=3 connections allowed at once. One for OPNsense, one for my mobile and another one just in case I need it
+-   No bandwidth logs, timestamp logs, IP address logs, DNS requests, traffic logs. No logs.
+-   OpenVPN support
 
 Each provider has their own privacy concerns, if staying secure from your ISP wasn't enough you have to make sure the VPN provider also doesn't know what you're doing.
 
@@ -32,25 +32,25 @@ Luckily, the Internet comes to the rescue. All the criteria above can be filtere
 
 With the all the above filtering I was left with:
 
-- [Boxpn](https://boxpn.com/)
-- [Ivacy](https://www.ivacy.com/)
-- [Proxy.sh](https://proxy.sh/)
-- [VPN.ht](https://vpn.ht/)
-- [ZorroVPN](https://zorrovpn.com/?lang=en)
+-   [Boxpn](https://boxpn.com/)
+-   [Ivacy](https://www.ivacy.com/)
+-   [Proxy.sh](https://proxy.sh/)
+-   [VPN.ht](https://vpn.ht/)
+-   [ZorroVPN](https://zorrovpn.com/?lang=en)
 
 I also extended the test out to VPNs within 'fourteen eyes' as recommended by [privacytools.io](https://www.privacytools.io/providers/vpn/) and was given:
 
-- [Mullvad](https://mullvad.net/en/)
-- [FrootVPN](https://frootvpn.com/)
+-   [Mullvad](https://mullvad.net/en/)
+-   [FrootVPN](https://frootvpn.com/)
 
 # Speed Test
 
 As unscientically as the come, the testing methodology was:
 
-- https://www.speedtest.net/
-- AARNet server
-- Multi connections option
-- 3 runs with an average taken
+-   https://www.speedtest.net/
+-   AARNet server
+-   Multi connections option
+-   3 runs with an average taken
 
 ![]({{page.images}}speedtest.PNG)
 
@@ -70,8 +70,8 @@ As unscientically as the come, the testing methodology was:
 | ZorroVPN             | 13   | 65.19    | 4.9    | No                    |
 
 As I mentioned before, I wanted at least 100Mbps download and the providers that met that were:
-- Ivacy
-- Mullvad
+-   Ivacy
+-   Mullvad
 
 # Refund Policy
 

@@ -1,10 +1,11 @@
 ---
 title: Python Backup Cleaner Script
 categories:
-- Storage
-- Virtualisation
+-   Storage
+-   Virtualisation
 tags:
-- 
+-   python
+-   xsibackup
 thumbnail: thumbnail.png
 ---
 
@@ -19,9 +20,9 @@ So I've took it upon myself to script it up, using the available Python 3.5 exec
 {% gist 1954841007c4984769080ec4a12df754 %}
 
 ## ESXi Instructions
-1. Copy the script to a datastore
-2. Edit the xsibackup crontab: `vi xsi-dir/conf/root-crontab`
-3. Add in the script with it's required options. `-p` for path, `-r` for regex and `-k` for how many to keep.
+1.  Copy the script to a datastore
+2.  Edit the xsibackup crontab: `vi xsi-dir/conf/root-crontab`
+3.  Add in the script with it's required options. `-p` for path, `-r` for regex and `-k` for how many to keep.
   ```
   # This crontab belongs to the root user, thus it starts by root-
   # Add cron jobs to this file in the classic crond Linux way.
@@ -32,6 +33,6 @@ So I've took it upon myself to script it up, using the available Python 3.5 exec
   0 4 * * * "/vmfs/volumes/files/Misc/VMs/xsi-dir/jobs/002"
   0 6 * * * /bin/python /vmfs/volumes/files/Misc/VMs/clean_backups.py -p '/vmfs/volumes/files/Misc/VMs/' -r 'backup*' -k 5
   ```
-4. Install xsibackup's crontab: `./xsibackup --install-cron`
-5. Update xsibackup's crontab: `./xsibackup --update-cron`
-6. Double check ESXI's crontab: `cat /var/spool/cron/crontabs/root`
+4.  Install xsibackup's crontab: `./xsibackup --install-cron`
+5.  Update xsibackup's crontab: `./xsibackup --update-cron`
+6.  Double check ESXI's crontab: `cat /var/spool/cron/crontabs/root`

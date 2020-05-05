@@ -1,9 +1,10 @@
 ---
 title: Oculus Quest Mods
 categories:
-- Gaming
+-   Gaming
 tags:
-- 
+-   oculus
+-   vr
 thumbnail: thumbnail.png
 ---
 

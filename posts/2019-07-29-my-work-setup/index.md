@@ -1,9 +1,9 @@
 ---
 title: My Work Setup
 categories:
-- Computers
+-   Computers
 tags:
-- 
+-   autopilot
 thumbnail: thumbnail.png
 ---
 
@@ -19,10 +19,10 @@ This post will be contain a lot of pictures of my current workstation at [Autopi
 
 Apple Macbook Pro 15-inch Mid-2019 with Touchbar
 
-- Intel Core i9 Processor
-- 32GB RAM
-- 256GB SSD
-- [Geek Bench Score](https://browser.geekbench.com/v4/cpu/14111779): 5330 Single Core & 26412 Multi-core
+-   Intel Core i9 Processor
+-   32GB RAM
+-   256GB SSD
+-   [Geek Bench Score](https://browser.geekbench.com/v4/cpu/14111779): 5330 Single Core & 26412 Multi-core
 
 ![]({{page.images}}about-this-mac.PNG)
 
@@ -31,10 +31,10 @@ Apple Macbook Pro 15-inch Mid-2019 with Touchbar
 ![]({{page.images}}everything.jpg)
 
 Using all four ports of my Macbook, I've got five monitors:
-- Samsung SE790C Ultrawide in the middle
-- Dell U2715H in Landscape
-- Two Dell U2715H in Portrait
-- The Macbook's screen
+-   Samsung SE790C Ultrawide in the middle
+-   Dell U2715H in Landscape
+-   Two Dell U2715H in Portrait
+-   The Macbook's screen
 
 ## Mouse
 
@@ -98,27 +98,27 @@ Showing off my office Crocs on the [Ergodriven Topo Mini](https://shop.ergodrive
 
 ![]({{page.images}}touchbar.jpg)
 
-- Terminal - iTerm 2
-- Text Editor / IDE - Atom
-- Diff Tool - Beyond Compare
-- File Transfer Client - Transmit
-- Macbook Touchbar - BetterTouchTool
-- Window Management - Hyperdock, BetterSnapTool and Moom
-- File Archiver - Keka and BetterZip
-- Firewall - Little Snitch
-- Database Client - Navicat
-- Clipboard Manager - Paste
-- Screenshots - SnagIt
-- Screen Recorder - Camtasia
-- Video Player - IINA
-- App Cleaner - iTrash
-- Cloud File Manager - Mountain Duck
-- Calculator - Numi
-- Source Control - Sourcetree
-- Virtualisation - VMware Fusion
-- OpenVPN - Viscosity
-- VNC Viewer - RealVNC Viewer
-- API/HTTP Client - Insomnia
+-   Terminal - iTerm 2
+-   Text Editor / IDE - Atom
+-   Diff Tool - Beyond Compare
+-   File Transfer Client - Transmit
+-   Macbook Touchbar - BetterTouchTool
+-   Window Management - Hyperdock, BetterSnapTool and Moom
+-   File Archiver - Keka and BetterZip
+-   Firewall - Little Snitch
+-   Database Client - Navicat
+-   Clipboard Manager - Paste
+-   Screenshots - SnagIt
+-   Screen Recorder - Camtasia
+-   Video Player - IINA
+-   App Cleaner - iTrash
+-   Cloud File Manager - Mountain Duck
+-   Calculator - Numi
+-   Source Control - Sourcetree
+-   Virtualisation - VMware Fusion
+-   OpenVPN - Viscosity
+-   VNC Viewer - RealVNC Viewer
+-   API/HTTP Client - Insomnia
 
 # Other
 

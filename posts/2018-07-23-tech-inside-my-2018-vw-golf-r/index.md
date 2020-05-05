@@ -1,9 +1,9 @@
 ---
 title: Tech Inside My 2018 VW Golf R
 categories:
-- Misc
+-   Misc
 tags:
-- 
+-   car
 thumbnail: thumbnail.png
 ---
 

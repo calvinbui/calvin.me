@@ -1,13 +1,13 @@
 ---
 title: Updates to Ansible Playbook for Usenet Docker containers
 categories:
-- Computers
-- Linux
-- Virtualisation
-- Server
-- Usenet
+-   Computers
 tags:
-- 
+-   ansible
+-   traefik
+-   usenet
+-   docker
+-   monitoring
 thumbnail: thumbnail.png
 ---
 

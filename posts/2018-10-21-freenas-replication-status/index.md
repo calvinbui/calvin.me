@@ -1,9 +1,10 @@
 ---
 title: FreeNAS Replication Task Status
 categories:
-- Storage
+-   Storage
+-   Programming
 tags:
-- 
+-   freenas
 thumbnail: thumbnail.png
 ---
 

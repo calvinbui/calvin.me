@@ -1,12 +1,12 @@
 ---
 title: HSTS with Traefik
 categories:
-- Web
-- Networking
-- How-To
-- Security
+-   Web
+-   Networking
+-   Security
 tags:
-- 
+-   hsts
+-   traefik
 thumbnail: thumbnail.png
 ---
 

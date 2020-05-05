@@ -1,10 +1,10 @@
 ---
 title: Network UPS Tools
 categories:
-- Storage
-- Virtualisation
+-   Computers
 tags:
-- 
+-   nut
+-   ups
 thumbnail: thumbnail.png
 ---
 

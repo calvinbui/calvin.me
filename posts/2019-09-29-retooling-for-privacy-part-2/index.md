@@ -1,10 +1,15 @@
 ---
 title: Retooling for Privacy Part 2
 categories:
-- Security
-- Privacy
+-   Security
+-   Privacy
 tags:
-- 
+-   google
+-   nextcloud
+-   piwigo
+-   xbrowsersync
+-   snips
+-   hauk
 thumbnail: thumbnail.png
 ---
 

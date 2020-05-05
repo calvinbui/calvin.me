@@ -1,11 +1,10 @@
 ---
 title: Install Ubuntu 18.04 on RAID1
 categories:
-- How-To
-- Linux
-- Computers
+-   Computers
 tags:
-- 
+-   ubuntu
+-   raid
 thumbnail: thumbnail.png
 ---
 

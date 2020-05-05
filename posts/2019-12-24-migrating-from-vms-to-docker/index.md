@@ -2,12 +2,11 @@
 title: Migrating from VMs to Docker
 categories:
 -   Networking
--   Server
--   How-To
--   Linux
 -   Virtualisation
 tags:
--
+-   docker
+-   vmware
+-   vlans
 thumbnail: thumbnail.png
 ---
 

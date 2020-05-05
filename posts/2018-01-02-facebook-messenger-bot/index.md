@@ -1,10 +1,10 @@
 ---
 title: Facebook Messenger Bot
 categories:
-- Programming
-- Web
+-   Programming
 tags:
-- 
+-   facebook
+-   bot
 thumbnail: thumbnail.png
 ---
 
