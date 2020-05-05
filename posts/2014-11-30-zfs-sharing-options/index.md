@@ -25,7 +25,7 @@ Afterwards, settings can be altered under Home >Services > Apache.
 
 To share a filesystem over HTTP, enable it under the Home > ZFS Filesystems under the 'WWW' column.
 
-[![apache]({{page.images}}apache.png)]({{page.images}}apache.png)
+[![apache](apache.png)](apache.png)
 
 By itself, sharing over HTTP is very plain old boring. That is why I use [h5ai](http://larsjung.de/h5ai/) which adds several additional features (the styling alone is good enough) like sorting, breadcrumbs, thumbnails, file previews and filtering.
 
@@ -39,7 +39,7 @@ $ wget -O - www.napp-it.org/proftpd | perl
 
 Similar to Apache, it can be configured under Home > Services > FTP. Sharing on the other hand occurs under Home > ZFS Filesystems underneath the FTP column.
 
-[![ftp]({{page.images}}ftp.png)]({{page.images}}ftp.png)
+[![ftp](ftp.png)](ftp.png)
 
 ## Private Cloud
 

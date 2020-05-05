@@ -44,7 +44,7 @@ Once the RTSP stream is up and running at `rtsp://ip-address:554/unicast`, you c
 
 The alternative is to open the stream in VLC and pass it onto Milestone.
 
-![Add the camera]({{page.images}}/camera-stream.PNG)
+![Add the camera](/camera-stream.PNG)
 
 ### 1. VLC Passthrough
 
@@ -68,7 +68,7 @@ Password:
 Driver: Universal 1 channel driver
 ```
 
-![Add the camera]({{page.images}}/add-camera.PNG)
+![Add the camera](/add-camera.PNG)
 
 ### 3. Configure camera settings
 
@@ -94,7 +94,7 @@ Connecting URI:
 RTSP port: 8554
 ```
 
-![Camera Settings]({{page.images}}/camera-settings.PNG)
+![Camera Settings](/camera-settings.PNG)
 
 ### Optional: Autostart VLC
 
@@ -104,7 +104,7 @@ There are two options when it comes to autostarting VLC with Windows.
 
 Use Windows Task Scheduler. **Make sure you have the absolute path to vlc.exe in the `.bat` file.**
 
-![Add the camera]({{page.images}}/task-scheduler.PNG)
+![Add the camera](/task-scheduler.PNG)
 
 #### Install as a Windows Service
 

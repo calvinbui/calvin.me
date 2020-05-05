@@ -41,15 +41,15 @@ I have [shared my 72TB FreeNAS server before]({{ site.baseurl }}{% post_url 2019
 
 Nextcloud provides a complete self-hosted productivity platform but I won't be focussing on that. There's an [External Storage](https://docs.nextcloud.com/server/16/admin_manual/configuration_files/external_storage_configuration_gui.html) feature which allows for a lot of different backends such as SMB/CIFS, FTP and cloud providers. This mounts the share as a folder in Nextcloud natively so files and folders can be created, viewed and edited just as if they were any other.
 
-![]({{page.images}}nextcloud-ext-storage.PNG)
+![](nextcloud-ext-storage.PNG)
 
 Combine that with a web browser, mobile phone or their desktop applications and I can easily access and even sync files back and forth from my devices to Nextcloud.
 
-![]({{page.images}}nextcloud-freenas.PNG)
+![](nextcloud-freenas.PNG)
 
-![]({{page.images}}nextcloud-mac.png)
+![](nextcloud-mac.png)
 
-![]({{page.images}}nextcloud-phone.jpg)
+![](nextcloud-phone.jpg)
 
 # Collaborative Document Editing
 Another feature of Nextcloud is support for [**Collabora**](https://www.collaboraoffice.com/) and [**OnlyOffice**](https://www.onlyoffice.com/), two separate collaborative document editing suites.
@@ -61,11 +61,11 @@ Free unlimited photo backup is something I may never find. Combine that with a v
 
 With its multitude of features, I can connect to my FreeNAS server (previous section) and perform automatic photo and video uploads from my phone using the official app. In the upload settings, there's an option to 'use subfolders' which will create a YEAR/MONTH folder hierarchy.
 
-![]({{page.images}}nextcloud-upload-phone.jpg)
+![](nextcloud-upload-phone.jpg)
 
 To view photos, I spun up Piwigo which is an open-source photo gallery software. Viewing photos on Nextcloud however horrendous. Piwigo's interface is better, but not the best. There are millions of plugins for it which slightly improve it but it's still far away from what you can expect with Google Photos.
 
-![]({{page.images}}piwigo.PNG)
+![](piwigo.PNG)
 
 Piwigo does not automatically load new photos from Nextcloud. New items must be synchronised which is a very intensive task if done incorrectly. After setting up my synchronisation settings, I updated [this Perl script](https://github.com/calvinbui/piwigo-playbook/blob/master/files/piwigo_refresh.pl) to be run by cron each hour to perform a sync with Nextcloud.
 
@@ -101,7 +101,7 @@ With Mycroft, it was slow to respond. I would wait for around 10 seconds for any
 
 With Snips, it was better but still required some tweaking and Linux know-how. It was good enough so I went ahead and bought their [official Maker Kit in collaboration with Seeed](https://docs.snips.ai/the-maker-kit/dev-kit).
 
-![]({{page.images}}snips.jpg)
+![](snips.jpg)
 
 Snips has different community created apps that can be installed in your home assistant. These are things like home automation, Wikipedia, calculator and calendar features. For home automation, it directly talks to [**Home Assistant**](https://www.home-assistant.io/) and can also run Home Assistant locally on the same Raspberry Pi.
 
@@ -110,9 +110,9 @@ You can find a [quickly thrown together guide](https://gist.github.com/calvinbui
 # Google Pay
 Instead of using Google Pay, I've returned to using physical cards. To make it easier, I also bought a thinner wallet, the [**Bellroy Card Sleeve**](https://bellroy.com/products/card-sleeve-wallet). I tried some cheaper alternatives from Aliexpress but the Bellroy is better.
 
-![]({{page.images}}bellroy-bottom.jpg)
+![](bellroy-bottom.jpg)
 
-![]({{page.images}}bellroy-side.jpg)
+![](bellroy-side.jpg)
 
 # Android Phone
 On my Samsung Galaxy S10+, I went ahead and rooted it using [**Magisk**](https://forum.xda-developers.com/galaxy-s10/development/magisk-root-galaxy-s10-series-t3918699). I don't know why I put it off for so long because I should have done it sooner!
@@ -126,14 +126,14 @@ Along with MicroG, I have installed:
 # Android Auto
 My car ([which I have also blogged about]({{ site.baseurl }}{% post_url 2018-07-23-tech-inside-my-2018-vw-golf-r %})) has Android Auto but MicroG (previous section) has no Android Auto implementation. I have purchased a Samsung Galaxy A20 (2019) as 'Android Auto phone' which is always connected to my car. It has all the apps like Waze and Maps and tethers off my Galaxy S10+ (main phone).
 
-![]({{page.images}}a20.jpg)
+![](a20.jpg)
 
 For calls/messages and automatically turning on and off tethering, I plan to buy a [separate hands-free Bluetooth speaker from Aliexpress](https://www.aliexpress.com/item/32818901307.html?spm=a2g0s.8937460.0.0.aee92e0e4V1781).
 
 # Location Sharing
 I previously used two apps for Location Sharing, Google Maps and Facebook Messenger. Google Map's implementation required turning on Location History which I never liked. Facebook Messenger is never receiving any location data from me. Browsing through F-Droid, I found [**Hauk by bilde2910**](https://github.com/bilde2910/Hauk). Hauk shares my location through my self-hosted endpoint from data sent from the mobile app.
 
-![]({{page.images}}hauk.jpg)
+![](hauk.jpg)
 
 # Conclusion
 

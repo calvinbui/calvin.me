@@ -42,7 +42,7 @@ The best way would be a physical screen and monitor (what I will use), KVM or IP
 
 ## Let's Start!
 
-Currently your setup may look similar to something like this: [![nd3]({{page.images}}nd3.png)]({{page.images}}nd3.png)
+Currently your setup may look similar to something like this: [![nd3](nd3.png)](nd3.png)
 
 We want it to look something like this:
 
@@ -60,32 +60,32 @@ Give the names WAN and LAN corresponding to the which ever NIC is connected to t
 
 **2. Create a new Virtual machine with the follow settings:**
 
-[![13]({{page.images}}13.png)]({{page.images}}13.png)
+[![13](13.png)](13.png)
 
 **3. Load the pfSense ISO image into the VM and boot from it.**
 
 Straightforward enough. Make sure to boot from the CD/DVD drive.
 
-[![pfsense-iso]({{page.images}}14.png)]({{page.images}}14.png)
+[![pfsense-iso](14.png)](14.png)
 
 **4. Go with the default boot (number 1) or let the timer run down.**
 
-[![pfsense-boot]({{page.images}}141.png)]({{page.images}}141.png)
+[![pfsense-boot](141.png)](141.png)
 
 **5. Press 'I' when prompted again to start the installer.**
 
 Otherwise you will be running a LiveCD. Restart if this happens.
 
-[![pfsense-boot-options]({{page.images}}142.png)]({{page.images}}142.png)
+[![pfsense-boot-options](142.png)](142.png)
 
 **6. Accept all the default settings and wait for it to finish installing.**
 
-[![pfsense-install-progress]({{page.images}}143.png)]({{page.images}}143.png)
+[![pfsense-install-progress](143.png)](143.png)
 
 **7. Reboot when finished.**
 
 pfSense has now been installed. It isn't doing anything yet so we will need to configure and transition our network over to it.
 
-[![pfsense-reboot]({{page.images}}144.png)]({{page.images}}144.png)
+[![pfsense-reboot](144.png)](144.png)
 
 Continued in [Part 2: Install pfSense on ESXI 5.5](/part-2-install-pfsense-esxi-5-5/) where we will configure the new installation.

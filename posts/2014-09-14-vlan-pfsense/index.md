@@ -39,7 +39,7 @@ Create a new VLAN using your LAN interface as the parent interface. I only have 
 
 Give your VLAN a number/tag (10) and a short description of what it is (e.g. Management).
 
-[![Create a VLAN]({{page.images}}12.png)]({{page.images}}12.png)
+[![Create a VLAN](12.png)](12.png)
 
 Continuing creating VLANs to your heart's content until you have enough.
 
@@ -51,7 +51,7 @@ Continuing creating VLANs to your heart's content until you have enough.
 
 **3.** Pick an interface under the 'Interfaces' menu and enable it. This will give you the ability to configure it.
 
-[![Configure Interface]({{page.images}}42.png)]({{page.images}}42.png)
+[![Configure Interface](42.png)](42.png)
 
 Give the interface an IPv4 address (gateway). Make sure it is unique and outside the address range of your other networks/interfaces. I chose to give each VLAN a _10.0.X.0_ address, where X is the VLAN number.
 
@@ -63,7 +63,7 @@ Give the interface an IPv4 address (gateway). Make sure it is unique and outside
 
 You can return to the Interfaces page to confirm your VLANs.
 
-[![Confirm VLANs]({{page.images}}51.png)]({{page.images}}51.png)
+[![Confirm VLANs](51.png)](51.png)
 
 **4.** Enable any DHCP servers for the VLANs interfaces if you need it. I have configured half of each range to be DHCP and the other half to be static.
 
@@ -81,19 +81,19 @@ First edit your LAN Port Group so it has access to All (4095) VLAN groups. Doing
 
 a. Choose 'Virtual Machine' as the connection type.
 
-[![Connection Type]({{page.images}}13.png)]({{page.images}}13.png)
+[![Connection Type](13.png)](13.png)
 
 b. Select the same vSwitch as the LAN Port Group we edited earlier
 
-[![vSwitch]({{page.images}}23.png)]({{page.images}}23.png)
+[![vSwitch](23.png)](23.png)
 
 c. Enter the Network Label and its associated VLAN ID.
 
-[![Name and VLAN ID]({{page.images}}33.png)]({{page.images}}33.png)
+[![Name and VLAN ID](33.png)](33.png)
 
 d. Repeat for all other VLANs.
 
-[![vSwitch Port ID]({{page.images}}vmware.png)]({{page.images}}vmware.png)
+[![vSwitch Port ID](vmware.png)](vmware.png)
 
 You can now assign Virtual Machines to different VLANs by changing their Network Connection/Network Label from LAN to your specified VLAN.
 
@@ -101,7 +101,7 @@ You can now assign Virtual Machines to different VLANs by changing their Networ
 
 Create a new VLAN matching your current VLAN settings.
 
-[![Switch VLAN Config]({{page.images}}14.png)]({{page.images}}14.png)
+[![Switch VLAN Config](14.png)](14.png)
 
 Depending on your switch, you may have the terms '_Untagged_' and '_Tagged_' or '_Access_' and '_Trunk_'. Cisco brand switches will use '_Access_' and '_Trunk_' while other vendors stick to the '_Untagged_' and '_Tagged_' convention. To make it easier to remember:
 
@@ -116,7 +116,7 @@ In my scenario, my ESXi box (which contains by pfSense virtual machine) are conn
 
 Configure all other VLAN ports as necessary.
 
-[![DLink Switch]({{page.images}}10.png)]({{page.images}}10.png)
+[![DLink Switch](10.png)](10.png)
 
 If a DHCP is configured on each VLAN through pfSense, you should be able to acquire an IP address with matching DHCP range when you plug a device into that port.
 

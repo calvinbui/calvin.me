@@ -66,7 +66,7 @@ The proposed BRIX however was:
 | | **Total** | $984
 {: .table }
 
-[![GB_BrixPro_Package]({{page.images}}gb_brixpro_package.jpg)]({{page.images}}gb_brixpro_package.jpg)
+[![GB_BrixPro_Package](gb_brixpro_package.jpg)](gb_brixpro_package.jpg)
 
 ## Computer Build #2 - The Completely Wrong
 
@@ -98,7 +98,7 @@ In this build made some considerations and assumptions:
 2.  The 450W PSU is in case I give her my GTX 680 when I upgrade. She can take advantage of GPGPU acceleration in Photoshop/Premier Pro.
 3.  The ability to run Mac OS X ala Hackintosh (not that important)
 
-[![sata_express_vs_m2_speed]({{page.images}}sata_express_vs_m2_speed.jpg)]({{page.images}}sata_express_vs_m2_speed.jpg)
+[![sata_express_vs_m2_speed](sata_express_vs_m2_speed.jpg)](sata_express_vs_m2_speed.jpg)
 
 So with everything in mind I came up with this:
 
@@ -147,7 +147,7 @@ The final build! What felt like a few little changes turned out to be quite a lo
 
 By going with an Xeon, I get a much better binned CPU which is great for longevity. The 1231 V3 is a rebrand of the i7 4790 except with the integrated graphics disabled and a slightly lower clock (3.6Ghz vs 3.4 Ghz) for a MUCH lower price (0.2Ghz = $70?). Not many people consider Xeons because they appear to be 'server' CPUs. I had the same mindset until I got myself a 1230 V3 in my ESXi server and learnt it was pretty much a 4770 without the iGPU. Without the Intel Iris graphics, I've had to include my Nvidia GT 520 otherwise there wouldn't be any video output!
 
-[![Capture]({{page.images}}capture5.png)]({{page.images}}capture5.png)
+[![Capture](capture5.png)](capture5.png)
 
 The motherboard change is less dramatic. Gigabyte offer pretty much the same features on their H97 Gaming 3 board as they did with the Z97 Gaming 5. The only difference being the ATX form factor instead of the mATX form factor. The difference between H97 and Z97 is how it overclocks and what you can overclock.
 

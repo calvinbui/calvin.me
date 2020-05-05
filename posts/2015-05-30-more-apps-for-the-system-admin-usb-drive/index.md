@@ -31,7 +31,7 @@ When a problem is too big or I just can't figure out the root cause I usually th
 *   [TronScript](https://www.reddit.com/r/TronScript/)
 *   ComboFix
 
-[![bLmusI0]({{page.images}}blmusi0.png)]({{page.images}}blmusi0.png)
+[![bLmusI0](blmusi0.png)](blmusi0.png)
 
 ## Portable Applications
 
@@ -40,7 +40,7 @@ These programs are great when I need a quit fix or program to do something. As t
 *   LiberKey
 *   PortableApps
 
-[![_features_-_organize]({{page.images}}features_-_organize.png)]({{page.images}}features_-_organize.png)
+[![_features_-_organize](features_-_organize.png)](features_-_organize.png)
 
 ## Anti-Virus
 
@@ -65,7 +65,7 @@ Sometimes I run into a slow computer even though it's rocking good hardware. The
 *   HWMonitor
 *   Process Hacker
 
-[![Capture]({{page.images}}capture3.png)]({{page.images}}capture3.png)
+[![Capture](capture3.png)](capture3.png)
 
 ## Tools
 
@@ -77,7 +77,7 @@ These are general tools which are helpful in different situations. ProduKey for 
 *   ProduKey
 *   SpeedFan
 
-[![Capture]({{page.images}}capture2.png)]({{page.images}}capture2.png)
+[![Capture](capture2.png)](capture2.png)
 
 ## Disk
 
@@ -88,4 +88,4 @@ While the problem could be some malware or lack of resources, sometimes the issu
 *   Test Disk
 *   WinDirStat
 
-![Capture]({{page.images}}capture1.png)
+![Capture](capture1.png)

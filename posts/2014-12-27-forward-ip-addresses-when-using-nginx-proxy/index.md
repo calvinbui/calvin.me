@@ -86,11 +86,11 @@ The three lines are:
 
 The reason I posted this was because on this site, comments left by you guys were shown as coming from my proxy server (10.0.9.2), hiding everyone's IP address behind my own proxy server. Take a look
 
-[![proxy comments]({{page.images}}comments-b4.png)]({{page.images}}comments-b4.png)
+[![proxy comments](comments-b4.png)](comments-b4.png)
 
 Now with the changes above...
 
-[![comments work]({{page.images}}test.png)]({{page.images}}test.png)
+[![comments work](test.png)](test.png)
 
 The forwarded IP addresses is no longer my proxy server :smile:
 

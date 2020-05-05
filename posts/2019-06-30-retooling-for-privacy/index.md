@@ -87,7 +87,7 @@ Afterwards I tested my browser against a few sites:
 -   [A list of sites from Reddit](https://www.reddit.com/r/privacytoolsIO/comments/bia6sx/test_your_privacy/)
 
 My fingerprint from Browser Leaks:
-![]({{page.images}}browser-leaks.PNG)
+![](browser-leaks.PNG)
 
 # Android Google Chrome
 
@@ -137,7 +137,7 @@ My fear with Dropbox is that they scan and keep every single file I upload even 
 
 Storage is expensive, and I don't like paying for things that were already free. I use Dropbox because I have 53GB from a whole bunch of different campaigns and promotions.
 
-![]({{page.images}}dropbox-space.PNG)
+![](dropbox-space.PNG)
 
 A good workaround I found was to encrypt and decrypt Dropbox files on the fly. There were already a few solutions floating around and one of them, gocryptfs, even has a [comparison page](https://nuetzlich.net/gocryptfs/comparison/).
 
@@ -145,7 +145,7 @@ While the page doesn't list it, only one of them supported Windows, MacOS and _A
 
 One downside of Cryptomator is it encrypts entire folders so [Dropbox's Selective Sync](https://help.dropbox.com/syncing-uploads/selective-sync-overview) feature no longer works. To work around this I made a normal `cryptomator` folder of everything I usually sync and an `archive` folder for everything else. It isn't a perfect solution as something like this will require a big download and upload whenever I decide to move folders around. [gocryptfs](https://nuetzlich.net/gocryptfs/) is able to work around this issue by encrypting the files contents while leaving folder and filenames in plain text. It is also much faster than cryptomator (and cryptfs) in my tests. [If only a gocryptfs Android app existed](https://github.com/rfjakob/gocryptfs/issues/239).
 
-![]({{page.images}}cryptomator.PNG)
+![](cryptomator.PNG)
 
 # KeePassXC Password Manager
 
@@ -164,7 +164,7 @@ I'm sticking with Windows 10 because of the support it has for games I play. Gam
 
 Windows 10 sends a lot of telemetry data by default and this can be turned down from the Settings App. I took things a bit further and used [W10Privacy](https://www.winprivacy.de/english-home/) turned off everything that was possible to turn off.
 
-![]({{page.images}}W10Privacy.PNG)
+![](W10Privacy.PNG)
 
 # Google Keep
 
@@ -183,7 +183,7 @@ In terms of workflow, Jolpin is hierarchically different to Google Keep. I tried
 
 As every 'To do' is a technically a note, I could add some more information underneath each.
 
-![]({{page.images}}joplin.PNG)
+![](joplin.PNG)
 
 # Gmail
 
@@ -244,7 +244,7 @@ When I did all the above, I thought it would be a good idea to clean out my Goog
 -   [Change what Google tracks](https://myaccount.google.com/data-and-personalization)
 -   [Download all the data Google has on you](https://takeout.google.com/)
 
-![]({{page.images}}google-dashboard.PNG)
+![](google-dashboard.PNG)
 
 # Services not going away
 

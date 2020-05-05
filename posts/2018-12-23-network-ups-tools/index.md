@@ -16,11 +16,11 @@ Notify servers of network power loss so they begin shutting down.
 
 I recently bought a [CyberPower OR600ELCDRM1U](https://www.cyberpower.com/au/en/product/sku/or600elcdrm1u) UPS as my previous one was not rack-mountable. The unit is dead quiet and short depth which are my reasons for buying it. It holds 600Va which I've found is enough for 3 servers and a PoE+ switch to shutdown within 5 minutes.
 
-![]({{page.images}}ups-front.jpg)
+![](ups-front.jpg)
 
-![]({{page.images}}ups-sidemounts.jpg)
+![](ups-sidemounts.jpg)
 
-![]({{page.images}}ups-rack.jpg)
+![](ups-rack.jpg)
 
 # Network UPS Tools
 
@@ -45,16 +45,16 @@ There is a very important setting that's not default to not turn off the entire 
 
 Rene Margar has created a NUT client for ESXi (works for me on 6.7U1). [It can be found from his website](http://rene.margar.fr/2012/05/client-nut-pour-esxi-5-0/).
 
-![]({{page.images}}esxi-nut.png)
+![](esxi-nut.png)
 
 ### FreeNAS
 
 FreeNAS comes with the NUT client under it's Services menu.
 
-![]({{page.images}}freenas-nut.png)
+![](freenas-nut.png)
 
 ### OPNsense
 
 OPNsense comes with the NUT client under it's Services menu.
 
-![]({{page.images}}opnsense-nut.png)
+![](opnsense-nut.png)

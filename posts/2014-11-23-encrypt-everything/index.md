@@ -29,7 +29,7 @@ It's so easy to generate a certificate. If you have OpenSSL installed on a Linux
 $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 ```
 
-![Linux ssl command]({{page.images}}capture4.png)
+![Linux ssl command](capture4.png)
 
 On Windows, you can download and install [OpenSSL from their website](https://www.openssl.org/). Browse to where openssl.exe has been installed (mine is at C:OpenSSL-Win32bin) and run the command:
 
@@ -37,7 +37,7 @@ On Windows, you can download and install [OpenSSL from their website](https://ww
 $ openssl.exe req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 ```
 
-[![Windows SSL generation]({{page.images}}capture3.png)]({{page.images}}capture3.png)
+[![Windows SSL generation](capture3.png)](capture3.png)
 
 Both these commands will generate a certificate and key file valid for 365 days (1 year) within the directory you ran the command. Increasing 365 to 3650 would make it valid for 10 years.
 

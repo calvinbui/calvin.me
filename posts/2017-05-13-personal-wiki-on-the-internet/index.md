@@ -20,7 +20,7 @@ The issue was that if my server went offline, I couldn't access it to check my d
 
 I wanted to document in markdown and have it generated/built into static HTML files which could be hosted on the Internet. It would be similar to how this blog is built and run using Jekyll and GitHub. This way it could be fast, portable and secure.
 
-![]({{page.images}}staticsite.jpg)
+![](staticsite.jpg)
 
 ## Read the Docs
 

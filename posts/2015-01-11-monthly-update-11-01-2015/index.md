@@ -44,9 +44,9 @@ After reading (again) and convincing myself of the dangers of UPnP, I had to lo
 
 I made a port alias on pfSense which will be open.
 
-[![]({{page.images}}ports.png)]({{page.images}}rules.png)
+[![](ports.png)](rules.png)
 
-[![]({{page.images}}rules.png)]({{page.images}}rules.png)
+[![](rules.png)](rules.png)
 
 ### Created an OU in the Users Group
 
@@ -58,15 +58,15 @@ GitLab required an upgrade to 7.5 which allowed User/Group based filtering.
 
 Guide: [http://www.robinhobo.com/how-to-create-container-objects-in-active-directory-not-ous/](http://www.robinhobo.com/how-to-create-container-objects-in-active-directory-not-ous/)
 
-[![]({{page.images}}vmware1.png)]({{page.images}}vmware1.png)
+[![](vmware1.png)](vmware1.png)
 
-[![]({{page.images}}GitLab.png)]({{page.images}}GitLab.png)
+[![](GitLab.png)](GitLab.png)
 
-[![]({{page.images}}mediawiki1.png)]({{page.images}}mediawiki1.png)
+[![](mediawiki1.png)](mediawiki1.png)
 
-[![]({{page.images}}nginx1.png)]({{page.images}}nginx1.png)
+[![](nginx1.png)](nginx1.png)
 
-[![]({{page.images}}pfsense1.png)]({{page.images}}pfsense1.png)
+[![](pfsense1.png)](pfsense1.png)
 
 ### N40L now running ESXi
 

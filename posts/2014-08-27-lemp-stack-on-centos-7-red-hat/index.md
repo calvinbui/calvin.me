@@ -61,4 +61,4 @@ $ sudo yum install php-fpm php-mysql
 $ sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
 ```
 
-And we are finished! Start configuring your new LEMP stack on CentOS [![nginx-success]({{page.images}}successsss.png)]({{page.images}}successsss.png)
+And we are finished! Start configuring your new LEMP stack on CentOS [![nginx-success](successsss.png)](successsss.png)

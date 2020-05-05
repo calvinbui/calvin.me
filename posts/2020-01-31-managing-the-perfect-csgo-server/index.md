@@ -20,7 +20,7 @@ I have tried a lot of different settings to increase participation and engagemen
 
 # Server
 
-[![]({{page.images}}linuxgsm.png)]({{page.images}}linuxgsm.png)
+[![](linuxgsm.png)](linuxgsm.png)
 
 [LinuxGSM (Linux Game Server managers)](https://linuxgsm.com/) is the software powering the server. Valve provides [other alternatives on their Developer Wiki](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers). Previously, we used [csgosl](https://github.com/lenosisnickerboa/csgosl) which provides a GUI but I found it limited for advanced customisation.
 
@@ -42,7 +42,7 @@ Depending on the number of players, a small or larger map is generally chosen. O
 
 We ran a competitive ranking ladder using the [RankMe plugin](https://forums.alliedmods.net/showthread.php?p=2467665). The front-end is still accessible at [https://csgo.autopilothq.dev/](https://csgo.autopilothq.dev/) which uses [niekcandaele/CSGO-RankMe-stats](https://github.com/niekcandaele/CSGO-RankMe-stats)
 
-[![]({{page.images}}rankme.png)]({{page.images}}rankme.png)
+[![](rankme.png)](rankme.png)
 
 It was all fun and games until it wasn't. What I found was:
 
@@ -66,13 +66,13 @@ These are the current mods I've set up (also available in the Ansible repo linke
 
 When [Operation Shattered Web](https://counter-strike.net/shatteredweb) release in November, it broke a few of the plugins above so if something's wrong, disable plugins and wait for an update.
 
-[![]({{page.images}}weaponskin.jpg)]({{page.images}}weaponskin.jpg)
+[![](weaponskin.jpg)](weaponskin.jpg)
 
 # Slack Bot
 
 I wrote a Slack Application to run commands on the server. It connects to the CS:GO server using the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol) to allow console (~) commands to be issued to the server.
 
-[![]({{page.images}}slack-bot.png)]({{page.images}}slack-bot.png)
+[![](slack-bot.png)](slack-bot.png)
 
 This helped players that didn't know the commands off by heart to easily change the current map, restart the game, end warmup times, etc.
 

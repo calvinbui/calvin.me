@@ -22,7 +22,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### InfoBlox IPAM Express
 
-[]({{page.images}}gestio.png)[![infoblox]({{page.images}}infoblox-300x231.png)]({{page.images}}infoblox.png)
+[](gestio.png)[![infoblox](infoblox-300x231.png)](infoblox.png)
 
 [Download](https://www.infoblox.com/downloads/software/ip-address-management-freeware)
 
@@ -35,7 +35,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### phpIPAM
 
-[![ipam]({{page.images}}ipam-300x234.png)]({{page.images}}ipam.png)
+[![ipam](ipam-300x234.png)](ipam.png)
 
 [Download](http://phpipam.net/documents/download-phpipam/)
 
@@ -49,7 +49,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### GestioIP
 
-![gestio]({{page.images}}gestio-300x281.png)
+![gestio](gestio-300x281.png)
 
 [Download](http://sourceforge.net/projects/gestioip/)
 

@@ -52,7 +52,7 @@ As unscientically as the come, the testing methodology was:
 -   Multi connections option
 -   3 runs with an average taken
 
-![]({{page.images}}speedtest.PNG)
+![](speedtest.PNG)
 
 | Provider             | Ping | Download | Upload | Fourteen Eyes Country |
 |----------------------|------|----------|--------|-----------------------|

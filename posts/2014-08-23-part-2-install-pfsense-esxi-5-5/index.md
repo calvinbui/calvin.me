@@ -27,7 +27,7 @@ The goal of the setup is to not lose your connection to ESXi. The moment you do,
 
 Say no to set up VLANs. This is for another day.
 
-[![pfsense-vlan-setup]({{page.images}}18.png)]({{page.images}}18.png)
+[![pfsense-vlan-setup](18.png)](18.png)
 
 When prompted for a WAN connection, provide it with the NIC connected to the WAN. You can find the MAC address of the NIC and match it up with what pfSense sees (e.g. em1)
 

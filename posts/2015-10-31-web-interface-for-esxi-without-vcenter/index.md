@@ -67,12 +67,12 @@ Making sure you include the full path name to the file or else installation will
 
 If the VIB installation completes successfully, you should now be able to navigate a web browser to https://<esxip>/ui and the login page should be displayed.
 
-[![Capture2]({{page.images}}Capture2-300x291.png)]({{page.images}}Capture2.png)[
-]({{page.images}}Capture2.png)
+[![Capture2](Capture2-300x291.png)](Capture2.png)[
+](Capture2.png)
 
 Login with your usually ESXi credentials and try it out.
 
-[![running]({{page.images}}running-300x291.png)]({{page.images}}running.png)
+[![running](running-300x291.png)](running.png)
 
 ## Verdict
 

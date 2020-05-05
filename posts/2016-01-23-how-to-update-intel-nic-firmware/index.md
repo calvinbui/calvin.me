@@ -21,15 +21,15 @@ I will be updating my Intel I350 T4 NIC that I got in Christmas 2014. I will be
 
 **3** Boot into your EFI, Windows or DOS
 
-[![Boot]({{page.images}}boot.png)]({{page.images}}boot.png)
+[![Boot](boot.png)](boot.png)
 
 **4** For EFI, change paths by entering the path into the EFI shell. I am using a USB and it was mounted under fs0.
 
-[![FS0]({{page.images}}fs0.png)]({{page.images}}fs0.png)
+[![FS0](fs0.png)](fs0.png)
 
 **5** Depending on where you are updating once again, run the executable under your operating system folder to be shown a list of network adapters available
 
-[![running command]({{page.images}}running-command.png)]({{page.images}}running-command.png)
+[![running command](running-command.png)](running-command.png)
 
 **6** If a NIC is saying it cannot be flashed (but you know it can be), enable flash using the command:
 
@@ -53,11 +53,11 @@ $ Bootutil -UP=PXE -ALL -FILE=BOOTIMG.FLB (explicit user specified file)
 
 **8** You will be prompted to save create a restore image for your NIC before updating. It is probably best to do this in case something goes wrong :P
 
-[![Updating]({{page.images}}updating.png)]({{page.images}}updating.png)
+[![Updating](updating.png)](updating.png)
 
 **9** After the update, reboot and you are done!
 
-[![Update complete]({{page.images}}update-complete.png)]({{page.images}}update-complete.png)
+[![Update complete](update-complete.png)](update-complete.png)
 
 ## Conclusion
 

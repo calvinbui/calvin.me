@@ -14,23 +14,23 @@ A look at all the mods I've thrown into my Oculus Quest all-in-one VR gaming hea
 
 I bought my Oculus Quest back in December during the [Amazon Prime Day sales for $719](https://www.ozbargain.com.au/node/470990) before cashback. My only previous experience with VR has been over at a friend's place using the HTC Vive Pro.
 
-![]({{page.images}}unit.jpg)
+![](unit.jpg)
 
 # FrankenQuest (Vive DAS)
 
 The first mod I installed was the FrankenQuest. The FrankenQuest is replacing the default strap with the [HTC Vive Deluxe Audio](https://www.vive.com/au/vive-deluxe-audio-strap/) strap. For the mod I made use of my 3D printer to create the side mounts and the top hook ring. Tyco Tech provides a [video of how to do the mod](https://www.youtube.com/watch?v=RmnPnS4NOYo).
 
-![]({{page.images}}vive-das.jpg)
+![](vive-das.jpg)
 
 Over on Thingiverse, there is a [Vive DAS adapter by DarthOctane](https://www.thingiverse.com/thing:3691033) which connects to the original arms of the Oculus Quest.
 
-![]({{page.images}}das-clip.jpg)
+![](das-clip.jpg)
 
 For the top strap hook, I used this [design by DRAGONCITY_o](https://www.thingiverse.com/thing:3685188) with a few small zip ties.
 
-![]({{page.images}}top-ring-1.jpg)
+![](top-ring-1.jpg)
 
-![]({{page.images}}top-ring-2.jpg)
+![](top-ring-2.jpg)
 
 # Studioform Creative Straps
 
@@ -38,9 +38,9 @@ I purchased both the [Quest Deluxe Strap](https://www.studioformcreative.com/pro
 
 With both straps on at the same time, it feels like I'm wearing a baseball cap and the weight is evenly distributed across my head. My neck doesn't hurt from staring down for too long either.
 
-![]({{page.images}}straps.jpg)
+![](straps.jpg)
 
-![]({{page.images}}unit2.jpg)
+![](unit2.jpg)
 
 # AMVR Beat Saber Handles
 
@@ -48,21 +48,21 @@ The AMVR Beat Saber Handles are good for playing Beat Saber with. I don't accide
 
 While they can be bought from Amazon, I found them for a little cheaper on Ali Express.
 
-![]({{page.images}}beat-saber-controller.jpg)
+![](beat-saber-controller.jpg)
 
 # VR Cover Facial Interface
 
 To improve comfort, I purchased the [VR Cover Facial Interface](https://vrcover.com/product/oculus-quest-foam-and-interface-basic-set/) along with some the [slim foam replacements](https://vrcover.com/product/oculus-quest-foam-replacement-slim/) and [cotton covers](https://vrcover.com/product/oculus-quest-vr-cover/). The best combination I have found is with the thicker foam replacement with the cotton cover. I wouldn't recommend the slim foam replacements unless you wanted some extra when sharing the device around with others.
 
-![]({{page.images}}facial-interface.jpg)
+![](facial-interface.jpg)
 
-![]({{page.images}}covers.jpg)
+![](covers.jpg)
 
 # VR Cover Vive DAS Foam Replacement
 
 Also from VR Cover, I purchased their [strap foam replacement for the HTC Vive Deluxe Audio Strap](https://vrcover.com/product/htc-vive-deluxe-audio-strap-foam-replacement/) as part of my FrankenQuest mod. I chose the thicker 20mm size and haven't had any issues with it.
 
-![]({{page.images}}vr-cover.jpg)
+![](vr-cover.jpg)
 
 # ToolPRO Safe Case
 
@@ -74,6 +74,6 @@ Inside I have all the mods listed including:
 - Sanitary masks
 - 20000mAh Powerbank
 
-![]({{page.images}}case-inside.jpg)
+![](case-inside.jpg)
 
-![]({{page.images}}case-outside.jpg)
+![](case-outside.jpg)

@@ -29,7 +29,7 @@ With this in mind, I have found four options which are really good:
 
 ### Toshiba Chromebook 2 CB35-C3350 ($400 AUD)
 
-[![2_B102F_ToshibaChromebook2_Gandof_Silver]({{page.images}}2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)]({{page.images}}2_B102F_ToshibaChromebook2_Gandof_Silver.jpg)
+[![2_B102F_ToshibaChromebook2_Gandof_Silver](2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)](2_B102F_ToshibaChromebook2_Gandof_Silver.jpg)
 
 **Positives**
 
@@ -55,7 +55,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo E460 (~$1000 AUD)
 
-[![lenovo-laptop-thinkpad-e460-front]({{page.images}}lenovo-laptop-thinkpad-e460-front.png)]({{page.images}}lenovo-laptop-thinkpad-e460-front.png)
+[![lenovo-laptop-thinkpad-e460-front](lenovo-laptop-thinkpad-e460-front.png)](lenovo-laptop-thinkpad-e460-front.png)
 
 **Specs**
 
@@ -90,7 +90,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo ThinkPad X260 $1000 (+$300 for 256GB SSD and 16GB SODIMM)
 
-[![thinkpad-x260-hero]({{page.images}}thinkpad-x260-hero-e1469031669606.png)]({{page.images}}thinkpad-x260-hero.png)
+[![thinkpad-x260-hero](thinkpad-x260-hero-e1469031669606.png)](thinkpad-x260-hero.png)
 
 **Specs**
 
@@ -127,7 +127,7 @@ With this in mind, I have found four options which are really good:
 
 ### Gigabyte Aero 14 $2400
 
-[![20160505160152_big]({{page.images}}20160505160152_big-e1469031504756.png)]({{page.images}}20160505160152_big.png)
+[![20160505160152_big](20160505160152_big-e1469031504756.png)](20160505160152_big.png)
 
 **Specs**
 

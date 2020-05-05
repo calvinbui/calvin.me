@@ -47,7 +47,7 @@ While you're there, only accept the latest ciphers. This can be configured on th
       ]
 ```
 
-![]({{page.images}}ssllabs-result.jpg)
+![](ssllabs-result.jpg)
 
 # What is HSTS?
 

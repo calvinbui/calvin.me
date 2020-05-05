@@ -75,7 +75,7 @@ Login to your new user and let's begin.
 
 ### Get a GUI
 
-[![Screenshot at 2016-07-31 19:58:07]({{page.images}}Screenshot-at-2016-07-31-195807-1024x576.png)]({{page.images}}screenshot-at-2016-07-31-195807.png)
+[![Screenshot at 2016-07-31 19:58:07](Screenshot-at-2016-07-31-195807-1024x576.png)](screenshot-at-2016-07-31-195807.png)
 
 I prefer [MATE](https://wiki.archlinux.org/index.php/MATE) as it's light on resources (lighter than XFCE in my tests) and pretty usable. There a list to choose from on the [wiki](https://wiki.archlinux.org/index.php/desktop_environment).
 
@@ -136,7 +136,7 @@ Reboot when done.
 
 This should enable a good working trackpad on boot with tapping working. Afterwards, you can edit trackpad settings under '_System > Preferences  > Hardware > Mouse_' to enable two finger scrolling, two finger taps, three finger taps, etc.
 
-[![Screenshot at 2016-07-31 19:59:29]({{page.images}}screenshot-at-2016-07-31-195929.png)]({{page.images}}screenshot-at-2016-07-31-195929.png)
+[![Screenshot at 2016-07-31 19:59:29](screenshot-at-2016-07-31-195929.png)](screenshot-at-2016-07-31-195929.png)
 
 Note: if it's really hard navigating with the broken trackpad, press _CTRL + ALT + Refresh_ to return to the command line.
 
@@ -154,7 +154,7 @@ Then enable _Network Manager_ and reboot to find the applet:
 $ systemctl enable NetworkManager.service
 ```
 
-[![Screenshot at 2016-07-31 20:17:20]({{page.images}}screenshot-at-2016-07-31-201720.png)]({{page.images}}screenshot-at-2016-07-31-201720.png)
+[![Screenshot at 2016-07-31 20:17:20](screenshot-at-2016-07-31-201720.png)](screenshot-at-2016-07-31-201720.png)
 
 ### Brightness Control
 
@@ -195,9 +195,9 @@ $ chmod +x /usr/local/bin/brightness
 
 Then create keyboard shortcuts through '_System > Preferences > Hardware > Keyboard Shortcuts_' to map:
 
-[![Screenshot at 2016-07-31 07:06:15]({{page.images}}screenshot-at-2016-07-31-070615.png)]({{page.images}}screenshot-at-2016-07-31-070615.png)
+[![Screenshot at 2016-07-31 07:06:15](screenshot-at-2016-07-31-070615.png)](screenshot-at-2016-07-31-070615.png)
 
-[![Screenshot at 2016-07-31 07:06:01]({{page.images}}screenshot-at-2016-07-31-070601.png)]({{page.images}}screenshot-at-2016-07-31-070601.png)
+[![Screenshot at 2016-07-31 07:06:01](screenshot-at-2016-07-31-070601.png)](screenshot-at-2016-07-31-070601.png)
 
 ```config
 Name: Brightness Down
@@ -236,7 +236,7 @@ Go across the page (arrow keys) and press M to unmute
 *   Right Speaker Mixer Mono DAC3
 *   Right Speaker Mixer Right DAC1
 
-[![Screenshot at 2016-07-31 20:03:01]({{page.images}}screenshot-at-2016-07-31-200301.png)]({{page.images}}screenshot-at-2016-07-31-200301.png)
+[![Screenshot at 2016-07-31 20:03:01](screenshot-at-2016-07-31-200301.png)](screenshot-at-2016-07-31-200301.png)
 
 Press ESC when down and it should save itself.
 
@@ -285,7 +285,7 @@ IdleActionSec=1min
 ...
 ```
 
-[![Screenshot at 2016-07-31 08:35:10]({{page.images}}screenshot-at-2016-07-31-083510.png)]({{page.images}}screenshot-at-2016-07-31-083510.png)
+[![Screenshot at 2016-07-31 08:35:10](screenshot-at-2016-07-31-083510.png)](screenshot-at-2016-07-31-083510.png)
 
 Reboot to apply.
 
@@ -356,7 +356,7 @@ $ echo 'xbindkeys &' >> ~/.xprofile
 
 '_System > Preferences > Look and Feel > Windows_' and tick '_Enable software compositing window manager_' in the General tab.
 
-[![Screenshot at 2016-07-31 19:18:52]({{page.images}}screenshot-at-2016-07-31-191852.png)]({{page.images}}screenshot-at-2016-07-31-191852.png)
+[![Screenshot at 2016-07-31 19:18:52](screenshot-at-2016-07-31-191852.png)](screenshot-at-2016-07-31-191852.png)
 
 ### Set Hostname
 

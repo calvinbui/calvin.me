@@ -23,8 +23,8 @@ Here are the subtle differences you can find:
 
 Here's the difference on the homepage. It's more welcoming and not in-your-face as before.
 
-![Home Page Differences]({{page.images}}/homepage.gif)
+![Home Page Differences](/homepage.gif)
 
 Here's the difference when on a post. The headings aren't as bold but you can still pick out sections from the improved line spacing.
 
-![Post Differences]({{page.images}}/post.gif)
+![Post Differences](/post.gif)

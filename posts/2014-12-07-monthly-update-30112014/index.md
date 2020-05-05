@@ -119,7 +119,7 @@ I set up an Apt-Cache server using a [tutorial from Tecmint](http://www.tecmint.
 
 I spent half of November studying and doing exams. One subject has a purely programming subject and including code into Microsoft Word always had to be screenshots. In comes planetB's copy and paste [Syntax Highlighter](http://www.planetb.ca/syntax-highlight-word). Works in Chrome and IE but apparently has issues in Firefox.
 
-[![Syntax Highlighting Word]({{page.images}}capture5.png)]({{page.images}}capture5.png)
+[![Syntax Highlighting Word](capture5.png)](capture5.png)
 
 ### PotPlayer Video Quality
 
@@ -133,7 +133,7 @@ It has a lot of things I didn't think I needed like LAV Filters and madVR (for M
 
 My 2 year old GTX 680 isn't handling games at max settings very well anymore. I had to overclock it to play Far Cry 4. An easy task for any novice really, but it shows that it's possible to keep old stuff running but dumping more voltage into them.
 
-[![gtx 680 overclock]({{page.images}}capture6.png)]({{page.images}}capture6.png)
+[![gtx 680 overclock](capture6.png)](capture6.png)
 
 ## Currently Interested In
 

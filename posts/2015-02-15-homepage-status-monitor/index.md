@@ -51,7 +51,7 @@ I programmed it over the period of a month using IntelliJ's WebStorm application
 
 One cheesy feature I threw in was the weather feature. Weather provided by Forecast.io and animated icons from Skycons nicely present the forecast over one week period.
 
-[![weather]({{page.images}}weather.png)]({{page.images}}weather.png)
+[![weather](weather.png)](weather.png)
 
 ## Download/Source
 

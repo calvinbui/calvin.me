@@ -57,7 +57,7 @@ If everything went smoothly you should be able to access the controller through 
 
 Depending on the version installed, you will be taken to the setup wizard. You're done!
 
-[![Capture]({{page.images}}capture2.png)]({{page.images}}capture2.png)
+[![Capture](capture2.png)](capture2.png)
 
 ## Problems?
 

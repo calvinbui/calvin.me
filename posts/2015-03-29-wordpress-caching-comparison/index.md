@@ -32,7 +32,7 @@ I thought I would test based on two factors, number of **website requests** and 
 
 I decided to use [Pingdom's Website Speed Test](http://tools.pingdom.com/fpt/) as the main testing tool because it gave results quickly and there wasn't much fussing around.
 
-[![Capture555]({{page.images}}capture555.png)]({{page.images}}capture555.png)
+[![Capture555](capture555.png)](capture555.png)
 
 A total of 8 tests were taken for each plugin and the best 5 were selected to avoid many outliers.
 
@@ -54,9 +54,9 @@ Other reputable testing sites include:
 | Quick Cache | 55 / 3.10 | 56 / 2.11 | 56 / 3.23 | 53 / 4.07
 {: .table }
 
-[![average]({{page.images}}average.png)]({{page.images}}average.png)
+[![average](average.png)](average.png)
 
-[![response]({{page.images}}response.png)]({{page.images}}response.png)
+[![response](response.png)](response.png)
 
 ## Conclusion
 

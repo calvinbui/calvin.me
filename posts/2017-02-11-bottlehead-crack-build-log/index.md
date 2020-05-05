@@ -37,7 +37,7 @@ The finish was uneven and imperfect with the brush not being able to distribute 
 
 After painting, I stuck on the four feet.
 
-![Feet]({{page.images}}paint/feet.jpg)
+![Feet](paint/feet.jpg)
 
 ### Painting the Chassis Plate
 
@@ -81,14 +81,14 @@ Now a dump of photos:
 
 For testing, I bought a $10 Digital Multimeter and alligator clips from Jay Car. Alligator clips are recommended so your hands don't move while testing which can be dangerous and can lead to death. Read all the safety instructions!
 
-![Digital Multimeter]({{page.images}}/finished/mm-testing.jpg)
+![Digital Multimeter](/finished/mm-testing.jpg)
 
 In the final voltage test, Bottlehead fails in the manual by only providing voltages for 120VAC. That's not great if you live in a country that doesn't run 120VAC (Australia has 240VAC). Of course, I doubled the numbers provided but starters and those less informed would have trouble - definitely a big area to fix as this part is very dangerous if you're messing about and can't get the voltage numbers the manual provides.
 
 ## Finished Product
-![Top of crack]({{page.images}}/finished/finished-top.jpg)
+![Top of crack](/finished/finished-top.jpg)
 
-![Bottom of crack]({{page.images}}/finished/finished-underside.jpg)
+![Bottom of crack](/finished/finished-underside.jpg)
 
 To finish it off I bought two 90-degree RCA adapters and a 90-degree power cable to improve the look and cable management of the unit. Bottlehead also ships a US-style plug which isn't useful at all.
 
@@ -102,4 +102,4 @@ I still got the Speedball upgrade to do which apparently turns the Crack into a 
 
 As for further upgrades, I've seen (new tubes, better capacitors, stepped attenuator, etc.), I'll probably leave that out until I see it being necessary.
 
-![Turned on with headphones]({{page.images}}/finished/finished-stretch.jpg)
+![Turned on with headphones](/finished/finished-stretch.jpg)

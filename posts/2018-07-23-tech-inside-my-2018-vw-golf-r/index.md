@@ -11,7 +11,7 @@ I bought a new 2018 Volkswagen Golf R Wolfsburg Edition back in February. One of
 
 <!-- more -->
 
-![]({{page.images}}golf-back.jpg)
+![](golf-back.jpg)
 
 There are a laundry list of features my Golf R has. Below, I've listed all the ones I'm actively using or think are cool to show off.
 

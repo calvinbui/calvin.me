@@ -81,9 +81,9 @@ sys         0.8
 
 Leaving napp-it and OmniOS behind I decided to run tests on Windows 2012 R2 using CrystalDiskMark and Samsung's very own Magician Tool and I was not surprised that I was getting good results.
 
-[![1 - sgXocYq]({{page.images}}1-sgxocyq.png)]({{page.images}}1-sgxocyq.png)
+[![1 - sgXocYq](1-sgxocyq.png)](1-sgxocyq.png)
 
-[![2 - UmzqPiA]({{page.images}}2-umzqpia.png)]({{page.images}}2-umzqpia.png)
+[![2 - UmzqPiA](2-umzqpia.png)](2-umzqpia.png)
 
 This made me believe there was something wrong with napp-it or OmniOS in general. I told Gea this info and he said it could be a [problem with the disks, HBA/firmware or the mpt_sas driver](http://hardforum.com/showpost.php?p=1042098980&postcount=7363) from OmniOS.
 

@@ -101,7 +101,7 @@ It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in
 
 I always thought Android's settings menu was a bit confusing, then I saw Apple's one. Is it me, or is almost everything I try and find turns out to be dumped under the 'General' tab? Trying to find keyboard settings? General. Trying to find battery usage? General. Trying to find storage usage? General.
 
-[![settings]({{page.images}}swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)]({{page.images}}swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
+[![settings](swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)](swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
 
 #### DISLIKED: No Data Usage Limit
 

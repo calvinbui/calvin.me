@@ -14,7 +14,7 @@ A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!
 
 ## Parts List
 
-![All the boxes]({{page.images}}/components/box.jpg)
+![All the boxes](/components/box.jpg)
 
 Let's start straight off with the spec sheet. I purchased most items back in February with eBay's 20% off deals from Futu Online where possible. I found this a bit cheaper than the usual brick and mortar stores like MSY, Umart or IJK.
 
@@ -40,17 +40,17 @@ To sum up this build nicely as you can find [reviews](https://www.hardocp.com/ne
 
 The i7 7700K is the best Kaby Lake CPU to get. Good for gaming, video editing and virtualisation.
 
-![i7 Box]({{page.images}}/components/i7-7700k.jpg)
+![i7 Box](/components/i7-7700k.jpg)
 
-![CPU Installed]({{page.images}}/components/cpu-socket.jpg)
+![CPU Installed](/components/cpu-socket.jpg)
 
 ### Motherboard: ASUS ROG Strix Z270i
 
 Has pretty much every feature at the time under the sun including 2 M.2. slots...on an ITX board!
 
-![Motherboard]({{page.images}}/components/motherboard.jpg)
+![Motherboard](/components/motherboard.jpg)
 
-![Motherboard with CPU and RAM]({{page.images}}/components/mobo-no-heatsink.jpg)
+![Motherboard with CPU and RAM](/components/mobo-no-heatsink.jpg)
 
 ### RAM: Corsair Vengeance LED 32GB 3200Mhz
 
@@ -58,13 +58,13 @@ Here's the exact link to it: http://www.corsair.com/en-gb/vengeance-led-32gb-2-x
 
 The most RAM possible at the moment. While not the fastest memory around, anything above 3200Mhz isn't worth the price from most benchmarks I've seen.
 
-![RAM modules]({{page.images}}/components/ram.jpg)
+![RAM modules](/components/ram.jpg)
 
 ### SSD: Samsung 850 EVO 500GB, 1TB & 960 EVO 1TB
 
 Three drives. One for the OS, one for Games and one for Recording Gameplay. I chose the 960 EVO for Recording Gameplay as the faster speeds are beneficial when moving large files around. They don't make any difference in loading times.
 
-![RAM modules]({{page.images}}/components/ssds.jpg)
+![RAM modules](/components/ssds.jpg)
 
 ### GPU: Galax GTX 1080 Ti
 
@@ -94,9 +94,9 @@ The case is unique in that there are two sections. On the right-hand side, you p
 
 Before I had the case or a 1080 Ti, I threw everything on a test bench to use. I thought it would be funny to share. I had it like this for about a month before the case arrived.
 
-![First Boot]({{page.images}}/testbench/first-boot.jpg)
+![First Boot](/testbench/first-boot.jpg)
 
-![Test Bench]({{page.images}}/testbench/test-bench-wiring.jpg)
+![Test Bench](/testbench/test-bench-wiring.jpg)
 
 Here's a demo of the boot times. Spoilers: 12.02 seconds. I was using a screwdriver to short the power button pins in lieu of a case.
 
@@ -106,14 +106,14 @@ Here's a demo of the boot times. Spoilers: 12.02 seconds. I was using a screwdri
 
 To wrap it up, here a few shots I took over the weekend.
 
-![Case]({{page.images}}/featured-image.jpg)
-![Case]({{page.images}}/case/closed-right.jpg)
-![Case]({{page.images}}/case/left-side.jpg)
-![Case]({{page.images}}/case/right-side.jpg)
-![Case]({{page.images}}/case/right-side-close.jpg)
-![Case]({{page.images}}/case/top.jpg)
-![Case]({{page.images}}/case/front.jpg)
+![Case](/featured-image.jpg)
+![Case](/case/closed-right.jpg)
+![Case](/case/left-side.jpg)
+![Case](/case/right-side.jpg)
+![Case](/case/right-side-close.jpg)
+![Case](/case/top.jpg)
+![Case](/case/front.jpg)
 
 ## I used to have another GTX 1080 Ti...
 
-Before the Galax 1080 Ti, I had a [Gigabyte Gaming 1080 Ti]({{page.images}}/case/gigabyte-1080ti.jpg) (click the link for an image). It was horribly loud and hurt my ears with how loud its coil whine was. I was able to get a refund on it luckily.
+Before the Galax 1080 Ti, I had a [Gigabyte Gaming 1080 Ti](/case/gigabyte-1080ti.jpg) (click the link for an image). It was horribly loud and hurt my ears with how loud its coil whine was. I was able to get a refund on it luckily.

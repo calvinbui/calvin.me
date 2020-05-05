@@ -64,7 +64,7 @@ First I added 3 physical adapters to the vSwitch on ESXi following their [offici
 
 Enabling Load Balancing on ESXi by default only acts as a failover using the **Route Based on Originating Port ID** option. Changing it to **Route Based on IP Hash** balances load across all of the network adapters in the team and make use of every single adapter in the process! This [VMware KB](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2006129) really helped explaining that and also this page from [Pearson Certification](http://www.pearsonitcertification.com/articles/article.aspx?p=2190191&seqNum=8) (but don't even recommend it...).
 
-[![Capture]({{page.images}}capture.png)]({{page.images}}capture.png)
+[![Capture](capture.png)](capture.png)
 
 Finally I left the final port into my WAN connection in case anything ever goes wrong with that and because Port Trunking only does a maximum of 4 ports anyway :P
 
@@ -74,7 +74,7 @@ For whatever reason, no one recommends this wherever I search with the main reas
 
 I thought it would be time I started encrypting my workstations (Desktop and Laptop). Based on [LifeHacker's article](http://lifehacker.com/five-best-file-encryption-tools-5677725) many commenters were wary of what NSA backdoors there were to BitLocker and chose VeraCrypt as the number one choice. For my own purposes I wanted simple and easy and opted for BitLocker instead. It was fast and now totally transparent within Windows. The only time I notice it is when I see my C drive has a padlock over it.
 
-[![Capture]({{page.images}}capture.png)]({{page.images}}capture.png)
+[![Capture](capture.png)](capture.png)
 
 ## Server Rebuild
 
@@ -93,7 +93,7 @@ These are some changes I've made to my typical install:
 
 I've taken some time to write document my hosts in MediaWiki. What you start off with in terms of templates is pretty much nothing. I took some time to export some Wikipedia templates into my own and customise the infoboxes to meet my needs. Here's one I'm using a lot to quickly display host information:
 
-[![Capture]({{page.images}}capture1.png)]({{page.images}}capture1.png)
+[![Capture](capture1.png)](capture1.png)
 
 ```text
 {% raw %}{{Infobox
