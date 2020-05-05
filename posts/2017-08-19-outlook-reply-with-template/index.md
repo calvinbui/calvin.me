@@ -1,10 +1,10 @@
 ---
 title: Microsoft Outlook - Send a reply using an email template
 categories:
-- How-To
-- Programming
+-   Programming
 tags:
-- 
+-   outlook
+-   email
 thumbnail: thumbnail.png
 ---
 

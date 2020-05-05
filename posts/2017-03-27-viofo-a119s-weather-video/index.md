@@ -1,10 +1,10 @@
 ---
 title: Viofo A119S - Sydney Weather
 categories:
-- Cars
-- Review
+-   Review
 tags:
-- 
+-   cameras
+-   viofo
 thumbnail: thumbnail.png
 ---
 

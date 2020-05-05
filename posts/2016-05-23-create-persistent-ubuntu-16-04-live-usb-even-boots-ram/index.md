@@ -1,16 +1,10 @@
 ---
 title: Create a persistent Ubuntu USB which boots to RAM
 categories:
-- How-To
-- Linux
+-   Computers
 tags:
-- '16.04'
-- persistence
-- toram
-- ubuntu
-- usb
-tags:
-- 
+-   ubuntu
+-   usb
 thumbnail: thumbnail.png
 ---
 
@@ -24,7 +18,7 @@ Live USB/CDs are a great way to try out new Linux distros or run things securely
 
 This used to be a very simple process in Ubuntu before 16.04 using the Startup Disk Creator program. If you have 15.10, 15.04, 14.10, etc. on hand without any Internet, this is the best and easy temporary solution. Persistence was removed in 16.04:
 
-```text    
+```text
 usb-creator (0.3.0) xenial; urgency=medium
 [ Marc Deslauriers ]
 * Rework the whole imaging process for writing to devices:

@@ -1,14 +1,12 @@
 ---
 title: Backup VMs! Comparison of Free Backup Software
 categories:
-- Storage
-- Virtualisation
+-   Virtualisation
 tags:
-- backup
-- software
-- vmware esxi
-tags:
-- 
+-   backup
+-   software
+-   vmware
+-   esxi
 thumbnail: thumbnail.png
 ---
 
@@ -20,13 +18,13 @@ As they say, you don't need a backup until you need a backup. For me, I have to 
 
 From my search I found 7 reputable free products that can be used to backup VMs in ESXi. They are:
 
-* [Veeam Backup Free Edition v9](https://www.veeam.com/virtual-machine-backup-solution-free.html)
-* [Nakivo Backup & Replication v5.8](http://www.nakivo.com/en/NAKIVO-Backup-and-Replication-Free-Edition.html)
-* [UniTrends Free v1.05](http://www.unitrends.com/)
-* [VSquare v1.4.6](http://www.vsquarebackup.com/)
-* [ThinWare vBackup Standard v4.0.1](http://www.thinware.net/Default.aspx)
-* [ghettoVCB](https://github.com/lamw/ghettoVCB)
-* [XSIBackup](http://sourceforge.net/projects/xsibackup/)
+*   [Veeam Backup Free Edition v9](https://www.veeam.com/virtual-machine-backup-solution-free.html)
+*   [Nakivo Backup & Replication v5.8](http://www.nakivo.com/en/NAKIVO-Backup-and-Replication-Free-Edition.html)
+*   [UniTrends Free v1.05](http://www.unitrends.com/)
+*   [VSquare v1.4.6](http://www.vsquarebackup.com/)
+*   [ThinWare vBackup Standard v4.0.1](http://www.thinware.net/Default.aspx)
+*   [ghettoVCB](https://github.com/lamw/ghettoVCB)
+*   [XSIBackup](http://sourceforge.net/projects/xsibackup/)
 
 ## The Comparison
 
@@ -43,7 +41,7 @@ From my search I found 7 reputable free products that can be used to backup VMs 
 
 ## Conclusion
 
-* From my tests I can chose VSquare over the other products as it had ticked almost all my boxes. The Administration Console did crash on me a few times I would admit. I would have preferred if it ran on Linux as well.
-* If not the limit of 2 VMs on Nakivo I would have gone with instead but I'm trying to look to the future where this could hold me back.
-* I don't understand why some programs did not have the ability to manually schedule backup tasks, to me that would be the most important feature to have.
-* ghettoVCB and XSIBackup are just scripts which perform copy pasta. They do work though so don't doubt them if you are in need of some RAM or something smaller
+*   From my tests I can chose VSquare over the other products as it had ticked almost all my boxes. The Administration Console did crash on me a few times I would admit. I would have preferred if it ran on Linux as well.
+*   If not the limit of 2 VMs on Nakivo I would have gone with instead but I'm trying to look to the future where this could hold me back.
+*   I don't understand why some programs did not have the ability to manually schedule backup tasks, to me that would be the most important feature to have.
+*   ghettoVCB and XSIBackup are just scripts which perform copy pasta. They do work though so don't doubt them if you are in need of some RAM or something smaller

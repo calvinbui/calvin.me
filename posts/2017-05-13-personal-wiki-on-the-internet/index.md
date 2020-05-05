@@ -1,9 +1,10 @@
 ---
 title: Personal Wiki on the Internet
 categories:
-- Web
+-   Web
 tags:
-- 
+-   wiki
+-   sphinx
 thumbnail: thumbnail.png
 ---
 

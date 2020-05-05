@@ -1,13 +1,11 @@
 ---
 title: Computer Build for Girlfriend
 categories:
-- Computers
+-   Computers
 tags:
-- computer build
-- log
-- parts
-tags:
-- 
+-   computer build
+-   log
+-   parts
 thumbnail: thumbnail.png
 ---
 
@@ -17,18 +15,18 @@ Recently I went through the process of researching and picking out components fo
 
 ## Goals
 
-* **LIFESPAN**: She's someone who buys stuff with an expected lifespan in mind and for computers she generally gives five years before a new one. For this I look at _warranty_ and new _connectors/features_ in the market. Having decent hardware that could stand the test of time also helps significantly. Something to really look at was 4K playback and resolution.
-* **PERFORMANCE**: She's a speed freak. Everything has to be 'fast'. High performing CPU for processing tasks and quick I/O. The thing to look out for here would be a highly clocked multi-core CPU, decent amount of RAM along with an SSD. An easy task by just picking out the big and expensive stuff I guess. Performance comes first.
-* **DUST FILTERS**: YES PLEASE OMG YES PLEASE. How important are dust filters? [Glad you asked](https://i.imgur.com/0PhXW.jpg).
+*   **LIFESPAN**: She's someone who buys stuff with an expected lifespan in mind and for computers she generally gives five years before a new one. For this I look at _warranty_ and new _connectors/features_ in the market. Having decent hardware that could stand the test of time also helps significantly. Something to really look at was 4K playback and resolution.
+*   **PERFORMANCE**: She's a speed freak. Everything has to be 'fast'. High performing CPU for processing tasks and quick I/O. The thing to look out for here would be a highly clocked multi-core CPU, decent amount of RAM along with an SSD. An easy task by just picking out the big and expensive stuff I guess. Performance comes first.
+*   **DUST FILTERS**: YES PLEASE OMG YES PLEASE. How important are dust filters? [Glad you asked](https://i.imgur.com/0PhXW.jpg).
 
 ## Usage
 
 Her usage would vary from highly intensity (photo/video editing) to simple (web browsing) tasks:
 
-* programming and developing
-* photo and video editing
-* study/work
-* web browsing and 1080P multimedia consumption
+*   programming and developing
+*   photo and video editing
+*   study/work
+*   web browsing and 1080P multimedia consumption
 
 This was to be a computer that could do everything but gaming. To ease fixing things, no overclocking either and probably nothing too fancy just keeping it simple.
 
@@ -36,16 +34,16 @@ This was to be a computer that could do everything but gaming. To ease fixing th
 
 I also had a few unused parts and parts from her current computers I've upgraded that can be transplanted over saving a few bucks.
 
-* Intel SSD 120GB - Forgot which generation but used to run my HP N40L. Now currently in her 8 year old HP notebook.
-* Seagate 500GB - What my Intel SSD (above) replaced in her notebook. Very old and very failure prone now I would guess
-* 32 GB DDR3 Memory - Probably a $300+ saving right here! Let's face it, 32GB is overkill, and who doesn't like overkill? When a snotty IT punk is talking about his rig and how 8GB of RAM is nice you can tell him that real men run 32GB. The punk will tell you that you will never need more than 16GB but don't him shake your confidence. He is just jealous that his machine can't handle the awesomeness that is 32GB. He will ask why you would need 32GB and you will look him right in the eye and say 'that's what Bill Gates said about 640KB'. When the punk's tears of anguish nourish your soul as if a thousand angels are singing your praises, then and only then will you realise the glory of _overkill_. Also see, [epeen](http://www.urbandictionary.com/define.php?term=e-peen). Other reasons include RAMDisk and video and image rendering. Tear jar sold separately.
-* Palit GT 520 - A video card that used to also be in my HP N40L. Bought solely to play 1080P video and still works just fine.
+*   Intel SSD 120GB - Forgot which generation but used to run my HP N40L. Now currently in her 8 year old HP notebook.
+*   Seagate 500GB - What my Intel SSD (above) replaced in her notebook. Very old and very failure prone now I would guess
+*   32 GB DDR3 Memory - Probably a $300+ saving right here! Let's face it, 32GB is overkill, and who doesn't like overkill? When a snotty IT punk is talking about his rig and how 8GB of RAM is nice you can tell him that real men run 32GB. The punk will tell you that you will never need more than 16GB but don't him shake your confidence. He is just jealous that his machine can't handle the awesomeness that is 32GB. He will ask why you would need 32GB and you will look him right in the eye and say 'that's what Bill Gates said about 640KB'. When the punk's tears of anguish nourish your soul as if a thousand angels are singing your praises, then and only then will you realise the glory of _overkill_. Also see, [epeen](http://www.urbandictionary.com/define.php?term=e-peen). Other reasons include RAMDisk and video and image rendering. Tear jar sold separately.
+*   Palit GT 520 - A video card that used to also be in my HP N40L. Bought solely to play 1080P video and still works just fine.
 
 ## Background and Reasoning
 
-1. While all builds utilise Intel, I am not bias. It's only cause AMD sucks so bad right now. The last good chip to me was the Phenom II 955.
-2. For longevity you would assume I go for a AC compatible WiFi adapter but no I don't. AC adapters go for roughly $60+ at the moment while the cheapest N adapter only goes for $9. The chances of the mainstream upgrading to AC are very little given access points supporting them go for $200+ most of the time. Therefore in the future when AC does become mainstream, it would also sell for the low low price of $9 and that's when I'd get one. However if she lived with me and my AC access points...
-3. No optical drives, mouse, operating system, keyboard, speakers or monitor included as she has a bunch lying around.
+1.  While all builds utilise Intel, I am not bias. It's only cause AMD sucks so bad right now. The last good chip to me was the Phenom II 955.
+2.  For longevity you would assume I go for a AC compatible WiFi adapter but no I don't. AC adapters go for roughly $60+ at the moment while the cheapest N adapter only goes for $9. The chances of the mainstream upgrading to AC are very little given access points supporting them go for $200+ most of the time. Therefore in the future when AC does become mainstream, it would also sell for the low low price of $9 and that's when I'd get one. However if she lived with me and my AC access points...
+3.  No optical drives, mouse, operating system, keyboard, speakers or monitor included as she has a bunch lying around.
 
 ## Computer Build #1 - The Barebones
 
@@ -96,9 +94,9 @@ It was now that '_insides/performance is what is important to me_' so this buil
 
 In this build made some considerations and assumptions:
 
-1. A motherboard with SATA Express and M.2. We have old SSDs/HDDs that we will move over to the new system and they could die at any moment over the next few years. I'm guessing these two standards will be the norm eventually so having them is essential when we purchase replacements.
-2. The 450W PSU is in case I give her my GTX 680 when I upgrade. She can take advantage of GPGPU acceleration in Photoshop/Premier Pro.
-3. The ability to run Mac OS X ala Hackintosh (not that important)
+1.  A motherboard with SATA Express and M.2. We have old SSDs/HDDs that we will move over to the new system and they could die at any moment over the next few years. I'm guessing these two standards will be the norm eventually so having them is essential when we purchase replacements.
+2.  The 450W PSU is in case I give her my GTX 680 when I upgrade. She can take advantage of GPGPU acceleration in Photoshop/Premier Pro.
+3.  The ability to run Mac OS X ala Hackintosh (not that important)
 
 [![sata_express_vs_m2_speed]({{page.images}}sata_express_vs_m2_speed.jpg)]({{page.images}}sata_express_vs_m2_speed.jpg)
 

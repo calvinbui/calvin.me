@@ -1,14 +1,9 @@
 ---
 title: How to Update Firmware on an Intel NIC
 categories:
-- How-To
-- Networking
+-   Networking
 tags:
-- firmware
-- intel nic
-- update
-tags:
-- 
+-   intel
 thumbnail: thumbnail.png
 ---
 

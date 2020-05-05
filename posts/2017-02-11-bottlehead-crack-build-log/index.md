@@ -1,9 +1,11 @@
 ---
 title: Bottlehead Crack Amp Build Log
 categories:
-- Computers
+-   Computers
 tags:
-- 
+-   bottlehead
+-   amp
+-   audio
 thumbnail: thumbnail.png
 ---
 

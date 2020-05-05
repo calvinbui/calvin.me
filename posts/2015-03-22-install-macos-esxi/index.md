@@ -1,17 +1,13 @@
 ---
 title: Install macOS on ESXi
 categories:
-- How-To
-- Hacking
-- Virtualisation
+-   Virtualisation
 tags:
-- esxi
-- install
-- mac os x
-- macOS
-- vmware
-tags:
-- 
+-   esxi
+-   install
+-   mac os x
+-   macOS
+-   vmware
 thumbnail: thumbnail.png
 ---
 
@@ -31,8 +27,8 @@ _(Disclaimer: The following process potentially violates Apple’s End User Lice
 
 Here is my current setup and what I have:
 
-* Whitebox ESXi host
-* macOS Sierra 10.12 (but any will work) - NOTE: lags heaps but can be [slightly tolerable with the beamoff application](http://www.insanelymac.com/forum/topic/302424-yosemite-on-vmware-unusable/).
+*   Whitebox ESXi host
+*   macOS Sierra 10.12 (but any will work) - NOTE: lags heaps but can be [slightly tolerable with the beamoff application](http://www.insanelymac.com/forum/topic/302424-yosemite-on-vmware-unusable/).
 
 ## Install the Unlocker Patch
 
@@ -98,9 +94,9 @@ For macOS or OS X 10.6 to 10.12, you can use this Mac only script to create the 
 
 Only supports 10.8 and below.
 
-1. Download OS X installation however you wish. Apple provide it free on their Mac App Store such as this: [Yosemite Installation](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12)
-2. Browse the 'Install OS X.app' and extract the InstallESD.dmg file under /Contents/SharedSupport/
-3. Follow one of the options below depending on your operating system:
+1.  Download OS X installation however you wish. Apple provide it free on their Mac App Store such as this: [Yosemite Installation](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12)
+2.  Browse the 'Install OS X.app' and extract the InstallESD.dmg file under /Contents/SharedSupport/
+3.  Follow one of the options below depending on your operating system:
 
 **Windows -** Convert the DMG file to an ISO using dmg2img. I used version 1.65.
 

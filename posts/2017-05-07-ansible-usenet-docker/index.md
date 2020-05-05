@@ -1,13 +1,11 @@
 ---
 title: Deploy Docker containers for Usenet using Ansible
 categories:
-- Computers
-- Linux
-- Virtualisation
-- Server
-- Usenet
+-   Computers
 tags:
-- 
+-   ansible
+-   usenet
+-   docker
 thumbnail: thumbnail.png
 ---
 

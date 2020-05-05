@@ -1,17 +1,13 @@
 ---
-
 title: Monthly Update (11/01/2015)
-
 categories:
-- Monthly Update
+-   Misc
 tags:
-- chromecast
-- distributed switches
-- monthly update
-- nps
-- plex
-tags:
-- 
+-   chromecast
+-   distributed switches
+-   monthly update
+-   nps
+-   plex
 thumbnail: thumbnail.png
 ---
 
@@ -24,11 +20,11 @@ You will also find what I'm currently interested in for the following weeks. If 
 ### Replacing JetPack
 I saw that Jetpack weighed down this site quite a lot (using P3). I found similar plugins that could do features that I wanted from JetPack.
 
-* Stats replaced by [Google Analyticator](https://wordpress.org/plugins/google-analyticator/)
-* Monitor replaced by [Monitor.us](Monitor.us) and [Pingdom](https://www.pingdom.com/).
-* Publicize replaced by [NextScripts: Social Networks Auto-Poster](https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/)
-* Enhanced Distribution replaced with a [Ping List](http://www.zdidit.com/wordpress-ping-list-indexing-post-faster/)
-* Sharing replaced by [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/screenshots/)
+*   Stats replaced by [Google Analyticator](https://wordpress.org/plugins/google-analyticator/)
+*   Monitor replaced by [Monitor.us](Monitor.us) and [Pingdom](https://www.pingdom.com/).
+*   Publicize replaced by [NextScripts: Social Networks Auto-Poster](https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/)
+*   Enhanced Distribution replaced with a [Ping List](http://www.zdidit.com/wordpress-ping-list-indexing-post-faster/)
+*   Sharing replaced by [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/screenshots/)
 
 ### WP-Rocket
 
@@ -97,6 +93,6 @@ I always thought Plex server was nothing more than a bunch of menus that pushed 
 
 ### Currently Interested In:
 
-* Running the UniFi Controller on Linux instead of Windows
-* Getting Spacewalk to work with Debian/Ubuntu
-* Fixing my resume for graduate roles!
+*   Running the UniFi Controller on Linux instead of Windows
+*   Getting Spacewalk to work with Debian/Ubuntu
+*   Fixing my resume for graduate roles!

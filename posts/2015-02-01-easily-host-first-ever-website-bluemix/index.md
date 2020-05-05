@@ -1,15 +1,14 @@
 ---
 title: Easily host your first ever website on Bluemix
 categories:
-- How-To
-- Web
+-   Web
 tags:
-- bluemix
-- hosting
-- ibm
-- wordpress
+-   bluemix
+-   hosting
+-   ibm
+-   wordpress
 tags:
-- 
+-
 thumbnail: thumbnail.png
 ---
 

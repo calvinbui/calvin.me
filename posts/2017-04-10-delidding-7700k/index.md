@@ -1,10 +1,10 @@
 ---
 title: Delidding My 7700K and Results
 categories:
-- Computers
-- How-To
+-   Computers
 tags:
-- 
+-   delid
+-   intel
 thumbnail: thumbnail.png
 ---
 

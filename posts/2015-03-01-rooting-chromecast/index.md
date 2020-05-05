@@ -1,13 +1,11 @@
 ---
 title: Rooting the Chromecast
 categories:
-- Hacking
+-   Hacking
 tags:
-- chromecast
-- hubcap
-- root
-tags:
-- 
+-   chromecast
+-   hubcap
+-   root
 thumbnail: thumbnail.png
 ---
 
@@ -69,7 +67,7 @@ After a while I gave up, it would turn on and keep throwing me the 'Startup Issu
 
 [![JhGf3Se]({{page.images}}jhgf3se.jpg)]({{page.images}}jhgf3se.jpg)
 
-I followed a [very simple guide ](http://forum.xda-developers.com/showthread.php?t=1828032)on how to make an OTG cable. Just by soldering the black and red cables together, I could power my unpowered OTG cable. First I needed a USB Male head to power the cable. I got out a USB Mini cable and snipped it off there.
+I followed a [very simple guide](http://forum.xda-developers.com/showthread.php?t=1828032) on how to make an OTG cable. Just by soldering the black and red cables together, I could power my unpowered OTG cable. First I needed a USB Male head to power the cable. I got out a USB Mini cable and snipped it off there.
 
 [![IMG_20150108_231328]({{page.images}}img_20150108_231328.jpg)]({{page.images}}img_20150108_231328.jpg)
 
@@ -91,7 +89,7 @@ I carefully plugged the Chromecast into my monitor and sat back relieved.
 
 After it was done, I checked the [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) page again to find:
 
-```    
+```
     {"bssid":"","build_version":"17977",
 ```
 

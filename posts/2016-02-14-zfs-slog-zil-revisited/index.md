@@ -1,13 +1,11 @@
 ---
 title: ZFS SLOG/ZIL Drive (Revisited)
 categories:
-- Storage
+-   Storage
 tags:
-- slog
-- zfs
-- zil
-tags:
-- 
+-   zfs
+-   freenas
+-   nas
 thumbnail: thumbnail.png
 ---
 
@@ -124,15 +122,15 @@ Here are the two tests I ran over NFS, ESXi does sync-writes so a SLOG is measu
 
 (But it uses the Internet to download during the Installation so not very accurate)
 
-* With SLOG: 5:31 minutes
-* Without SLOG: 9:18 minutes
+*   With SLOG: 5:31 minutes
+*   Without SLOG: 9:18 minutes
 
 ### Windows 10 Enterprise LTSB Installation
 
 (as soon as it begins writing to the disk)
 
-* With SLOG: 4:20 minutes
-* Without SLOG: 5:28 minutes
+*   With SLOG: 4:20 minutes
+*   Without SLOG: 5:28 minutes
 
 The time difference was very large on Ubuntu however I could not pinpoint it down write speeds due to the installation requiring components to be downloaded over the Internet. Windows 10 however saw only a ~1 minute difference which is no big concern.
 

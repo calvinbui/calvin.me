@@ -1,17 +1,14 @@
 ---
 title: Reset ESXi 6 Evaluation License (cron script included)
 categories:
-- How-To
-- Virtualisation
+-   Virtualisation
 tags:
-- cron
-- esxi
-- evaluation
-- license
-- reset
-- script
-tags:
-- 
+-   cron
+-   esxi
+-   evaluation
+-   license
+-   reset
+-   script
 thumbnail: thumbnail.png
 ---
 
@@ -35,13 +32,13 @@ $ rm -r /etc/vmware/license.cfg
 
 Copy over the new evaluation license, which is already on the host
 
-```terminal    
+```terminal
 $ cp /etc/vmware/.#license.cfg /etc/vmware/license.cfg
 ```
 
 Restart ESXi services
 
-```terminal  
+```terminal
 $ /etc/init.d/vpxa restart
 ```
 
@@ -118,14 +115,14 @@ echo 'Finished'
 
 Test the script and make sure it works (remember to chmod +x)
 
-```terminal    
+```terminal
 $ chmod +x reset-eval.sh
 ./reset-eval.sh
 ```
 
-Add the script to the crontab to make it run on a set schedule (mine is set at 6:05am each day). For each 59 days do '* * 59 * *'
+Add the script to the crontab to make it run on a set schedule (mine is set at 6:05am each day). For each 59 days do `* * 59 * *`
 
-```shell    
+```shell
 /bin/echo "5 6 * * * /vmfs/volumes/ZFS0/reset-eval.sh" >> /var/spool/cron/crontabs/root
 kill $(cat /var/run/crond.pid)
 crond
@@ -133,7 +130,7 @@ crond
 
 Finally add the following to the end of '/etc/rc.local.d/local.sh' to regenerate the job as ESXi clears the crontab on reboot
 
-```terminal    
+```terminal
 $ /bin/kill $(cat /var/run/crond.pid)
 $ /bin/echo "5 6 * * * /vmfs/volumes/ZFS0/reset-eval.sh" >> /var/spool/cron/crontabs/root
 $ crond

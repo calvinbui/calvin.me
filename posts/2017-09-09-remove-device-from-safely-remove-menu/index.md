@@ -1,10 +1,9 @@
 ---
 title: Remove Device from Windows Safely Remove Menu
 categories:
-- How-To
-- Hacks
+-   Computers
 tags:
-- 
+-   windows
 thumbnail: thumbnail.png
 ---
 

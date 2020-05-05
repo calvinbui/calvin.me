@@ -1,9 +1,9 @@
 ---
 title: Dragon Quest Builders Results
 categories:
-- Gaming
+-   Gaming
 tags:
-- 
+-   dragon-quest
 thumbnail: thumbnail.png
 ---
 

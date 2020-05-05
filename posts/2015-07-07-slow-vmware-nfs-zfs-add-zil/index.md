@@ -1,16 +1,13 @@
 ---
 title: Slow VMware NFS on ZFS? Add a ZIL!
 categories:
-- Server
-- Storage
-- Virtualisation
+-   Storage
+-   Virtualisation
 tags:
-- nfs
-- vmware
-- zfs
-- zil
-tags:
-- 
+-   nfs
+-   vmware
+-   zfs
+-   zil
 thumbnail: thumbnail.png
 ---
 
@@ -24,10 +21,10 @@ Even with 20-30 or so VMs, I always found that they were always unresponsive or 
 
 I knew it was down to four main factors: CPU, memory, network or storage.
 
-* It definitely wasn't the CPU as vSphere showed only 25% usage.
-* It might be the memory since I'm a bit cheap and allocate 256MB or 512MB
-* I don't think it's the network since I'm teaming four connections together for 4 gigabits/s
-* I wouldn't assume it to be the storage since I'm mirroring two Samsung 840 Pro SSDs together
+*   It definitely wasn't the CPU as vSphere showed only 25% usage.
+*   It might be the memory since I'm a bit cheap and allocate 256MB or 512MB
+*   I don't think it's the network since I'm teaming four connections together for 4 gigabits/s
+*   I wouldn't assume it to be the storage since I'm mirroring two Samsung 840 Pro SSDs together
 
 #### The Reason
 
@@ -49,7 +46,7 @@ I ended up using an old Intel 60GB SSD (thick provisioned through VMware) onto m
 
 A simple test I do is just performing an apt-update and dist-upgrade on VMs I haven't touched in a while
 
-* Without ZIL: 25 minutes
-* With ZIL: 1 minute!!!!
+*   Without ZIL: 25 minutes
+*   With ZIL: 1 minute!!!!
 
 It was an amazing speed boost. I was amazed how fast everything is right now and why I didn't do this sooner.

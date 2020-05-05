@@ -1,14 +1,12 @@
 ---
 title: Arch Linux on Samsung ARM Chromebook
 categories:
-- How-To
-- Linux
-- Hacking
+-   How-To
+-   Linux
+-   Hacking
 tags:
-- arch linux
-- chromebook
-tags:
-- 
+-   arch linux
+-   chromebook
 thumbnail: thumbnail.png
 ---
 
@@ -230,14 +228,14 @@ $ alsamixer
 
 Go across the page (arrow keys) and press M to unmute
 
-* Left Speaker Mixer Left DAC1
-* Left Speaker Mixer Mono DAC2
-* Left Speaker Mixer Mono DAC3
-* Left Speaker Mixer Right DAC1
-* Right Speaker Mixer Left DAC1
-* Right Speaker Mixer Mono DAC2
-* Right Speaker Mixer Mono DAC3
-* Right Speaker Mixer Right DAC1
+*   Left Speaker Mixer Left DAC1
+*   Left Speaker Mixer Mono DAC2
+*   Left Speaker Mixer Mono DAC3
+*   Left Speaker Mixer Right DAC1
+*   Right Speaker Mixer Left DAC1
+*   Right Speaker Mixer Mono DAC2
+*   Right Speaker Mixer Mono DAC3
+*   Right Speaker Mixer Right DAC1
 
 [![Screenshot at 2016-07-31 20:03:01]({{page.images}}screenshot-at-2016-07-31-200301.png)]({{page.images}}screenshot-at-2016-07-31-200301.png)
 
@@ -257,7 +255,7 @@ $ pacman -S mate-power-manager
 
 The trackpad has a tendency to wake up the computer as almost any movement to the computer will cause it to activate. To disable it from waking the computer during sleep, I use a systemd unit file _/etc/systemd/system/tp-wake-disable.service_
 
-```config  
+```config
 [Unit]
 Description=Disable trackpad waking computer
 
@@ -385,9 +383,9 @@ $ timedatectl set-timezone Australia/Sydney
 
 ### Other Notes
 
-* The trackpad sometimes doesn't work on boot. A restart fixes it (press the power button)
-* Can't seem to get PulseAudio working
-* Two finger clicks that are too wide apart don't register as a right click. Two finger taps do though
-* Current RAM usage for me is 123M, A LOT better than Chrome OS which always sits around 1.5GB
-* Still can't get 720p video to run smoothly. Chrome OS is a bit better here but even then it dies on a 720p60 video. Sticking to 480p seems to be the best thing to do
-* It is possible to get rid having to press CTRL + D on each boot, I did that once and totally forgot how to get it back. I eventually did but it was crazy stuff.
+*   The trackpad sometimes doesn't work on boot. A restart fixes it (press the power button)
+*   Can't seem to get PulseAudio working
+*   Two finger clicks that are too wide apart don't register as a right click. Two finger taps do though
+*   Current RAM usage for me is 123M, A LOT better than Chrome OS which always sits around 1.5GB
+*   Still can't get 720p video to run smoothly. Chrome OS is a bit better here but even then it dies on a 720p60 video. Sticking to 480p seems to be the best thing to do
+*   It is possible to get rid having to press CTRL + D on each boot, I did that once and totally forgot how to get it back. I eventually did but it was crazy stuff.

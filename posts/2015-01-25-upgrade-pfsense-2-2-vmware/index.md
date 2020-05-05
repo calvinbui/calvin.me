@@ -1,16 +1,11 @@
 ---
 title: Upgrade to pfSense 2.2 on VMware
 categories:
-- How-To
-- Networking
-- pfSense
+-   Networking
 tags:
-- fix
-- pfsense
-- upgrade
-- vmware
-tags:
-- 
+-   pfsense
+-   upgrade
+-   vmware
 thumbnail: thumbnail.png
 ---
 
@@ -34,26 +29,26 @@ The second group of users to be affected are those who use packages that bind to
 
 Assuming you are on VMware (as per the blog title), the first best thing to do is perform a snapshot/backup within vCenter/vSphere.
 
-1. Perform the update to 2.2. This is under System > Firmware.
-2. After the system updates and restarts, head over to the VM's console to reassign the interfaces. 
+1.  Perform the update to 2.2. This is under System > Firmware.
+2.  After the system updates and restarts, head over to the VM's console to reassign the interfaces. 
 
 	[![1]({{page.images}}1.png)]({{page.images}}1.png)
 
-3. When asked about VLANs, answer 'no' to be given a list of your current VLANs and their interfaces. 
+3.  When asked about VLANs, answer 'no' to be given a list of your current VLANs and their interfaces. 
 
 	[![2]({{page.images}}2.png)]({{page.images}}2.png)
 
-4. Similar to your first-time setup, enter the matching interfaces for the WAN and LAN (vmx0 and vmx1 I would assume).
-5. When asked about your VLANs, enter the old interface such as vmx3f0_vlan10 (do not enter vmx0_vlan10) as shown earlier.
-6. Enter all interfaces including any optional interfaces you may have (e.g. vmx2, vmx3 etc.).
-7. When you have entered all the interfaces, pfSense will connect to the Internet and upgrade any packages it can find such as snort and squid.
+4.  Similar to your first-time setup, enter the matching interfaces for the WAN and LAN (vmx0 and vmx1 I would assume).
+5.  When asked about your VLANs, enter the old interface such as vmx3f0_vlan10 (do not enter vmx0_vlan10) as shown earlier.
+6.  Enter all interfaces including any optional interfaces you may have (e.g. vmx2, vmx3 etc.).
+7.  When you have entered all the interfaces, pfSense will connect to the Internet and upgrade any packages it can find such as snort and squid.
 
 	[![updating packages]({{page.images}}updating-packages.png)]({{page.images}}updating-packages.png)
 
 	[![Capture (1)]({{page.images}}capture-1.png)]({{page.images}}capture-1.png)
 
-8. Once finished pfSense will return to its usual console menu.
-9. Get a LAN connection. If you are on a VLAN this will not work, you require a LAN connection to reestablish a connection to pfSense.
+8.  Once finished pfSense will return to its usual console menu.
+9.  Get a LAN connection. If you are on a VLAN this will not work, you require a LAN connection to reestablish a connection to pfSense.
 10. Log into the pfSense web configurator and change your VLAN parent interfaces to the new vmx interface.
 
 	[![vlans]({{page.images}}vlans.png)]({{page.images}}vlans.png)
@@ -83,7 +78,7 @@ $ /usr/local/bin/vnstat -u -i vmx0 # replace vmx0 with your preferred interface
 
 To fix the issue with the old interfaces, edit the file /usr/local/www/vnstat2/config.php where it holds the list of interfaces.
 
-```terminal   
+```terminal
 $ vi /usr/local/www/vnstat2/config.php
 ```
 

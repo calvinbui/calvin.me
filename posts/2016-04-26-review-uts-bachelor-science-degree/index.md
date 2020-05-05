@@ -1,15 +1,12 @@
 ---
 title: Review of the UTS Bachelor of Science in IT Degree
 categories:
-- Review
-- Blog
+-   Review
+-   Blog
 tags:
-- bachelor of science in information technology
-- sydney
-- university of technology
-- uts
-tags:
-- 
+-   it degree
+-   university of technology
+-   uts
 thumbnail: thumbnail.png
 ---
 
@@ -212,10 +209,10 @@ After one semester, you have to pick a major without any idea of what you like..
 
 ### Internship
 
-* 31136 Preparation for and Review of IT Experience
-* 31137 IT Experience 1
-* 31138 Review of IT Experience
-* 31139 IT Experience 2
+*   31136 Preparation for and Review of IT Experience
+*   31137 IT Experience 1
+*   31138 Review of IT Experience
+*   31139 IT Experience 2
 
 **Enrolled during**: Autumn & Spring 2014
 
@@ -227,12 +224,12 @@ After one semester, you have to pick a major without any idea of what you like..
 
 **Thoughts**: A Diploma is sandwiched in between Year 3 and 4 as part of the degree which requires taking on four subjects to complete. Do not do the Diploma unless you have to (i.e. the internship requires it). The Diploma is this in a nutshell:
 
-* Find your own job
-* Write a diary of everything you do everyday
-* Write a 5000 page report each semester
-* Make a SWAT analysis of yourself
-* Pay the course fee of $1000
-* In return you will get: nothing.
+*   Find your own job
+*   Write a diary of everything you do everyday
+*   Write a 5000 page report each semester
+*   Make a SWAT analysis of yourself
+*   Pay the course fee of $1000
+*   In return you will get: nothing.
 
 I remember taking on this degree specifically for this 1 year worth of industry experience. What a great trick UTS plays to lure you in. The people in charge at UTS that run this program are horrible to work with. They play favourites when it comes to job applications that have to go through them if an employer wishes to reach out. I attended an afternoon tea with MLC once and most of the teams there were interested in me and thought I would fit in well. Who gets hired? Others with lower GPAs and less English proficiency than me.
 

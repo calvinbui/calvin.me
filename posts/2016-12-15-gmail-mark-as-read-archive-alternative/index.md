@@ -1,11 +1,10 @@
 ---
 title: Gmail Mark As Read Alternative
 categories:
-- How-To
-- Mobile
-- Programming
+-   Mobile
+-   Programming
 tags:
-- 
+-   email
 thumbnail: thumbnail.png
 ---
 
@@ -17,8 +16,8 @@ My first solution to this niggling problem was to use [XNotifications](https://p
 
 The problem with Archiving emails is:
 
-* It does not show up in your inbox if unless you search for it
-* They are not Marked as Read and hence searching for unread emails will also pull them up annoyingly
+*   It does not show up in your inbox if unless you search for it
+*   They are not Marked as Read and hence searching for unread emails will also pull them up annoyingly
 
 ## Solution
 
@@ -32,8 +31,8 @@ I would recommend doing this manually first as there's a daily usage limit on th
 
 The two tags it searches are:
 
-* `label:unread -label:inbox`: Unread emails that are not in the Inbox.
-* `has:nouserlabels -in:Sent -in:Chat -in:Draft -in:Inbox`: Archived emails
+*   `label:unread -label:inbox`: Unread emails that are not in the Inbox.
+*   `has:nouserlabels -in:Sent -in:Chat -in:Draft -in:Inbox`: Archived emails
 
 ```javascript
 // the main run script
@@ -64,14 +63,14 @@ function searchGmail(query) {
 
 ## How to Use
 
-1. Go to [https://script.google.com](https://script.google.com)
-2. Copy and paste the code above into the Editor
-3. Name the Project at the top
-4. Save it
-5. Go to "Resources > Current project's Triggers"
-6. Set up a new trigger with the 'Run' method for every hour or as long as you want.
-7. Press Save
-8. Review the permissions and authorisation  required to access Gmail when prompted
+1.  Go to [https://script.google.com](https://script.google.com)
+2.  Copy and paste the code above into the Editor
+3.  Name the Project at the top
+4.  Save it
+5.  Go to "Resources > Current project's Triggers"
+6.  Set up a new trigger with the 'Run' method for every hour or as long as you want.
+7.  Press Save
+8.  Review the permissions and authorisation  required to access Gmail when prompted
 
 ## Flowchart
 

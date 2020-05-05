@@ -1,12 +1,10 @@
 ---
 title: HTTP/2 Blog Speed Test
 categories:
-- Web
+-   Web
 tags:
-- http/1.1
-- http/2
-tags:
-- 
+-   http
+-   speed test
 thumbnail: thumbnail.png
 ---
 
@@ -30,9 +28,9 @@ Firefox 45.0.1 will be used to perform the tests. Firefox is preferable over bro
 
 I will be running the tests on my Lenovo X220
 
-* Intel i7-2640M
-* 16GB RAM
-* Windows 10 64-bit
+*   Intel i7-2640M
+*   16GB RAM
+*   Windows 10 64-bit
 
 ### Network
 

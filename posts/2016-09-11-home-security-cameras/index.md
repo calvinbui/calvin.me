@@ -1,15 +1,11 @@
 ---
 title: Home Security Cameras Setup
 categories:
-- How-To
-- Security
+-   Security
 tags:
-- cameras
-- hikvision
-- ipcam
-- Security
-tags:
-- 
+-   cameras
+-   hikvision
+-   ipcam
 thumbnail: thumbnail.png
 ---
 
@@ -41,7 +37,7 @@ I connected the switch to my UPS system for when an intruder decides to turn off
 
 ## Video Management System - Milestone XProtect Essential
 
-EDIT: 16/10/16: **Milestone XProtect Essential** is now free! An upgrade over XProtect Go
+EDIT: 16/10/16: **Milestone XProtect Essential**   is now free! An upgrade over XProtect Go
 
 Software (Video Management System) must be used for recording actual footage unless the camera has its own storage (e.g. microSD card) or network storage (NFS/CIFS/SMB). The alternative is to buy an NVR which is a self-contained recording system (an appliance) which the cameras and hard drives plug into. As I already had my own storage and wanted more flexibility, I went did not go down this route.
 
@@ -52,19 +48,19 @@ After trialling a few programs including [Blue Iris](http://blueirissoftware.com
 
 The limitations of the Go version are:
 
-* 5 days of recording: small, but considering the amount of hard drive space required for 3MP @ 15fps, it would be similar to what I would have had with an unlimited amount of days.
-* 8 cameras max: this is okay for now with only 4 cameras. My theoretical maximum being 7 cameras (1 port on the PoE switch is to connect back to the server) 	
-* No motion detection/alerts: built-in motion detection and alerts on the camera itself can overcome with . I will be recording 24/7 so having the cameras only record when it senses motion is not important. 	
-* Popups when starting the Smart Client: easily closed. 	
-* Logo on video exports: The logo is quite big and sits in the bottom right corner. It doesn't appear on playback and live previews however.
+*   5 days of recording: small, but considering the amount of hard drive space required for 3MP @ 15fps, it would be similar to what I would have had with an unlimited amount of days.
+*   8 cameras max: this is okay for now with only 4 cameras. My theoretical maximum being 7 cameras (1 port on the PoE switch is to connect back to the server)
+*   No motion detection/alerts: built-in motion detection and alerts on the camera itself can overcome with . I will be recording 24/7 so having the cameras only record when it senses motion is not important.
+*   Popups when starting the Smart Client: easily closed.
+*   Logo on video exports: The logo is quite big and sits in the bottom right corner. It doesn't appear on playback and live previews however.
 
 The benefits I found of XProtect Go over other Blue Iris, iVMS and Genius Vision are:
 
-* Free program (renew it every year) compared to $80 for Blue Iris. 	
-* Free desktop client separate from the server. All apps tested do not have this feature 	
-* Free mobile apps that are really polished. The Blue Iris app costs $15 and looks like it was released 5 years ago. iVMS also has a good-looking app. 	
-* Accessible through a web interface. Blue Iris has this but it is limited and really ugly. 	
-* Good CPU performance. Blue Iris was chewing up 80% of CPU while XProtect is only at ~10%
+*   Free program (renew it every year) compared to $80 for Blue Iris.
+*   Free desktop client separate from the server. All apps tested do not have this feature
+*   Free mobile apps that are really polished. The Blue Iris app costs $15 and looks like it was released 5 years ago. iVMS also has a good-looking app.
+*   Accessible through a web interface. Blue Iris has this but it is limited and really ugly.
+*   Good CPU performance. Blue Iris was chewing up 80% of CPU while XProtect is only at ~10%
 
 The main selling point to me was **how good the mobile apps were**. This system isn't just for me to use, I'm sure my relatives would like to check in once in a while.
 
@@ -140,9 +136,9 @@ Now that everything's set up and should be humming along, I tackled remote/inter
 
 The ports that you need to forward (but you can change) are:
 
-* 80 - The server itself (I changed it to 81) 	
-* 8081 - HTTP (insecure) web and mobile connection 	
-* 8082 - HTTPS (secure) web and mobile connection
+*   80 - The server itself (I changed it to 81)
+*   8081 - HTTP (insecure) web and mobile connection
+*   8082 - HTTPS (secure) web and mobile connection
 
 #### Milestone NGINX Proxy Configuration
 
@@ -223,5 +219,5 @@ A little complicated but I tried to make it as easy to look at as possible. Of c
 
 ## Future Considerations
 
-* Add 3 indoor cameras
-* Separate Recording and Archival storage to different hard drives. This would reduce the lag and slowdowns during playback.
+*   Add 3 indoor cameras
+*   Separate Recording and Archival storage to different hard drives. This would reduce the lag and slowdowns during playback.

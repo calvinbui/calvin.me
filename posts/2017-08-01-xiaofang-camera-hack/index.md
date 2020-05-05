@@ -1,10 +1,10 @@
 ---
 title: Hacking the Xiaomi Xiaofang Camera
 categories:
-- Programming
-- Hacks
+-   Programming
 tags:
-- 
+-   xiaomi
+-   camera
 thumbnail: thumbnail.png
 ---
 

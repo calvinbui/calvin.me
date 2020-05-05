@@ -1,9 +1,10 @@
 ---
 title: My Ultra Compact Gaming Desktop
 categories:
-- Computers
+-   Computers
 tags:
-- 
+-   sff
+-   mini-itx
 thumbnail: thumbnail.png
 ---
 

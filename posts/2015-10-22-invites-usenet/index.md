@@ -1,12 +1,9 @@
 ---
-comments: false
-
 title: DogNZB, NZB.su and OMGWTFNZB Invites!
-
 categories:
-- Blog
+-   Misc
 tags:
-- 
+-   usenet
 thumbnail: thumbnail.png
 ---
 
@@ -18,6 +15,6 @@ Comment below with your email (to hide from the bots post it like 'myemail (at) 
 
 Currently have:
 
-* 1 x OMGWTFNZB all gone!
-* 4 x DogNZB all gone!
-* 4 x NZB.su all gone!
+*   1 x OMGWTFNZB all gone!
+*   4 x DogNZB all gone!
+*   4 x NZB.su all gone!

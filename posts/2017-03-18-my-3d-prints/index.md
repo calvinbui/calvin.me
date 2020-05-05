@@ -1,9 +1,9 @@
 ---
 title: My 3D Prints
 categories:
-- 3D Printing
+-   Misc
 tags:
-- 
+-   3d-printing
 thumbnail: thumbnail.png
 ---
 

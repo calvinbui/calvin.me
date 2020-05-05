@@ -1,13 +1,11 @@
 ---
 title: A week with an iPhone
 categories:
-- Mobile
-- Review
+-   Mobile
+-   Review
 tags:
-- ios
-- iphone
-tags:
-- 
+-   ios
+-   iphone
 thumbnail: thumbnail.png
 ---
 
@@ -23,10 +21,10 @@ All these smartphone and tablet boxes are real hard to open. Separating the two
 
 Inside is everything as standard:
 
-* iPhone
-* Lightning to USB cable
-* EarPods earphones
-* USB charger
+*   iPhone
+*   Lightning to USB cable
+*   EarPods earphones
+*   USB charger
 
 But all this stuff is rudimentary...let's move on again.
 
@@ -34,18 +32,18 @@ But all this stuff is rudimentary...let's move on again.
 
 I am not a power user but I do use every single feature of my phone. In a regular day, I :
 
-* make phone calls
-* send text messages
-* send WhatsApp messages
-* check Snapchat and Facebook
-* navigate using the GPS
-* watch videos online or locally
-* listen to music
-* check my bank accounts
-* take photos
-* schedule and read my calendar
-* take notes and reminders
-* basically everything
+*   make phone calls
+*   send text messages
+*   send WhatsApp messages
+*   check Snapchat and Facebook
+*   navigate using the GPS
+*   watch videos online or locally
+*   listen to music
+*   check my bank accounts
+*   take photos
+*   schedule and read my calendar
+*   take notes and reminders
+*   basically everything
 
 My key concern for a phone is therefore its features and battery life to achieve all the above in a day.
 
@@ -89,7 +87,7 @@ I guess this is more of a design thing for iOS. Widgets are possible through the
 
 #### DISLIKED: Siri follow up questions
 
-Siri's voice recognition was painful. I like to use voice commands a lot especially on the go when I don't want to be looking down typing in case I walk into something. Simple commands like 'navigate to william** stimson** public school' ends up becoming 'i don't know what william** stinson** public school is'. ARGH! One letter difference in the voice recognition and it couldn't locate the school.
+Siri's voice recognition was painful. I like to use voice commands a lot especially on the go when I don't want to be looking down typing in case I walk into something. Simple commands like 'navigate to william **stimson** public school' ends up becoming 'i don't know what william **stinson** public school is'. ARGH! One letter difference in the voice recognition and it couldn't locate the school.
 
 One time it showed me a potential match it thought was the one so I replied with 'yes', but it turns out Siri doesn't accept follow-up answers/questions as of yet like Google Now does and instead did a search on the word 'yes'...
 

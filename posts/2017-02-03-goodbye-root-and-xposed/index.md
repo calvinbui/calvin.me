@@ -1,10 +1,11 @@
 ---
 title: Goodbye Root and Xposed
 categories:
-- Security
-- Mobile
+-   Security
+-   Mobile
 tags:
-- 
+-   xposed
+-   android
 thumbnail: thumbnail.png
 ---
 

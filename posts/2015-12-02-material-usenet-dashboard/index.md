@@ -1,14 +1,11 @@
 ---
 title: Material Usenet Dashboard
 categories:
-- Programming
-- Usenet
+-   Programming
 tags:
-- dashboard
-- material
-- usenet
-tags:
-- 
+-   dashboard
+-   material
+-   usenet
 thumbnail: thumbnail.png
 ---
 
@@ -18,12 +15,12 @@ A personalised dashboard built using Google's Material Design.
 
 I'm no developer but every year I like to update my personal Usenet dashboard into something better. Material Usenet Dashboard is able to provide:
 
-* Network services and their status e.g. CouchPotato, Sonarr, NZBGet, Transmission
-* TV Shows from Sonarr, and their status
-* Movies from CouchPotato and their status
-* The weather in a chosen location
-* System information such as CPU, memory and disk usage
-* An iFrame which can be filled with anything, but optimised for PRTG Network Maps
+*   Network services and their status e.g. CouchPotato, Sonarr, NZBGet, Transmission
+*   TV Shows from Sonarr, and their status
+*   Movies from CouchPotato and their status
+*   The weather in a chosen location
+*   System information such as CPU, memory and disk usage
+*   An iFrame which can be filled with anything, but optimised for PRTG Network Maps
 
 Here's V1 from 2014. It was reused a lot of code from [d4rk22's Network Status Page](https://github.com/d4rk22/Network-Status-Page). It was very simple, lightweight and got the job done, but the code was horrible as it was my first foray into PHP. You can see the differences between mine and his code from our pictures alone.
 

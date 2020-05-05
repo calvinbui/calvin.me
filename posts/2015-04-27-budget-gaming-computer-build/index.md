@@ -1,13 +1,11 @@
 ---
 title: Budget Gaming Computer Build
 categories:
-- Computers
+-   Computers
 tags:
-- computer build
-- gaming
-- pc
-tags:
-- 
+-   computer build
+-   gaming
+-   pc
 thumbnail: thumbnail.png
 ---
 
@@ -19,13 +17,13 @@ My cousin is a console convert. Previously owning a PS3 and Xbox One, he's move
 
 What I failed to do last time well when [building my girlfriend a PC](https://calvin.me/computer-build-girlfriend/) was gathering her usage and requirements. For a gaming computer it's important to know what games he would play:
 
-* Counter Strike: Global Offensive
-* Far Cry 4
-* Call of Duty
-* League of Legends
-* Battlefield Hardline
-* Borderlands 2
-* Left 4 Dead 2
+*   Counter Strike: Global Offensive
+*   Far Cry 4
+*   Call of Duty
+*   League of Legends
+*   Battlefield Hardline
+*   Borderlands 2
+*   Left 4 Dead 2
 
 Now none of these games besides Far Cry 4 were taxing on typical gaming computer. He wouldn't even mind if it played on Medium or High settings.
 
@@ -33,11 +31,11 @@ Now none of these games besides Far Cry 4 were taxing on typical gaming computer
 
 To reduce the costs a bit I was able to give him a few spare parts for the build.
 
-* **ASUS P8P67 WS Revolution Rev. 3.0 motherboard**: The best motherboard I've ever owned. No one wanted it on eBay or any private forums so I've just kept it around. It's a 1155 socket though so finding a CPU proved a little difficult. This thing comes with EVERYTHING. Serial port connector, USB adapters, USB/eSATA PCI adapter, front panel adapter, debug LED and power/reset switch adapter hell even IEEE 1394 (firewire). It's got a UEFI BIOS board, all its fans ports are PWM and controllable through the BIOS and ASUS includes a bunch of utilities as well.
+*   **ASUS P8P67 WS Revolution Rev. 3.0 motherboard**: The best motherboard I've ever owned. No one wanted it on eBay or any private forums so I've just kept it around. It's a 1155 socket though so finding a CPU proved a little difficult. This thing comes with EVERYTHING. Serial port connector, USB adapters, USB/eSATA PCI adapter, front panel adapter, debug LED and power/reset switch adapter hell even IEEE 1394 (firewire). It's got a UEFI BIOS board, all its fans ports are PWM and controllable through the BIOS and ASUS includes a bunch of utilities as well.
 
 [![ws]({{page.images}}ws.jpg)]({{page.images}}ws.jpg)
 
-* **16GB DDR3 RAM (2 x 8GB CAS10 1600MHz)**: I got so much RAM lying around. Got another 8GB stick doing nothing as well.
+*   **16GB DDR3 RAM (2 x 8GB CAS10 1600MHz)**: I got so much RAM lying around. Got another 8GB stick doing nothing as well.
 
 ## Picking a CPU
 
@@ -99,8 +97,8 @@ If it wasn't for my motherboard and memory, this build would've cost at least $2
 
 If you are looking to build something similar and reduce costs, this where I would do it:
 
-* Get an i5 CPU. They usually go for $50-$100 less.
-* Get a motherboard + CPU combo. You will find many selling both together.
-* Instead of an SSD, go with a fast hard drive e.g. Western Digital Black.
-* There are a few cheaper cases that come with power supplies out there like the Xigamatek Recon or from Cougar.
-* You can go with just 8GB of RAM instead of 16GB. I would not recommend going any lower.
+*   Get an i5 CPU. They usually go for $50-$100 less.
+*   Get a motherboard + CPU combo. You will find many selling both together.
+*   Instead of an SSD, go with a fast hard drive e.g. Western Digital Black.
+*   There are a few cheaper cases that come with power supplies out there like the Xigamatek Recon or from Cougar.
+*   You can go with just 8GB of RAM instead of 16GB. I would not recommend going any lower.

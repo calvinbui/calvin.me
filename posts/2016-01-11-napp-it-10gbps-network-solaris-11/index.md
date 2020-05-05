@@ -1,22 +1,19 @@
 ---
 title: Improve 10Gbps Performance on napp-it (Solaris 11)
 categories:
-- Networking
-- Virtualisation
+-   Networking
+-   Virtualisation
 tags:
-- 10 gigabit network
-- 10gbe
-- 10gbps
-- 10ge
-- '9000'
-- jumbo frames
-- lso
-- mtu
-- napp-it
-- solaris
-- solaris 11
-tags:
-- 
+-   10 gigabit network
+-   10gbe
+-   10gbps
+-   10ge
+-   jumbo frames
+-   lso
+-   mtu
+-   napp-it
+-   solaris
+-   solaris 11
 thumbnail: thumbnail.png
 ---
 
@@ -32,10 +29,10 @@ All networking testing is done using [iPerf](https://iperf.fr) (specifically iP
 
 For my tests I used the following systems all running iperf
 
-* Ubuntu 14.10 Desktop
-* Ubuntu 14.04.3 Server
-* Windows Server 2012 R2
-* Solaris 11 (running napp-it) - most importantly
+*   Ubuntu 14.10 Desktop
+*   Ubuntu 14.04.3 Server
+*   Windows Server 2012 R2
+*   Solaris 11 (running napp-it) - most importantly
 
 ## Enabling Jumbo Frames
 

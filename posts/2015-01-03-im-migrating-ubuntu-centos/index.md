@@ -1,14 +1,10 @@
 ---
-
 title: I'm migrating from Ubuntu to CentOS
-
 categories:
-- Linux
+-   Computers
 tags:
-- centos
-- ubuntu
-tags:
-- 
+-   centos
+-   ubuntu
 thumbnail: thumbnail.png
 ---
 
@@ -18,10 +14,10 @@ I'm migrating from Ubuntu to CentOS as my main Linux distro. Literally every vi
 
 First off, Ubuntu is great. I really love it.
 
-* It eats less memory than CentOS.
-* It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
-* It has more packages than CentOS.
-* It almost always works with any hardware configuration I throw at it.
+*   It eats less memory than CentOS.
+*   It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
+*   It has more packages than CentOS.
+*   It almost always works with any hardware configuration I throw at it.
 
 I'm not hating on Ubuntu, I'm just against it from now on for my own usage - not that I'm telling you to change too. There are just a few niggly things I'm worried about and some decisions Canonical have made which don't bode well with me.
 
@@ -58,4 +54,4 @@ This is Ubuntu's answer to [Red Hat's Satellite](https://access.redhat.com/prod
 
 [![spacewalk-black]({{page.images}}spacewalk-black.png)]({{page.images}}spacewalk-black.png)
 
-System management is tough as it is already (I do it as a job) but without the proper tools it gets a lot harder. Until Ubuntu release a free offshoot there's not much to do except try out other alternatives like [Puppet ](http://puppetlabs.com/)and [Chef](https://www.chef.io/chef/).
+System management is tough as it is already (I do it as a job) but without the proper tools it gets a lot harder. Until Ubuntu release a free offshoot there's not much to do except try out other alternatives like [Puppet](http://puppetlabs.com/) and [Chef](https://www.chef.io/chef/).
