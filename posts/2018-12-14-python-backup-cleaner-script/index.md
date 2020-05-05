@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: python-backup-cleaner-script
 title: Python Backup Cleaner Script
 categories:
 - Storage
 - Virtualisation
-image: /assets/images/2018-12-14-python-backup-cleaner-script/featured-image.jpg
-images:  /assets/images/2018-12-14-python-backup-cleaner-script/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A Python script I've written to clean up old backups, keeping only the newest specified amount.

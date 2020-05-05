@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-02 14:41:54+00:00
-layout: post
-slug: port-forward-web-servers-in-pfsense-2
 title: Port Forward Web Servers In pfSense 2
 categories:
 - Networking
@@ -14,8 +9,9 @@ tags:
 - pfsense
 - port forward
 - web server
-image: /assets/images/2014-09-02-port-forward-web-servers-in-pfsense-2/featured-image.jpg 
-images: /assets/images/2014-09-02-port-forward-web-servers-in-pfsense-2/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Web servers are configured to run on port 80 (HTTP) and 443 (HTTPS). pfSense, as a firewall, blocks all incoming connections to your network from the outside world.

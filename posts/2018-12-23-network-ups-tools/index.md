@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: network-ups-tools
 title: Network UPS Tools
 categories:
 - Storage
 - Virtualisation
-image: /assets/images/2018-12-23-network-ups-tools/featured-image.jpg
-images:  /assets/images/2018-12-23-network-ups-tools/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Notify servers of network power loss so they begin shutting down.

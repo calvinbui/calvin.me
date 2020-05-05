@@ -1,16 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-08-24 08:56:51+00:00
-layout: post
-slug: weekly-update-2482014
 title: The Weekly Update (24/8/2014)
 categories:
 - Monthly Update
 tags:
 - weekly update
-image: /assets/images/2014-08-24-weekly-update-2482014/featured-image.jpg
-images: /assets/images/2014-08-24-weekly-update-2482014/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the weekly update, I bring you what I've been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides. You will also find what I'm currently interested in for the following weeks. If something doesn't have a link, I may cover it myself in the future because I couldn't find much about it online. <!-- more -->

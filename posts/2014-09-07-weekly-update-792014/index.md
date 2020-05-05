@@ -1,16 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-07 14:02:16+00:00
-layout: post
-slug: weekly-update-792014
 title: The Weekly Update (7/9/2014)
 categories:
 - Monthly Update
 tags:
 - weekly update
-image: /assets/images/2014-09-07-weekly-update-792014/featured-image.jpg
-images: /assets/images/2014-09-07-weekly-update-792014/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

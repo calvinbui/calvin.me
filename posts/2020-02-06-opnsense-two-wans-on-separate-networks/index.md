@@ -1,10 +1,10 @@
 ---
 title: "OPNsense: Two WANs on Separate Networks"
 categories:
-- networking
-- how-to
+-   Networking
 tags:
-- opnsense
+-   opnsense
+
 ---
 
 How to use a different WAN interface on different internal networks within OPNsense.
@@ -23,8 +23,8 @@ I've visualised the goal with this diagram:
 
 In this guide I will have two networks:
 
-- `Granny`: The Granny flat's network
-- `My internal networks`: My networks.
+-   `Granny`: The Granny flat's network
+-   `My internal networks`: My networks.
 
 ## Firewall Rules
 

@@ -1,17 +1,13 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-08-06 00:00:00 +1000
-layout: post
-slug: hsts-with-traefik
 title: HSTS with Traefik
 categories:
 - Web
 - Networking
 - How-To
 - Security
-image: /assets/images/2019-08-06-hsts-with-traefik/featured-image.jpg
-images: /assets/images/2019-08-06-hsts-with-traefik/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 The settings to get an A+ rating on SSL Labs!

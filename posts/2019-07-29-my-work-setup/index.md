@@ -1,14 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-07-29 00:00:00 +1000
-layout: post
-slug: my-work-setup
 title: My Work Setup
 categories:
 - Computers
-image: /assets/images/2019-07-29-my-work-setup/featured-image.jpg
-images: /assets/images/2019-07-29-my-work-setup/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Look at how many screens I've got!

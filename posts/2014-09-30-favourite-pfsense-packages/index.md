@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-30 23:53:44+00:00
-layout: post
-slug: favourite-pfsense-packages
 title: The Best pfSense Packages
 categories:
 - pfSense
@@ -11,8 +6,9 @@ categories:
 tags:
 - packages
 - pfsense
-image: /assets/images/2014-09-30-favourite-pfsense-packages/featured-image.jpg
-images: /assets/images/2014-09-30-favourite-pfsense-packages/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 pfSense, the great software that it already is, can get even better with 'packages' (plugin, extension etc. whatever you want to call it) available straight from the Package Manager menu. pfSense packages include diagnostics, increased network management capabilities, enhanced security or to extend pfSense's range of services. Here are the pfSense packages that I use personally plus some highly recommended ones as well!

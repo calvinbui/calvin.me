@@ -1,10 +1,5 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-10-31 10:23:30+00:00
-layout: post
 
-slug: web-interface-for-esxi-without-vcenter
 title: Web Interface for ESXi without vCenter
 
 categories:
@@ -14,8 +9,9 @@ tags:
 - esxi
 - vmware
 - web interface
-image: /assets/images/2015-10-31-web-interface-for-esxi-without-vcenter/featured-image.jpg 
-images: /assets/images/2015-10-31-web-interface-for-esxi-without-vcenter/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 It's now possible to manage standalone ESXi hosts with not only the Windows vSphere Client or vCenter, but with a web interface for ESXi !

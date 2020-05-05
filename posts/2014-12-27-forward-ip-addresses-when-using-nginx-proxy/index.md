@@ -1,10 +1,5 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-12-27 23:44:25+00:00
-layout: post
 
-slug: forward-ip-addresses-when-using-nginx-proxy
 title: Forward IP Addresses with NGINX Proxy
 
 categories:
@@ -15,8 +10,9 @@ tags:
 - ip address
 - nginx
 - proxy
-image: /assets/images/2014-12-27-forward-ip-addresses-when-using-nginx-proxy/featured-image.jpg 
-images: /assets/images/2014-12-27-forward-ip-addresses-when-using-nginx-proxy/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I love nginx. I love how its lightweight, does what it does well and is [extremely **fast**](http://www.theorganicagency.com/apache-vs-nginx-performance-comparison/). Nginx has the ability to perform server blocks (virtual hosts in Apache) which is great, though causes problems when having to forward IP addresses within its proxy headers. There is a solution.

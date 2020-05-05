@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-04-26 11:00:13+00:00
-layout: post
-slug: review-uts-bachelor-science-degree
 title: Review of the UTS Bachelor of Science in IT Degree
 categories:
 - Review
@@ -13,8 +8,9 @@ tags:
 - sydney
 - university of technology
 - uts
-image: /assets/images/2016-04-26-review-uts-bachelor-science-degree/featured-image.jpg
-images: /assets/images/2016-04-26-review-uts-bachelor-science-degree/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Today I graduate from UTS with my Bachelor of Science in IT degree.

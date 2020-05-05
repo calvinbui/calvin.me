@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: xiaofang-camera-hack
 title: Hacking the Xiaomi Xiaofang Camera
 categories:
 - Programming
 - Hacks
-image: /assets/images/2017-08-01-xiaofang-camera-hack/featured-image.jpg
-images:  /assets/images/2017-08-01-xiaofang-camera-hack/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Hacking a $25 indoor camera to do more than it's worth.

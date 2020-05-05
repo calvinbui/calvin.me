@@ -1,8 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: ansible-usenet-docker
 title: Deploy Docker containers for Usenet using Ansible
 categories:
 - Computers
@@ -10,8 +6,9 @@ categories:
 - Virtualisation
 - Server
 - Usenet
-image: /assets/images/2017-05-07-ansible-usenet-docker/featured-image.jpg
-images:  /assets/images/2017-05-07-ansible-usenet-docker/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I made a Ansible playbook to deploy Docker containers containing Usenet applications.

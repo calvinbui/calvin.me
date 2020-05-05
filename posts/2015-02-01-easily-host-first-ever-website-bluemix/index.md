@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-02-01 05:11:07+00:00
-layout: post
-slug: easily-host-first-ever-website-bluemix
 title: Easily host your first ever website on Bluemix
 categories:
 - How-To
@@ -13,8 +8,9 @@ tags:
 - hosting
 - ibm
 - wordpress
-image: /assets/images/2015-02-01-easily-host-first-ever-website-bluemix/featured-image.jpg 
-images: /assets/images/2015-02-01-easily-host-first-ever-website-bluemix/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 You don’t need to be an IT nerd to start and manage a website – at least not when using [IBM Bluemix](https://console.ng.bluemix.net/). Bluemix takes the worry out of setting up a website. It’s a lot of work configuring a web server, opening network ports and dealing with your home Internet’s upload speed. It’s also most likely against the conditions of your Internet Service Provider to allow hosting at any of their residential plans. Bluemix can host your website though.

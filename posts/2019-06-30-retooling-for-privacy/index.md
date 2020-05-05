@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-06-30 00:00:00 +1000
-layout: post
-slug: retooling-for-privacy
 title: Retooling for Privacy
 categories:
 - Security
 - Privacy
-image: /assets/images/2019-06-30-retooling-for-privacy/featured-image.jpg
-images: /assets/images/2019-06-30-retooling-for-privacy/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 The applications and tools I've started using to increase my privacy and security.

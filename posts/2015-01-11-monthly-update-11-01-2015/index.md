@@ -1,10 +1,5 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-01-11 08:27:19+00:00
-layout: post
 
-slug: monthly-update-11-01-2015
 title: Monthly Update (11/01/2015)
 
 categories:
@@ -15,8 +10,9 @@ tags:
 - monthly update
 - nps
 - plex
-image: /assets/images/2015-01-11-monthly-update-11-01-2015/featured-image.jpg
-images: /assets/images/2015-01-11-monthly-update-11-01-2015/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

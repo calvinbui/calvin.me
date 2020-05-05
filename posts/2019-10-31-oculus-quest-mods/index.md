@@ -1,14 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-10-31 00:00:00 +1000
-layout: post
-slug: oculus-quest-mods
 title: Oculus Quest Mods
 categories:
 - Gaming
-image: /assets/images/2019-10-31-oculus-quest-mods/featured-image.jpg
-images: /assets/images/2019-10-31-oculus-quest-mods/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A look at all the mods I've thrown into my Oculus Quest all-in-one VR gaming headset.

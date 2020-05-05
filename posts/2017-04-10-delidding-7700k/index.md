@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: delidding-7700k
 title: Delidding My 7700K and Results
 categories:
 - Computers
 - How-To
-image: /assets/images/2017-04-10-delidding-7700k/featured-image.jpg
-images:  /assets/images/2017-04-10-delidding-7700k/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I dropped my Intel i7 7700K a total of 15 degrees at load and 6 degrees at idle. You can stop reading if you that's all you wanted to know :yum:

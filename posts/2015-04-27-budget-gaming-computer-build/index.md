@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-04-27 21:19:54+00:00
-layout: post
-slug: budget-gaming-computer-build
 title: Budget Gaming Computer Build
 categories:
 - Computers
@@ -11,8 +6,9 @@ tags:
 - computer build
 - gaming
 - pc
-image: /assets/images/2015-04-27-budget-gaming-computer-build/featured-image.jpg
-images: /assets/images/2015-04-27-budget-gaming-computer-build/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 My cousin is a console convert. Previously owning a PS3 and Xbox One, he's moved over to exclusively gaming on his laptop. After realising how bad laptops are for gaming (they're bad), he's asked me to build him a budget gaming computer for less than $1000.

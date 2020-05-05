@@ -1,10 +1,5 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-07-27 17:34:09+00:00
-layout: post
 
-slug: bypass-certificate-errors-chrome
 title: Bypass self-signed certificate errors on Google Chrome
 
 categories:
@@ -15,8 +10,9 @@ tags:
 - certificates
 - chrome
 - ssl
-image: /assets/images/2015-07-27-bypass-certificate-errors-chrome/featured-image.jpg 
-images: /assets/images/2015-07-27-bypass-certificate-errors-chrome/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of one to bypass certificate errors?!

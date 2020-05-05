@@ -1,16 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-03-08 07:37:41+00:00
-layout: post
-slug: monthly-update-february-2015
 title: Monthly Update (February 2015)
 categories:
 - Monthly Update
 tags:
 - monthly update
-image: /assets/images/2015-03-08-monthly-update-february-2015/featured-image.jpg
-images: /assets/images/2015-03-08-monthly-update-february-2015/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the monthly update, I like to cover what I've been doing throughout the past month in regards to technology, computers and more.

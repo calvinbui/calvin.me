@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-02-15 02:52:26+00:00
-layout: post
-slug: homepage-status-monitor
 title: My Homepage Status Monitoring Application
 categories:
 - Programming
@@ -13,8 +8,9 @@ tags:
 - mean
 - monitoring
 - status
-image: /assets/images/2015-02-15-homepage-status-monitor/featured-image.jpg
-images: /assets/images/2015-02-15-homepage-status-monitor/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Home is an application I developed last year (Nov-Dec) while learning the MEAN (MongoDB, Express, Angular and NodeJS) stack. It's a homepage status monitor, more or less a glorified bookmark/favourites tool with the ability to scan if ports are open or closed on a host.

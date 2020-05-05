@@ -1,18 +1,14 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-12-24 00:00:00 +1000
-layout: post
-slug: migrating-from-vms-to-docker
 title: Migrating from VMs to Docker
 categories:
-- Networking
-- Server
-- How-To
-- Linux
-- Virtualisation
-image: /assets/images/2019-12-24-migrating-from-vms-to-docker/featured-image.jpg
-images: /assets/images/2019-12-24-migrating-from-vms-to-docker/
+-   Networking
+-   Server
+-   How-To
+-   Linux
+-   Virtualisation
+tags:
+-
+thumbnail: thumbnail.png
 ---
 
 My journey from VMware ESXi to purely Docker.

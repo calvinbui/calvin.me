@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-01-11 16:29:24+00:00
-layout: post
-slug: napp-it-10gbps-network-solaris-11
 title: Improve 10Gbps Performance on napp-it (Solaris 11)
 categories:
 - Networking
@@ -20,8 +15,9 @@ tags:
 - napp-it
 - solaris
 - solaris 11
-image: /assets/images/2016-01-11-napp-it-10gbps-network-solaris-11/featured-image.jpg
-images: /assets/images/2016-01-11-napp-it-10gbps-network-solaris-11/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 While it can be difficult to have a transfer speed of 1.25GB per second (10Gbp/s), it wouldn't hurt to make sure it works well right?

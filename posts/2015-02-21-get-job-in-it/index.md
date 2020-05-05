@@ -1,17 +1,13 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-02-21 23:41:35+00:00
-layout: post
-slug: get-job-in-it
 title: Getting a Job in I.T.
 categories:
 - Blog
 tags:
 - advice
 - IT
-image: /assets/images/2015-02-21-get-job-in-it/featured-image.jpg
-images: /assets/images/2015-02-21-get-job-in-it/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 This is a talk I gave during my time at IBM to University of Western Sydney students who came for a site visit. They were all roughly my age (late teens, early twenties), with many looking for job opportunities such as internships, scholarships and graduate positions.

@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: usenet-provider-speed-tests
 title: Usenet Providers Speed Test from Sydney
 categories:
 - Usenet
 - Web
-image: /assets/images/2016-12-08-usenet-speed-test/featured-image.jpg
-images:  /assets/images/2016-12-08-usenet-speed-test/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I signed up for a few trials before the Black Friday sales to test out some different providers and their download speeds.

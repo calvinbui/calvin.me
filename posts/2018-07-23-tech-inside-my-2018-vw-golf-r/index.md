@@ -1,14 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2018-07-23 00:12:00+10:00
-layout: post
-slug: tech-inside-my-2018-vw-golf-r
 title: Tech Inside My 2018 VW Golf R
 categories:
 - Misc
-image: /assets/images/2018-07-23-tech-inside-my-2018-vw-golf-r/featured-image.jpg
-images: /assets/images/2018-07-23-tech-inside-my-2018-vw-golf-r/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I bought a new 2018 Volkswagen Golf R Wolfsburg Edition back in February. One of the main things I wanted was a car with a lot of features and this one stood out above the rest.

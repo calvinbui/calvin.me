@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-11-16 00:41:07+00:00
-layout: post
-slug: nginx-ldap-http-authentication
 title: NGINX LDAP HTTP Authentication
 categories:
 - How-To
@@ -14,8 +9,9 @@ tags:
 - http authentication
 - ldap
 - nginx
-image: /assets/images/2014-11-16-nginx-ldap-http-authentication/featured-image.jpg 
-images: /assets/images/2014-11-16-nginx-ldap-http-authentication/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I expose a few of my web services over the Internet like [SABnzbd](http://sabnzbd.org/), [CouchPotato](https://couchpota.to/) and NZBDrone (now known as [Sonarr](https://sonarr.tv/)). Whilst they all have HTTP authentication, they don't support multiple users. LDAP or Active Directory holds multiple user accounts, for authentication purpose. So putting two and two together, [kvspb ](https://github.com/kvspb)has made a [NGINX LDAP module](https://github.com/kvspb/nginx-auth-ldap) which authenticates users against your LDAP or Active Directory servers when they visit specific web pages.

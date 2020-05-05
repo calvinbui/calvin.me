@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-09-29 00:00:00 +1000
-layout: post
-slug: retooling-for-privacy-part-2
 title: Retooling for Privacy Part 2
 categories:
 - Security
 - Privacy
-image: /assets/images/2019-09-29-retooling-for-privacy-part-2/featured-image.jpg
-images: /assets/images/2019-09-29-retooling-for-privacy-part-2/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 More I've done for my online privacy since my [previous post]({{ site.baseurl }}{% post_url 2019-06-30-retooling-for-privacy %}).

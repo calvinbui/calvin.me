@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-08-23 12:47:43+00:00
-layout: post
-slug: part-1-install-pfsense-on-esxi-5-5
 title: 'Part 1: Install pfSense on ESXi'
 categories:
 - pfSense
@@ -14,8 +9,9 @@ tags:
 - pfsense
 - virtualised
 - vmware
-image: /assets/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/featured-image.jpg
-images: /assets/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 pfSense is an open source firewall/router based on FreeBSD. It is more than just however, with the ability to be a DNS, VPN, IDS/IPS, DHCP, NTP and cache (using Squid). Why would you dedicate a full system to pfSense when it can easily run as a virtual machine to provide networking to your entire infrastructure.  This guide will walk you through replacing your current router with pfSense and how to install pfSense on ESXi.

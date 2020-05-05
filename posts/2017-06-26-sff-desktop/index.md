@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: sff-desktop
 title: My Ultra Compact Gaming Desktop
 categories:
 - Computers
-image: /assets/images/2017-06-26-sff-desktop/featured-image.jpg
-images:  /assets/images/2017-06-26-sff-desktop/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!

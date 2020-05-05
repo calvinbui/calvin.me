@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: remove-device-from-safely-remove-menu
 title: Remove Device from Windows Safely Remove Menu
 categories:
 - How-To
 - Hacks
-image: /assets/images/2017-09-09-remove-device-from-safely-remove-menu/featured-image.jpg
-images:  /assets/images/2017-09-09-remove-device-from-safely-remove-menu/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A step-by-step guide to remove unwanted devices such as DVD drives, USB drives, capture cards and permanently attached hard drives from appearing in Window's Safely Remove and Eject Media.

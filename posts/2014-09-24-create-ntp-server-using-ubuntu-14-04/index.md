@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-24 00:43:05+00:00
-layout: post
-slug: create-ntp-server-using-ubuntu-14-04
 title: Create an NTP Server using Ubuntu 14.04
 categories:
 - How-To
@@ -14,8 +9,9 @@ tags:
 - linux
 - ntp
 - ubuntu
-image: /assets/images/2014-09-24-create-ntp-server-using-ubuntu-14-04/featured-image.jpg 
-images: /assets/images/2014-09-24-create-ntp-server-using-ubuntu-14-04/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Network Time Protocol (NTP) is a networking protocol for time and date synchronisation between computers. By default, Windows 7 provides five servers (default being time.windows.com) to synchronise with. Time varies based on network latency however with tens of milliseconds over the Internet and almost one millisecond on LAN. Having a NTP server also reduces the amount of calls to the Internet made by hosts and achieves a better system time for all computers that rely on performance, integration and timeliness. Luckily a NTP server is very easy to build on Linux.

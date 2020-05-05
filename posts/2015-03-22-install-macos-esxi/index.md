@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-03-22 05:44:45+00:00
-layout: post
-slug: install-macos-esxi
 title: Install macOS on ESXi
 categories:
 - How-To
@@ -15,8 +10,9 @@ tags:
 - mac os x
 - macOS
 - vmware
-image: /assets/images/2015-03-22-install-macos-esxi/featured-image.jpg
-images: /assets/images/2015-03-22-install-macos-esxi/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 UPDATE 18/10/16: Changed to support 10.12

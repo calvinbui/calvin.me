@@ -1,16 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-11-28 00:00:00 +1000
-layout: post
-slug: install-ubuntu-18.04-on-raid1
 title: Install Ubuntu 18.04 on RAID1
 categories:
 - How-To
 - Linux
 - Computers
-image: /assets/images/2019-11-28-install-ubuntu-18.04-on-raid1/featured-image.jpg
-images: /assets/images/2019-11-28-install-ubuntu-18.04-on-raid1/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Create a RAID1 (mirroring) array and install Ubuntu 18.04 onto it.

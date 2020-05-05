@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-12-17 03:03:55+00:00
-layout: post
-slug: reset-esxi-evaluation-license
 title: Reset ESXi 6 Evaluation License (cron script included)
 categories:
 - How-To
@@ -15,8 +10,9 @@ tags:
 - license
 - reset
 - script
-image: /assets/images/2015-12-17-reset-esxi-evaluation-license/featured-image.jpg 
-images: /assets/images/2015-12-17-reset-esxi-evaluation-license/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 *For testing and educational purposes only*

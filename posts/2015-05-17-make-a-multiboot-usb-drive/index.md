@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-05-17 08:18:51+00:00
-layout: post
-slug: make-a-multiboot-usb-drive
 title: Make A Multiboot USB Drive
 categories:
 - How-To
@@ -13,8 +8,9 @@ tags:
 - system admin
 - tool
 - usb
-image: /assets/images/2015-05-17-make-a-multiboot-usb-drive/featured-image.jpg
-images: /assets/images/2015-05-17-make-a-multiboot-usb-drive/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 For my job and as a system admin, I'm expected to provide quick fixes and know the solution to every single problem that my users face. That is why I need a tool that just works wherever I bring it and that tool is my USB drive. It can rescue systems from death, scan for viruses, partition drives, install Linux or Windows but best of all it's on a light and speedy portable SSD!

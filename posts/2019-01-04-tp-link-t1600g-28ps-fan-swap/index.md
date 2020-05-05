@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-01-04 00:00:00 +1000
-layout: post
-slug: tp-link-t1600g-28ps-fan-swap
 title: TP-Link T1600G-28PS Fan Swap
 categories:
 - Networking
 - How-To
-image: /assets/images/2019-01-04-tp-link-t1600g-28ps-fan-swap/featured-image.jpg
-images: /assets/images/2019-01-04-tp-link-t1600g-28ps-fan-swap/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 The TP-Link T1600G-28PS (TL-SG2424P) network switch has really loud fans, but they can be swapped to quieter ones.

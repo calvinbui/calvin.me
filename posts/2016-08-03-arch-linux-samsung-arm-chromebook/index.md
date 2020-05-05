@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-08-03 11:04:12+00:00
-layout: post
-slug: arch-linux-samsung-arm-chromebook
 title: Arch Linux on Samsung ARM Chromebook
 categories:
 - How-To
@@ -12,8 +7,9 @@ categories:
 tags:
 - arch linux
 - chromebook
-image: /assets/images/2016-08-03-arch-linux-samsung-arm-chromebook/featured-image.jpg
-images: /assets/images/2016-08-03-arch-linux-samsung-arm-chromebook/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 This is an up-to-date collation of everything to get a good working base for Arch Linux on the Samsung ARM Chromebook XE303C12.

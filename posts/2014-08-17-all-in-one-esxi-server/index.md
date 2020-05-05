@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-08-17 11:11:50+00:00
-layout: post
-slug: all-in-one-esxi-server
 title: My All In One ESXi Server
 categories:
 - Server
@@ -11,8 +6,9 @@ tags:
 - esxi
 - server
 - zfs
-image: /assets/images/2014-08-17-all-in-one-esxi-server/featured-image.jpg 
-images: /assets/images/2014-08-17-all-in-one-esxi-server/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Since the start of the year I've been working as a Technical Consultant at IBM. It's been a great experience, putting a lot of knowledge into practice with enterprise-grade hardware and software. The infrastructure at work is as you would expect with a lot of services and applications that are well thought out and easily to use. I wanted to learn a lot more about all the stuff at work so I came up with the idea to build my own ESXi whitebox at home (we use [VMware ](http://www.vmware.com)at work) to do some self-learning and have fun while doing it. Having a 'homelab' would give me the opportunity to learn a lot more about the stuff I love. This is the build.

@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: wordpress-to-jekyll
 title: Now powered by Jekyll
 categories:
 - Blog
-image: /assets/images/2016-12-01-wordpress-to-jekyll/featured-image.jpg
-images:  /assets/images/2016-12-01-wordpress-to-jekyll/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I've made the leap over from WordPress to Jekyll. Static sites are just easier, faster and more secure :thumbsup:

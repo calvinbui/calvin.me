@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-08-23 13:00:14+00:00
-layout: post
-slug: part-2-install-pfsense-esxi-5-5
 title: 'Part 2: Install pfSense on ESXi 5.5'
 categories:
 - pfSense
@@ -14,8 +9,9 @@ tags:
 - pfsense
 - virtualised
 - vmware
-image: /assets/images/2014-08-23-part-2-install-pfsense-esxi-5-5/featured-image.jpg
-images: /assets/images/2014-08-23-part-2-install-pfsense-esxi-5-5/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In Part 2 of my virtualised pfSense installation on ESXi 5.5 we will be specifying the network interfaces for pfSense, configuring the LAN interface as well as connecting to the pfSense web interface. [Part 1 can be found here](/part-1-install-pfsense-on-esxi-5-5/).

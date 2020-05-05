@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-04 10:53:19+00:00
-layout: post
-slug: create-zfs-raid-10-array-napp
 title: How To Create a ZFS RAID 10 Array
 categories:
 - How-To
@@ -12,8 +7,9 @@ tags:
 - napp-it
 - RAID
 - zfs
-image: /assets/images/2014-09-04-create-zfs-raid-10-array-napp/featured-image.jpg
-images: /assets/images/2014-09-04-create-zfs-raid-10-array-napp/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 [RAID 10](http://en.wikipedia.org/wiki/Nested_RAID_levels#RAID_1.2B0) is great as a highly reliable storage array for your personal files. The [ZFS file-system](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is capable of protecting your data against corruption, but not against hardware failures. ZFS however implements [RAID-Z](http://en.wikipedia.org/wiki/Non-standard_RAID_levels#RAID-Z) (RAID 5, 6 and 7) to ensure redundancy across multiple drives. RAID 10 (1+0 or mirror + stripe) is not offered as a choice in ZFS but can be easily done manually for a similar effect. This guide will be focused on [nappit ](http://www.napp-it.org/index_en.html)but can be modified for whichever ZFS platform you are using.

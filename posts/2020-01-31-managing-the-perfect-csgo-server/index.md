@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2020-01-31 00:00:00 +1000
-layout: post
-slug: managing-the-perfect-csgo-server
 title: Managing the Perfect CS:GO Server
 categories:
-- Gaming
-- Server
-image: /assets/images/2020-01-31-managing-the-perfect-csgo-server/featured-image.jpg
-images: /assets/images/2020-01-31-managing-the-perfect-csgo-server/
+-   Gaming
+tags:
+-   csgo
+-   autopilot
+thumbnail: thumbnail.png
 ---
 
 Everything learnt from managing the Counter-Strike server at work.
@@ -50,11 +46,11 @@ We ran a competitive ranking ladder using the [RankMe plugin](https://forums.all
 
 It was all fun and games until it wasn't. What I found was:
 
-- Players were focused on individual performances as there weren't set teams
-- Players felt the need to use the best guns rather than experimenting
-- CT Players would play too safe and let the bomb explode or round timer end
-- We began to lose players as a clear gap begin appearing good and bad performers
-- The lunchtime _casual_ nature of Counter-Strike became too competitive
+-   Players were focused on individual performances as there weren't set teams
+-   Players felt the need to use the best guns rather than experimenting
+-   CT Players would play too safe and let the bomb explode or round timer end
+-   We began to lose players as a clear gap begin appearing good and bad performers
+-   The lunchtime _casual_ nature of Counter-Strike became too competitive
 
 With blessing from the CEO, the ranking system was removed and games became fun again.
 
@@ -62,11 +58,11 @@ With blessing from the CEO, the ranking system was removed and games became fun 
 
 These are the current mods I've set up (also available in the Ansible repo linked before):
 
-- [Quake Sounds](https://forums.alliedmods.net/showthread.php?t=224316) - announcements of headshots, first-bloods and multi-kills.
-- [Fortnite Emotes](https://forums.alliedmods.net/showthread.php?p=2668778) - a fun plugin to use once you win a round
-- [Weapons & Knives](https://forums.alliedmods.net/showthread.php?t=298770) - the official skins but available for free
-- [Gloves](https://forums.alliedmods.net/showthread.php?t=299977) - same as weapons and knives, but gloves
-- [Fortnite Damage](https://forums.alliedmods.net/showthread.php?t=309218) - displays damage in real-time
+-   [Quake Sounds](https://forums.alliedmods.net/showthread.php?t=224316) - announcements of headshots, first-bloods and multi-kills.
+-   [Fortnite Emotes](https://forums.alliedmods.net/showthread.php?p=2668778) - a fun plugin to use once you win a round
+-   [Weapons & Knives](https://forums.alliedmods.net/showthread.php?t=298770) - the official skins but available for free
+-   [Gloves](https://forums.alliedmods.net/showthread.php?t=299977) - same as weapons and knives, but gloves
+-   [Fortnite Damage](https://forums.alliedmods.net/showthread.php?t=309218) - displays damage in real-time
 
 When [Operation Shattered Web](https://counter-strike.net/shatteredweb) release in November, it broke a few of the plugins above so if something's wrong, disable plugins and wait for an update.
 

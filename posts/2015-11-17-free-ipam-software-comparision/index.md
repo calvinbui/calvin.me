@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-11-17 16:20:23+00:00
-layout: post
-slug: free-ipam-software-comparision
 title: Free IPAM Software Comparision
 categories:
 - Networking
@@ -12,8 +7,9 @@ tags:
 - comparison
 - free
 - ipam
-image: /assets/images/2015-11-17-free-ipam-software-comparision/featured-image.jpg
-images: /assets/images/2015-11-17-free-ipam-software-comparision/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!

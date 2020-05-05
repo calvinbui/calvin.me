@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-04-20 00:00:00 +1000
-layout: post
-slug: choosing-a-vpn-service
 title: Choosing a VPN Service
 categories:
 - Security
 - Privacy
-image: /assets/images/2019-04-20-choosing-a-vpn-service/featured-image.jpg
-images: /assets/images/2019-04-20-choosing-a-vpn-service/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 The entire process and tough criteria I went through to pick a VPN provider and escape mass surveillance.

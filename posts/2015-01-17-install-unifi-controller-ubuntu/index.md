@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-01-17 20:54:06+00:00
-layout: post
-slug: install-unifi-controller-ubuntu
 title: How to install the UniFi Controller on Ubuntu
 categories:
 - How-To
@@ -14,8 +9,9 @@ tags:
 - Ubiquiti
 - ubuntu
 - unifi controller
-image: /assets/images/2015-01-17-install-unifi-controller-ubuntu/featured-image.jpg 
-images: /assets/images/2015-01-17-install-unifi-controller-ubuntu/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 **POST UP TO DATE 19/08/2015**

@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-08-24 05:05:15+00:00
-layout: post
-slug: part-4-install-pfsense-esxi-5-5
 title: 'Part 4: Install pfSense on ESXi 5.5'
 categories:
 - pfSense
@@ -14,8 +9,9 @@ tags:
 - pfsense
 - virtualised
 - vmware
-image: /assets/images/2014-08-24-part-4-install-pfsense-esxi-5-5/featured-image.jpg
-images: /assets/images/2014-08-24-part-4-install-pfsense-esxi-5-5/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Now that our pfSense installation is set up and working, we will have to wrap up our installation with a few necessities such as VMware Tools. You can find follow along our installation in [Part 1](/part-1-install-pfsense-on-esxi-5-5/), [Part 2](/part-2-install-pfsense-esxi-5-5/) and [Part 3](/part-3-install-pfsense-esxi-5-5/).

@@ -1,15 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: gmail-mark-as-read-archive-alternative
 title: Gmail Mark As Read Alternative
 categories:
 - How-To
 - Mobile
 - Programming
-image: /assets/images/2016-12-15-gmail-mark-as-read-archive-alternative/featured-image.jpg
-images:  /assets/images/2016-12-15-gmail-mark-as-read-archive-alternative/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Isn't annoying that Gmail provides the option to either Archive or Delete emails from its notification? Well, no more! This script periodically moves Archived emails back into your Inbox and also marks them as read.

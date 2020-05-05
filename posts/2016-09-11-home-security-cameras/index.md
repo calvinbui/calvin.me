@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-09-11 13:00:56+00:00
-layout: post
-slug: home-security-cameras
 title: Home Security Cameras Setup
 categories:
 - How-To
@@ -13,8 +8,9 @@ tags:
 - hikvision
 - ipcam
 - Security
-image: /assets/images/2016-09-11-home-security-cameras/featured-image.jpg
-images: /assets/images/2016-09-11-home-security-cameras/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 This post covers some of my home security camera system. Not a lot of information is shared for obvious reasons, but enough to show its capabilities and configuration.

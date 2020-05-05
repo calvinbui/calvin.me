@@ -1,15 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-03-03 00:00:00 +1000
-layout: post
-slug: my-72tb-freenas-server
 title: My 72TB FreeNAS Server
 categories:
 - Storage
 - Server
-image: /assets/images/2019-03-03-my-72tb-freenas-server/featured-image.jpg
-images: /assets/images/2019-03-03-my-72tb-freenas-server/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 It's been 5 years since my last one and I was starting to run out of space.

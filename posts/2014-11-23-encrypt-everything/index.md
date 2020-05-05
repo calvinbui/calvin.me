@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-11-23 00:07:13+00:00
-layout: post
-slug: encrypt-everything
 title: Encrypt Everything with SSL/TLS
 categories:
 - How-To
@@ -14,8 +9,9 @@ tags:
 - openssl
 - ssl
 - tls
-image: /assets/images/2014-11-23-encrypt-everything/featured-image.jpg 
-images: /assets/images/2014-11-23-encrypt-everything/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Why send data over plain text when you can encrypt it as well! SSL/TLS doesn't have to cost anything - it certainly doesn't cost me anything. Certificate Authorities supply 'trusted' certificates but we can generate our own 'untrusted' certificates, and well who doesn't trust themselves right?!

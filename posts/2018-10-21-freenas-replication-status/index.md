@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: freenas-replication-status
 title: FreeNAS Replication Task Status
 categories:
 - Storage
-image: /assets/images/2018-10-21-freenas-replication-status/featured-image.jpg
-images:  /assets/images/2018-10-21-freenas-replication-status/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 See the current status of a replication job in the FreeNAS shell.

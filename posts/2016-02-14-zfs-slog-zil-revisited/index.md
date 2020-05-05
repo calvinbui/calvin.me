@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-02-14 22:49:12+00:00
-layout: post
-slug: zfs-slog-zil-revisited
 title: ZFS SLOG/ZIL Drive (Revisited)
 categories:
 - Storage
@@ -11,8 +6,9 @@ tags:
 - slog
 - zfs
 - zil
-image: /assets/images/2016-02-14-zfs-slog-zil-revisited/featured-image.jpg
-images: /assets/images/2016-02-14-zfs-slog-zil-revisited/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Taking a look back how my SLOG device has been performing on my ZFS pool after fixing some significant problems.

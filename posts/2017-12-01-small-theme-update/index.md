@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: small-theme-update
 title: Small Theme Update
 categories:
 - Blog
-image: /assets/images/2017-12-01-small-theme-update/featured-image.jpg
-images: /assets/images/2017-12-01-small-theme-update/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Some small tweaks here and there.

@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: my-prusa-i3-mk3-3d-printer-mods
 title: My Prusa i3 MK3 3D Printer Mods
 categories:
 - 3D Printing
-image: /assets/images/2018-03-10-my-prusa-i3-mk3-3d-printer-mods/featured-image.jpg
-images: /assets/images/2018-03-10-my-prusa-i3-mk3-3d-printer-mods/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 The Prusa i3 MK3 is one of FDM printers you can buy. Here's my printer with a bunch of mods to improve print quality and ease of use.

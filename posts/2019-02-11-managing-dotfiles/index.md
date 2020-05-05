@@ -1,14 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-02-11 00:00:00 +1000
-layout: post
-slug: managing-dotfiles
 title: Managing Dotfiles
 categories:
 - Linux
-image: /assets/images/2019-02-11-managing-dotfiles/featured-image.jpg
-images: /assets/images/2019-02-11-managing-dotfiles/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 How I backup, restore and sync preferences and settings across computers.

@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2015-03-14 21:38:19+00:00
-layout: post
-slug: computer-build-girlfriend
 title: Computer Build for Girlfriend
 categories:
 - Computers
@@ -11,8 +6,9 @@ tags:
 - computer build
 - log
 - parts
-image: /assets/images/2015-03-14-computer-build-girlfriend/featured-image.jpg
-images: /assets/images/2015-03-14-computer-build-girlfriend/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.

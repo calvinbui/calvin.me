@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: dragon-quest-builders-results
 title: Dragon Quest Builders Results
 categories:
 - Gaming
-image: /assets/images/2017-02-24-dragon-quest-builders-results/featured-image.jpg
-images:  /assets/images/2017-02-24-dragon-quest-builders-results/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 My results from all four chapter of this wonderful game!

@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: personal-wiki-on-the-internet
 title: Personal Wiki on the Internet
 categories:
 - Web
-image: /assets/images/2017-05-13-personal-wiki-on-the-internet/featured-image.jpg
-images:  /assets/images/2017-05-13-personal-wiki-on-the-internet/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 I moved all my personal documentation for my home servers from a self-hosted MediaWiki instance to the Internet with GitHub and Read The Docs. Take a look: [http://calvin.rtfd.io/](http://calvin.rtfd.io/).

@@ -1,16 +1,13 @@
 ---
-author: Calvin Bui
 comments: false
-date: 2015-10-22 07:12:30+00:00
-layout: post
 
-slug: invites-usenet
 title: DogNZB, NZB.su and OMGWTFNZB Invites!
 
 categories:
 - Blog
-image: /assets/images/2015-10-22-invites-usenet/featured-image.jpg
-images: /assets/images/2015-10-22-invites-usenet/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 No more invites :disappointed:

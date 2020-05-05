@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: whats-in-my-esxi
 title: What's In My ESXi
 categories:
 - Virtualisation
 - Server
-image: /assets/images/2018-06-22-whats-in-my-esxi/featured-image.jpg
-images:  /assets/images/2018-06-22-whats-in-my-esxi/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Four years have past since I build my home lab! I thought I'd share what virtual machines I'm currently rolling and what I've left behind in that time.

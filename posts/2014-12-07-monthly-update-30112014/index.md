@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-12-07 06:27:24+00:00
-layout: post
-slug: monthly-update-30112014
 title: The Monthly Update (30/11/2014)
 categories:
 - Monthly Update
@@ -19,8 +14,9 @@ tags:
 - usenet
 - video player
 - wordpress
-image: /assets/images/2014-12-07-monthly-update-30112014/featured-image.jpg
-images: /assets/images/2014-12-07-monthly-update-30112014/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

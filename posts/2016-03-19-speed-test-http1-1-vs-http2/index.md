@@ -1,17 +1,13 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-03-19 18:17:30+00:00
-layout: post
-slug: speed-test-http1-1-vs-http2
 title: HTTP/2 Blog Speed Test
 categories:
 - Web
 tags:
 - http/1.1
 - http/2
-image: /assets/images/2016-03-19-speed-test-http1-1-vs-http2/featured-image.jpg
-images: /assets/images/2016-03-19-speed-test-http1-1-vs-http2/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Last week I updated the backend NGINX web servers to support HTTP/2. Now to find out how much difference it makes.

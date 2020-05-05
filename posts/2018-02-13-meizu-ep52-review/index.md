@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: meizu-ep52-review
 title: Meizu EP52 Wireless Bluetooth Sport Earphones Review
 categories:
 - Review
-image: /assets/images/2018-02-13-meizu-ep52-review/featured-image.jpg
-images: /assets/images/2018-02-13-meizu-ep52-review/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A really quick review of the Meizu EP52 earphones I use for the gym.

@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2016-05-23 13:11:12+00:00
-layout: post
-slug: create-persistent-ubuntu-16-04-live-usb-even-boots-ram
 title: Create a persistent Ubuntu USB which boots to RAM
 categories:
 - How-To
@@ -14,8 +9,9 @@ tags:
 - toram
 - ubuntu
 - usb
-image: /assets/images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/featured-image.jpg 
-images: /assets/images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 When your drive dies, or in my case, the SATA port fails completely, this is a good temporary solution until the replacement arrives.

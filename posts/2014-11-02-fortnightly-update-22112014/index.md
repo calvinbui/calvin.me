@@ -1,16 +1,12 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-11-02 04:44:49+00:00
-layout: post
-slug: fortnightly-update-22112014
 title: Fortnightly Update (2/11/2014)
 categories:
 - Monthly Update
 tags:
 - fornightly update
-image: /assets/images/2014-11-02-fortnightly-update-22112014/featured-image.jpg
-images: /assets/images/2014-11-02-fortnightly-update-22112014/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 In the fortnightly update, I bring you what I've been doing throughout the past two weeks in regards to technology, computers and more with links to tutorials and guides.

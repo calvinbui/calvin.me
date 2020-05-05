@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-11-09 03:41:40+00:00
-layout: post
-slug: definition-strong-password
 title: My Definition of a Strong Password
 categories:
 - Security
@@ -11,8 +6,9 @@ tags:
 - password
 - secure password
 - strong password
-image: /assets/images/2014-11-09-definition-strong-password/featured-image.jpg
-images: /assets/images/2014-11-09-definition-strong-password/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 It's a common misconception that difficult passwords (e.g. X2hj2i) are strong passwords. It takes a computer 0.00743 seconds to crack that one...

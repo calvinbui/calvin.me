@@ -1,8 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: updates-to-ansible-usenet-docker
 title: Updates to Ansible Playbook for Usenet Docker containers
 categories:
 - Computers
@@ -10,8 +6,9 @@ categories:
 - Virtualisation
 - Server
 - Usenet
-image: /assets/images/2017-05-07-ansible-usenet-docker/featured-image.jpg
-images:  /assets/images/2017-05-07-ansible-usenet-docker/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Up to date practices, new services, monitoring, logging, backups and heap of other improvements.

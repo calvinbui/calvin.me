@@ -1,14 +1,11 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: goodbye-root-and-xposed
 title: Goodbye Root and Xposed
 categories:
 - Security
 - Mobile
-image: /assets/images/2017-02-03-goodbye-root-and-xposed/featured-image.jpg
-images:  /assets/images/2017-02-03-goodbye-root-and-xposed/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Accept it or not, Google is moving transitioning to a non-root/non-xposed world.

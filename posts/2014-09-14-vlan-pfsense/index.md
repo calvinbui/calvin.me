@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-14 09:36:51+00:00
-layout: post
-slug: vlan-pfsense
 title: VLAN on VMware, pfSense and a Switch
 categories:
 - How-To
@@ -13,8 +8,9 @@ tags:
 - pfsense
 - vlan
 - vmware
-image: /assets/images/2014-09-14-vlan-pfsense/featured-image.jpg
-images: /assets/images/2014-09-14-vlan-pfsense/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 My current set-up has [pfSense vitualised](https://www.pfsense.org/) on an [all-in-one ESXi host](/all-in-one-esxi-server/) providing networking to my entire infrastructure. This infrastructure is both virtual and physical and therefore denying guest access to them is very important so that not anyone can just type an IP address into their browser and begin changing settings.

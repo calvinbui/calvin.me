@@ -1,14 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2019-05-15 00:00:00 +1000
-layout: post
-slug: my-ansible-roles
 title: My Ansible Roles
 categories:
 - Server
-image: /assets/images/2019-05-15-my-ansible-roles/featured-image.jpg
-images: /assets/images/2019-05-15-my-ansible-roles/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 A collection of Ansible roles I wrote to automate installation and configuration of my homelab.

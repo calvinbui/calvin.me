@@ -1,9 +1,4 @@
 ---
-author: Calvin Bui
-comments: true
-date: 2014-09-16 23:00:31+00:00
-layout: post
-slug: block-traffic-vlan-pfsense
 title: Block traffic between VLANs on pfSense
 categories:
 - How-To
@@ -13,8 +8,9 @@ tags:
 - how to
 - pfsense
 - vlan
-image: /assets/images/2014-09-16-block-traffic-vlan-pfsense/featured-image.jpg 
-images: /assets/images/2014-09-16-block-traffic-vlan-pfsense/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 VLANs are a great way to separate components of your network and to protect important infrastructure from being messed around by others. By default, traffic between VLANs are blocked by the invisible 'block everything' rule at the bottom of the rules list. Sometimes you want a VLAN where users can just browse the Internet and nothing else. You can also setup rules so that you can access everything but no one can access you. VLAN rules are easy. pfSense makes them even easier.

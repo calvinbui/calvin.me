@@ -1,13 +1,10 @@
 ---
-author: Calvin Bui
-comments: true
-layout: post
-slug: dns-entries-for-private-domain
 title: Public DNS Entries for an Internal or Private Domain
 categories:
 - Networking
-image: /assets/images/2018-08-17-dns-entries-for-private-domain/featured-image.jpg
-images:  /assets/images/2018-08-17-dns-entries-for-private-domain/
+tags:
+- 
+thumbnail: thumbnail.png
 ---
 
 Nothing. You should have zero public DNS entries for a domain purchased for private or internal use.
