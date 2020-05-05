@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 -   car
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 I bought a new 2018 Volkswagen Golf R Wolfsburg Edition back in February. One of the main things I wanted was a car with a lot of features and this one stood out above the rest.

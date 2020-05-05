@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 -   usenet
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 No more invites :disappointed:

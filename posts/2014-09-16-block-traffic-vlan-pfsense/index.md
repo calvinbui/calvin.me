@@ -6,7 +6,7 @@ tags:
 -   how to
 -   pfsense
 -   vlan
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 VLANs are a great way to separate components of your network and to protect important infrastructure from being messed around by others. By default, traffic between VLANs are blocked by the invisible 'block everything' rule at the bottom of the rules list. Sometimes you want a VLAN where users can just browse the Internet and nothing else. You can also setup rules so that you can access everything but no one can access you. VLAN rules are easy. pfSense makes them even easier.

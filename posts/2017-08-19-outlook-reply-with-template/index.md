@@ -5,7 +5,7 @@ categories:
 tags:
 -   outlook
 -   email
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 A simple macro to send a range of email templates, prefilled with different items like your subject line, recipients, CC and BCC.

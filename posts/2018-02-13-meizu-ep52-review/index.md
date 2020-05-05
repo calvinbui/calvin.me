@@ -5,7 +5,7 @@ categories:
 tags:
 -   meizu
 -   audio
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 A really quick review of the Meizu EP52 earphones I use for the gym.

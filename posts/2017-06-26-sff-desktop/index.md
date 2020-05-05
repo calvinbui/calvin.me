@@ -5,7 +5,7 @@ categories:
 tags:
 -   sff
 -   mini-itx
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!

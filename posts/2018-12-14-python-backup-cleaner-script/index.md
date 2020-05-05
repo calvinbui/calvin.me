@@ -6,7 +6,7 @@ categories:
 tags:
 -   python
 -   xsibackup
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 A Python script I've written to clean up old backups, keeping only the newest specified amount.

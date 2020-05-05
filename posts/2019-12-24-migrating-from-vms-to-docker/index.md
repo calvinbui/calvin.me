@@ -7,7 +7,7 @@ tags:
 -   docker
 -   vmware
 -   vlans
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 My journey from VMware ESXi to purely Docker.

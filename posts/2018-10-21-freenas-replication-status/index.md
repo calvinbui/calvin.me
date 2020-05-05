@@ -5,7 +5,7 @@ categories:
 -   Programming
 tags:
 -   freenas
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 See the current status of a replication job in the FreeNAS shell.

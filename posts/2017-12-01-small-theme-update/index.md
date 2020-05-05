@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 -   jekyll
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Some small tweaks here and there.

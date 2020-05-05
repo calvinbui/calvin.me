@@ -5,7 +5,7 @@ categories:
 -   Privacy
 tags:
 -   vpn
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 The entire process and tough criteria I went through to pick a VPN provider and escape mass surveillance.

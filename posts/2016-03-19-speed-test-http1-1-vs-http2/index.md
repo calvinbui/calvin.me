@@ -5,7 +5,7 @@ categories:
 tags:
 -   http
 -   speed test
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Last week I updated the backend NGINX web servers to support HTTP/2. Now to find out how much difference it makes.

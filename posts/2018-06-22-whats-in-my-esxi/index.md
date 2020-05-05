@@ -6,7 +6,7 @@ categories:
 tags:
 -   vmware
 -   esxi
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Four years have past since I build my home lab! I thought I'd share what virtual machines I'm currently rolling and what I've left behind in that time.

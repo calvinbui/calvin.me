@@ -4,7 +4,7 @@ categories:
 -   Networking
 tags:
 -   opnsense
-
+thumbnail: featured-image.png
 ---
 
 How to use a different WAN interface on different internal networks within OPNsense.

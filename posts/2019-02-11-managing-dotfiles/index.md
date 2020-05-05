@@ -4,7 +4,7 @@ categories:
 -   Computers
 tags:
 -   dotbot
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 How I backup, restore and sync preferences and settings across computers.

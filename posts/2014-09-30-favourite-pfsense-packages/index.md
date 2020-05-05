@@ -5,7 +5,7 @@ categories:
 tags:
 -   packages
 -   pfsense
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 pfSense, the great software that it already is, can get even better with 'packages' (plugin, extension etc. whatever you want to call it) available straight from the Package Manager menu. pfSense packages include diagnostics, increased network management capabilities, enhanced security or to extend pfSense's range of services. Here are the pfSense packages that I use personally plus some highly recommended ones as well!

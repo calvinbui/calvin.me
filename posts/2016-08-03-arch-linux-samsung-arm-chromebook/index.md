@@ -1,13 +1,12 @@
 ---
 title: Arch Linux on Samsung ARM Chromebook
 categories:
--   How-To
--   Linux
+-   Computers
 -   Hacking
 tags:
 -   arch linux
 -   chromebook
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 This is an up-to-date collation of everything to get a good working base for Arch Linux on the Samsung ARM Chromebook XE303C12.

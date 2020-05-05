@@ -5,7 +5,7 @@ categories:
 tags:
 -   ubuntu
 -   raid
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Create a RAID1 (mirroring) array and install Ubuntu 18.04 onto it.

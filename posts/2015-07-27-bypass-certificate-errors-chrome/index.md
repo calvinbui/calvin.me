@@ -7,7 +7,7 @@ tags:
 -   certificates
 -   chrome
 -   ssl
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of one to bypass certificate errors?!

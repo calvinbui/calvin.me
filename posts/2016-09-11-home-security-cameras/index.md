@@ -6,7 +6,7 @@ tags:
 -   cameras
 -   hikvision
 -   ipcam
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 This post covers some of my home security camera system. Not a lot of information is shared for obvious reasons, but enough to show its capabilities and configuration.

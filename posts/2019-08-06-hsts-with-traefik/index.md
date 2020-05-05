@@ -7,7 +7,7 @@ categories:
 tags:
 -   hsts
 -   traefik
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 The settings to get an A+ rating on SSL Labs!

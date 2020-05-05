@@ -6,7 +6,7 @@ tags:
 -   zfs
 -   freenas
 -   nas
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Taking a look back how my SLOG device has been performing on my ZFS pool after fixing some significant problems.

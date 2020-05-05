@@ -6,7 +6,7 @@ tags:
 -   esxi
 -   vmware
 -   web interface
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 It's now possible to manage standalone ESXi hosts with not only the Windows vSphere Client or vCenter, but with a web interface for ESXi !

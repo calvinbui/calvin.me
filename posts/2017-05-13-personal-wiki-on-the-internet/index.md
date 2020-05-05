@@ -5,7 +5,7 @@ categories:
 tags:
 -   wiki
 -   sphinx
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 I moved all my personal documentation for my home servers from a self-hosted MediaWiki instance to the Internet with GitHub and Read The Docs. Take a look: [http://calvin.rtfd.io/](http://calvin.rtfd.io/).

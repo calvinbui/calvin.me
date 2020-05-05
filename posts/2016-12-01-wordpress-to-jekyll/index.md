@@ -4,7 +4,7 @@ categories:
 -   Blog
 tags:
 -   jekyll
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 I've made the leap over from WordPress to Jekyll. Static sites are just easier, faster and more secure :thumbsup:

@@ -5,7 +5,7 @@ categories:
 tags:
 -   advice
 -   IT
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 This is a talk I gave during my time at IBM to University of Western Sydney students who came for a site visit. They were all roughly my age (late teens, early twenties), with many looking for job opportunities such as internships, scholarships and graduate positions.

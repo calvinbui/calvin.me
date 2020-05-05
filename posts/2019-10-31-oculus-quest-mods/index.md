@@ -5,7 +5,7 @@ categories:
 tags:
 -   oculus
 -   vr
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 A look at all the mods I've thrown into my Oculus Quest all-in-one VR gaming headset.

@@ -6,7 +6,7 @@ tags:
 -   password
 -   secure password
 -   strong password
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 It's a common misconception that difficult passwords (e.g. X2hj2i) are strong passwords. It takes a computer 0.00743 seconds to crack that one...

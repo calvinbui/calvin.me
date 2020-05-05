@@ -10,7 +10,7 @@ tags:
 -   xbrowsersync
 -   snips
 -   hauk
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 More I've done for my online privacy since my [previous post]({{ site.baseurl }}{% post_url 2019-06-30-retooling-for-privacy %}).

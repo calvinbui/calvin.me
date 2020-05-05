@@ -8,7 +8,7 @@ tags:
 -   Ubiquiti
 -   ubuntu
 -   unifi controller
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 **POST UP TO DATE 19/08/2015**

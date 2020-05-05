@@ -5,7 +5,7 @@ categories:
 tags:
 -   ubuntu
 -   usb
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 When your drive dies, or in my case, the SATA port fails completely, this is a good temporary solution until the replacement arrives.

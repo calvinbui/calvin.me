@@ -4,7 +4,7 @@ categories:
 -   Networking
 tags:
 -   intel
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 You should update your NIC cause newer is always better right? Right!

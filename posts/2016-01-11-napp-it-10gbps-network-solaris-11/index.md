@@ -14,7 +14,7 @@ tags:
 -   napp-it
 -   solaris
 -   solaris 11
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 While it can be difficult to have a transfer speed of 1.25GB per second (10Gbp/s), it wouldn't hurt to make sure it works well right?

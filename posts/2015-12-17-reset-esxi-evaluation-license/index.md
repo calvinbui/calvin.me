@@ -9,7 +9,7 @@ tags:
 -   license
 -   reset
 -   script
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 *For testing and educational purposes only*

@@ -8,7 +8,7 @@ tags:
 -   mac os x
 -   macOS
 -   vmware
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 UPDATE 18/10/16: Changed to support 10.12

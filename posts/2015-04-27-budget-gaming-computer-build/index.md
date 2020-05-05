@@ -6,7 +6,7 @@ tags:
 -   computer build
 -   gaming
 -   pc
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 My cousin is a console convert. Previously owning a PS3 and Xbox One, he's moved over to exclusively gaming on his laptop. After realising how bad laptops are for gaming (they're bad), he's asked me to build him a budget gaming computer for less than $1000.

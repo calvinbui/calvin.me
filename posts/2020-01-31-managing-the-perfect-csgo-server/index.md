@@ -5,7 +5,7 @@ categories:
 tags:
 -   csgo
 -   autopilot
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Everything learnt from managing the Counter-Strike server at work.

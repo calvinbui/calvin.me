@@ -5,7 +5,7 @@ categories:
 tags:
 -   switch
 -   tp-link
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 The TP-Link T1600G-28PS (TL-SG2424P) network switch has really loud fans, but they can be swapped to quieter ones.

@@ -1,7 +1,8 @@
 ---
 title: NZBmegasearcH NGINX Reverse Proxy
 categories:
--   Usenet
+-   Computers
+-   Web
 tags:
 -   nzbmegasearch
 -   nginx
@@ -9,7 +10,7 @@ tags:
 -   reverse
 -   proxy
 -   usenet
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 [NZBmegasearcH](http://pillone.github.io/usntssearch/) is a great program. It aggregates all the sites I regularly visit to find an NZB to just one place. CouchPotato and SickBeard can also retrieve results from it instead of querying multiple locations for updates. One thing it doesn't do well is being compatible with reverse proxy which [0byte admits](https://github.com/pillone/usntssearch/issues/91#issuecomment-27147551). But that doesn't mean its impossible!

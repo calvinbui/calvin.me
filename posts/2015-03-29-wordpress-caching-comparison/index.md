@@ -6,7 +6,7 @@ tags:
 -   caching
 -   speed
 -   wordpress
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 WordPress caching is the fastest way to improve website performance. Caching WordPress reduces server load by reducing the number of requests per page. For every single user that visits your site, data is retrieved from MySQL, processed with PHP and then displayed as HTML. This is a draining process if several hundred users at on your site at once. Caching saves the webpage into files which it shows visitors instead, not requiring MySQL or PHP which reduces load time significantly.

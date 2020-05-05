@@ -5,7 +5,7 @@ categories:
 tags:
 -   nut
 -   ups
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Notify servers of network power loss so they begin shutting down.

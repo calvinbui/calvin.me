@@ -7,7 +7,7 @@ tags:
 -   it degree
 -   university of technology
 -   uts
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 Today I graduate from UTS with my Bachelor of Science in IT degree.

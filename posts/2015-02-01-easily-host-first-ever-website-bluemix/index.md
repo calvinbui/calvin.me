@@ -7,9 +7,7 @@ tags:
 -   hosting
 -   ibm
 -   wordpress
-tags:
--
-thumbnail: thumbnail.png
+# thumbnail: thumbnail.png
 ---
 
 You don’t need to be an IT nerd to start and manage a website – at least not when using [IBM Bluemix](https://console.ng.bluemix.net/). Bluemix takes the worry out of setting up a website. It’s a lot of work configuring a web server, opening network ports and dealing with your home Internet’s upload speed. It’s also most likely against the conditions of your Internet Service Provider to allow hosting at any of their residential plans. Bluemix can host your website though.
@@ -32,11 +30,11 @@ WordPress offers themes, plugins and templates to transform your site to meet yo
 
 WordPress binds directly with many services offered on Bluemix. Coupled with it is IBM’s fast persistent ‘Object Storage’ and email notifications provided by SendGrid which removes the complexity of maintaining email systems. Other services provided by Bluemix which you can bind to your website include:
 
-* Monitoring and Analytics (FREE): Check the availability of your application and its response times. When designing a Java application, it can log application errors, find the root cause error in your code and monitor performance.
-* Auto-Scaling (FREE): Set policies to increase your application’s instances and memory utilisation when it exceeds or falls below certain thresholds. Important when you go viral. It also monitors CPU and memory utilisation on a nice graph.
-* [New Relic](http://newrelic.com/) (FREE): All-in-one web app performance tool to evaluate end user experience down to the line of code. Monitor your website, get notified of downtimes and generate reports based on SLAs, availability and scalability.
-* [BlazeMeter](http://blazemeter.com/) (FREE) and [Load Impact](https://loadimpact.com) (FREE): Self-service enterprise grade performance load testing from all over the world. Monitor how your website (and code) will perform when there are over 250 concurrent users at once.
-* AppScan Dynamic Analyzer: Tests your application for security issues to help keep them secure. Provides a thorough report when finished containing all issues found and recommended fixes and advisories to protect your site.
+*   Monitoring and Analytics (FREE): Check the availability of your application and its response times. When designing a Java application, it can log application errors, find the root cause error in your code and monitor performance.
+*   Auto-Scaling (FREE): Set policies to increase your application’s instances and memory utilisation when it exceeds or falls below certain thresholds. Important when you go viral. It also monitors CPU and memory utilisation on a nice graph.
+*   [New Relic](http://newrelic.com/) (FREE): All-in-one web app performance tool to evaluate end user experience down to the line of code. Monitor your website, get notified of downtimes and generate reports based on SLAs, availability and scalability.
+*   [BlazeMeter](http://blazemeter.com/) (FREE) and [Load Impact](https://loadimpact.com) (FREE): Self-service enterprise grade performance load testing from all over the world. Monitor how your website (and code) will perform when there are over 250 concurrent users at once.
+*   AppScan Dynamic Analyzer: Tests your application for security issues to help keep them secure. Provides a thorough report when finished containing all issues found and recommended fixes and advisories to protect your site.
 
 [![Capture]({{page.images}}Capture.png)]({{page.images}}Capture.png)
 
