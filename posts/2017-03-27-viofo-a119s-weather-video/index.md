@@ -12,4 +12,4 @@ The next few clips will be footage from two Viofo A119S dashcams I have mounted 
 
 <!-- more -->
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/vXF1ac_rL2Q" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/vXF1ac_rL2Q" allowfullscreen width="1280" height="720"></iframe>

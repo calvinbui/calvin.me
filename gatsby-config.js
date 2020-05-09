@@ -58,6 +58,7 @@ module.exports = {
               removeAccents: true,
             },
           },
+          `gatsby-remark-responsive-iframe`,
         ],
       },
     },

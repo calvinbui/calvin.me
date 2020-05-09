@@ -14,7 +14,7 @@ My shameless Facebook Messenger bot that sends YouTube videos and GIFs if a mess
 
 Twice have a lot of (amazing) songs for a girl group that's only debuted 2 years ago. I wanted to promote them to friends in our group chat whenever possible, however possible. We occasionally talk about Table Tennis (TT for short) and also occasionally do 'Knock Knock' jokes on one another. So guess what...Twice have a song called [TT](https://www.youtube.com/watch?v=ePpPVE-GGJw) and another titled [Knock Knock](https://www.youtube.com/watch?v=8A2t_tAjMz8).
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/8A2t_tAjMz8" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/8A2t_tAjMz8" allowfullscreen width="1280" height="720"></iframe>
 
 You can find the bot on my GitHub here - [https://github.com/calvinbui/twice-bot-fbmessenger](https://github.com/calvinbui/twice-bot-fbmessenger). The bot is written in Node.js and is already setup to run inside a Docker container. All the instructions are provided in the README.md file.
 

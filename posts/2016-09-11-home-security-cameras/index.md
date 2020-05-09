@@ -221,11 +221,11 @@ _Night_:
 
 ![Night](night.jpg)
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/60BhMUcFHuM" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/60BhMUcFHuM" allowfullscreen width="1280" height="720"></iframe>
 
 <br>
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/uHz7IAVOdDQ" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/uHz7IAVOdDQ" allowfullscreen width="1280" height="720"></iframe>
 
 ## Future Considerations
 

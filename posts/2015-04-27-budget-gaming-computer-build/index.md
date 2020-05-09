@@ -71,7 +71,7 @@ The PSU is comes with is a generic standard Thermaltake PSU but I don't feel wor
 
 We chose to go with an SSD simply for load times in games. Battlefield 4 is a good example of how ridiculously fast an SSD can load games.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/c1Uo0ykix8A" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/c1Uo0ykix8A" allowfullscreen width="1280" height="720"></iframe>
 
 Steam for example allows games to be installed/moved to different locations (known as libraries). Therefore he would install his most played games on his SSD and use an external drive as backup or storage for other games.
 

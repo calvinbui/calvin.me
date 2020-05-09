@@ -26,7 +26,7 @@ I got into a vice I got a while back from Aldi. It was a pretty bad vice and at 
 
 Here's a video of it opening it up the first time.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/dawBGFiRbDY" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/dawBGFiRbDY" allowfullscreen width="1280" height="720"></iframe>
 
 ![](opened.jpg)
 

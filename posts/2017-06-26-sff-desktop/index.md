@@ -100,7 +100,7 @@ Before I had the case or a 1080 Ti, I threw everything on a test bench to use. I
 
 Here's a demo of the boot times. Spoilers: 12.02 seconds. I was using a screwdriver to short the power button pins in lieu of a case.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/BuhW_yRsRYM" allowfullscreen></iframe></div>
+<iframe src="https://www.youtube.com/embed/BuhW_yRsRYM" allowfullscreen width="1280" height="720"></iframe>
 
 ## Pictures
 
