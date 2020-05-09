@@ -43,11 +43,15 @@ Give your VLAN a number/tag (10) and a short description of what it is (e.g. Man
 
 Continuing creating VLANs to your heart's content until you have enough.
 
-{% include caption.html path="22.png" caption="Finished list" alt="all vlans" %}
+_Finished list_:
+
+![all vlans](22.png)
 
 **2.** Go to 'Interfaces -> Assign' and add some new Interfaces for your new VLANs. We will worry about renaming and configuring them next.
 
-{% include caption.html path="32.png" caption="Assign Network Ports" alt="Assign Network Ports" %}
+_Assign Network Ports_:
+
+![Assign Network Ports](32.png)
 
 **3.** Pick an interface under the 'Interfaces' menu and enable it. This will give you the ability to configure it.
 
@@ -67,7 +71,9 @@ You can return to the Interfaces page to confirm your VLANs.
 
 **4.** Enable any DHCP servers for the VLANs interfaces if you need it. I have configured half of each range to be DHCP and the other half to be static.
 
-{% include caption.html path="61.png" caption="Configure DHCP on any/all VLANs" alt="Configure DHCP" %}
+_Configure DHCP on any/all VLANs_:
+
+![Configure DHCP](61.png)
 
 **5.** Go to Firewall -> Rules and select a VLAN interface. Currently each VLAN cannot access anything, like ANYTHING at all without any 'pass' rules. Play with this until you are happy with it. I will share my rules in a future post.
 
@@ -75,7 +81,9 @@ You can return to the Interfaces page to confirm your VLANs.
 
 First edit your LAN Port Group so it has access to All (4095) VLAN groups. Doing so allows pfSense to configure VLAN access to VMware. Imagine you are configuring a switch, except this one is virtual. Allowing the LAN 'port' on the switch to access all VLANs transforms it into a 'trunk' or 'tagged' VLAN port which is able to carry all VLAN data.
 
-{% include caption.html path="lan1.png" caption="LAN VLAN Access" alt="LAN VLAN Access" %}
+_LAN VLAN Access_:
+
+![LAN VLAN Access](lan1.png)
 
 **7.** Begin to create additional Port Groups for VLANs. Click 'Add Networking...' in the top right hand corner.
 

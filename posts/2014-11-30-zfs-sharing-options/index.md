@@ -73,11 +73,17 @@ Serviio is accessible at http://<nappit>phpserviio/
 
 With Serviio, I am able to specify which shares I want to be visible over DLNA/UPnP. Device such as my PS3 and Yamaha RX-V475 receiver were easily able to access and play from it!
 
-{% include caption.html path="serviio1.png" caption="Adding the shares" alt="serviio1" %}
+_Adding the shares_:
 
-{% include caption.html path="serviio2.png" caption="Devices that are accessing the shares" alt="serviio2" %}
+![serviio1](serviio1.png)
 
-{% include caption.html path="serviio3.png" caption="My Yamaha Receiver connecting to the share (shown through my tablet)" alt="serviio3" %}
+_Devices that are accessing the shares_:
+
+![serviio2](serviio2.png)
+
+_My Yamaha Receiver connecting to the share (shown through my tablet)_:
+
+![serviio3](serviio3.png)
 
 An alternative to Serviio is Mediatomb, although it hasn't be updated in a long time:
 

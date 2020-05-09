@@ -51,17 +51,29 @@ Once the certificate is ready, locked, and loaded...it's time to deploy.
 
 Here is an example of how you can deploy SSL to encrypt the front-end of several applications:
 
-{% include caption.html path="SabNZBD.png" caption="SabNZBD" alt="SabNZBD" %}
+_SabNZBD_:
 
-{% include caption.html path="Headphones.png" caption="Headphones" alt="Headphones" %}
+![SabNZBD](SabNZBD.png)
 
-{% include caption.html path="CouchPotato.png" caption="CouchPotato" alt="CouchPotato" %}
+_Headphones_:
+
+![Headphones](Headphones.png)
+
+_CouchPotato_:
+
+![CouchPotato](CouchPotato.png)
 
 It is also possible to use SSL to encrypt a back-end connection to a database, LDAP server, web server, etc. This is a bit harder to show in pictures but usually all you have to do is let the application know to use SSL when making a connection.
 
-{% include caption.html path="wp.png" caption="NGINX SSL Configuration" alt="NGINX SSL Configuration" %}
-{% include caption.html path="mediawiki.png" caption="MediaWiki LDAPS connection" alt="MediaWiki LDAPS connection" %}
-{% include caption.html path="git1.png" caption="GitLab LDAPS connection" alt="GitLab LDAPS connection" %}
+_NGINX SSL Configuration_:
+
+![NGINX SSL Configuration](wp.png)
+_MediaWiki LDAPS connection_:
+
+![MediaWiki LDAPS connection](mediawiki.png)
+_GitLab LDAPS connection_:
+
+![GitLab LDAPS connection](git1.png)
 
 ## I've encrypted everything. I'm safe now...but from what?
 

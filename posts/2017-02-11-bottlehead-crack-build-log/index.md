@@ -27,13 +27,19 @@ For the wood stain, I went with [Feast Watson's Black Japan Stain and Varnish](h
 
 Before painting, I glued the cabinet together and sanded it down with 240 grit sandpaper thoroughly. I used a paintbrush for the first three coats with 12 hours wait between each layer. Between each coat, I also did a light 400 grit sand.
 
-{% include caption.html path="paint/first-coat.jpg" caption="First coat of stain" alt="First coat of stain" %}
+_First coat of stain_:
 
-{% include caption.html path="paint/2-coats.jpg" caption="Second coat of stain, you can see the imperfects showing" alt="Second coat of stain" %}
+![First coat of stain](paint/first-coat.jpg)
+
+_Second coat of stain, you can see the imperfects showing_:
+
+![Second coat of stain](paint/2-coats.jpg)
 
 The finish was uneven and imperfect with the brush not being able to distribute the stain evenly. I sanded most of it down and then did another two coats with a foam roller. The final finish turned out much better as a roller spread the paint out evenly. I would suggest to not go with a hair type roller (at least not a cheap one) as the hair generally falls off when painting and sticks to the paint.
 
-{% include caption.html path="paint/3-coats.jpg" caption="Completed staining" alt="Completed staining" %}
+_Completed staining_:
+
+![Completed staining](paint/3-coats.jpg)
 
 After painting, I stuck on the four feet.
 
@@ -51,7 +57,9 @@ I didn't notice this until after assembly but the smaller tube does not cover it
 
 I don't solder often so I haven't invested in any premium or professional soldering tools. I used the simple soldering starter kit as well as 60/40 tin & lead solder, both from Jay Car. Bottlehead recommends 60/40 or 63/37 Tin & Lead solder for its ease of use. You won't need too much solder, probably a tube of it instead of a roll.
 
-{% include caption.html path="joints/wip.jpg" caption="I did some soldering before I painted the wood" alt="I did some soldering before I painted the wood" %}
+_I did some soldering before I painted the wood_:
+
+![I did some soldering before I painted the wood](joints/wip.jpg)
 
 For removing solder, try grabbing some solder wick or a desoldering tool (there's one in the starter kit). A third-hand accessory isn't required but is handy (it's required for the Speedball upgrade though).
 
@@ -59,23 +67,41 @@ The manual for the Crack has a lot of typos in it. The pictures in the manual ar
 
 Now a dump of photos:
 
-{% include caption.html path="joints/all.jpg" caption="Completed" alt="Completed" %}
+_Completed_:
 
-{% include caption.html path="joints/bottom.jpg" caption="The 9 octal socket" alt="The 9 octal socket" %}
+![Completed](joints/all.jpg)
 
-{% include caption.html path="joints/close-up-middle.jpg" caption="The middle of the unit" alt="The middle of the unit" %}
+_The 9 octal socket_:
 
-{% include caption.html path="joints/input.jpg" caption="This is where the headphones plug in" alt="This is where the headphones plug in" %}
+![The 9 octal socket](joints/bottom.jpg)
 
-{% include caption.html path="joints/middle.jpg" caption="Another view of the big tube socket" alt="Another view of the big tube socket" %}
+_The middle of the unit_:
 
-{% include caption.html path="joints/pt.jpg" caption="The power transformer" alt="The power transformer" %}
+![The middle of the unit](joints/close-up-middle.jpg)
 
-{% include caption.html path="joints/pt-power.jpg" caption="Another view of the power transformer" alt="Another view of the power transformer" %}
+_This is where the headphones plug in_:
 
-{% include caption.html path="joints/side.jpg" caption="Side view" alt="Side view" %}
+![This is where the headphones plug in](joints/input.jpg)
 
-{% include caption.html path="joints/volume.jpg" caption="Volume switch" alt="Volume switch" %}
+_Another view of the big tube socket_:
+
+![Another view of the big tube socket](joints/middle.jpg)
+
+_The power transformer_:
+
+![The power transformer](joints/pt.jpg)
+
+_Another view of the power transformer_:
+
+![Another view of the power transformer](joints/pt-power.jpg)
+
+_Side view_:
+
+![Side view](joints/side.jpg)
+
+_Volume switch_:
+
+![Volume switch](joints/volume.jpg)
 
 ## Testing
 

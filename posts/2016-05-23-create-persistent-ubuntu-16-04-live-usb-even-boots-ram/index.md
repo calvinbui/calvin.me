@@ -32,7 +32,9 @@ usb-creator (0.3.0) xenial; urgency=medium
 -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 11 Dec 2015 12:37:41 -0500
 ```
 
-{% include caption.html path="Startupdiskcreatorcomparison-179x300.png" caption="Comparison of Startup Disk Creator from 15.10 to 16.04" alt="Startupdiskcreatorcomparison" %}
+_Comparison of Startup Disk Creator from 15.10 to 16.04_:
+
+![Startupdiskcreatorcomparison](Startupdiskcreatorcomparison-179x300.png)
 
 ## Let's start:
 

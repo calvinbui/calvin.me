@@ -69,9 +69,13 @@ Next I setup the four networks within the UniFi web application which manages th
 
 NOTE! This is where you should remember what we did above. Because the access points are untagged on VLAN 10, they do not require a VLAN tag associated with the network as they are already on the VLAN. The others will however because they are untagged on that VLAN. Compare the the Admin VLAN and Guest VLAN below.
 
-{% include caption.html path="admin.png" caption="The Admin VLAN is untagged, and therefore does not require a VLAN ID. The access points are already on the VLAN!" alt="admin settings" %}
+_The Admin VLAN is untagged, and therefore does not require a VLAN ID. The access points are already on the VLAN!_:
 
-{% include caption.html path="guest.png" caption="The Guest Network VLAN ID is 30. It must be specified as the access points are trunk ports to this VLAN." alt="guest settings" %}
+![admin settings](admin.png)
+
+_The Guest Network VLAN ID is 30. It must be specified as the access points are trunk ports to this VLAN._:
+
+![guest settings](guest.png)
 
 After this I simply connected from my phone and they worked perfectly! Sure, you can go the full VLAN route but as I said you will not be able to manage the access points afterwards - therefore you won't be able to even add configure the networks to begin with. There's probably better methods out there (like maybe putting them all in a separate VLAN dedicated for WiFi) but it was a little bit too over the top for something like this. Feel free to try it though!
 

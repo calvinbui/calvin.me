@@ -25,7 +25,9 @@ An hour goes by screwing around with it. I thought, is this all it does? I guess
 
 I was going to try it anyway. I got my external DVD-drive's Y cable and used that along with a Minimus I had when I used it for jailbreaking my PS3. Everything was plugged in and I was ready to press the button when suddenly...I realised it had no button. My button was actually missing.
 
-{% include caption.html path="cab-usb-yblack.jpg" caption="An example of a Y cable I used" alt="An example of a Y cable I used" %}
+_An example of a Y cable I used_:
+
+![An example of a Y cable I used](cab-usb-yblack.jpg)
 
 ## The Second Chromecast
 
@@ -41,7 +43,9 @@ But I ran into another problem. I didn't have a 'powered OTG cable', only a norm
 
 The best solution I found was to use an USB hub connected to the Chromecast:
 
-{% include caption.html path="pa010003.jpg" caption="http://forum.xda-developers.com/showthread.php?t=2465642" alt="" %}
+_http://forum.xda-developers.com/showthread.php?t=2465642_:
+
+![](pa010003.jpg)
 
 I didn't have any unpowered hubs though, I only ever bought powered ones. I took out my [Roccat Apuri USB Hub](http://www.roccat.org/Products/Gaming-Accessories/ROCCAT-Apuri/) (with mouse bungee) and tried to duplicate the method.
 
@@ -51,7 +55,9 @@ I plugged in the laptop charger and the it was still happening, on and off like 
 
 Needless to say, the USB hub, Minimus32 and Chomecast are all dead or not responding (but some lights up at least). This is what happens when you don't do things the proper way. It always works the proper way.
 
-{% include caption.html path="minimus.jpg" caption="RIP Minimus" alt="RIP Minimus" %}
+_RIP Minimus_:
+
+![RIP Minimus](minimus.jpg)
 
 ## The Third Chromecast
 
@@ -59,7 +65,9 @@ This time I knew I had to just wait for the powered OTG cable in the mail...but 
 
 I had a normal USB hub this time and I bought a Teensy2 since the incident. I tried to repeat what I did last time in a safer way but this Chromecast was annoying!
 
-{% include caption.html path="img_20150108_230231.jpg" caption="Hacked by something smaller than itself. David vs Goliath." alt="IMG_20150108_230231" %}
+_Hacked by something smaller than itself. David vs Goliath._:
+
+![IMG_20150108_230231](img_20150108_230231.jpg)
 
 Sometimes it would flash, sometimes I wouldn't. It would work at certain power points but not others. Sometimes it only flashed if the Chromecast was plugged into a monitor as well. When it did begin working (to my relief) I realised I had used the wrong flash file because the instructions weren't updated to cater for the 15098 firmware. It was frustrating and annoying all around.
 
@@ -83,9 +91,13 @@ Even using the newly made cable, the Chromecast still didn't want to flash, ann
 
 I carefully plugged the Chromecast into my monitor and sat back relieved.
 
-{% include caption.html path="img_20150108_221612.jpg" caption="Finally!" alt="IMG_20150108_221612" %}
+_Finally!_:
 
-{% include caption.html path="img_20150108_221628.jpg" caption="The Chromecast, USB OTG and power cable" alt="The Chromecast, USB OTG and power cable" %}
+![IMG_20150108_221612](img_20150108_221612.jpg)
+
+_The Chromecast, USB OTG and power cable_:
+
+![The Chromecast, USB OTG and power cable](img_20150108_221628.jpg)
 
 After it was done, I checked the [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) page again to find:
 
@@ -95,4 +107,6 @@ After it was done, I checked the [http://192.168.255.249:8008/setup/eureka_info
 
 SUCCESS AT LAST! Now to clean the mess I made in my room.
 
-{% include caption.html path="img_20150108_225818.jpg" caption="This is why you use your garage or basement as your workshop." alt="This is why you use your garage or basement as your workshop." %}
+_This is why you use your garage or basement as your workshop._:
+
+![This is why you use your garage or basement as your workshop.](img_20150108_225818.jpg)

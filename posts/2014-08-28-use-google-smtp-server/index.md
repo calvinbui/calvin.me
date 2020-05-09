@@ -16,7 +16,9 @@ A lot of (the good ones at least) hardware and software give you the ability to 
 
 You will also have the option of having Google store and index the emails you send, so all your sent emails will be searchable and backed-up on Gmail. If you elect to use your Gmail or Google Apps account for your incoming email as well, you'll have all your email in one convenient place. Also, since Google's SMTP server does not use Port 25, you'll reduce the probability that an ISP might block your email or flag it as SPAM.
 
-{% include caption.html path="capture2.png" caption="Table from https://support.google.com/a/answer/176600?hl=en" alt="google-smtp-table" %}
+_Table from https://support.google.com/a/answer/176600?hl=en_:
+
+![google-smtp-table](capture2.png)
 
 ## To utilise the Google SMTP server:
 
@@ -47,18 +49,30 @@ Copies of outgoing emails are stored in the Gmail/Google Apps 'Sent folder'.
 
 NOTE: Google rewrites the 'From' address emails to the default 'Send' email address in your Gmail/Google Apps account settings. To fix this,  go to the "Accounts" tab and make another account the  "default" Gmail/Google Apps account.
 
-{% include caption.html path="1.png" caption="Example email details" alt="smtp-email" %}
+_Example email details_:
 
-{% include caption.html path="23.png" caption="Test email from pfSense using the Google SMTP Server" alt="smtp-email-sent" %}
+![smtp-email](1.png)
+
+_Test email from pfSense using the Google SMTP Server_:
+
+![smtp-email-sent](23.png)
 
 ## Sending Limits
 There is a limit of 2000 emails per day. Plenty.
 
 ## Start Using It Everywhere
-{% include caption.html path="37.png" caption="pfSense" alt="smtp-pfsense" %}
+_pfSense_:
 
-{% include caption.html path="ups.png" caption="CyberPower UPS PowerPanel - to let me know when the power goes out at home" alt="CyberPower UPS PowerPanel - to let me know when the power goes out at home" %}
+![smtp-pfsense](37.png)
 
-{% include caption.html path="napp-it.png" caption="napp-it which is set to notify of disk failures and daily/weekly/monthly status" alt="napp-it which is set to notify of disk failures and daily/weekly/monthly status" %}
+_CyberPower UPS PowerPanel - to let me know when the power goes out at home_:
 
-{% include caption.html path="unifi.png" caption="Ubiquiti UniFi Controller which monitors my wireless access points" alt="Ubiquiti UniFi Controller which monitors my wireless access points" %}
+![CyberPower UPS PowerPanel - to let me know when the power goes out at home](ups.png)
+
+_napp-it which is set to notify of disk failures and daily/weekly/monthly status_:
+
+![napp-it which is set to notify of disk failures and daily/weekly/monthly status](napp-it.png)
+
+_Ubiquiti UniFi Controller which monitors my wireless access points_:
+
+![Ubiquiti UniFi Controller which monitors my wireless access points](unifi.png)

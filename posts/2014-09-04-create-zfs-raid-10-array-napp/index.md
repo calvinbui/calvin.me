@@ -17,29 +17,41 @@ tags:
 
 **1.** Create a new pool with the first two disks to be mirrored.
 
-{% include caption.html path="11.png" caption="Select the 'Create Pool' option from the Pools dropdown" alt="create a new pool" %}
+_Select the 'Create Pool' option from the Pools dropdown_:
+
+![create a new pool](11.png)
 
 **2.** Enter the pool details and select the first mirror.
 
-{% include caption.html path="21.png" caption="Select the first mirror of the RAID 10 array" alt="first mirrored pair for raid 10" %}
+_Select the first mirror of the RAID 10 array_:
+
+![first mirrored pair for raid 10](21.png)
 
 **3.** Extend the new pool by selecting the option from the menu.
 
-{% include caption.html path="31.png" caption="Back in the dropdown menu, select the option to 'Extend Pool'" alt="extend the pool" %}
+_Back in the dropdown menu, select the option to 'Extend Pool'_:
+
+![extend the pool](31.png)
 
 **4.** Select the next two disks to be in the pool and set the option to mirror.
 
-{% include caption.html path="41.png" caption="Select the next mirror to be part of the RAID 10 array" alt="add any mirrors to raid 10 array" %}
+_Select the next mirror to be part of the RAID 10 array_:
+
+![add any mirrors to raid 10 array](41.png)
 
 **5.** Select any remaining disks to be in the pool and also set the option to mirror.
 
-{% include caption.html path="5.png" caption="Optionally, select any remaining mirrors and repeat this step if necessary if you have more disks remaining." alt="add last drives to raid 10 array" %}
+_Optionally, select any remaining mirrors and repeat this step if necessary if you have more disks remaining._:
+
+![add last drives to raid 10 array](5.png)
 
 ## Verify the RAID 10 Array
 
 If successful, in the main page of the your 'Pools', nappit will list your new RAID 10 array. Alternatively, run the command 'zpool status' to return the Pools and their allocated drives within the terminal.
 
-{% include caption.html path="6.png" caption="RAID 10 created. Mirrors in a stripe." alt="raid 10 complete" %}
+_RAID 10 created. Mirrors in a stripe._:
+
+![raid 10 complete](6.png)
 
 ## My thoughts of RAID 10
 

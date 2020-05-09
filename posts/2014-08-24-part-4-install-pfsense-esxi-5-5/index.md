@@ -27,7 +27,9 @@ Ensure your pfSense can access the internet.
 
 Either through the console (option number 8) or by enabling Secure Shell (SSH) within 'System -> Advanced'. Connect to pfSense via any SSH utility you have if you prefer SSH (e.g. Putty).
 
-{% include caption.html path="enable_ssh.jpg" caption="Enable SSH in within the pfSense web interface via 'System -> Advanced'." alt="Enable_SSH" %}
+_Enable SSH in within the pfSense web interface via 'System -> Advanced'._:
+
+![Enable_SSH](enable_ssh.jpg)
 
 **2. Enable downloading of packages**
 
@@ -66,13 +68,17 @@ For 32 bit:
 $ pkg_add -rv compat6x-i386
 ```
 
-{% include caption.html path="capture.png" caption="Use Putty to SSH into pfSense. Putty makes it easier to copy and paste code instead of typing it which almost always leads to spelling mistakes." alt="Download packages" %}
+_Use Putty to SSH into pfSense. Putty makes it easier to copy and paste code instead of typing it which almost always leads to spelling mistakes._:
+
+![Download packages](capture.png)
 
 **3. Load VMware Tools into pfSense**
 
 Open the vSphere Client and connect to your ESXi host. Locate your pfSense VM and ensure the Guest OS matches FreeBSD (32 or 64 bit depending on your version). This lets ESXi know which VMware Tools package to provide it with.
 
-{% include caption.html path="2.png" caption="I am running the 64 bit version of pfSense. This lets VMware know which version of VMware Tools to install." alt="pfsense-vm-settings" %}
+_I am running the 64 bit version of pfSense. This lets VMware know which version of VMware Tools to install._:
+
+![pfsense-vm-settings](2.png)
 
 Open a console to the pfSense virtual machine and click: 'VM -> Guest -> Install/Upgrade VMware Tools'
 
@@ -116,7 +122,9 @@ As bad as this is script is, it seems to fix the problem where the vSphere Clie
 
 Shutdown the VM either through the shell (type exit then choose option 6) and add the VMXNET3 NICs as desired to replace your WAN and LAN network cards.
 
-{% include caption.html path="3.png" caption="You have to shutdown the virtual machine first before removing and adding network adapters. Make sure the adapter type is VMXNET3. Note the MAC addresses as well." alt="pfsense-vmxnet3" %}
+_You have to shutdown the virtual machine first before removing and adding network adapters. Make sure the adapter type is VMXNET3. Note the MAC addresses as well._:
+
+![pfsense-vmxnet3](3.png)
 
 **7. Configure the VMXNET3 network adapters**
 
@@ -124,11 +132,15 @@ Power on the VM and pfSense will alert you to set the interfaces once again. It 
 
 NOTE THEM DOWN BEFORE PFSENSE SCROLLS!
 
-{% include caption.html path="4.png" caption="pfSense will notify you there is a network interface mismatch by swapping the network cards." alt="pfsense-mac-addresses" %}
+_pfSense will notify you there is a network interface mismatch by swapping the network cards._:
+
+![pfsense-mac-addresses](4.png)
 
 You will have to enter vmx3f0 or vmx3f1 depending on the interface (not the entire name). Make sure you link the correct network adapter to the correct interface. Check the MAC addresses like we did in Part 2.
 
-{% include caption.html path="5.png" caption="Specify the network adapter which has been allocated for both your WAN and LAN. They will be either vmx3f0 or vmx3f1." alt="pfsense-allocate-nic" %}
+_Specify the network adapter which has been allocated for both your WAN and LAN. They will be either vmx3f0 or vmx3f1._:
+
+![pfsense-allocate-nic](5.png)
 
 Link the MAC addresses to the VM's settings if you are unsure which is the LAN and WAN.
 
@@ -136,9 +148,13 @@ Link the MAC addresses to the VM's settings if you are unsure which is the LAN a
 
 VMware Tools should be successfully installed natively on pfSense
 
-{% include caption.html path="6.png" caption="When finished, pfSense will return to its usual screen retaining all your previous changes and IP addresses." alt="pfsense-success" %}
+_When finished, pfSense will return to its usual screen retaining all your previous changes and IP addresses._:
 
-{% include caption.html path="7.png" caption="10Gbps networking!" alt="pfsense-vmxnet3-wi" %}
+![pfsense-success](6.png)
+
+_10Gbps networking!_:
+
+![pfsense-vmxnet3-wi](7.png)
 
 Credits:
 
@@ -165,7 +181,9 @@ Select 'Configure Management Network' then 'IP Configuration'.
 
 Highlight the radio and press space to select static. Enter an IP address that is not within the DHCP range you have specified in pfSense.
 
-{% include caption.html path="waprup4.png" caption="Set pfSense to start up with ESXi." alt="" %}
+_Set pfSense to start up with ESXi._:
+
+![](waprup4.png)
 
 **5. Restart the network configuration**
 
@@ -180,7 +198,9 @@ If pfSense is now your router, it is very important to auto-start it with ESXi.
 3.  Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
 4.  Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
 
-{% include caption.html path="waprup5.png" caption="Ensure all the details are correct." alt="" %}
+_Ensure all the details are correct._:
+
+![](waprup5.png)
 
 ### Ending thoughts:
 

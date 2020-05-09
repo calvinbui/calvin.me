@@ -83,7 +83,9 @@ Notifications just don't appear on the top status bar like it does on Android. T
 
 I guess this is more of a design thing for iOS. Widgets are possible through the 'Today' tab when you pull down the notification shade, but are very limited. I have widgets on my Nexus for my calendar events, credit usage and tasks. None of this was at all possible on iOS.
 
-{% include caption.html path="nexus2cee_screenshot_2014-08-26-11-48-43.jpg" caption="A lot of dynamic information can be displayed with widgets." alt="A lot of dynamic information can be displayed with widgets." %}
+_A lot of dynamic information can be displayed with widgets._:
+
+![A lot of dynamic information can be displayed with widgets.](nexus2cee_screenshot_2014-08-26-11-48-43.jpg)
 
 #### DISLIKED: Siri follow up questions
 
@@ -95,7 +97,9 @@ One time it showed me a potential match it thought was the one so I replied with
 
 It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in the Action Center menu that can be pulled up from the bottom of the screen. The bad news though is that it's missing the important mobile data toggle! I don't get why this wasn't editable or there was an easy way to turn off 3G on the phone. I'm on a data plan (1.5GB per month) and I prefer to not go through screens of settings to flip a single switch! I thought this was totally ridiculous.
 
-{% include caption.html path="androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg" caption="It's all I want!" alt="It's all I want!" %}
+_It's all I want!_:
+
+![It's all I want!](androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg)
 
 #### DISLIKED: Convoluted Settings
 

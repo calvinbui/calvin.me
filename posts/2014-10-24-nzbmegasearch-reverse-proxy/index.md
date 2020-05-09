@@ -32,7 +32,9 @@ Let's run through how my setup works.
 
 In my environment the proxy server is a different host from NZBmegasearcH. My proxy server connects to all my Usenet applications which are all on different virtualised hosts. Here's a little picture to help you out with that:
 
-{% include caption.html path="capture5.png" caption="Only my proxy server is exposed to the Internet. It connects to other hosts when accessing applications." alt="proxy configuration nzbmegasearch" %}
+_Only my proxy server is exposed to the Internet. It connects to other hosts when accessing applications._:
+
+![proxy configuration nzbmegasearch](capture5.png)
 
 ## Apache Proxy Install
 

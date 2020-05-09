@@ -46,7 +46,9 @@ Currently your setup may look similar to something like this: [![nd3](nd3.png)](
 
 We want it to look something like this:
 
-{% include caption.html path="network-diagram.png" caption="Our modem becomes independent of the router. pfSense becomes the router living as a VM on our ESXi host. A switch may not be needed, but they're great to have." alt="the network we want to have" %}
+_Our modem becomes independent of the router. pfSense becomes the router living as a VM on our ESXi host. A switch may not be needed, but they're great to have._:
+
+![the network we want to have](network-diagram.png)
 
 pfSense as a virtual machine will sit between your modem and switch to act as a router. It will be able to provide IP addresses to both physical and virtual machines via it's DHCP server (or you can set the IP manually). One network card on your ESXi host will connect to the modem (WAN) while the other connects to the your switch (LAN). Without a switch, you will only be able to connect one host to your network  as there is only one connection!
 
@@ -54,7 +56,9 @@ pfSense as a virtual machine will sit between your modem and switch to act as a 
 
 **1. Set up a LAN and WAN switch in the vSphere client.** One NIC (network card) will be the LAN and one NIC will be the WAN. The LAN NIC will act as a router to your VMs as well as anything connected to the switch. The WAN will be connected to your modem to access and provide Internet connectivity to your LAN.
 
-{% include caption.html path="lanwan.png" caption="Two vSwitches using two different network cards. One network card is responsible for the local network and one is dedicated to the wide area network (Internet)" alt="ESXi networking" %}
+_Two vSwitches using two different network cards. One network card is responsible for the local network and one is dedicated to the wide area network (Internet)_:
+
+![ESXi networking](lanwan.png)
 
 Give the names WAN and LAN corresponding to the which ever NIC is connected to the Modem (WAN) and Switch (LAN).
 

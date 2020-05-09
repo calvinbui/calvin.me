@@ -78,4 +78,6 @@ Roughly a half-second increase in speed on the home page. Currently this site is
 
 [![http2-multiplexing](http2-multiplexing.png)](http2-multiplexing.png)
 
-{% include caption.html path="http2-network-graph-comparison.png" caption="Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/" alt="http2-network-graph-comparison" %}
+_Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/_:
+
+![http2-network-graph-comparison](http2-network-graph-comparison.png)

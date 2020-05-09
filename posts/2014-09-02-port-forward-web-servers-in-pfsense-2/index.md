@@ -44,9 +44,13 @@ Choose (NAT + Proxy) Reflection mode.
 
 **5.** Enter in the details of your web server. Any red input boxes are linked to aliases. You can select HTTP and HTTPS from the port dropdowns . If you are running server blocks on NGINX or Virtual Hosts on Apache, you will only need to port forward that one host.
 
-{% include caption.html path="36.png" caption="With an alias, HTTP Port (80)" alt="port-forward-rules" %}
+_With an alias, HTTP Port (80)_:
 
-{% include caption.html path="4.png" caption="Without alias, HTTPS Port (443)" alt="port-forward-80" %}
+![port-forward-rules](36.png)
+
+_Without alias, HTTPS Port (443)_:
+
+![port-forward-80](4.png)
 
 **6. **Save and Apply the changes.
 

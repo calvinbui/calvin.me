@@ -13,7 +13,9 @@ Running HTTPS on NGINX is easy. Running a web server with HTTPS on [NGINX server
 
 <!-- more -->
 
-{% include caption.html path="drawing1.png" caption="Example of server blocks on NGINX" alt="nginx setup" %}
+_Example of server blocks on NGINX_:
+
+![nginx setup](drawing1.png)
 
 **1.** Grab a SSL Certificate. I got mine from [StartSSL ](https://www.startssl.com/%20)for free. Supported in all the popular browsers.
 

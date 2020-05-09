@@ -35,7 +35,9 @@ Replacing:
 
 **3.** Reboot the machine if necessary (most likely)
 
-{% include caption.html path="capture1.png" caption="Lowered the threshold down to 200 RPM" alt="ipmi-new-threshold" %}
+_Lowered the threshold down to 200 RPM_:
+
+![ipmi-new-threshold](capture1.png)
 
 If that doesn't work, there are other tools you can try out. None of these seemed to work for me on Windows or Linux, they just froze. Doing this before install ESXi would've been easier as it would connect directly to the IPMI instead of having to go through the LAN. The worst thing about these is that documentation is there but in a glossary format so you have to read the whole thing to understand it, there aren't little guides for just connecting or changing specific features.
 
