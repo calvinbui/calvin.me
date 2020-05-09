@@ -51,7 +51,7 @@ $ firewall-cmd --reload
 
 **5. Install PHP**
 
-```console
+```terminal
 $ sudo yum install php-fpm php-mysql
 ```
 
