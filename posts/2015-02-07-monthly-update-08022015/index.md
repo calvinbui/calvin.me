@@ -58,7 +58,7 @@ Furthermore I've added a few new plugins to enhance security and usability such 
 
 I thought it was a good time to do some updates. Went straight to 5.5 U2 using the [_update-from-esxi5.5-5.5_update02.zip_](https://my.vmware.com/group/vmware/patch#search) file and the command:
 
-```terminal
+```shell-session
 $ esxcli software vib update -d=[ZFS0]/esxi_patches/ESXi/update-from-esxi5.5-5.5_update02.zip
 ```
 

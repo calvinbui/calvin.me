@@ -73,7 +73,7 @@ I also centered the TwentyFourteen theme. Instructions were found on the [WordP
 
 Lastly I had a stupid error with JetPack. It kept giving me a 32601 error meaning something was up with my xmlrpc.xml file (nothing was wrong). I was able to fix this by adding the following line to my wp-config.php:
 
-```config
+```php
 $_SERVER['SERVER_PORT'] = 443;
 ```
 

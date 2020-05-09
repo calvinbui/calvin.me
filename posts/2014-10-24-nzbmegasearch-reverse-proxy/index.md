@@ -42,7 +42,7 @@ In my environment the proxy server is a different host from NZBmegasearcH. My p
 
 **3.** Let's try to get NZBmegasearcH up and running on its own local proxy using Apache. I found that NGINX couldn't do this for whatever reason. You just want it to show any content for now, it doesn't have to be perfect and styled. This is my Apache configuration at _/etc/apache2/sites-enabled/000-default.conf_. Thanks to [goatysix](http://www.reddit.com/r/usenet/comments/2cz2tk/nzbmegasearch_reverse_proxy/) for this configuration.
 
-```config
+```apacheconf
 <VirtualHost *:80>
 
 ServerAdmin webmaster@localhost

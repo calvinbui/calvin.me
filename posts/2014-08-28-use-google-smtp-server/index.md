@@ -20,7 +20,7 @@ You will also have the option of having Google store and index the emails you se
 
 ## To utilise the Google SMTP server:
 
-```config
+```
 Server: smtp.gmail.com
 Port: 465
 Username: Your Gmail or Google Apps email address
@@ -32,7 +32,7 @@ Security: SSL
 
 The following is also a working combination:
 
-```config
+```
 Security: TLS
 Port: 587
 ```

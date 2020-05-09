@@ -46,7 +46,7 @@ Everything you need to know can be found on the [official Fling page](https://la
 1.  SSH into your ESXi host
 2.  Run the command
 
-```terminal    
+```shell-session    
 $ esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui_signed.vib
 ```
 
@@ -57,7 +57,7 @@ $ esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/
 3.  Copy the VIB file to /tmp/
 4.  Run the command
 
-```terminal
+```shell-session
 $ esxcli software vib install -v /tmp/esxui_signed.vib
 ```
 

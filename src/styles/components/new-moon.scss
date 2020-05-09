@@ -5,7 +5,7 @@ code {
   font-size: 13px;
 }
 
-pre.language-terminal code.language-terminal {
+pre.language-shell-session code.language-shell-session {
   position: relative;
   padding: 1rem;
   font-family: $code-font-family;
@@ -121,7 +121,7 @@ code[class*='language-sass'] {
 
 @include small-breakpoint {
   code,
-  pre.language-terminal code.language-terminal,
+  pre.language-shell-session code.language-shell-session,
   code[class*='language-'],
   pre[class*='language-'],
   pre code {

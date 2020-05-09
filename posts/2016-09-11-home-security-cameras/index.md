@@ -106,7 +106,7 @@ As I already had a Windows PC running the VMS, I installed [Microsoft OneDrive](
 
 With that in mind, I made a script (.bat file) which would just delete anything older than 30 days. Windows Task Scheduler runs it once daily . The photos would also be deleted on OneDrive as they are located in its folder.
 
-```terminal
+```shell-session
 $ forfiles /P "C:PathGoesHere" /S /D -30 /C "cmd /c del /q @path"
 ```  
 

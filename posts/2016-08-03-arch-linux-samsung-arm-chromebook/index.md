@@ -33,7 +33,7 @@ Proper networking will be explained later on once we have a GUI ready.
 
 Simply run:
 
-```terminal
+```shell-session
 $ pacman -Syu
 ```
 
@@ -45,25 +45,25 @@ The next few steps require some files to be created in a user's home directory o
 
 Create a new user
 
-```terminal
+```shell-session
 $ useradd -m -G wheel -s /bin/bash calvin
 ```
 
 Set a new password
 
-```terminal
+```shell-session
 $ passwd calvin
 ```
 
 Install _sudo_
 
-```terminal
+```shell-session
 $ pacman -S sudo
 ```
 
 Add user to sudoers
 
-```terminal
+```shell-session
 $ visudo
 
 ...
@@ -81,25 +81,25 @@ I prefer [MATE](https://wiki.archlinux.org/index.php/MATE) as it's light on reso
 
 To install MATE and everything required for a desktop environment, run:
 
-```terminal
+```shell-session
 $ pacman -S mate mate-extra xorg-server
 ```
 
 The _Disk Utility_ and _Account Manager_ are optional packages if you wish to install them. The built-in account manager seems to work but throws an error when launching.
 
-```terminal
+```shell-session
 $ pacman -S mate-disk-utility mate-accountsdialog
 ```
 
 Finally if you need a Display Manager (Login screen) to launch _MATE_ (or use [xorg-xinit](https://wiki.archlinux.org/index.php/Xinit)). _MATE_ recommends using _[LightDM](https://wiki.archlinux.org/index.php/LightDM)_:
 
-```terminal
+```shell-session
 $ pacman -S lightdm lightdm-gtk-greeter
 ```
 
 Then enable _LightDM_ to run on startup:
 
-```terminal
+```shell-session
 $ systemctl enable lightdm.service
 ```
 
@@ -111,13 +111,13 @@ Now the trackpad will not feel right. This is easily fixed with a config file an
 
 Install the driver first:
 
-```terminal
+```shell-session
 $ pacman -S xf86-input-synaptics
 ```
 
 Then set-up the config file at _/etc/X11/xorg.conf.d/70-synaptics.conf_
 
-```config
+```
 Section "InputClass"
         Identifier "touchpad"
         Driver "synaptics"
@@ -144,13 +144,13 @@ Note: if it's really hard navigating with the broken trackpad, press _CTRL + ALT
 
 Install _Network Manager_ and _network-manager-applet:_
 
-```terminal
+```shell-session
 $ pacman -S networkmanager network-manager-applet
 ```
 
 Then enable _Network Manager_ and reboot to find the applet:
 
-```terminal
+```shell-session
 $ systemctl enable NetworkManager.service
 ```
 
@@ -160,7 +160,7 @@ $ systemctl enable NetworkManager.service
 
 First make controlling brightness available to every user by editing permissions at startup. Create _/etc/tmpfiles.d/brightness.conf_ with:
 
-```terminal
+```shell-session
 $ f /sys/class/backlight/backlight.12/brightness 0666 - - - 800
 ```
 
@@ -168,7 +168,7 @@ Reboot to activate the new permissions.
 
 Next create this brightness script wherever you want. I used _/usr/local/bin/brightness_
 
-```shell
+```bash
 #!/bin/bash
 cur_bri=$(/usr/bin/cat /sys/class/backlight/backlight.12/brightness)
 
@@ -189,7 +189,7 @@ fi
 
 Make the scripts executable:
 
-```terminal
+```shell-session
 $ chmod +x /usr/local/bin/brightness
 ```
 
@@ -199,7 +199,7 @@ Then create keyboard shortcuts through '_System > Preferences > Hardware > Keybo
 
 [![Screenshot at 2016-07-31 07:06:01](screenshot-at-2016-07-31-070601.png)](screenshot-at-2016-07-31-070601.png)
 
-```config
+```
 Name: Brightness Down
 Command: /usr/local/bin/brightness down
 Shortcut F6
@@ -215,13 +215,13 @@ If it doesn't work, make sure you have rebooted first to set the right permissio
 
 First install _alsa-utils_
 
-```terminal
+```shell-session
 $ pacman -S alsa-utils
 ```
 
 Then run _alsamixer_
 
-```terminal
+```shell-session
 $ alsamixer
 ```
 
@@ -248,13 +248,13 @@ Forget about _acpid_ and _pm-utils_ in the wiki, sleeping works fine without the
 
 Install the relevant power manager for your environment, e.g. for _MATE_ it should be:
 
-```terminal
+```shell-session
 $ pacman -S mate-power-manager
 ```
 
 The trackpad has a tendency to wake up the computer as almost any movement to the computer will cause it to activate. To disable it from waking the computer during sleep, I use a systemd unit file _/etc/systemd/system/tp-wake-disable.service_
 
-```config
+```ini
 [Unit]
 Description=Disable trackpad waking computer
 
@@ -268,7 +268,7 @@ WantedBy=multi-user.target
 
 Then enable the unit:
 
-```terminal
+```shell-session
 $ systemctl enable tp-wake-disable.service
 ```
 
@@ -276,7 +276,7 @@ $ systemctl enable tp-wake-disable.service
 
 The Chromebook does not suspend after a period of inactivity in my tests, the display goes black and stays that way until woken again. I've found the easiest way to activate suspend is to edit _/etc/systemd/logind.conf_ and change the _IdleAction_ and _IdleActionSec_ fields. This means 1 minute after the display is put to sleep it will suspend.  The time for the display to sleep is configured through Screensaver in '_System Preferences > Preferences > Look and Feel > Screensaver_'.
 
-```config
+```
 ...
 #HoldoffTimeoutSec=30s
 IdleAction=Suspend
@@ -296,13 +296,13 @@ Note: During startup, _LightDM_ will not suspend the computer if no one logs on,
 
 Install _xmodmap_:
 
-```terminal
+```shell-session
 $ pacman -S xorg-xmodmap
 ```
 
 By default, _LightDM_ will read the _~/.Xmodmap_ file and modify the keymaps listed within it.
 
-```terminal
+```shell-session
 $ keycode 133 = Caps_Lock
 ```
 
@@ -310,19 +310,19 @@ $ keycode 133 = Caps_Lock
 
 Install _xbindkeys_ (for creating shortcuts) and _xvkbd_ (emulate keyboard input):
 
-```terminal
+```shell-session
 $ pacman -S xbindkeys xvkbd
 ```
 
 Create the configuration file:
 
-```terminal
+```shell-session
 $ touch ~/.xbindkeysrc
 ```
 
 Add the following to the configuration file:
 
-```config
+```
 "xvkbd -xsendevent -text "[Prior]""
     m:0x4 + c:111
     Control + Up
@@ -348,7 +348,7 @@ I prefer using _CTRL + Arrow_ keys as it's easier than _ALT + Arrow_ keys. If yo
 
 To run the configuration file at startup, add it to the _~/.xprofile_ which is executed by _LightDM_.
 
-```terminal
+```shell-session
 $ echo 'xbindkeys &' >> ~/.xprofile
 ```
 
@@ -360,7 +360,7 @@ $ echo 'xbindkeys &' >> ~/.xprofile
 
 ### Set Hostname
 
-```terminal
+```shell-session
 $ hostnamectl set-hostname arch-chromebook
 ```
 
@@ -369,14 +369,14 @@ $ hostnamectl set-hostname arch-chromebook
 
 First find your time zone:
 
-```terminal
+```shell-session
 $ timedatectl list-timezones | grep Sydney
 Australia/Sydney
 ```
 
 Then set the time zone:
 
-```terminal
+```shell-session
 $ timedatectl set-timezone Australia/Sydney
 ```
 

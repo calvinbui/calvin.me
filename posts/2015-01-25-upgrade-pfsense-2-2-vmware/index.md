@@ -71,20 +71,20 @@ There are two problems with vnstat, it does not have a database and it still lis
 
 To create the database, run these two commands:
 
-```terminal
+```shell-session
 $ mkdir -p /var/lib/vnstat
 $ /usr/local/bin/vnstat -u -i vmx0 # replace vmx0 with your preferred interface
 ```
 
 To fix the issue with the old interfaces, edit the file /usr/local/www/vnstat2/config.php where it holds the list of interfaces.
 
-```terminal
+```shell-session
 $ vi /usr/local/www/vnstat2/config.php
 ```
 
 You will need to change the following line to match your new interfaces:
 
-```terminal
+```shell-session
 $ iface_list = array('vmx3f0', 'vmx3f0_vlan10', 'vmx3f0_vlan20', 'vmx3f0_vlan30', 'vmx3f0_vlan40', 'vmx3f0_vlan50', 'vmx3f1', 'vmx3f2');
 # delete 3f in every interface to get vmx0_XXXXX instead of vmx3f0_XXXXX
 ```

@@ -20,7 +20,7 @@ Built-in antivirus. [HAVP](http://www.server-side.de/) utilises ClamAV to preve
 
 A problem I've had with HAVP is that it prevents me from downloading Origin games and downloading Java from Oracle. But the fix is easy, add these three lines into the HAVP whitelist.
 
-```config
+```
 *sun.com/*
 *.ea.com/*
 *.origin.com/*

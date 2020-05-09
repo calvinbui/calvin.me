@@ -23,7 +23,7 @@ Having moved over to CloudFlare, I had to move to switch my DNS servers over to 
 
 Looking at [Larry Bolt's gist](https://gist.github.com/larrybolt/6295160) which calls this API, I simply replaced the variables with my own and was able to make the following URL to put into pfSense:
 
-```config
+```
 https://www.cloudflare.com/api.html?a=DIUP&hosts=example.com&u=username@email.com&tkn=abc123abc&ip=%IP%
 ```
 

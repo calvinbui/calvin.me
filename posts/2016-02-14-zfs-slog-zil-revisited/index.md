@@ -91,7 +91,7 @@ This made me believe there was something wrong with napp-it or OmniOS in general
 
 Temporarily leaving napp-it behind I decided to try out FreeNAS and see if the issues still arose. A quick dd benchmark and test were very good, but not the 500MB/s I was seeing on Windows.
 
-```terminal
+```shell-session
 [root@freenas] /mnt/ssd/dataset# dd if=/dev/zero of=/mnt/ssd/dataset/dd.testfile bs=4M count=10000
 10000+0 records in
 10000+0 records out

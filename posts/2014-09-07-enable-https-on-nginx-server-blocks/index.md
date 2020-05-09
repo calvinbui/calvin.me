@@ -23,7 +23,7 @@ Place your SSL files on the Reverse Proxy server under '/etc/nginx/ssl/'
 
 **2.** On the Reverse Proxy Server (_proxy_ from now on), edit the configuration file for the remote host. I will be using _calvin.me_ as the example.
 
-```terminal
+```shell-session
 $ sudo nano /etc/nginx/sites-enabled/calvin.me
 ```
 
@@ -84,7 +84,7 @@ server {
 
 **3.** Save and restart the NGINX server when done.
 
-```terminal
+```shell-session
 $ sudo service nginx restart
 ```
 

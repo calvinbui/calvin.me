@@ -36,19 +36,19 @@ pfSense by default prevents you from downloading packages for good reason, it co
 First you will need to change where pfSense gets its packages from. As of this post, pfSense 2.1.4 is based off FreeBSD 8.3-RELEASE-p16. Find the URL that fits your version. Run the follow commands in the shell:
 For 64 bit:
 
-```terminal
+```shell-session
 $ setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83amd64-default/Latest/"
 ```
 
 For 32 bit:
 
-```terminal
+```shell-session
 $ setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83i386-default/Latest/"
 ```
 
 Once the package site has been set, install 'perl'
 
-```terminal
+```shell-session
 $ pkg_add -rv perl
 ```
 
@@ -56,13 +56,13 @@ Finally install the compatibility library for your version of pfSense
 
 For 64 bit:
 
-```terminal
+```shell-session
 $ pkg_add -rv compat6x-amd64
 ```
 
 For 32 bit:
 
-```terminal
+```shell-session
 $ pkg_add -rv compat6x-i386
 ```
 
@@ -82,7 +82,7 @@ or if you are in VMware workstation: 'VM -> Install VMware Tools'
 
 Run the following line by line to mount the the VMware Tools disk, unpack its contents and install i:
 
-```terminal
+```shell-session
 $ mount -t cd9660 /dev/acd0 /mnt/
 $ cd /tmp
 $ tar xvzf /mnt/vmware-freebsd-tools.tar.gz
@@ -94,7 +94,7 @@ If it fails to install the first time, run the final line again for a reinstall.
 
 Remove the leftovers after the installation:
 
-```terminal
+```shell-session
 $ rm -f /etc/vmware-tools/not_configured
 ```
 
@@ -102,7 +102,7 @@ $ rm -f /etc/vmware-tools/not_configured
 
 A script is required to add the compat6x library to boot time or VMware tools will not start properly. Enter these lines into the shell:
 
-```terminal
+```shell-session
 $ echo '#!/bin/sh' > /usr/local/etc/rc.d/000-ldconfig.sh
 $ echo '/sbin/ldconfig -m /usr/local/lib/compat' >> /usr/local/etc/rc.d/000-ldconfig.sh
 $ echo '/usr/local/etc/rc.d/vmware-tools.sh restart' >> /usr/local/etc/rc.d/000-ldconfig.sh

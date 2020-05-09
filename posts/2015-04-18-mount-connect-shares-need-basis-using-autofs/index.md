@@ -20,13 +20,13 @@ To start, first install autofs through.
 
 For Ubuntu
 
-```terminal
+```shell-session
 $ sudo apt-get install autofs
 ```
 
 For Red Hat, Fedora and CentOS
 
-```terminal
+```shell-session
 $ sudo yum install autofs
 ```
 
@@ -46,19 +46,19 @@ Create a new file in /etc/. I like to name this after my mount point e.g. if I c
 
 Edit the master autofs configuration file at the bottom
 
-```terminal
+```shell-session
 $ sudo nano /etc/auto.master
 ```
 
 Add the mountpoint to the bottom
 
-```config
+```
 /mnt   /etc/auto.mnt
 ```
 
 Now create the auto.mnt file
 
-```terminal
+```shell-session
 $ sudo nano /etc/auto.mnt
 ```
 
@@ -68,13 +68,13 @@ There are several types of mounts and each differs in their configuration.
 
 Add the following line to your auto.mnt file
 
-```config
+```
 folder   server:/
 ```
 
 Where 'folder' indicates the folder to be created under /mnt to host your shares. e.g.
 
-```config
+```
 qnapfs  192.168.0.2://
 ```
 
@@ -82,20 +82,20 @@ qnapfs  192.168.0.2://
 
 Add the following line to your auto.mnt file
 
-```config
+```
 folder -fstype=nfsv4  server:/
 ```
 
 Where 'folder' indicates the folder to be created under /mnt to host your shares. e.g.
 
-```config
+```
 qnapfs -fstype=nfsv4 192.168.0.2://
 ```
 
 The client needs the same changes to **/etc/default/nfs-common** to connect to an NFSv4 server. In **/etc/default/nfs-common** we set:
 
-```config
-NEED_IDMAPD=yes  
+```
+NEED_IDMAPD=yes
 NEED_GSSD=no # no is default
 ```
 ### CIFS
@@ -103,13 +103,13 @@ NEED_GSSD=no # no is default
 
 Add the following line to your auto.mnt file.
 
-```config
+```
 folder -fstype=cifs,rw,noperm,username=myuser,password=mypass ://example.com/shrname
 ```
 
 If you are using a domain, specify it like so:
 
-```config
+```
 folder -fstype=cifs,rw,noperm,username=myuser,domain=domain.com,password=mypass ://example.com/shrname
 ```
 
@@ -117,8 +117,8 @@ folder -fstype=cifs,rw,noperm,username=myuser,domain=domain.com,password=mypass 
 
 Reboot and attempt to access your share.
 
-```terminal
-$ ls /mnt/folder  
+```shell-session
+$ ls /mnt/folder
 $ cd /mnt/folder
 ```
 
@@ -126,13 +126,13 @@ If it does not work, you will have to debug it
 
 1.  Stop the **autofs** daemon
 
-```terminal
+```shell-session
 $ sudo service autofs stop
 ```
 
 2.  Run **automount** in the foreground with verbose information
 
-```terminal
+```shell-session
 $ sudo automount -f -v
 ```
 

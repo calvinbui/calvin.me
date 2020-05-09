@@ -23,19 +23,19 @@ I will be using a freshly installed Ubuntu 14.04.1 LTS. I previously had issues 
 
 To install the controller you will need to add the Ubiquiti repository to your apt sources list. This one liner does that for you:
 
-```terminal
+```shell-session
 $ echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/100-ubnt.list
 ```
 
 Next you will need to add the [GNU Privacy Guard (GPG)](http://en.wikipedia.org/wiki/GNU_Privacy_Guard) keys for UniFi and MongoDB (used to store your users and WiFi statistics within the UniFi controller). The GPG keys verifies the genuinity of who you will be downloading from during the installation. Here's another one liner to add both (Ubiquiti first then MongoDB):
 
-```terminal
+```shell-session
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50 && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 ```
 
 Now perform update to ensure Ubuntu recognises the repository:
 
-```terminal
+```shell-session
 $ sudo apt-get update
 ```
 
@@ -43,7 +43,7 @@ $ sudo apt-get update
 
 Finally the big moment - installing the UniFi controller.
 
-```terminal
+```shell-session
 $ sudo apt-get install unifi -y
 ```
 
@@ -65,7 +65,7 @@ Depending on the version installed, you will be taken to the setup wizard. You'r
 
 A good start would be to go through the system logs and google the issue:
 
-```terminal
+```shell-session
 $ cat /var/log/unifi/server.log
 ```
 
@@ -73,7 +73,7 @@ $ cat /var/log/unifi/server.log
 
 Just like any other service in Ubuntu, UniFi can be stop, started and restarted.
 
-```terminal
+```shell-session
 # to stop the controller
 $ sudo service unifi stop
 
@@ -91,7 +91,7 @@ $ sudo service unifi status
 
 This issue can be tricky. UniFi cannot access Java to run Tomcat (its web server). To check if you have Java, simply run:
 
-```terminal
+```shell-session
 $ java -version
 ```
 
@@ -99,13 +99,13 @@ If nothing appears you do not have Java. The latest version of UniFi supports Ja
 
 If you do have Java (or installed it now), you will have to edit the UniFi startup script to point out the location of Java. Open the startup script:
 
-```terminal
+```shell-session
 $ sudo editor /etc/init.d/unifi
 ```
 
 Change the 'JAVA_HOME' location to your new Java location:
 
-```terminal
+```shell-session
 $ JAVA_HOME=/opt/jdk/jdk1.8.0_XX
 ```
 
@@ -113,7 +113,7 @@ $ JAVA_HOME=/opt/jdk/jdk1.8.0_XX
 
 When going through the log file you may find the error:
 
-```terminal
+```shell-session
 $ java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (No such file or directory)
 ```
 
@@ -121,12 +121,12 @@ This error means that the 'keystore' file is missing, resulting in Tomcat not be
 
 Generate a new keystore file, answering blank to every question including password:
 
-```terminal
+```shell-session
 $ sudo keytool -genkey -keyalg RSA -alias selfsigned -keystore /usr/lib/unifi/data/keystore -storepass aircontrolenterprise -validity 365 -keysize 2048 -destalias unifi
 ```
 
 Restart UniFi when successful and try accessing the web interface again.
 
-```terminal
+```shell-session
 $ sudo service unifi restart
 ```

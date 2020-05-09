@@ -29,19 +29,19 @@ The module can be found on [GitHub](https://github.com/kvspb/nginx-auth-ldap). I
 
 To download the module using git, first install git:
 
-```terminal
+```shell-session
 $ sudo apt-get install git-core
 ```
 
 Clone the repository:
 
-```terminal
+```shell-session
 $ git clone https://github.com/kvspb/nginx-auth-ldap.git
 ```
 
 Later on if you need to update the module, browse into its folder and run the command:
 
-```terminal
+```shell-session
 $ git pull
 ```
 
@@ -51,25 +51,25 @@ There are quite a few things that need to be installed for Ubuntu to be able to 
 
 You will definitely need build tools. Build Essential will cover most:
 
-```terminal
+```shell-session
 $ sudo apt-get install build-essential
 ```
 
 Something important that's required is the LDAP development library which allows the module to connect to an LDAP server:
 
-```terminal
+```shell-session
 $ sudo apt-get install libldap2-dev
 ```
 
 If you're planning on using HTTPS/SSL you will also need the OpenSSL library:
 
-```terminal
+```shell-session
 $ sudo apt-get install libssl-dev
 ```
 
 If you also plan on using HTTP rewrites then you will need the PCRE library. HTTP rewrites are used for URL manipulation.
 
-```terminal
+```shell-session
 $ sudo apt-get install libpcre3-dev
 ```
 
@@ -77,19 +77,19 @@ $ sudo apt-get install libpcre3-dev
 
 Untar the NGINX source you have downloaded:
 
-```terminal
+```shell-session
 $ tar -xvzf nginx-1.7.7.tar.gz
 ```
 
 Browse into the source folder:
 
-```terminal
+```shell-session
 $ cd nginx-1.7.7
 ```
 
 I've found on Ubuntu (but not CentOS), the configure file is not executable. To make it executable:
 
-```terminal
+```shell-session
 $ chmod +x configure
 ```
 
@@ -97,7 +97,7 @@ Now you will need to configure your environment for building. I ran into a few 
 
 note: please change the path of the NGINX LDAP module in the command below if it differs from mine ( --add-module=/home/$USER/nginx-auth-ldap).
 
-```terminal
+```shell-session
 $ ./configure --user=nginx --group=nginx --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-http_gzip_static_module --with-http_stub_status_module --with-http_ssl_module --with-pcre --with-file-aio --with-http_realip_module --add-module=/home/$USER/nginx-auth-ldap/ --with-ipv6 --with-debug
 ```
 
@@ -107,7 +107,7 @@ If it does not run successfully then there are some dependencies missing. Lookin
 
 Once it runs successfully (thumbs crossed) it's time to build the system. Just this command:
 
-```terminal
+```shell-session
 $ make
 ```
 
@@ -115,7 +115,7 @@ $ make
 
 To finish it off, install NGINX with all the paths and modules we've specified.
 
-```terminal
+```shell-session
 $ sudo make install
 ```
 
@@ -127,25 +127,25 @@ The initialisation script allows you to execute 'start', 'restart', 'status' and
 
 To install the init script:
 
-```terminal
+```shell-session
 $ sudo wget https://raw.githubusercontent.com/calvinbui/nginx-init-ubuntu/master/nginx -O /etc/init.d/nginx
 ```
 
 Make the file executable:
 
-```terminal
+```shell-session
 $ sudo chmod +x /etc/init.d/nginx
 ```
 
 Make NGINX startup at boot using upstart
 
-```terminal
+```shell-session
 $ sudo update-rc.d -f nginx defaults
 ```
 
 Now you can start NGINX but running:
 
-```terminal
+```shell-session
 $ sudo service nginx start
 ```
 
@@ -167,7 +167,7 @@ It's finally time to actually configure the NGINX module we downloaded and built
 
 Open up your nginx.conf file for editing:
 
-```terminal
+```shell-session
 $ sudo editor /etc/nginx/nginx.conf
 ```
 
@@ -249,7 +249,7 @@ location / {
 
 Restart NGINX when done
 
-```terminal
+```shell-session
 $ sudo service nginx restart
 ```
 

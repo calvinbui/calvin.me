@@ -26,19 +26,19 @@ Turn on SSH and log in to the host.
 
 Remove the current license
 
-```terminal
+```shell-session
 $ rm -r /etc/vmware/license.cfg
 ```
 
 Copy over the new evaluation license, which is already on the host
 
-```terminal
+```shell-session
 $ cp /etc/vmware/.#license.cfg /etc/vmware/license.cfg
 ```
 
 Restart ESXi services
 
-```terminal
+```shell-session
 $ /etc/init.d/vpxa restart
 ```
 
@@ -115,7 +115,7 @@ echo 'Finished'
 
 Test the script and make sure it works (remember to chmod +x)
 
-```terminal
+```shell-session
 $ chmod +x reset-eval.sh
 ./reset-eval.sh
 ```
@@ -130,7 +130,7 @@ crond
 
 Finally add the following to the end of '/etc/rc.local.d/local.sh' to regenerate the job as ESXi clears the crontab on reboot
 
-```terminal
+```shell-session
 $ /bin/kill $(cat /var/run/crond.pid)
 $ /bin/echo "5 6 * * * /vmfs/volumes/ZFS0/reset-eval.sh" >> /var/spool/cron/crontabs/root
 $ crond

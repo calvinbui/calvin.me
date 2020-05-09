@@ -48,7 +48,7 @@ Open up terminal and run the following commands:
 
 If you run standard Ubuntu, you need an extra instruction to get the repository Universe. (Kubuntu, Lubuntu ... Xubuntu have the repository Universe activated automatically.)
 
-```terminal
+```shell-session
 $ sudo add-apt-repository universe  # only for standard Ubuntu
 
 $ sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
@@ -58,7 +58,7 @@ $ sudo apt-get install mkusb
 
 and if you want also the command line version without graphics:
 
-```terminal
+```shell-session
 $ sudo apt-get install mkusb-nox
 ```
 
@@ -66,7 +66,7 @@ $ sudo apt-get install mkusb-nox
 
 You can start mkusb by either searching for it through Unity or running the command:
 
-```terminal
+```shell-session
 $ sudo -H mkusb
 ```
 

@@ -50,31 +50,31 @@ For this, I used the Windows vSphere client instead of the web client
 
 **6.** Change directory over to your VMFS datastore
 
-```terminal
+```shell-session
 $ cd /vmfs/volumes/[datastore]/
 ```
 
 **7.** I recommend changing the name of the unlocker's folder to something else such as osx_unlocker
 
-```terminal
+```shell-session
 $ mv esxi osx_unlocker
 ```
 
 **8.** Go into the unlocker folder afterwards
 
-```terminal
+```shell-session
 $ cd osx_unlocker
 ```
 
 **9.** Make the install and uninstall file executable
 
-```terminal
+```shell-session
 $ chmod +x *
 ```
 
 **10.** Run the install script file
 
-```terminal
+```shell-session
 $ ./install.sh
 ```
 
@@ -100,13 +100,13 @@ Only supports 10.8 and below.
 
 **Windows -** Convert the DMG file to an ISO using dmg2img. I used version 1.65.
 
-```terminal
+```shell-session
 $ dmg2img -i InstallESD.img -o MountainLion.iso
 ```
 
 **Linux (Ubuntu) -** Convert the DMG to ISO also using dmg2img (sudo_ apt-get install dmg2img_)
 
-```terminal
+```shell-session
 $ dmg2img -i InstallESD.img -o MountainLion.iso
 ```
 

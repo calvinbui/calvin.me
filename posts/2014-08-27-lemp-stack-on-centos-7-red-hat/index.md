@@ -17,7 +17,7 @@ A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as
 
 **1. Install MySQL (mariadb)**
 
-```terminal
+```shell-session
 $ yum install mariadb mariadb-server
 $ mariadb restart
 $ sudo /usr/bin/mysql_secure_installation
@@ -25,7 +25,7 @@ $ sudo /usr/bin/mysql_secure_installation
 
 **2. Add the NGINX repository** Create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 
-```config
+```ini
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/mainline/centos/7/$basearch/
@@ -35,7 +35,7 @@ enabled=1
 
 **3. Install NGINX**
 
-```terminal
+```shell-session
 $ yum install nginx
 $ service nginx start
 $ service nginx status
@@ -43,7 +43,7 @@ $ service nginx status
 
 **4. Allow NGINX through the firewall**
 
-```terminal
+```shell-session
 $ firewall-cmd --set-default-zone=home
 $ firewall-cmd --permanent --zone=home --add-service=http
 $ firewall-cmd --reload
@@ -51,13 +51,13 @@ $ firewall-cmd --reload
 
 **5. Install PHP**
 
-```terminal
+```shell-session
 $ sudo yum install php-fpm php-mysql
 ```
 
 **6. Autostart MySQL, NGINX and PHP on boot**
 
-```terminal
+```shell-session
 $ sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
 ```
 

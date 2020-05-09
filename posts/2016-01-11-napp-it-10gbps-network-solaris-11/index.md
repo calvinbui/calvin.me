@@ -42,7 +42,7 @@ To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https:
 
 **1.** Select the interface to enable jumbo frames on, list it using the command:
 
-```terminal
+```shell-session
 $ dladm show-phys
 LINK      MEDIA    STATE SPEED DUPLEX DEVICE
 vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
@@ -50,7 +50,7 @@ vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
 
 **2.** See the current MTU, replacing vmxnet3s0 with your interface
 
-```terminal
+```shell-session
 $ dladm show-linkprop -p mtu vmxnet3s0
 LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
 vmxnet3s0 mtu      rw   1500  1500    60-9000
@@ -58,25 +58,25 @@ vmxnet3s0 mtu      rw   1500  1500    60-9000
 
 **3.** Turn off the interface to configure it
 
-```terminal
+```shell-session
 $ ifconfig vmxnet3s0 unplumb
 ```
 
 **4.** Set MTU to 9000
 
-```terminal
+```shell-session
 $ dladm set-linkprop -p mtu=9000 vmxnet3s0
 ```
 
 **5.** Re-enable the interface
 
-```terminal
+```shell-session
 $ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
 ```
 
 **6.** Check if it has updated
 
-```terminal
+```shell-session
 $ dladm show-link vmxnet3s0
 LINK      CLASS MTU  STATE BRIDGE OVER
 vmxnet3s0 phys  9000 up    --     --
@@ -84,7 +84,7 @@ vmxnet3s0 phys  9000 up    --     --
 
 At this point you can test the Jumbo Frames using a ping to a machine which can accept an MTU of 9000. I did a ping to my Ubuntu Desktop.
 
-```terminal
+```shell-session
 $ ping -s 10.0.0.16 9000 4
 
 PING 10.0.0.16: 9000 data bytes
@@ -110,13 +110,13 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 
 **1.** Run the following command to disable LSO though Solaris
 
-```terminal
+```shell-session
 $ ndd -set /dev/ip ip_lso_outbound 0
 ```
 
 **2.** Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU near the bottom of the file.
 
-```config
+```
 EnableLSO=0,0,0,0,0,0,0,0,0,0;
 MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
 ```
@@ -125,7 +125,7 @@ MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
 
 Finally tune TCP parameters to accommodate the faster speeds
 
-```terminal
+```shell-session
 $ ipadm set-prop -p max_buf=4194304 tcp
 $ ipadm set-prop -p recv_buf=1048576 tcp
 $ ipadm set-prop -p send_buf=1048576 tcp
@@ -135,7 +135,7 @@ $ ipadm set-prop -p send_buf=1048576 tcp
 
 Start iperf 2 as a server on napp-it
 
-```terminal
+```shell-session
 $ cd /var/web-gui/data/tools/iperf
 $ ./iperf -s
 ```
@@ -144,7 +144,7 @@ On another computer, run iperf as a client to connect to napp-it.
 
 Here are the results from my Windows Server 2012 VM. It is quite common to see decreased speeds when running iPerf on Windows. **Only 1.82 gigabits per second.**
 
-```terminal
+```shell-session
 C:iperf.exe -c 10.0.0.5
 
 ------------------------------------------------------------
@@ -158,7 +158,7 @@ TCP window size: 63.0 KByte (default)
 
 Results from Ubuntu Desktop! Amazing! **15.4 gigabits per second!!!**
 
-```terminal
+```shell-session
 $ iperf -c 10.0.0.5
 ------------------------------------------------------------
 Client connecting to 10.0.0.5, TCP port 5001
@@ -171,7 +171,7 @@ TCP window size:  325 KByte (default)
 
 From my Windows 10 Desktop. It's going over a gigabit switch that does not support Jumbo Frames. **528 megabits per second.**
 
-```terminal
+```shell-session
 C:>iperf-2.0.5-3-win32>iperf.exe -c 10.0.0.5
 ------------------------------------------------------------
 Client connecting to 10.0.0.5, TCP port 5001

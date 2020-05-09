@@ -32,19 +32,19 @@ This will be all you need.
 
 **2.** Install the NTP daemon using the command:
 
-```terminal
+```shell-session
 $ sudo apt-get install ntp
 ```
 
 **3.** Let's configure the NTP servers we are going to retrieve from. Edit the ntp.conf using the command:
 
-```terminal
+```shell-session
 $ sudo nano /etc/ntp.conf
 ```
 
 Here are the current servers that the service is currently retrieving the time from:
 
-```config
+```
 server 0.ubuntu.pool.ntp.org
 server 1.ubuntu.pool.ntp.org
 server 2.ubuntu.pool.ntp.org
@@ -59,7 +59,7 @@ Place the word _iburst_ onto one pool to indicate you want to retrieve from this
 
 **4.** Add a fallback server. Ubuntu already provides their own fallback but we will use the current server's time as the default. Otherwise you can specify any other server you know of:
 
-```config
+```
 server 127.127.1.0
 fudge 127.127.1.0 stratum 10
 ```
@@ -74,13 +74,13 @@ Hit _CTRL+X_, enter _Y_ to confirm and hit Enter.
 
 **6.** Restart the daemon service using the command:
 
-```terminal
+```shell-session
 $ sudo /etc/init.d/ntp restart
 ```
 
 **7.** Monitor the log to see when it starts synchronising using the command:
 
-```terminal
+```shell-session
 $ tail -f /var/log/syslog
 ```
 
@@ -90,7 +90,7 @@ $ tail -f /var/log/syslog
 
 **8.** It nothing comes up (which usually happens to me), run the command '_ntpq -p_' and it should show you all the time servers you are currently connecting with. This is enough to know if it is synchronized for now.
 
-```terminal
+```shell-session
 $ ntpq -p
 ```
 

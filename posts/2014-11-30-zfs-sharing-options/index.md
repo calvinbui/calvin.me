@@ -17,7 +17,7 @@ napp-it overs a [variety of extensions](http://napp-it.org/extensions/index_en.h
 
 A common favourite of Apache, MySQL and PHP. This enables ZFS sharing over HTTP, accessible via the browser. To install:
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/amp  | perl
 ```
 
@@ -33,7 +33,7 @@ By itself, sharing over HTTP is very plain old boring. That is why I use [h5ai](
 
 ProFTPD Is a FTP server, among the most popular today. Its primary goal is to be as feature rich as possible. It is very easy to install as well:
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/proftpd | perl
 ```
 
@@ -51,13 +51,13 @@ Both of these will first require the AMP stack.
 
 OwnCloud
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/owncloud  | perl
 ```
 
 Pydio
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/pydio | perl
 ```
 
@@ -65,7 +65,7 @@ $ wget -O - www.napp-it.org/pydio | perl
 
 Serviio is a media server which allows many different devices to stream from your ZFS filesystem. To install it, make sure you have the AMP stack then run the command:
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/serviio | perl
 ```
 
@@ -81,7 +81,7 @@ With Serviio, I am able to specify which shares I want to be visible over DLNA/U
 
 An alternative to Serviio is Mediatomb, although it hasn't be updated in a long time:
 
-```terminal
+```shell-session
 $ wget -O - www.napp-it.org/mediatomb  | sh
 ```
 
