@@ -29,7 +29,7 @@ From my search I found 7 reputable free products that can be used to backup VMs 
 ## The Comparison
 
 | PRODUCT | OS | RAM | VMs | INCREMENTAL BACKUP | REMOTE STORAGE | NOTIFICATIONS | SCHEDULING | OTHER |
-|-
+|-|-|-|-|-|-|-|-|-|
 | Veeam | Windows | 4GB | Unlimited | No | Windows File Explorer to choose | No | No |  |
 | Nakivo | Windows, Linux, OVA | 4GB | 2 | Yes | CIFS | Email with PDF reports | Yes | NFR License is unlimited VMs |
 | UniTrends | Windows, OVA | 4GB | Unlimited | Yes | No | Email | Yes |  |
@@ -37,7 +37,6 @@ From my search I found 7 reputable free products that can be used to backup VMs 
 | ThinWare | Windows | Not stated. | Unlimited | No | Windows File Explorer to choose | Email | With Windows Task Scheduler | Free license requires a request to be made |
 | ghettoVCB | ESXi | N/A | Unlimited | No | Depends on what you can mount into ESXi | Email | With Crontab | Simple solution that can be built into ESXi |
 | XSIBackup | Linux | N/A | Unlimited | Yes (rsync) | Depends on what you can mount | Email | With Cron | Script with no GUI |
-{: .table }
 
 ## Conclusion
 

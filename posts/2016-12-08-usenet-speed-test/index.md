@@ -22,7 +22,7 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 *   I used up all available connections advertised by the provider.
 
 | Provider | Advertised (MB/s) | Real (MB/s) | Length | Downloaded | Notes
-|--
+|-|-|-|-|-|-
 | CheapNews | 15 | 5.46 | 1 year | 2.1TB | My old provider
 | Usenet.Farm | N/A | 4.44 | 5 days | 7.5GB | 10GB Trial
 | Giganews | N/A | 7.19 | 6 days | 10GB | 10GB Trial
@@ -32,7 +32,6 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 | Newsdemon | Unlimited | 11.1 | 5 days | 14GB | 15GB Trial
 | Newsgroupdirect (US) | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
 | Frugal (US) | N/A | 12.0 | 10 days | 38GB | EU servers @ 6.8MB/s
-{: .table }
 
 ## Summary:
 

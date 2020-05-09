@@ -58,13 +58,11 @@ Eventually I was told the computer didn't have to be small and compact because i
 The proposed BRIX however was:
 
 | Type | Item | Price
-|-
+|-|-|-
 | System | Gigabyte BRIX Pro i7 4770R	 | $799
 | Memory | 	G.Skill Ripjaws 16GB (2x8GB) | $185
 | SSD | Intel SSD | OWN
-|=
 | | **Total** | $984
-{: .table }
 
 [![GB_BrixPro_Package](gb_brixpro_package.jpg)](gb_brixpro_package.jpg)
 
@@ -73,7 +71,7 @@ The proposed BRIX however was:
 Even with the new budget of $800, I said I could do it for way less. For this build I went with a very basic configuration. At this point there was no talk about 'performance first' so I figured I'd build something for as cheap as possible.
 
 | Type | Item | Price
-|-
+|-|-|-
 | **CPU** | Intel Pentium G3240 | $76
 | **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
 | **Motherboard** | ASRock H81M-DGS | $57
@@ -82,9 +80,7 @@ Even with the new budget of $800, I said I could do it for way less. For this bu
 | **SSD** | Intel SSD | OWN
 | **HDD** | Seagate 500GB | OWN
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
-|=
 | |  **Total** | $241
-{: .table }
 
 Too bad this configuration was more for your grandparents than your girlfriend who loves multimedia and studies I.T. A basic business/homework/internet/office use computer but not a Photoshop warrior she would expect. It was a pretty bad mix of components, bottlenecked by the Pentium CPU and its two cores.
 
@@ -103,7 +99,7 @@ In this build made some considerations and assumptions:
 So with everything in mind I came up with this:
 
 | Type | Item | Price
-|-
+|-|-|-
 | **CPU** | Intel Core i7-4790 | $394
 | **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
 | **Motherboard** | Gigabyte GA-Z97MX-Gaming 5 | $179
@@ -112,9 +108,7 @@ So with everything in mind I came up with this:
 | **SSD** | Intel SSD | OWN
 | **HDD** | Seagate 500GB | OWN
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
-|=
 | |  **Total** | $799
-{: .table }
 
 Everything just fit in the $800 budget!
 
@@ -128,8 +122,8 @@ This build set a very good baseline overall. I felt I needed some little adjustm
 
 ## Computer Build #4 - The One
 
-| Type | Item | Price |
-|-
+| Type | Item | Price
+|-|-|-
 | **CPU** | Intel Xeon E3-1231 V3 | $329
 | **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
 | **Motherboard** | Gigabyte GA-H97-GAMING 3 | $134
@@ -139,9 +133,7 @@ This build set a very good baseline overall. I felt I needed some little adjustm
 | **SSD** | Intel SSD | OWN
 | **HDD** | Seagate 500GB | OWN
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
-|=
 | | **Total** | $679
-{: .table }
 
 The final build! What felt like a few little changes turned out to be quite a lot. Pretty much everything except the WiFi Adapter was changed.
 

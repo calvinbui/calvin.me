@@ -21,7 +21,7 @@ The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-
 # Hardware
 
 | Type | Item
-|-
+|-|-
 | **CPU** | [Intel Xeon E5-1620 V4](https://ark.intel.com/content/www/us/en/ark/products/92991/intel-xeon-processor-e5-1620-v4-10m-cache-3-50-ghz.html)
 | **Memory** | 16GB Micron 128GB VLP DDR4 x 8 (128GB)
 | **Motherboard** | [Supermicro X10SRi-F](https://www.supermicro.com/products/motherboard/xeon/c600/X10SRi-F.cfm)
@@ -32,7 +32,6 @@ The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-
 | **CPU Cooler** | [Noctua NH-U9DX i4](https://noctua.at/en/nh-u9dx-i4)
 | **Front fans** | [Noctua NF A12x25 ULN](https://noctua.at/en/nf-a12x25-uln) x 3
 | **Rear fans** | [Noctua NF-A8 FLX](https://noctua.at/en/products/fan/nf-a8-flx) x 2
-{: .table }
 
 I want to talk about a few bits of hardware:
 

@@ -82,16 +82,14 @@ There weren't any other SSDs that were as good as the MX100 in this price range.
 ## Parts and Price List
 
 | Type | Item | Price
-|-
+|-|-|-
 | CPU | Intel Core i7-2600 | $200
 | Motherboard | Asus P8P67 WS Revolution | OWN
 | Graphics | Galax GTX 960 | $259.00
 | Memory | 16GB DDR3-1600 | OWN
 | Storage | Crucial MX100 256GB | $139.00
 | Case | Thermaltake Versa H21 | $79.00
-|=
 ||Total | $677.00
-{: .table }
 
 If it wasn't for my motherboard and memory, this build would've cost at least $200 more.
 

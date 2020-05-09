@@ -161,12 +161,11 @@ With this in mind, I have found four options which are really good:
 ### Summary
 
 | Laptop | Price | CPU | RAM | Display |
-|--------------------|--------|---------------|------|---------|
+|-|-|-|-|-|
 | Toshiba Chromebook | $400 | Celeron 3215U | 4GB | 13.3 |
 | Lenovo E460 | $1,000 | i7 6500U | 16GB | 14 |
 | Lenovo  X260 | $1,300 | i5 6200U | 16GB | 12.5 |
 | Gigabyte Aero | $2,400 | i7 6700HQ | 8GB | 14 |
-{: .table }
 
 I'm currently leaning towards either the X260 or the Chromebook. The Aero is expensive and an overkill for my needs. The E460 on the other hand offers great value and even better specs than the X260 for a lower price, but it is also thicker, heavier and its keyboard is not backlit. It therefore certainly pays to have get the X260.
 

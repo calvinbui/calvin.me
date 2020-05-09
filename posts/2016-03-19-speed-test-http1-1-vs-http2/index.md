@@ -47,7 +47,7 @@ To find out quickly a page runs, the built-in Network Developer Tools (CTRL + Sh
 ![http1 header](http1-header-300x262.png)
 
 | Run | HTTP/2 | HTTP/1.1 |
-|-
+|-|-|-
 | 1 | 2.60 | 3.07 |
 | 2 | 2.21 | 2.77 |
 | 3 | 2.90 | 2.93 |
@@ -70,7 +70,6 @@ To find out quickly a page runs, the built-in Network Developer Tools (CTRL + Sh
 | 20 | 2.49 | 2.83 |
 | Average | 2.57 | 3.07 |
 | Median | 2.60 | 3.00 |
-{: .table }
 
 ## Conclusion
 

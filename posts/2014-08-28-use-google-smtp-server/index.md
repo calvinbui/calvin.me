@@ -16,7 +16,7 @@ A lot of (the good ones at least) hardware and software give you the ability to 
 
 You will also have the option of having Google store and index the emails you send, so all your sent emails will be searchable and backed-up on Gmail. If you elect to use your Gmail or Google Apps account for your incoming email as well, you'll have all your email in one convenient place. Also, since Google's SMTP server does not use Port 25, you'll reduce the probability that an ISP might block your email or flag it as SPAM.
 
-_Table from https://support.google.com/a/answer/176600?hl=en_:
+_Table from ![](https://support.google.com/a/answer/176600?hl=en):_
 
 ![google-smtp-table](capture2.png)
 

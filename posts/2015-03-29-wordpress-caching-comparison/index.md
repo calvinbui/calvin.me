@@ -44,15 +44,14 @@ Other reputable testing sites include:
 
 ## Results (Requests / Response in seconds)
 
-|---
-| **Plugin** | **Average** | **Best** | **Median** | **Worse**
+| Plugin | Average | Best | Median | Worse
+|-|-|-|-|-
 | CloudFlare | 54 / 2.34 | 54 / 1.23 | 56 / 2.96 | 55 / 3.07
 | Falcon | 55 / 3.58 | 56 / 1.35 | 55 / 3.92 | 55 / 4.83
 | WP Rocket | 34 / 2.63 | 32 / 2.25 | 35 / 2.53 | 35 / 3.90
 | W3 Total Cache | 52 / 3.44 | 50 / 2.67 | 53 / 3.65 | 52 / 4.03
 | Hyper Cache | 54 / 3.16 | 56 / 2.22 | 54 / 3.16 | 52 / 4.24
 | Quick Cache | 55 / 3.10 | 56 / 2.11 | 56 / 3.23 | 53 / 4.07
-{: .table }
 
 [![average](average.png)](average.png)
 
