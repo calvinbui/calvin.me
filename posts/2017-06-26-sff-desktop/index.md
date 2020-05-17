@@ -20,7 +20,7 @@ Let's start straight off with the spec sheet. I purchased most items back in Feb
 
 | COMPONENT      | ITEM                                                 | PRICE   |
 |----------------|------------------------------------------------------|---------|
-| CPU            | Intel 7700K ([Delidded]({{ site.baseurl }}{% post_url 2017-04-10-delidding-7700k %}))                                          | 479.20   |
+| CPU            | Intel 7700K ([Delidded](/delidding-7700k))                                          | 479.20   |
 | MOBO           | ASUS ROG STRIX Z270i                                 | 280.00     |
 | RAM            | Corsair Vengeance LED 32GB 3200Mhz C16 | 300.00     |
 | SSD1 (OS+APPS) | Samsung 850 EVO 500GB                                | 204.00     |

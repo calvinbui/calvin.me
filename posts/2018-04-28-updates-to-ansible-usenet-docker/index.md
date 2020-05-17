@@ -15,7 +15,7 @@ Up to date practices, new services, monitoring, logging, backups and heap of oth
 
 <!-- more -->
 
-*Read about the playbook in my [previous post]({{ site.baseurl }}{% post_url 2017-05-07-ansible-usenet-docker %})*
+*Read about the playbook in my [previous post](/ansible-usenet-docker)*
 
 **Find the update over at [GitHub](https://github.com/calvinbui/ansible-usenet-docker/releases/tag/3.0)**
 

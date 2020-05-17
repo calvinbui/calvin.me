@@ -70,7 +70,7 @@ My one (sadly) Windows VM that runs my surveillance camera software, Milestone X
 *   RAM: 4GB
 
 # Usenet
-This VM has replaced 6 other virtual machines by making use of Docker! I've previously posted about this in my [previous post]({{ site.baseurl }}{% post_url 2017-05-07-ansible-usenet-docker %}) so take a look at that to find out more. I didn’t think that Docker containers would be so light compared to a brand new Ubuntu server install which only uses ~30MB of RAM compared to 512MB+ which I had for each service before.
+This VM has replaced 6 other virtual machines by making use of Docker! I've previously posted about this in my [previous post](/ansible-usenet-docker) so take a look at that to find out more. I didn’t think that Docker containers would be so light compared to a brand new Ubuntu server install which only uses ~30MB of RAM compared to 512MB+ which I had for each service before.
 
 *   CPU: 4
 *   RAM: 2
@@ -82,7 +82,7 @@ Here a few VMs I have but no longer use:
 *   **Unifi**: Ubiquity's Unifi software. After setting up my Unifi AP AC, there's not much point leaving it running when it could also be configured through a phone app
 *   **Emby/Plex**: Media management system and transcoder. I rather use an HTPC with [Kodi](https://kodi.tv/)
 *   **GitLab**: Code repository. Much easier to just store my code on GitHub/GitLab.com
-*   **MediaWiki**: Wiki. I've moved all my documentation over to [readthedocs](https://readthedocs.org/) as I wrote in [previous post]({{ site.baseurl }}{% post_url 2017-05-13-personal-wiki-on-the-internet %})
+*   **MediaWiki**: Wiki. I've moved all my documentation over to [readthedocs](https://readthedocs.org/) as I wrote in [previous post](/personal-wiki-on-the-internet)
 *   **napp-it**: ZFS Storage provider. FreeNAS just worked better
 *   **IPAM**: IP Address management. Easier to look at the DNS page in pfSense
 *   **NTP**: A time server. pfSense provides NTP services too so this was surpass.

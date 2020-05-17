@@ -13,7 +13,7 @@ A Python script I've written to clean up old backups, keeping only the newest sp
 
 <!-- more -->
 
-As I covered in a [previous post]({{ site.baseurl }}{% post_url 2016-02-29-comparison-of-free-esxi-vm-backup-softwares %}), I am currently backing up my VMs using XSIBackup. There is an option in XSIBackup to delete folders older than N days. This option `--del-dirs` however is only available in the Pro version.
+As I covered in a [previous post](/comparison-of-free-esxi-vm-backup-softwares), I am currently backing up my VMs using XSIBackup. There is an option in XSIBackup to delete folders older than N days. This option `--del-dirs` however is only available in the Pro version.
 
 So I've took it upon myself to script it up, using the available Python 3.5 executable in ESXi and XSIBackups' built-in cron functionality.
 

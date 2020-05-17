@@ -57,7 +57,7 @@ Free and open-source software (FOSS) will take priority as well over closed-sour
 
 # VPN
 
-I made a [previous post]({{ site.baseurl }}{% post_url 2019-04-20-choosing-a-vpn-service %}) on my decision to use Mullvad.
+I made a [previous post](/choosing-a-vpn-service) on my decision to use Mullvad.
 
 # Google Chrome
 

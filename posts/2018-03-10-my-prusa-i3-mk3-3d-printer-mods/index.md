@@ -116,6 +116,6 @@ I am using the GT2 16T pulley variant which has improved the alignment of my cab
 
 ## Bonus - TWICE Extruder indicator
 
-As you may already know, I love [TWICE]({{ site.baseurl }}{% post_url 2018-01-02-facebook-messenger-bot %}). This indicator rotates as the extruder pushes and pulls filament. It's held on using magnets.
+As you may already know, I love [TWICE](/facebook-messenger-bot). This indicator rotates as the extruder pushes and pulls filament. It's held on using magnets.
 
 ![](/twice.jpg)

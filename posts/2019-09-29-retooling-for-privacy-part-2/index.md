@@ -13,7 +13,7 @@ tags:
 thumbnail: thumbnail.png
 ---
 
-More I've done for my online privacy since my [previous post]({{ site.baseurl }}{% post_url 2019-06-30-retooling-for-privacy %}).
+More I've done for my online privacy since my [previous post](/retooling-for-privacy).
 
 <!-- more -->
 
@@ -37,7 +37,7 @@ These are the areas I have changed since last time:
 # Cloud Storage
 Previously I was using Dropbox, then moved to **[Cryptomator](https://cryptomator.org/)** with Dropbox to make use of all my free space. I got a bit tired of having to encrypt the entire Dropbox directory and decided to run my personal cloud storage server with [**Nextcloud**](https://nextcloud.com/).
 
-I have [shared my 72TB FreeNAS server before]({{ site.baseurl }}{% post_url 2019-03-03-my-72tb-freenas-server %}) and thought it would better to keep everything in there instead of keeping certain things separately as I did with Dropbox.
+I have [shared my 72TB FreeNAS server before](/my-72tb-freenas-server) and thought it would better to keep everything in there instead of keeping certain things separately as I did with Dropbox.
 
 Nextcloud provides a complete self-hosted productivity platform but I won't be focussing on that. There's an [External Storage](https://docs.nextcloud.com/server/16/admin_manual/configuration_files/external_storage_configuration_gui.html) feature which allows for a lot of different backends such as SMB/CIFS, FTP and cloud providers. This mounts the share as a folder in Nextcloud natively so files and folders can be created, viewed and edited just as if they were any other.
 
@@ -124,7 +124,7 @@ Along with MicroG, I have installed:
 - [XPrivacyLua](https://github.com/M66B/XPrivacyLua): For apps that I can't block, XPrivacyLua sends them spoofed device information such as location, user accounts, camera and voice recordings.
 
 # Android Auto
-My car ([which I have also blogged about]({{ site.baseurl }}{% post_url 2018-07-23-tech-inside-my-2018-vw-golf-r %})) has Android Auto but MicroG (previous section) has no Android Auto implementation. I have purchased a Samsung Galaxy A20 (2019) as 'Android Auto phone' which is always connected to my car. It has all the apps like Waze and Maps and tethers off my Galaxy S10+ (main phone).
+My car ([which I have also blogged about](/tech-inside-my-2018-vw-golf-r)) has Android Auto but MicroG (previous section) has no Android Auto implementation. I have purchased a Samsung Galaxy A20 (2019) as 'Android Auto phone' which is always connected to my car. It has all the apps like Waze and Maps and tethers off my Galaxy S10+ (main phone).
 
 ![](a20.jpg)
 

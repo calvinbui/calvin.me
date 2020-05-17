@@ -16,7 +16,7 @@ It's been 5 years since my last one and I was starting to run out of space.
 
 The drives I used at the time, WD Se, had 5 years warranty and I couldn't risk them all dying on me at the same time.
 
-The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-Z2 configuration, it left me with 14.3TB. You can read more about that in my [previous post]({{ site.baseurl }}{% post_url 2014-08-17-all-in-one-esxi-server %}).
+The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-Z2 configuration, it left me with 14.3TB. You can read more about that in my [previous post](/all-in-one-esxi-server).
 
 # Hardware
 

@@ -30,7 +30,7 @@ Xiaomi has imposed a few limitations on this camera out of the box:
 
 There are a million guides on the Internet on how to get these installed so I won't cover it here.
 
-The main modification we'll be using for the camera is the built in RTSP (Real Time Streaming Protocol) server which will allow us to access the video stream from any compatible application. RTSP will be important for connecting it to my [Milestone XProtect Video Management Server]({{ site.baseurl }}{% post_url 2016-09-11-home-security-cameras %}).
+The main modification we'll be using for the camera is the built in RTSP (Real Time Streaming Protocol) server which will allow us to access the video stream from any compatible application. RTSP will be important for connecting it to my [Milestone XProtect Video Management Server](/home-security-cameras).
 
 For my RTSP configuration, I went with 1024 x 576 at 15 fps. While 1080P 60FPS is entertaining, I didn't find it stable enough for my uses. This is configured within `/media/mmcblk0p2/data/etc/scripts/20-rtsp-server`:
 

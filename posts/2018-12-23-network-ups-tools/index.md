@@ -24,7 +24,7 @@ I recently bought a [CyberPower OR600ELCDRM1U](https://www.cyberpower.com/au/en/
 
 # Network UPS Tools
 
-My previous UPS was connected to my [all-in-one ESXi host]({{ site.baseurl }}{% post_url 2014-08-17-all-in-one-esxi-server %}) using CyberPower's PowerPanel software. This worked at the time as I only had one server to power down.
+My previous UPS was connected to my [all-in-one ESXi host](/all-in-one-esxi-server) using CyberPower's PowerPanel software. This worked at the time as I only had one server to power down.
 
 [Network UPS Tools (NUT)](https://networkupstools.org/) is a software similar to CyberPower's PowerPanel except it works across multiple devices in a master-slave (server-client) architecture.
 
