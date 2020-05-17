@@ -8,7 +8,7 @@ tags:
 -   vmware
 -   zfs
 -   zil
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 A short post on how I exponentially sped up my VMware environment.

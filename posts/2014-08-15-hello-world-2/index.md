@@ -4,7 +4,7 @@ categories:
 -   Blog
 tags:
 -   hello world
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Hello World !

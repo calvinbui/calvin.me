@@ -8,7 +8,7 @@ tags:
 -   usenet
 -   docker
 -   monitoring
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Up to date practices, new services, monitoring, logging, backups and heap of other improvements.

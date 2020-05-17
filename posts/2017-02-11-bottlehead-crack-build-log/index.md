@@ -6,7 +6,7 @@ tags:
 -   bottlehead
 -   amp
 -   audio
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 This is a quick build log of Bottlehead Crack OTL tube amplifier with some pictures and little stories.

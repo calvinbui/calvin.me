@@ -4,7 +4,7 @@ categories:
 -   Web
 tags:
 -   usenet
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I signed up for a few trials before the Black Friday sales to test out some different providers and their download speeds.

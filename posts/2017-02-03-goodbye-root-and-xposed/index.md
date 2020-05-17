@@ -6,7 +6,7 @@ categories:
 tags:
 -   xposed
 -   android
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Accept it or not, Google is moving transitioning to a non-root/non-xposed world.

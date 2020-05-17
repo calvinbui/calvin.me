@@ -4,7 +4,7 @@ categories:
 -   Gaming
 tags:
 -   dragon-quest
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 My results from all four chapter of this wonderful game!

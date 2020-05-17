@@ -7,7 +7,7 @@ tags:
 -   comparison
 -   free
 -   ipam
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!

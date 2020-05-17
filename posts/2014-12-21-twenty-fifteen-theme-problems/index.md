@@ -5,7 +5,7 @@ categories:
 tags:
 -   wordpress
 -   theme
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I don't like this year's default theme. I was excited for a few months looking at the previews and news circulating around, but it ended up not meeting my expectations.

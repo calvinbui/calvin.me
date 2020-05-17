@@ -5,7 +5,7 @@ categories:
 -   Programming
 tags:
 -   email
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Isn't annoying that Gmail provides the option to either Archive or Delete emails from its notification? Well, no more! This script periodically moves Archived emails back into your Inbox and also marks them as read.

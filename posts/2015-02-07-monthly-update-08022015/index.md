@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 -   monthly update
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 -   3d-printing
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 These are all my 3D prints. 3D Printing is the process where a digital design is turned into a solid three-dimensional (3D) physical object by laying a material, such as plastic, layer by layer together. There are a lot of creative and awesome uses for it, just about anything you can think of creating.

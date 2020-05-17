@@ -4,7 +4,7 @@ categories:
 -   Computers
 tags:
 -   autopilot
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Look at how many screens I've got!

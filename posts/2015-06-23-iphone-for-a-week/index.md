@@ -6,7 +6,7 @@ categories:
 tags:
 -   ios
 -   iphone
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I had a few days with an iPhone so I decided to try it out and see if it was usable for someone like me.

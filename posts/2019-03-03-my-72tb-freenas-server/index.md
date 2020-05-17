@@ -5,7 +5,7 @@ categories:
 tags:
 -   freenas
 -   nas
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 It's been 5 years since my last one and I was starting to run out of space.

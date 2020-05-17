@@ -5,7 +5,7 @@ categories:
 tags:
 -   ipmi
 -   supermicro
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I like quiet (slow) fans. I like Supermicro's X10SL7 motherboard. I like how I get email notifications from the IPMI when something is wrong. I do not like how I get warnings because the IPMI fan threshold is 900 RPM. The bad thing is this is not directly configurable through the IPMI user interface or client. That's where we need [IPMITOOL](http://sourceforge.net/projects/ipmitool/files/) tool to let us lower this annoying little warning.

@@ -5,7 +5,7 @@ categories:
 tags:
 -   facebook
 -   bot
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 My shameless Facebook Messenger bot that sends YouTube videos and GIFs if a message received matches a [TWICE](https://twitter.com/JYPETWICE) song.

@@ -4,7 +4,7 @@ categories:
 -   Blog
 tags:
 -   cloudflare
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Some stuff might break...

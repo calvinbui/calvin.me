@@ -4,7 +4,7 @@ categories:
 -   Computers
 tags:
 -   windows
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 A step-by-step guide to remove unwanted devices such as DVD drives, USB drives, capture cards and permanently attached hard drives from appearing in Window's Safely Remove and Eject Media.

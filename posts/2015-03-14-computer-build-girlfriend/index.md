@@ -6,7 +6,7 @@ tags:
 -   computer build
 -   log
 -   parts
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.

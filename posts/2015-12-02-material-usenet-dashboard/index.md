@@ -6,7 +6,7 @@ tags:
 -   dashboard
 -   material
 -   usenet
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 A personalised dashboard built using Google's Material Design.

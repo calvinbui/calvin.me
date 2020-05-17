@@ -4,7 +4,7 @@ categories:
 -   Misc
 tags:
 - weekly update
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

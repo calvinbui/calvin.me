@@ -5,7 +5,7 @@ categories:
 tags:
 -   xiaomi
 -   camera
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Hacking a $25 indoor camera to do more than it's worth.

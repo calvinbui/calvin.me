@@ -8,7 +8,7 @@ tags:
 -   pfsense
 -   port forward
 -   web server
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 Web servers are configured to run on port 80 (HTTP) and 443 (HTTPS). pfSense, as a firewall, blocks all incoming connections to your network from the outside world.

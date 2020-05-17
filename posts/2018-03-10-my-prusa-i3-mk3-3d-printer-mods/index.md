@@ -5,7 +5,7 @@ categories:
 tags:
 -   3d-printing
 -   prusa
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 The Prusa i3 MK3 is one of FDM printers you can buy. Here's my printer with a bunch of mods to improve print quality and ease of use.

@@ -6,7 +6,7 @@ tags:
 -   ansible
 -   usenet
 -   docker
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I made a Ansible playbook to deploy Docker containers containing Usenet applications.

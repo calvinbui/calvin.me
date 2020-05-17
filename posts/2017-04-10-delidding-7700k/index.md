@@ -5,7 +5,7 @@ categories:
 tags:
 -   delid
 -   intel
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 I dropped my Intel i7 7700K a total of 15 degrees at load and 6 degrees at idle. You can stop reading if you that's all you wanted to know :yum:

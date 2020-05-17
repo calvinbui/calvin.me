@@ -5,7 +5,7 @@ categories:
 -   Hacking
 tags:
 -   hackintosh
-thumbnail: featured-image.jpg
+thumbnail: thumbnail.png
 ---
 
 OpenCore bootloader configuration and files for the ASUS ROG STRIX Z270-I GAMING motherboard.

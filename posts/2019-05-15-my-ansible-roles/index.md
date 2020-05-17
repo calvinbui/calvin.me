@@ -5,7 +5,7 @@ categories:
 tags:
 -   ansible
 -   automation
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 A collection of Ansible roles I wrote to automate installation and configuration of my homelab.

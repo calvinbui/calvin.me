@@ -10,7 +10,7 @@ tags:
 -   dropbox
 -   email
 -   calendar
-# thumbnail: thumbnail.png
+thumbnail: thumbnail.png
 ---
 
 The applications and tools I've started using to increase my privacy and security.
