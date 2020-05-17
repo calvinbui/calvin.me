@@ -16,7 +16,7 @@ My journey from VMware ESXi to purely Docker.
 
 # Setup 1 - 2014: VMware ESXi VMs
 
-[![](v1.png)](v1.png){:target="_blank"}
+![v1.png](v1.png)
 
 When I first started my homelab 5 years ago, I went with [VMware ESXi](https://www.vmware.com/au/products/esxi-and-esx.html) as my hypervisor and a slew of [Ubuntu](https://ubuntu.com/)/[CentOS](https://www.centos.org/) virtual machines because that's what I had learnt from my [internship at IBM](https://www.ibm.com/au-en/employment/internship.html). This, combined with [VLANs](https://en.wikipedia.org/wiki/Virtual_LAN) for network separation gave me a complete virtualisation environment where I could do whatever I wanted without comprising any service.
 
@@ -32,7 +32,7 @@ The _downsides_ of this setup were:
 
 # Setup 2 - 2017: VMware ESXi VMs with Docker
 
-[![](v2.png)](v2.png){:target="_blank"}
+![v2.png](v2.png)
 
 As I was low of memory, I gave [Docker](https://www.docker.com/) a try and was amazed by the reduction in memory usage. Before I knew much about Docker, I assumed a Docker container was another operating system so it would use as much memory as a virtual machine. Docker containers, however, are [very lightweight and make use of the existing kernel](https://www.docker.com/resources/what-container).
 
@@ -69,7 +69,7 @@ The _downsides_ of this setup were:
 
 # Setup 3 - 2019: Docker only
 
-[![](v3.png)](v3.png){:target="_blank"}
+![v3.png](v3.png)
 
 Considering the downsides of **Setup 1** and **Setup 2**, I decided it was time to go a bit further. There were a few considerations:
 
@@ -92,7 +92,7 @@ The hardest part of all this was to be able to separate Docker container to diff
 
 To give some perspective, this was what my previous setup on VMware ESXi looked like. Each port groups would have a VLAN tag:
 
-[![](vmware-networking.png)](vmware-networking.png){:target="_blank"}
+![vmware-networking.png](vmware-networking.png)
 
 Playing around with Ubuntu's new network configuration tool [NetPlan](https://netplan.io/), I was able to create multiple VLANs off a single interface `eno1`. I set the default gateway to be `eno1.10`, while the other VLANs did not require an IP address (although you could add one if you like):
 
@@ -164,7 +164,7 @@ docker run --rm --network mgmt --ip 192.168.1.20 busybox sh -c "ping 192.168.2.5
 
 So that now solves our networking so be exactly like before. Each Docker network corresponds to a real network and each container is physically separated from other containers within the same host. Here's a diagram of it:
 
-[![](docker-networking.png)](docker-networking.png){:target="_blank"}
+![docker-networking.png](docker-networking.png)
 
 # Running Windows Applications
 

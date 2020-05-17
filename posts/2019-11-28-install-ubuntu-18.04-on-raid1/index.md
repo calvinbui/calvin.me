@@ -20,55 +20,55 @@ For the installation, I'm using the Live server installer for Ubuntu Server 18.0
 
 Proceed through the installer until you get to Filesystem setup. At this point, choose the `Manual option`:
 
-[![](1.png)](1.png){:target="_blank"}
+![1.png](1.png)
 
 Delete all partitions on both drives you will be using for RAID1:
 
-[![](2.png)](2.png){:target="_blank"}
+![2.png](2.png)
 
 Select a device and choose to `Make Boot Device`.
 
-[![](3.png)](3.png){:target="_blank"}
+![3.png](3.png)
 
 A Boot partition will appear
 
-[![](4.png)](4.png){:target="_blank"}
+![4.png](4.png)
 
 Select the same device as before and choose to `Add Partition`:
 
-[![](5.png)](5.png){:target="_blank"}
+![5.png](5.png)
 
 Enter the size you wish to use and leave the drive **unformatted**. I chose to use the entire drive. **Make note of the size**:
 
-[![](6.png)](6.png){:target="_blank"}
+![6.png](6.png)
 
 Select the secondary device and choose to `Add Partition`:
 
-[![](7.png)](7.png){:target="_blank"}
+![7.png](7.png)
 
 Enter the same size you used for the **first device** and also leave this drive **unformatted**.
 
-[![](8.png)](8.png){:target="_blank"}
+![8.png](8.png)
 
 Select the `[ Create software RAID (md) ]` option
 
-[![](9.png)](9.png){:target="_blank"}
+![9.png](9.png)
 
 Select RAID1 and then both partitions you have created using the `<SPACEBAR>` and choose `[ Create ]` when finished:
 
-[![](10.png)](10.png){:target="_blank"}
+![10.png](10.png)
 
 Select the new RAID device `md0` and choose to the `Format` option:
 
-[![](11.png)](11.png){:target="_blank"}
+![11.png](11.png)
 
 Set the format as `ext4` and choose to mount it at `/`:
 
-[![](12.png)](12.png){:target="_blank"}
+![12.png](12.png)
 
 Select `[ Done ]` at the bottom to continue the installation:
 
-[![](13.png)](13.png){:target="_blank"}
+![13.png](13.png)
 
 If you run into any errors, the Live server installer will fail to 'probe devices' during a reinstall. To fix this, follow [this guide from DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-18-04#resetting-existing-raid-devices) for resetting existing RAID devices.
 
