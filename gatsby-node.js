@@ -140,7 +140,7 @@ exports.createPages = ({ graphql, actions }) => {
             path: edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
             component: postPage,
             context: {
-              filter: `/^.*\\/\\d{4}-\\d{2}-\\d{2}-${edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11)}\\/index.md$/`,
+              filter: `/^.*\\/\\d{4}-\\d{2}-\\d{2}-${edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11)}\\/.*$/`,
             },
           })
         })
