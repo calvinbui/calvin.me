@@ -15,10 +15,9 @@ Web servers are configured to run on port 80 (HTTP) and 443 (HTTPS). pfSense, as
 
 <!-- more -->
 
-By opening the 80 and 443 port we are allowing the outside world (Internet) to access applications running on these ports on a local machine - which are commonly web servers. This also allows you to access your personal home server from literally anywhere in the world with an Internet connection. Web browsers will by default access websites at port 80 when they are HTTP and port 443 when it is HTTPS e.g. https://calvin.me:443 and http://calvin.me:80 are the same as https://calvin.me and http://calvin.me. This guide will help port forward web servers in pfSense.
+By opening the 80 and 443 port we are allowing the outside world (Internet) to access applications running on these ports on a local machine - which are commonly web servers. This also allows you to access your personal home server from literally anywhere in the world with an Internet connection. Web browsers will by default access websites at port 80 when they are HTTP and port 443 when it is HTTPS e.g. `https://calvin.me:443` and `http://calvin.me:80` are the same as `https://calvin.me` and `http://calvin.me`. This guide will help port forward web servers in pfSense.
 
-
-**1.** Under 'System -> Advanced', change the TCP port to anything but 80 or blank. If your website is using SSL (HTTPS) then do not use 443 like I have. If your web server does not use HTTPS use 443, if it does use 444 for pfSense from now on. This will change how you access pfSense from now onwards e.g. https://10.0.0.1:444.
+**1.** Under 'System -> Advanced', change the TCP port to anything but 80 or blank. If your website is using SSL (HTTPS) then do not use 443 like I have. If your web server does not use HTTPS use 443, if it does use 444 for pfSense from now on. This will change how you access pfSense from now onwards e.g. `https://10.0.0.1:444`.
 
 Save and Apply this setting and wait for pfSense to redirect you or you can redirect yourself to the new web interface URL.
 

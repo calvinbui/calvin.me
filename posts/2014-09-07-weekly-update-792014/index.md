@@ -19,9 +19,9 @@ You will also find what I’m currently interested in for the following weeks. I
 
 Having the complete Usenet package (CP, sab, drone, sb etc.) is nice but accessing it can be a little painful. That's why a front end is needed to painfully show the status of each and what they're up to. I had a look at three:
 
-*   [Maraschino](http://www.maraschinoproject.com/): No NZBDrone support and the fork that has it works half the time. Does not require XMBC server even thought it was built for it. Not mobile-friendly so automatically out.
-*   [HTPC Manager](http://htpc.io/): Same Maraschino with no NZBDrone support yet. The interface is quite dull as well, plain old bootstrap. Hopefully that means I can theme it if I wanted.
-*   [Network Status Page](https://github.com/d4rk22/Network-Status-Page): Relies on Plex media player as far as I can see. Would need to edit the code to get it to be just a plain status page. No NZBDrone support once again...
+* [Maraschino](http://www.maraschinoproject.com/): No NZBDrone support and the fork that has it works half the time. Does not require XMBC server even thought it was built for it. Not mobile-friendly so automatically out.
+* [HTPC Manager](http://htpc.io/): Same Maraschino with no NZBDrone support yet. The interface is quite dull as well, plain old bootstrap. Hopefully that means I can theme it if I wanted.
+* [Network Status Page](https://github.com/d4rk22/Network-Status-Page): Relies on Plex media player as far as I can see. Would need to edit the code to get it to be just a plain status page. No NZBDrone support once again...
 
 I think in the end I would just go with making my own or using d4rk's Network Status Page and configuring it to my liking. HTPC Manager could be the way to go in the future as soon as it supports NZBDrone. Need to keep tabs on this.
 

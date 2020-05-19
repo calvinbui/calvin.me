@@ -16,19 +16,19 @@ Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of
 
 Chrome can remember decisions to proceed through certificate errors for a specified length of time of up to three months.
 
-1.  Enter **chrome://flags** into the address bar
+1. Enter **chrome://flags** into the address bar
 
 ![flags](flags.jpg)
 
-2.  Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier. 
+2. Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier.
 
 ![remember](remember.jpg)
 
-3.  Select '**Remember for three months**' in the drop-down. 
+3. Select '**Remember for three months**' in the drop-down.
 
 ![dropdown](dropdown.jpg)
 
-4.  Relaunch Chrome as prompted. 
+4. Relaunch Chrome as prompted.
 
 ![relaunch](relaunch.jpg)
 
@@ -40,6 +40,6 @@ The privacy issues are that the connection with the website may have been interc
 
 There are other reasons for certificate errors as well:
 
-*   the certificate has been revoked by the issuing certificate authority
-*   it is using a certificate for another website
-*   the certificate is out of date (or your computer date is wrong)
+* the certificate has been revoked by the issuing certificate authority
+* it is using a certificate for another website
+* the certificate is out of date (or your computer date is wrong)

@@ -16,7 +16,7 @@ The settings to get an A+ rating on SSL Labs!
 
 I didn't find any simple guide out there to do this so I thought I'd write it myself.
 
-# Traefik HSTS Configuration
+## Traefik HSTS Configuration
 
 The Traefik documentation talks about HSTS headers in [only one place](https://docs.traefik.io/basics/#security-headers) and it doesn't even provide an example for it. All Traefik security headers, including HSTS, can be found can be found at a separate GitHub repo: [unrolled/secure](https://github.com/unrolled/secure#available-options).
 
@@ -49,11 +49,11 @@ While you're there, only accept the latest ciphers. This can be configured on th
 
 ![](ssllabs-result.jpg)
 
-# What is HSTS?
+## What is HSTS
 
 **HTTP Strict Transport Security (HSTS)** tells browsers that your site should _ONLY_ be accessed with **HTTPS** instead of **HTTP**. After the initial connection over **HTTPS**, your browser will never load the site using **HTTP** and will attempt to convert all connections using **HTTP** to **HTTPS** instead.
 
-# Websites
+## Websites
 
 Some other websites to check your HTTPS configuration as well as other web features:
 

@@ -19,29 +19,29 @@ Home is an application I developed last year (Nov-Dec) while learning the MEAN (
 
 Every application is made to solve a particular problem. There needs to be a reason to make it.
 
-*   There were so many web services and infrastructure at work that not everyone on the team knew which was where and how to access its correct URL.
-*   There was a need to create transparency.
-*   Infrastructure monitoring tools weren't up to the task
-    *   Nagios and its clones: overhead using its agents
-    *   StatusPage.io: paid service
-    *   vCenter Operations Manager: only works for virtual machines
+* There were so many web services and infrastructure at work that not everyone on the team knew which was where and how to access its correct URL.
+* There was a need to create transparency.
+* Infrastructure monitoring tools weren't up to the task
+  * Nagios and its clones: overhead using its agents
+  * StatusPage.io: paid service
+  * vCenter Operations Manager: only works for virtual machines
 
 ## Idea
 
 So with the problem in mind, I started prototyping the idea in my head:
 
-*   All these services were in my bookmark bar so it work similar to it
-*   It would be difficult to get complete system monitoring e.g. CPU, memory, disk usage. A simple is it up or down was good enough.
-*   It has to be configurable and easy to make changes to. This would mean I had to use specific languages and tools to make it work.
-*   It had to be good enough for everyone, including myself to use on a daily basis.
+* All these services were in my bookmark bar so it work similar to it
+* It would be difficult to get complete system monitoring e.g. CPU, memory, disk usage. A simple is it up or down was good enough.
+* It has to be configurable and easy to make changes to. This would mean I had to use specific languages and tools to make it work.
+* It had to be good enough for everyone, including myself to use on a daily basis.
 
 ## Plan
 
 The plan to build it was based off the ideas I had:
 
-*   Minimal and simple approach. This meant a single page design without any page refreshes for any CRUD operations.
-*   Achieving the single page design meant I needed asynchronous background operations (e.g. AJAX).
-*   To get asynchronous operations I had to use JavaScript. This was a good chance to finally learn the MEAN stack. The MEAN stack provides the ability to create dynamic web sites using free and open-source solutions.
+* Minimal and simple approach. This meant a single page design without any page refreshes for any CRUD operations.
+* Achieving the single page design meant I needed asynchronous background operations (e.g. AJAX).
+* To get asynchronous operations I had to use JavaScript. This was a good chance to finally learn the MEAN stack. The MEAN stack provides the ability to create dynamic web sites using free and open-source solutions.
 
 ## Execution
 
@@ -63,8 +63,8 @@ You can download it over at GitHub:
 
 If anyone continues my work there were a few things I really wanted to achieve:
 
-*   Drag and Drop functionality to reorder items and sections
-*   Pin notices e.g. power outage @ 5pm
-*   Better user experience with animations and better validation
-*   Create more than just bookmarks e.g. notes
-*   More system monitoring
+* Drag and Drop functionality to reorder items and sections
+* Pin notices e.g. power outage @ 5pm
+* Better user experience with animations and better validation
+* Create more than just bookmarks e.g. notes
+* More system monitoring

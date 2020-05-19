@@ -11,7 +11,7 @@ tags:
 thumbnail: thumbnail.png
 ---
 
-I expose a few of my web services over the Internet like [SABnzbd](http://sabnzbd.org/), [CouchPotato](https://couchpota.to/) and NZBDrone (now known as [Sonarr](https://sonarr.tv/)). Whilst they all have HTTP authentication, they don't support multiple users. LDAP or Active Directory holds multiple user accounts, for authentication purpose. So putting two and two together, [kvsp ](https://github.com/kvspb) has made a [NGINX LDAP module](https://github.com/kvspb/nginx-auth-ldap) which authenticates users against your LDAP or Active Directory servers when they visit specific web pages.
+I expose a few of my web services over the Internet like [SABnzbd](http://sabnzbd.org/), [CouchPotato](https://couchpota.to/) and NZBDrone (now known as [Sonarr](https://sonarr.tv/)). Whilst they all have HTTP authentication, they don't support multiple users. LDAP or Active Directory holds multiple user accounts, for authentication purpose. So putting two and two together, [kvsp](https://github.com/kvspb) has made a [NGINX LDAP module](https://github.com/kvspb/nginx-auth-ldap) which authenticates users against your LDAP or Active Directory servers when they visit specific web pages.
 
 <!-- more -->
 
@@ -30,19 +30,19 @@ The module can be found on [GitHub](https://github.com/kvspb/nginx-auth-ldap). I
 To download the module using git, first install git:
 
 ```shell-session
-$ sudo apt-get install git-core
+sudo apt-get install git-core
 ```
 
 Clone the repository:
 
 ```shell-session
-$ git clone https://github.com/kvspb/nginx-auth-ldap.git
+git clone https://github.com/kvspb/nginx-auth-ldap.git
 ```
 
 Later on if you need to update the module, browse into its folder and run the command:
 
 ```shell-session
-$ git pull
+git pull
 ```
 
 Download the tools and pre-requisites
@@ -52,25 +52,25 @@ There are quite a few things that need to be installed for Ubuntu to be able to 
 You will definitely need build tools. Build Essential will cover most:
 
 ```shell-session
-$ sudo apt-get install build-essential
+sudo apt-get install build-essential
 ```
 
 Something important that's required is the LDAP development library which allows the module to connect to an LDAP server:
 
 ```shell-session
-$ sudo apt-get install libldap2-dev
+sudo apt-get install libldap2-dev
 ```
 
 If you're planning on using HTTPS/SSL you will also need the OpenSSL library:
 
 ```shell-session
-$ sudo apt-get install libssl-dev
+sudo apt-get install libssl-dev
 ```
 
 If you also plan on using HTTP rewrites then you will need the PCRE library. HTTP rewrites are used for URL manipulation.
 
 ```shell-session
-$ sudo apt-get install libpcre3-dev
+sudo apt-get install libpcre3-dev
 ```
 
 ## Build NGINX
@@ -78,19 +78,19 @@ $ sudo apt-get install libpcre3-dev
 Untar the NGINX source you have downloaded:
 
 ```shell-session
-$ tar -xvzf nginx-1.7.7.tar.gz
+tar -xvzf nginx-1.7.7.tar.gz
 ```
 
 Browse into the source folder:
 
 ```shell-session
-$ cd nginx-1.7.7
+cd nginx-1.7.7
 ```
 
 I've found on Ubuntu (but not CentOS), the configure file is not executable. To make it executable:
 
 ```shell-session
-$ chmod +x configure
+chmod +x configure
 ```
 
 Now you will need to configure your environment for building. I ran into a few problems at the beginning as I forgot a lot of additional modules which come standard in Linux package managers like SSL (HTTPS), IPv6 and even logging. Another disadvantage are the file paths differ from a package manager installation as well as the 'sites-enabled' and 'sites-available' folder structure. I tried my best to make identical to a package manager installation as I could. This is my personal configure script:
@@ -98,7 +98,7 @@ Now you will need to configure your environment for building. I ran into a few 
 note: please change the path of the NGINX LDAP module in the command below if it differs from mine ( --add-module=/home/$USER/nginx-auth-ldap).
 
 ```shell-session
-$ ./configure --user=nginx --group=nginx --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-http_gzip_static_module --with-http_stub_status_module --with-http_ssl_module --with-pcre --with-file-aio --with-http_realip_module --add-module=/home/$USER/nginx-auth-ldap/ --with-ipv6 --with-debug
+./configure --user=nginx --group=nginx --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-http_gzip_static_module --with-http_stub_status_module --with-http_ssl_module --with-pcre --with-file-aio --with-http_realip_module --add-module=/home/$USER/nginx-auth-ldap/ --with-ipv6 --with-debug
 ```
 
 If it does not run successfully then there are some dependencies missing. Looking through the output and reading the error messages can determine which specific libraries are missing. The successful output will look like:
@@ -108,7 +108,7 @@ If it does not run successfully then there are some dependencies missing. Lookin
 Once it runs successfully (thumbs crossed) it's time to build the system. Just this command:
 
 ```shell-session
-$ make
+make
 ```
 
 ![make finished](Capture.png)
@@ -116,7 +116,7 @@ $ make
 To finish it off, install NGINX with all the paths and modules we've specified.
 
 ```shell-session
-$ sudo make install
+sudo make install
 ```
 
 ![sudo make install finished](Untitled1.png)
@@ -128,38 +128,36 @@ The initialisation script allows you to execute 'start', 'restart', 'status' and
 To install the init script:
 
 ```shell-session
-$ sudo wget https://raw.githubusercontent.com/calvinbui/nginx-init-ubuntu/master/nginx -O /etc/init.d/nginx
+sudo wget https://raw.githubusercontent.com/calvinbui/nginx-init-ubuntu/master/nginx -O /etc/init.d/nginx
 ```
 
 Make the file executable:
 
 ```shell-session
-$ sudo chmod +x /etc/init.d/nginx
+sudo chmod +x /etc/init.d/nginx
 ```
 
 Make NGINX startup at boot using upstart
 
 ```shell-session
-$ sudo update-rc.d -f nginx defaults
+sudo update-rc.d -f nginx defaults
 ```
 
 Now you can start NGINX but running:
 
 ```shell-session
-$ sudo service nginx start
+sudo service nginx start
 ```
 
 Browse to the host's IP address or FQDN to see the NGINX page:
 
 ![nginx landing page](Capture1.png)
 
-
 ## (Optional) Package Manager Layout
 
 This is an optional step. The idea is to change the layout to include 'sites-enabled' and 'sites-available'. This is similar to how it would appear when installing NGINX through apt-get. It is a more convenient way of managing virtual hosts but not required.
 
 [Rackspace has a perfectly good guide on this](http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-nginx-from-source-layout) so I'll leave it for them instead. Make sure to change the paths around as necessary to '/etc/nginx/'.
-
 
 ## Configure NGINX LDAP Module
 
@@ -168,7 +166,7 @@ It's finally time to actually configure the NGINX module we downloaded and built
 Open up your nginx.conf file for editing:
 
 ```shell-session
-$ sudo editor /etc/nginx/nginx.conf
+sudo editor /etc/nginx/nginx.conf
 ```
 
 In here you will define an LDAP server. It is possible to define multiple servers by creating multiple 'ldap_server' blocks. This is what I use to allow all users to login is:
@@ -250,7 +248,7 @@ location / {
 Restart NGINX when done
 
 ```shell-session
-$ sudo service nginx restart
+sudo service nginx restart
 ```
 
 Now access the page again and if successful you will be prompted to login!
@@ -259,11 +257,11 @@ Now access the page again and if successful you will be prompted to login!
 
 We're done! For extra configurations have a read through the [nginx ldap module](https://github.com/kvspb/nginx-auth-ldap) documentation.
 
-#### Resources:
+## Resources
 
-*   [http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source](http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source)
-*   [http://wiki.nginx.org/Install#Building_Nginx_From_Source](http://wiki.nginx.org/Install#Building_Nginx_From_Source)
-*   [http://demongin.org/](http://demongin.org/)
-*   [http://www.allgoodbits.org/articles/view/29](http://www.allgoodbits.org/articles/view/29)
-*   [https://github.com/JasonGiedymin/nginx-init-ubuntu](https://github.com/JasonGiedymin/nginx-init-ubuntu)
-*   [https://github.com/kvspb/nginx-auth-ldap](https://github.com/kvspb/nginx-auth-ldap)
+* [http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source](http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source)
+* [http://wiki.nginx.org/Install#Building_Nginx_From_Source](http://wiki.nginx.org/Install#Building_Nginx_From_Source)
+* [http://demongin.org/](http://demongin.org/)
+* [http://www.allgoodbits.org/articles/view/29](http://www.allgoodbits.org/articles/view/29)
+* [https://github.com/JasonGiedymin/nginx-init-ubuntu](https://github.com/JasonGiedymin/nginx-init-ubuntu)
+* [https://github.com/kvspb/nginx-auth-ldap](https://github.com/kvspb/nginx-auth-ldap)

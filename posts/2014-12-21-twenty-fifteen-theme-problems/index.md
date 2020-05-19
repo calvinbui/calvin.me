@@ -22,7 +22,7 @@ The font is a lot bigger than Twenty Fourteen but amazing still fits everything 
 
 ![one page 2015](one-page-2015.png)
 
-###  2. Mobile theme
+### 2. Mobile theme
 
 When on your mobile, the Twenty Fourteen theme nicely compacted your posts into a list, only showing their title, date and author.
 

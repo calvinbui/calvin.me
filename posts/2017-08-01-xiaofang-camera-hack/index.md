@@ -20,9 +20,9 @@ For the lowest price (shipped from China), check out the [OzBargain](https://www
 
 Xiaomi has imposed a few limitations on this camera out of the box:
 
-1.  Camera footage only viewable through the MiHome app.
-2.  If the MiHome app is newer than version 4.0.11, the camera won't be accessible outside of China
-3.  Maximum SD card size is 32GB
+1. Camera footage only viewable through the MiHome app.
+2. If the MiHome app is newer than version 4.0.11, the camera won't be accessible outside of China
+3. Maximum SD card size is 32GB
 
 ## Fixing the Limitations
 
@@ -34,7 +34,7 @@ The main modification we'll be using for the camera is the built in RTSP (Real T
 
 For my RTSP configuration, I went with 1024 x 576 at 15 fps. While 1080P 60FPS is entertaining, I didn't find it stable enough for my uses. This is configured within `/media/mmcblk0p2/data/etc/scripts/20-rtsp-server`:
 
-```
+```text
 snx_rtsp_server -W 1024 -H 576 -Q 10 -F 15 -b 1024 -a
 ```
 
@@ -50,7 +50,7 @@ The alternative is to open the stream in VLC and pass it onto Milestone.
 
 Save the following as a `.bat` file:
 
-```
+```shell-terminal
 C:\..\..\vlc.exe rtsp://ip-address/unicast :sout=#rtp{sdp=rtsp://:8554/} :sout-keep
 ```
 
@@ -60,7 +60,7 @@ Then run the `.bat` file to start streaming from VLC without any video output to
 
 In Milestone, add the VLC stream with the same configuration as below:
 
-```
+```yaml
 IP: localhost
 Port: 8554
 Username: <default>
@@ -74,24 +74,24 @@ Driver: Universal 1 channel driver
 
 Configure the camera with the same configuration as below:
 
-```
+```yaml
 Video Settings:
-Codec: H264
-Streaming Mode: RTP (UDP)
-Delivery mode: Multipart stream
-Keep-alive type: Default
-Retrieval mode: Streaming
-Connecting URI:
-RTSP port: 8554
-Include options on PLAY: No
+  Codec: H264
+  Streaming Mode: RTP (UDP)
+  Delivery mode: Multipart stream
+  Keep-alive type: Default
+  Retrieval mode: Streaming
+  Connecting URI:
+  RTSP port: 8554
+  Include options on PLAY: No
 
 Audio Settings:
-Codec: PCM A-law
-Streaming Mode: RTP (UDP)
-Delivery mode: Multipart stream
-Keep-alive type: Default
-Connecting URI:
-RTSP port: 8554
+  Codec: PCM A-law
+  Streaming Mode: RTP (UDP)
+  Delivery mode: Multipart stream
+  Keep-alive type: Default
+  Connecting URI:
+  RTSP port: 8554
 ```
 
 ![Camera Settings](/camera-settings.PNG)
@@ -110,7 +110,7 @@ Use Windows Task Scheduler. **Make sure you have the absolute path to vlc.exe in
 
 In my experience, running VLC as a Windows Service was caused Connection Errors with Milestone but your mileage may vary.
 
-```
+```shell-terminal
 vlc.exe -I ntservice --ntservice-install --ntservice-extraintf=http --ntservice-name=VLC --ntservice-options="rtsp://ip-address/unicast :sout=#rtp{sdp=rtsp://:8554/} :sout-keep"
 ```
 

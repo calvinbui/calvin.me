@@ -28,9 +28,9 @@ Firefox 45.0.1 will be used to perform the tests. Firefox is preferable over bro
 
 I will be running the tests on my Lenovo X220
 
-*   Intel i7-2640M
-*   16GB RAM
-*   Windows 10 64-bit
+* Intel i7-2640M
+* 16GB RAM
+* Windows 10 64-bit
 
 ### Network
 
@@ -77,6 +77,6 @@ Roughly a half-second increase in speed on the home page. Currently this site is
 
 ![http2-multiplexing](http2-multiplexing.png)
 
-_Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/_:
+_Images from CloudFlare <https://www.cloudflare.com/http2/what-is-http2/>_:
 
 ![http2-network-graph-comparison](http2-network-graph-comparison.png)

@@ -23,7 +23,7 @@ If you only have two network cards, the LAN is most likely already plugged into 
 
 The goal of the setup is to not lose your connection to ESXi. The moment you do, you won't be able to get back in and configure it. Either have a remote static connection, a direct connection to the ESXi host or monitor available.
 
-**1. Set up the LAN and WAN**
+### 1. Set up the LAN and WAN
 
 Say no to set up VLANs. This is for another day.
 
@@ -49,7 +49,7 @@ Confirm the interfaces (y) and wait for pfSense finish its configuration and bri
 
 ![pfsense-confirm-interfaces](esxi_pfs_4_13a.png)
 
-**2.** **Connect to pfSense**
+### 2. Connect to pfSense
 
 At this point, you will not be able to access the pfSense web interface because you are still connected to your original router as your gateway/modem/router/access point and it is currently providing your with an IP address. We want pfSense to provide us with an IP address instead. Unplug the WAN device (modem, router, access point) from your switch so you have a LAN without Internet connectivity. You may also lose connectivity to the vSphere Client - just reconnect or have it restart its networking to gain a new IP from DHCP. Release/Renew IP addresses for your computer by unplugging and replugging their cables, and pfSense should provide you with an IP address! If it does not, make sure pfSense is operating on correct network adapter (LAN) and there is not other device on the network that can provide you with an address (other routers, modems and access points).
 
@@ -57,7 +57,7 @@ After the changes, your network should look like this:
 
 ![notconnected nd](notconnected-nd.png)
 
-**3. Connect to the pfSense web interface**
+### 3. Connect to the pfSense web interface
 
 Open your browser of choice (Chrome for me) and enter the IP address of the pfSense LAN connection (which is default, 192.168.1.1). Login with the default username 'admin' and password 'pfsense'
 

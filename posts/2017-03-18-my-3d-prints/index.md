@@ -35,8 +35,8 @@ The other hook is attached to the screws holding the joints of the shelf togethe
 
 Download:
 
-*   [http://www.thingiverse.com/thing:2008602](http://www.thingiverse.com/thing:2008602)
-*   [http://www.thingiverse.com/thing:1728543](http://www.thingiverse.com/thing:1728543)
+* [http://www.thingiverse.com/thing:2008602](http://www.thingiverse.com/thing:2008602)
+* [http://www.thingiverse.com/thing:1728543](http://www.thingiverse.com/thing:1728543)
 
 ## Dice Tower
 
@@ -112,10 +112,10 @@ Download: [http://www.thingiverse.com/thing:1287312](http://www.thingiverse.com/
 
 Download:
 
-*   [http://www.thingiverse.com/thing:2154107](http://www.thingiverse.com/thing:2154107)
-*   [http://www.thingiverse.com/thing:2154105](http://www.thingiverse.com/thing:2154105)
-*   [http://www.thingiverse.com/thing:2154103](http://www.thingiverse.com/thing:2154103)
-*   [http://www.thingiverse.com/thing:1573912](http://www.thingiverse.com/thing:1573912)
+* [http://www.thingiverse.com/thing:2154107](http://www.thingiverse.com/thing:2154107)
+* [http://www.thingiverse.com/thing:2154105](http://www.thingiverse.com/thing:2154105)
+* [http://www.thingiverse.com/thing:2154103](http://www.thingiverse.com/thing:2154103)
+* [http://www.thingiverse.com/thing:1573912](http://www.thingiverse.com/thing:1573912)
 
 ## Pebble Charging Stand
 
@@ -147,8 +147,8 @@ Download: [http://www.thingiverse.com/thing:1788378](http://www.thingiverse.com/
 
 Download:
 
-*   [http://www.thingiverse.com/thing:133833](http://www.thingiverse.com/thing:133833)
-*   [http://www.thingiverse.com/thing:946543](http://www.thingiverse.com/thing:946543)
+* [http://www.thingiverse.com/thing:133833](http://www.thingiverse.com/thing:133833)
+* [http://www.thingiverse.com/thing:946543](http://www.thingiverse.com/thing:946543)
 
 ## Tripod Quick Release
 
@@ -176,8 +176,8 @@ Download: [http://www.thingiverse.com/thing:1824197](http://www.thingiverse.com/
 
 Download:
 
-*   [http://www.thingiverse.com/thing:1816340](http://www.thingiverse.com/thing:1816340)
-*   [http://www.thingiverse.com/thing:792864](http://www.thingiverse.com/thing:792864)
+* [http://www.thingiverse.com/thing:1816340](http://www.thingiverse.com/thing:1816340)
+* [http://www.thingiverse.com/thing:792864](http://www.thingiverse.com/thing:792864)
 
 ## Catan Card Organiser
 

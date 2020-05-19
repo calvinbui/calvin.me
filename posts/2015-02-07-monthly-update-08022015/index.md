@@ -59,7 +59,7 @@ Furthermore I've added a few new plugins to enhance security and usability such 
 I thought it was a good time to do some updates. Went straight to 5.5 U2 using the [_update-from-esxi5.5-5.5_update02.zip_](https://my.vmware.com/group/vmware/patch#search) file and the command:
 
 ```shell-session
-$ esxcli software vib update -d=[ZFS0]/esxi_patches/ESXi/update-from-esxi5.5-5.5_update02.zip
+esxcli software vib update -d=[ZFS0]/esxi_patches/ESXi/update-from-esxi5.5-5.5_update02.zip
 ```
 
 ## Updated pfSense to 2.2 release
@@ -80,7 +80,7 @@ Facebook Lite is awesome. It's like Facebook but much smaller and less battery s
 
 ## Currently Interested
 
-*   Planning for new computer and SAN storage: When my current PC gets an upgrade, I may retire it as another ESXi host. If I do that, I may also look at getting started on Fibre Channel storage and a proper rack enclosure.
-*   Got an Intel I350 T4 NIC as an early Valentine's Day present. Gonna have a lot of fun with it in pfSense doing some bridging and link aggregation.
-*   Been playing around with Docker. Looking at the possibility of running SABnzbd, Couch, Sonarr etc. all on one virtual machine to save some memory. Would also be good to learn as a skill.
-*   Going to go with Windows 8.1 on all my PCs. 8.1 sucks but can be made a lot better with a bunch of applications like [Start8](http://www.stardock.com/products/start8/) and [ModernMix](http://www.stardock.com/products/ModernMix/). Running things as Administrator is usually a pain but you can get around it by using the Administrator account by default from the very start (not recommended of course).
+* Planning for new computer and SAN storage: When my current PC gets an upgrade, I may retire it as another ESXi host. If I do that, I may also look at getting started on Fibre Channel storage and a proper rack enclosure.
+* Got an Intel I350 T4 NIC as an early Valentine's Day present. Gonna have a lot of fun with it in pfSense doing some bridging and link aggregation.
+* Been playing around with Docker. Looking at the possibility of running SABnzbd, Couch, Sonarr etc. all on one virtual machine to save some memory. Would also be good to learn as a skill.
+* Going to go with Windows 8.1 on all my PCs. 8.1 sucks but can be made a lot better with a bunch of applications like [Start8](http://www.stardock.com/products/start8/) and [ModernMix](http://www.stardock.com/products/ModernMix/). Running things as Administrator is usually a pain but you can get around it by using the Administrator account by default from the very start (not recommended of course).

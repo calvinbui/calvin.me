@@ -36,7 +36,7 @@ _Comparison of Startup Disk Creator from 15.10 to 16.04_:
 
 ![Startupdiskcreatorcomparison](Startupdiskcreatorcomparison-179x300.png)
 
-## Let's start:
+## Let's start
 
 ### Download Ubuntu
 
@@ -51,17 +51,17 @@ Open up terminal and run the following commands:
 If you run standard Ubuntu, you need an extra instruction to get the repository Universe. (Kubuntu, Lubuntu ... Xubuntu have the repository Universe activated automatically.)
 
 ```shell-session
-$ sudo add-apt-repository universe  # only for standard Ubuntu
+sudo add-apt-repository universe  # only for standard Ubuntu
 
-$ sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
-$ sudo apt-get update
-$ sudo apt-get install mkusb
+sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
+sudo apt-get update
+sudo apt-get install mkusb
 ```
 
 and if you want also the command line version without graphics:
 
 ```shell-session
-$ sudo apt-get install mkusb-nox
+sudo apt-get install mkusb-nox
 ```
 
 ### Start mkusb
@@ -69,7 +69,7 @@ $ sudo apt-get install mkusb-nox
 You can start mkusb by either searching for it through Unity or running the command:
 
 ```shell-session
-$ sudo -H mkusb
+sudo -H mkusb
 ```
 
 ![Ubuntu 64-bit-2016-05-23-19-07-49](ubuntu-64-bit-2016-05-23-19-07-49.png)

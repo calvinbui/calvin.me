@@ -18,11 +18,10 @@ I've uploaded all my configs, ACPI, drivers and kexts to GitHub. [You can find i
 
 Everything _I needed_ worked for me. Things that aren't working but I won't look into fixing at the moment:
 
--   USB Map: I enabled the `XhciPortLimit` option as a workaround
--   Audio: I use a USB audio interface
--   Wi-Fi: I use Ethernet
--   Bluetooth: No Bluetooth devices
--   NVIDIA GTX 1080Ti: Nothing I can do here until Apple and NVIDIA stop fighting.
+- USB Map: I enabled the `XhciPortLimit` option as a workaround
+- Audio: I use a USB audio interface
+- Wi-Fi: I use Ethernet
+- Bluetooth: No Bluetooth devices
+- NVIDIA GTX 1080Ti: Nothing I can do here until Apple and NVIDIA stop fighting.
 
 All other details are on GitHub. Enjoy!
-

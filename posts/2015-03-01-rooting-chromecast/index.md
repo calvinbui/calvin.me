@@ -35,15 +35,13 @@ Lucky me I thought, because my Chromecast is defective I now get a brand new-in
 
 The second Chromecast is identical to the first. I realised how vigilant I have to be to make sure this works correctly. I read around as much as I could and watched some videos too.  A good trick was to connect to the Chromecast and visit [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) where it'll give some details of it including the firmware level.
 
-```
-{"build_version":"15098"
+```json
+{"build_version":"15098"}
 ```
 
 But I ran into another problem. I didn't have a 'powered OTG cable', only a normal OTG cable. I put an order through eBay for one and kept trying to see what I could do.
 
-The best solution I found was to use an USB hub connected to the Chromecast:
-
-_http://forum.xda-developers.com/showthread.php?t=2465642_:
+[The best solution I found was to use an USB hub connected to the Chromecast](http://forum.xda-developers.com/showthread.php?t=2465642):
 
 ![](pa010003.jpg)
 
@@ -101,8 +99,8 @@ _The Chromecast, USB OTG and power cable_:
 
 After it was done, I checked the [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) page again to find:
 
-```
-    {"bssid":"","build_version":"17977",
+```json
+    {"bssid":"","build_version":"17977"}
 ```
 
 SUCCESS AT LAST! Now to clean the mess I made in my room.

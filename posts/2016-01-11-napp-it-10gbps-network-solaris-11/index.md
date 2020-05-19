@@ -29,10 +29,10 @@ All networking testing is done using [iPerf](https://iperf.fr) (specifically iP
 
 For my tests I used the following systems all running iperf
 
-*   Ubuntu 14.10 Desktop
-*   Ubuntu 14.04.3 Server
-*   Windows Server 2012 R2
-*   Solaris 11 (running napp-it) - most importantly
+* Ubuntu 14.10 Desktop
+* Ubuntu 14.04.3 Server
+* Windows Server 2012 R2
+* Solaris 11 (running napp-it) - most importantly
 
 ## Enabling Jumbo Frames
 
@@ -59,19 +59,19 @@ vmxnet3s0 mtu      rw   1500  1500    60-9000
 **3.** Turn off the interface to configure it
 
 ```shell-session
-$ ifconfig vmxnet3s0 unplumb
+ifconfig vmxnet3s0 unplumb
 ```
 
 **4.** Set MTU to 9000
 
 ```shell-session
-$ dladm set-linkprop -p mtu=9000 vmxnet3s0
+dladm set-linkprop -p mtu=9000 vmxnet3s0
 ```
 
 **5.** Re-enable the interface
 
 ```shell-session
-$ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
+ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
 ```
 
 **6.** Check if it has updated
@@ -111,12 +111,12 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 **1.** Run the following command to disable LSO though Solaris
 
 ```shell-session
-$ ndd -set /dev/ip ip_lso_outbound 0
+ndd -set /dev/ip ip_lso_outbound 0
 ```
 
 **2.** Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU near the bottom of the file.
 
-```
+```text
 EnableLSO=0,0,0,0,0,0,0,0,0,0;
 MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
 ```
@@ -126,9 +126,9 @@ MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
 Finally tune TCP parameters to accommodate the faster speeds
 
 ```shell-session
-$ ipadm set-prop -p max_buf=4194304 tcp
-$ ipadm set-prop -p recv_buf=1048576 tcp
-$ ipadm set-prop -p send_buf=1048576 tcp
+ipadm set-prop -p max_buf=4194304 tcp
+ipadm set-prop -p recv_buf=1048576 tcp
+ipadm set-prop -p send_buf=1048576 tcp
 ```
 
 ## Test out your new performance
@@ -136,8 +136,8 @@ $ ipadm set-prop -p send_buf=1048576 tcp
 Start iperf 2 as a server on napp-it
 
 ```shell-session
-$ cd /var/web-gui/data/tools/iperf
-$ ./iperf -s
+cd /var/web-gui/data/tools/iperf
+./iperf -s
 ```
 
 On another computer, run iperf as a client to connect to napp-it.

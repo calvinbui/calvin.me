@@ -34,7 +34,7 @@ Proper networking will be explained later on once we have a GUI ready.
 Simply run:
 
 ```shell-session
-$ pacman -Syu
+pacman -Syu
 ```
 
 then reboot and hope everything still works.
@@ -46,19 +46,19 @@ The next few steps require some files to be created in a user's home directory o
 Create a new user
 
 ```shell-session
-$ useradd -m -G wheel -s /bin/bash calvin
+useradd -m -G wheel -s /bin/bash calvin
 ```
 
 Set a new password
 
 ```shell-session
-$ passwd calvin
+passwd calvin
 ```
 
 Install _sudo_
 
 ```shell-session
-$ pacman -S sudo
+pacman -S sudo
 ```
 
 Add user to sudoers
@@ -82,25 +82,25 @@ I prefer [MATE](https://wiki.archlinux.org/index.php/MATE) as it's light on reso
 To install MATE and everything required for a desktop environment, run:
 
 ```shell-session
-$ pacman -S mate mate-extra xorg-server
+pacman -S mate mate-extra xorg-server
 ```
 
 The _Disk Utility_ and _Account Manager_ are optional packages if you wish to install them. The built-in account manager seems to work but throws an error when launching.
 
 ```shell-session
-$ pacman -S mate-disk-utility mate-accountsdialog
+pacman -S mate-disk-utility mate-accountsdialog
 ```
 
 Finally if you need a Display Manager (Login screen) to launch _MATE_ (or use [xorg-xinit](https://wiki.archlinux.org/index.php/Xinit)). _MATE_ recommends using _[LightDM](https://wiki.archlinux.org/index.php/LightDM)_:
 
 ```shell-session
-$ pacman -S lightdm lightdm-gtk-greeter
+pacman -S lightdm lightdm-gtk-greeter
 ```
 
 Then enable _LightDM_ to run on startup:
 
 ```shell-session
-$ systemctl enable lightdm.service
+systemctl enable lightdm.service
 ```
 
 Reboot and try it out.
@@ -112,12 +112,12 @@ Now the trackpad will not feel right. This is easily fixed with a config file an
 Install the driver first:
 
 ```shell-session
-$ pacman -S xf86-input-synaptics
+pacman -S xf86-input-synaptics
 ```
 
 Then set-up the config file at _/etc/X11/xorg.conf.d/70-synaptics.conf_
 
-```
+```text
 Section "InputClass"
         Identifier "touchpad"
         Driver "synaptics"
@@ -145,13 +145,13 @@ Note: if it's really hard navigating with the broken trackpad, press _CTRL + ALT
 Install _Network Manager_ and _network-manager-applet:_
 
 ```shell-session
-$ pacman -S networkmanager network-manager-applet
+pacman -S networkmanager network-manager-applet
 ```
 
 Then enable _Network Manager_ and reboot to find the applet:
 
 ```shell-session
-$ systemctl enable NetworkManager.service
+systemctl enable NetworkManager.service
 ```
 
 ![Screenshot at 2016-07-31 20:17:20](screenshot-at-2016-07-31-201720.png)
@@ -161,7 +161,7 @@ $ systemctl enable NetworkManager.service
 First make controlling brightness available to every user by editing permissions at startup. Create _/etc/tmpfiles.d/brightness.conf_ with:
 
 ```shell-session
-$ f /sys/class/backlight/backlight.12/brightness 0666 - - - 800
+f /sys/class/backlight/backlight.12/brightness 0666 - - - 800
 ```
 
 Reboot to activate the new permissions.
@@ -190,7 +190,7 @@ fi
 Make the scripts executable:
 
 ```shell-session
-$ chmod +x /usr/local/bin/brightness
+chmod +x /usr/local/bin/brightness
 ```
 
 Then create keyboard shortcuts through '_System > Preferences > Hardware > Keyboard Shortcuts_' to map:
@@ -199,7 +199,7 @@ Then create keyboard shortcuts through '_System > Preferences > Hardware > Keybo
 
 ![Screenshot at 2016-07-31 07:06:01](screenshot-at-2016-07-31-070601.png)
 
-```
+```yaml
 Name: Brightness Down
 Command: /usr/local/bin/brightness down
 Shortcut F6
@@ -216,25 +216,25 @@ If it doesn't work, make sure you have rebooted first to set the right permissio
 First install _alsa-utils_
 
 ```shell-session
-$ pacman -S alsa-utils
+pacman -S alsa-utils
 ```
 
 Then run _alsamixer_
 
 ```shell-session
-$ alsamixer
+alsamixer
 ```
 
 Go across the page (arrow keys) and press M to unmute
 
-*   Left Speaker Mixer Left DAC1
-*   Left Speaker Mixer Mono DAC2
-*   Left Speaker Mixer Mono DAC3
-*   Left Speaker Mixer Right DAC1
-*   Right Speaker Mixer Left DAC1
-*   Right Speaker Mixer Mono DAC2
-*   Right Speaker Mixer Mono DAC3
-*   Right Speaker Mixer Right DAC1
+* Left Speaker Mixer Left DAC1
+* Left Speaker Mixer Mono DAC2
+* Left Speaker Mixer Mono DAC3
+* Left Speaker Mixer Right DAC1
+* Right Speaker Mixer Left DAC1
+* Right Speaker Mixer Mono DAC2
+* Right Speaker Mixer Mono DAC3
+* Right Speaker Mixer Right DAC1
 
 ![Screenshot at 2016-07-31 20:03:01](screenshot-at-2016-07-31-200301.png)
 
@@ -249,7 +249,7 @@ Forget about _acpid_ and _pm-utils_ in the wiki, sleeping works fine without the
 Install the relevant power manager for your environment, e.g. for _MATE_ it should be:
 
 ```shell-session
-$ pacman -S mate-power-manager
+pacman -S mate-power-manager
 ```
 
 The trackpad has a tendency to wake up the computer as almost any movement to the computer will cause it to activate. To disable it from waking the computer during sleep, I use a systemd unit file _/etc/systemd/system/tp-wake-disable.service_
@@ -269,14 +269,14 @@ WantedBy=multi-user.target
 Then enable the unit:
 
 ```shell-session
-$ systemctl enable tp-wake-disable.service
+systemctl enable tp-wake-disable.service
 ```
 
 ### Suspend after idle
 
 The Chromebook does not suspend after a period of inactivity in my tests, the display goes black and stays that way until woken again. I've found the easiest way to activate suspend is to edit _/etc/systemd/logind.conf_ and change the _IdleAction_ and _IdleActionSec_ fields. This means 1 minute after the display is put to sleep it will suspend.  The time for the display to sleep is configured through Screensaver in '_System Preferences > Preferences > Look and Feel > Screensaver_'.
 
-```
+```text
 ...
 #HoldoffTimeoutSec=30s
 IdleAction=Suspend
@@ -291,19 +291,18 @@ Reboot to apply.
 
 Note: During startup, _LightDM_ will not suspend the computer if no one logs on, just leaving the laptop awake at the prompt indefinitely. I have experimented with _xautolock_, running it as a systemd unit and _LightDM_ script but nothing seems to fix it. Closing the lid will also not suspend the computer. Basically, don't leave it on at the login screen without anyone logged in.
 
-
 ### Change Search key to Caps Lock
 
 Install _xmodmap_:
 
 ```shell-session
-$ pacman -S xorg-xmodmap
+pacman -S xorg-xmodmap
 ```
 
 By default, _LightDM_ will read the _~/.Xmodmap_ file and modify the keymaps listed within it.
 
 ```shell-session
-$ keycode 133 = Caps_Lock
+keycode 133 = Caps_Lock
 ```
 
 ### Delete/Home/End/Page Up/Page Down
@@ -311,18 +310,18 @@ $ keycode 133 = Caps_Lock
 Install _xbindkeys_ (for creating shortcuts) and _xvkbd_ (emulate keyboard input):
 
 ```shell-session
-$ pacman -S xbindkeys xvkbd
+pacman -S xbindkeys xvkbd
 ```
 
 Create the configuration file:
 
 ```shell-session
-$ touch ~/.xbindkeysrc
+touch ~/.xbindkeysrc
 ```
 
 Add the following to the configuration file:
 
-```
+```text
 "xvkbd -xsendevent -text "[Prior]""
     m:0x4 + c:111
     Control + Up
@@ -349,7 +348,7 @@ I prefer using _CTRL + Arrow_ keys as it's easier than _ALT + Arrow_ keys. If yo
 To run the configuration file at startup, add it to the _~/.xprofile_ which is executed by _LightDM_.
 
 ```shell-session
-$ echo 'xbindkeys &' >> ~/.xprofile
+echo 'xbindkeys &' >> ~/.xprofile
 ```
 
 ### Enable Compositing
@@ -361,11 +360,10 @@ $ echo 'xbindkeys &' >> ~/.xprofile
 ### Set Hostname
 
 ```shell-session
-$ hostnamectl set-hostname arch-chromebook
+hostnamectl set-hostname arch-chromebook
 ```
 
 ### Set the Time Zone
-
 
 First find your time zone:
 
@@ -377,14 +375,14 @@ Australia/Sydney
 Then set the time zone:
 
 ```shell-session
-$ timedatectl set-timezone Australia/Sydney
+timedatectl set-timezone Australia/Sydney
 ```
 
 ### Other Notes
 
-*   The trackpad sometimes doesn't work on boot. A restart fixes it (press the power button)
-*   Can't seem to get PulseAudio working
-*   Two finger clicks that are too wide apart don't register as a right click. Two finger taps do though
-*   Current RAM usage for me is 123M, A LOT better than Chrome OS which always sits around 1.5GB
-*   Still can't get 720p video to run smoothly. Chrome OS is a bit better here but even then it dies on a 720p60 video. Sticking to 480p seems to be the best thing to do
-*   It is possible to get rid having to press CTRL + D on each boot, I did that once and totally forgot how to get it back. I eventually did but it was crazy stuff.
+* The trackpad sometimes doesn't work on boot. A restart fixes it (press the power button)
+* Can't seem to get PulseAudio working
+* Two finger clicks that are too wide apart don't register as a right click. Two finger taps do though
+* Current RAM usage for me is 123M, A LOT better than Chrome OS which always sits around 1.5GB
+* Still can't get 720p video to run smoothly. Chrome OS is a bit better here but even then it dies on a 720p60 video. Sticking to 480p seems to be the best thing to do
+* It is possible to get rid having to press CTRL + D on each boot, I did that once and totally forgot how to get it back. I eventually did but it was crazy stuff.

@@ -13,13 +13,13 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 
 ## Testing Setup
 
-*   All testing was performed on NZBGet 17.1
-*   My maximum download speed is 100Mbp/s or 14MB/s which does not drop throughout the day.
-*   My internet connection is on cable provided by Telstra.
-*   All stats below from NZBGet's Statistics and Stats page which is reset when NZBGet is reloaded.
-*   All but one provider were tested on their free trial.
-*   Only providers with SSL were used.
-*   I used up all available connections advertised by the provider.
+* All testing was performed on NZBGet 17.1
+* My maximum download speed is 100Mbp/s or 14MB/s which does not drop throughout the day.
+* My internet connection is on cable provided by Telstra.
+* All stats below from NZBGet's Statistics and Stats page which is reset when NZBGet is reloaded.
+* All but one provider were tested on their free trial.
+* Only providers with SSL were used.
+* I used up all available connections advertised by the provider.
 
 | Provider | Advertised (MB/s) | Real (MB/s) | Length | Downloaded | Notes
 |-|-|-|-|-|-
@@ -33,15 +33,15 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 | Newsgroupdirect (US) | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
 | Frugal (US) | N/A | 12.0 | 10 days | 38GB | EU servers @ 6.8MB/s
 
-## Summary:
+## Summary
 
 Best performers which saturated my 100Mbps / 14MBs connection were:
 
-*   Frugal
-*   EasyNews
-*   Newsdemon
-*   Newsgroupdirect
-*   UsenetBucket
+* Frugal
+* EasyNews
+* Newsdemon
+* Newsgroupdirect
+* UsenetBucket
 
 I ended up signing with Frugal Usenet on their Black Friday special for $3.99 per month. I decided against the $40 a year in case of a rainy day over on the Highwinds network.
 

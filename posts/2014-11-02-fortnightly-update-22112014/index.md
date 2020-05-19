@@ -23,16 +23,14 @@ Having moved over to CloudFlare, I had to move to switch my DNS servers over to 
 
 Looking at [Larry Bolt's gist](https://gist.github.com/larrybolt/6295160) which calls this API, I simply replaced the variables with my own and was able to make the following URL to put into pfSense:
 
-```
-https://www.cloudflare.com/api.html?a=DIUP&hosts=example.com&u=username@email.com&tkn=abc123abc&ip=%IP%
-```
+`https://www.cloudflare.com/api.html?a=DIUP&hosts=example.com&u=username@email.com&tkn=abc123abc&ip=%IP%`
 
 Replace the following with your own:
 
-*   example.com with your domain
-*   username@email with your CloudFlare login
-*   abc123abc with your CloudFlare API key
-*   %IP% with the IP to set it to. pfSense automatically replaces %IP% with your WAN IP address.
+* example.com with your domain
+* username@email with your CloudFlare login
+* abc123abc with your CloudFlare API key
+* %IP% with the IP to set it to. pfSense automatically replaces %IP% with your WAN IP address.
 
 ### VisualEditor in MediaWiki
 
@@ -50,7 +48,7 @@ Time to begin updating all my LDAP connections to use SSL instead of plain text.
 
 ### Currently Interested In
 
-*   Still interested in a Gist for myself. So far I've found [pastgit](https://github.com/mmikulicic/pastgit), [gitpaste](https://github.com/justinvh/gitpaste), [Gistie](https://github.com/gmarik/Gistie) and [phorkie](https://github.com/cweiske/phorkie). I'll give them a whirl soon.
-*   LDAP authentication for NGINX. Hopefully soon.
-*   System monitoring and logging. As my infrastructure gets bigger and bigger I've got to start taking care of it. This would be good experience in the future as well :smile: Some I've looked at are Nagios, Zabbix and the popular ELK stack.
-*   Put my old HP N40L server to good use. It still has some hard drives in it and about 8GB of RAM for a simple ESXi host.
+* Still interested in a Gist for myself. So far I've found [pastgit](https://github.com/mmikulicic/pastgit), [gitpaste](https://github.com/justinvh/gitpaste), [Gistie](https://github.com/gmarik/Gistie) and [phorkie](https://github.com/cweiske/phorkie). I'll give them a whirl soon.
+* LDAP authentication for NGINX. Hopefully soon.
+* System monitoring and logging. As my infrastructure gets bigger and bigger I've got to start taking care of it. This would be good experience in the future as well :smile: Some I've looked at are Nagios, Zabbix and the popular ELK stack.
+* Put my old HP N40L server to good use. It still has some hard drives in it and about 8GB of RAM for a simple ESXi host.

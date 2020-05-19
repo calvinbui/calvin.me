@@ -14,10 +14,10 @@ I'm migrating from Ubuntu to CentOS as my main Linux distro. Literally every vi
 
 First off, Ubuntu is great. I really love it.
 
-*   It eats less memory than CentOS.
-*   It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
-*   It has more packages than CentOS.
-*   It almost always works with any hardware configuration I throw at it.
+* It eats less memory than CentOS.
+* It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
+* It has more packages than CentOS.
+* It almost always works with any hardware configuration I throw at it.
 
 I'm not hating on Ubuntu, I'm just against it from now on for my own usage - not that I'm telling you to change too. There are just a few niggly things I'm worried about and some decisions Canonical have made which don't bode well with me.
 
@@ -40,7 +40,6 @@ Ubuntu 14.04 uses the 3.13 Linux kernel, not a [longterm version of the Linux ke
 Apparently Torvalds held off the 3.14 LTR until a week after the [14.04 LTS kernel code freeze occurred](http://www.phoronix.com/scan.php?page=news_item&px=MTY0MjM). Why didn't Ubuntu just wait another week to implement it? Now every new patch release must be manually added and tested by Ubuntu kernel maintainers for the next 5 years...if they even bother. The updates would've gave direct from the official linux kernel if they just went with 3.12 LTR.
 
 ![tux](tux.png)
-
 
 ### Reason 3: Landscape costs money! $$$$
 

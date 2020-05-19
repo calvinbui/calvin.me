@@ -47,8 +47,8 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
 
 ### Currently Interested In
 
-*   [StatusPage.io](https://statuspage.io) is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
+* [StatusPage.io](https://statuspage.io) is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
 
 ![PHP Services](capture2.png)
 
-*   Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.
+* Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.

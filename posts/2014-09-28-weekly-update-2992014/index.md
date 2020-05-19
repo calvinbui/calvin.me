@@ -39,6 +39,6 @@ The problem with their dynamic DNS implementation is that it is script based and
 
 ### Currently Interested In
 
-*   Connecting everything to my new shiny active directory. Single sign on everywhere :') Some things won't be supported like most of the things people want to use on my network (NZBDrone, CouchPotato etc.). There should be a HTTP authentication method through NGINX which connects to Active Directory.
-*   Once I get the Active Directory working properly the next step will be a RADIUS server. If it is what I think it is then I should be able to login to my WiFi using AD credentials...right?
-*   I got a IBM ServeRAID M5016 card from work. Right now I have absolutely no use for it but it would be good for future projects (like a proper storage host instead of an AIO).
+* Connecting everything to my new shiny active directory. Single sign on everywhere :') Some things won't be supported like most of the things people want to use on my network (NZBDrone, CouchPotato etc.). There should be a HTTP authentication method through NGINX which connects to Active Directory.
+* Once I get the Active Directory working properly the next step will be a RADIUS server. If it is what I think it is then I should be able to login to my WiFi using AD credentials...right?
+* I got a IBM ServeRAID M5016 card from work. Right now I have absolutely no use for it but it would be good for future projects (like a proper storage host instead of an AIO).

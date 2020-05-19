@@ -19,16 +19,16 @@ The upgrade to my lightbulb brings IFTTT (If this than that) integration. I prev
 
 Some recipes I would recommend:
 
-*   [Flash when I received a SMS](https://ifttt.com/recipes/251774-flash-green-when-i-receive-an-sms-on-my-android)
-*   [Turn lights on/off as I approach/leave home](https://ifttt.com/recipes/251782-fade-my-lifx-lights-on-as-i-approach-my-home)
-*   [Fade lights on every workday](https://ifttt.com/recipes/251777-fade-my-lights-on-every-workday)
-*   [Turn on lights by sending an email](https://ifttt.com/recipes/253479-turn-all-lights-on-by-sending-an-email)
+* [Flash when I received a SMS](https://ifttt.com/recipes/251774-flash-green-when-i-receive-an-sms-on-my-android)
+* [Turn lights on/off as I approach/leave home](https://ifttt.com/recipes/251782-fade-my-lifx-lights-on-as-i-approach-my-home)
+* [Fade lights on every workday](https://ifttt.com/recipes/251777-fade-my-lights-on-every-workday)
+* [Turn on lights by sending an email](https://ifttt.com/recipes/253479-turn-all-lights-on-by-sending-an-email)
 
 ## CloudFlare Dynamic DNS
 
 I was previously using the [HTTP API](https://www.cloudflare.com/api.html) but now CloudFlare has deprecated it in favour of their [JSON API](https://www.cloudflare.com/api_json.html). There was one big change which required obtaining the domain's record ID instead of just listing its name and which type to change.
 
-```
+```text
 https://www.cloudflare.com/api_json.html?
 a=rec_edit
 &
@@ -51,10 +51,10 @@ content=%IP%
 
 A few helpful sites
 
-*   [https://techjourney.net/update-cloudflare-as-dynamic-dns-ddns/](https://techjourney.net/update-cloudflare-as-dynamic-dns-ddns/)
-*   [https://www.cloudflare.com/docs/client-api.html](https://www.cloudflare.com/docs/client-api.html)
-*   [http://kevo.io/code/2012/11/07/cloudflare-dynamic-dns/](http://kevo.io/code/2012/11/07/cloudflare-dynamic-dns/)
-*   [https://www.ignas.net/guides/guide-2013-10-29-managing-your-domain-with-cloudflare.html](https://www.ignas.net/guides/guide-2013-10-29-managing-your-domain-with-cloudflare.html)
+* [https://techjourney.net/update-cloudflare-as-dynamic-dns-ddns/](https://techjourney.net/update-cloudflare-as-dynamic-dns-ddns/)
+* [https://www.cloudflare.com/docs/client-api.html](https://www.cloudflare.com/docs/client-api.html)
+* [http://kevo.io/code/2012/11/07/cloudflare-dynamic-dns/](http://kevo.io/code/2012/11/07/cloudflare-dynamic-dns/)
+* [https://www.ignas.net/guides/guide-2013-10-29-managing-your-domain-with-cloudflare.html](https://www.ignas.net/guides/guide-2013-10-29-managing-your-domain-with-cloudflare.html)
 
 ## Link Aggregation
 
@@ -82,12 +82,12 @@ I'm starting to rebuild a lot of my VM's to make sure they're all as optimised a
 
 These are some changes I've made to my typical install:
 
-*   Paravirtual SCSI - definitely some disadavantages but paravirtual means it is isnt a virtual device like an E1000
-*   Video card specification also lowest as possible.
-*   Taking away the CD/DVD drive saves about 10MB of RAM
-*   Using Open-VM-Tools instead of the official VMware Tools
-*   Disabling LVM
-*   Disabling automatic security updates
+* Paravirtual SCSI - definitely some disadavantages but paravirtual means it is isnt a virtual device like an E1000
+* Video card specification also lowest as possible.
+* Taking away the CD/DVD drive saves about 10MB of RAM
+* Using Open-VM-Tools instead of the official VMware Tools
+* Disabling LVM
+* Disabling automatic security updates
 
 ## MediaWiki Infobox
 
@@ -152,6 +152,6 @@ location ~ ^/wp-content/(.*).(svg|svgs|jpg|jpeg|gif|png|bmp)$ {
 
 ## Interested In
 
-*   Really want the VMware and Microsoft certifications but $800 + vSphere 6 and Windows 10 coming out soon I think I'll wait.
-*   Switch to DNS Resolver in pfSense from DNS Forwarder
-*   Mounting shares on a as-needed basis using Autofs
+* Really want the VMware and Microsoft certifications but $800 + vSphere 6 and Windows 10 coming out soon I think I'll wait.
+* Switch to DNS Resolver in pfSense from DNS Forwarder
+* Mounting shares on a as-needed basis using Autofs

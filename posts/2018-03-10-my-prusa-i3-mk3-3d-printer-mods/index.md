@@ -89,7 +89,8 @@ Locks those rubber feat into place so they don't fall out when you slide or move
 ![](/feet.jpg)
 
 ## Axis Improvements
-*These axis improvements should be fixed on the new R2 parts released by Prusa. https://shop.prusa3d.com/forum/original-prusa-i3-mk3-f30/new-printed-parts-version-r2-b6-t14551.html*
+
+*These axis improvements should be fixed on the new R2 parts released by Prusa. <https://shop.prusa3d.com/forum/original-prusa-i3-mk3-f30/new-printed-parts-version-r2-b6-t14551.html>*
 
 ### [Prusa MK3 fixed Z mounts](https://www.thingiverse.com/thing:2779123)
 
@@ -98,7 +99,6 @@ These straighten up the Z-axis and also allow for easier maintenance. Better all
 ![](/z1.jpg)
 
 ![](/z2.jpg)
-
 
 ### [X-axis improvement by RHDreambox](https://shop.prusa3d.com/forum/original-prusa-i3-mk3-f30/fine-tune-your-mk3-x-axis-t13853.html)
 

@@ -15,9 +15,9 @@ Hello World!
 
 It's taken me a while to get back into blogging but now I have two reasons to:
 
-1.  I got the '[https://calvin.me](https://calvin.me)' domain :P
+1. I got the '[https://calvin.me](https://calvin.me)' domain :P
 
-2.  Career building by showing my personal learning and interest in I.T.
+2. Career building by showing my personal learning and interest in I.T.
 
 <!-- more -->
 

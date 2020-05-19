@@ -45,24 +45,23 @@ Software (Video Management System) must be used for recording actual footage un
 
 After trialling a few programs including [Blue Iris](http://blueirissoftware.com/), [Hikvision iVMS-4200](http://www.hikvision.com/en/Tools_84.html) and [Genius Vision](https://geniusvision.net/), I went with [Milestone XProtect Go](https://www.milestonesys.com/our-products/video-management-software/xprotect-go/). Go is the free version of their market-leading XProtect video management software.
 
-
 ### Comparison with other VMS
 
 The limitations of the Go version are:
 
-*   5 days of recording: small, but considering the amount of hard drive space required for 3MP @ 15fps, it would be similar to what I would have had with an unlimited amount of days.
-*   8 cameras max: this is okay for now with only 4 cameras. My theoretical maximum being 7 cameras (1 port on the PoE switch is to connect back to the server)
-*   No motion detection/alerts: built-in motion detection and alerts on the camera itself can overcome with . I will be recording 24/7 so having the cameras only record when it senses motion is not important.
-*   Popups when starting the Smart Client: easily closed.
-*   Logo on video exports: The logo is quite big and sits in the bottom right corner. It doesn't appear on playback and live previews however.
+* 5 days of recording: small, but considering the amount of hard drive space required for 3MP @ 15fps, it would be similar to what I would have had with an unlimited amount of days.
+* 8 cameras max: this is okay for now with only 4 cameras. My theoretical maximum being 7 cameras (1 port on the PoE switch is to connect back to the server)
+* No motion detection/alerts: built-in motion detection and alerts on the camera itself can overcome with . I will be recording 24/7 so having the cameras only record when it senses motion is not important.
+* Popups when starting the Smart Client: easily closed.
+* Logo on video exports: The logo is quite big and sits in the bottom right corner. It doesn't appear on playback and live previews however.
 
 The benefits I found of XProtect Go over other Blue Iris, iVMS and Genius Vision are:
 
-*   Free program (renew it every year) compared to $80 for Blue Iris.
-*   Free desktop client separate from the server. All apps tested do not have this feature
-*   Free mobile apps that are really polished. The Blue Iris app costs $15 and looks like it was released 5 years ago. iVMS also has a good-looking app.
-*   Accessible through a web interface. Blue Iris has this but it is limited and really ugly.
-*   Good CPU performance. Blue Iris was chewing up 80% of CPU while XProtect is only at ~10%
+* Free program (renew it every year) compared to $80 for Blue Iris.
+* Free desktop client separate from the server. All apps tested do not have this feature
+* Free mobile apps that are really polished. The Blue Iris app costs $15 and looks like it was released 5 years ago. iVMS also has a good-looking app.
+* Accessible through a web interface. Blue Iris has this but it is limited and really ugly.
+* Good CPU performance. Blue Iris was chewing up 80% of CPU while XProtect is only at ~10%
 
 The main selling point to me was **how good the mobile apps were**. This system isn't just for me to use, I'm sure my relatives would like to check in once in a while.
 
@@ -100,7 +99,7 @@ Milestone Go does not feature any motion detection/alert notifications. This is 
 
 **The workaround I used to overcome this was to use the built-in motion detection feature found in the cameras along with its FTP feature to upload them to [Microsoft OneDrive](https://onedrive.live.com?invref=7a3199ab078dcadc&invscr=90).**
 
-#### Microsoft OneDrive
+### Microsoft OneDrive
 
 As I already had a Windows PC running the VMS, I installed [Microsoft OneDrive](https://onedrive.live.com?invref=7a3199ab078dcadc&invscr=90) on it. As I already signed up a while back I had 15GB (new users only receive 5GB) as well as 15GB of Camera Roll Bonus (uploading photos). I could further increase this number by referring others (or just myself a 20 times) to get another 10GB. This is 40GB of OneDrive storage which is around 300,000 possible motion detection photos, as each is anywhere from 100kB-150kB.
 
@@ -109,14 +108,14 @@ As I already had a Windows PC running the VMS, I installed [Microsoft OneDrive](
 With that in mind, I made a script (.bat file) which would just delete anything older than 30 days. Windows Task Scheduler runs it once daily . The photos would also be deleted on OneDrive as they are located in its folder.
 
 ```shell-session
-$ forfiles /P "C:PathGoesHere" /S /D -30 /C "cmd /c del /q @path"
+forfiles /P "C:PathGoesHere" /S /D -30 /C "cmd /c del /q @path"
 ```
 
 A script that deletes photos after the folder reaches a certain size or amount of files is inefficient as the intruder could stick something in front of the camera for a couple of hours to overwrite previous footage.
 
 Of course, you can also use any other cloud storage solution you have lying around. I primarily use Dropbox (35.85GB) day-to-day so did not want to take up space there. Google Drive (19GB) connects to my Gmail storage so I didn’t want to mess with that either.
 
-#### FTP Server
+### FTP Server
 
 I used Filezilla as my FTP server running on the VMS server. Setup is straightforward, create a new user and specify the directories on the computer they can access and what permissions they have. I would recommend turning off any limits to ensure the cameras can connect to the FTP server without any issues.
 
@@ -126,7 +125,7 @@ The camera’s FTP configuration can be found under ‘Configuration > Network >
 
 ![capture2](capture2.png)
 
-#### Motion Detection / Intrusion Detection
+### Motion Detection / Intrusion Detection
 
 I found the basic motion detection to trip on almost anything even with the lowest possible sensitively. Instead, I used the Intrusion Detection Feature under 'Event > Smart Event'. Select the entire area or draw the areas to sense motion detection and then choose 'Upload to FTP' under Linkage Method.
 
@@ -138,11 +137,11 @@ Now that everything's set up and should be humming along, I tackled remote/inter
 
 The ports that you need to forward (but you can change) are:
 
-*   80 - The server itself (I changed it to 81)
-*   8081 - HTTP (insecure) web and mobile connection
-*   8082 - HTTPS (secure) web and mobile connection
+* 80 - The server itself (I changed it to 81)
+* 8081 - HTTP (insecure) web and mobile connection
+* 8082 - HTTPS (secure) web and mobile connection
 
-#### Milestone NGINX Proxy Configuration
+### Milestone NGINX Proxy Configuration
 
 If by chance you are like me and perhaps you're running other web servers at home, here's a working NGINX Proxy configuration. I found other configurations would allow the mobile apps to work but the web interface would show cameras as unavailable. Using a proxy also meant I didn't have to put in the port numbers (8081, 8082) when accessing the web interface.
 
@@ -229,5 +228,5 @@ _Night_:
 
 ## Future Considerations
 
-*   Add 3 indoor cameras
-*   Separate Recording and Archival storage to different hard drives. This would reduce the lag and slowdowns during playback.
+* Add 3 indoor cameras
+* Separate Recording and Archival storage to different hard drives. This would reduce the lag and slowdowns during playback.

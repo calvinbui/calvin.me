@@ -28,10 +28,10 @@ After looking at [Ikiwiki](https://ikiwiki.info) and [GitBook](https://www.gitbo
 
 The benefit of this was:
 
-*   Free hosting on GitHub and Read the Docs
-*   Accessible from anywhere with Internet
-*   Automatic build after a push (webhook to GitHub)
-*   Versioning built-in (new version after each push)
+* Free hosting on GitHub and Read the Docs
+* Accessible from anywhere with Internet
+* Automatic build after a push (webhook to GitHub)
+* Versioning built-in (new version after each push)
 
 ### Sphinx
 

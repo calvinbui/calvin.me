@@ -15,11 +15,11 @@ I was thinking this site was a bit ugly and it was mostly to do with the font an
 
 Here are the subtle differences you can find:
 
-*   Fonts changed to Calibre
-*   Headings aren't as bold and weighty
-*   A touch of red on all links, with transitions!
-*   The ugly 'READ MORE >>' button is gone
-*   Line spacing increased
+* Fonts changed to Calibre
+* Headings aren't as bold and weighty
+* A touch of red on all links, with transitions!
+* The ugly 'READ MORE >>' button is gone
+* Line spacing increased
 
 Here's the difference on the homepage. It's more welcoming and not in-your-face as before.
 

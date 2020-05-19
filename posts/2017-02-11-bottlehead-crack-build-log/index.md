@@ -112,6 +112,7 @@ For testing, I bought a $10 Digital Multimeter and alligator clips from Jay Car.
 In the final voltage test, Bottlehead fails in the manual by only providing voltages for 120VAC. That's not great if you live in a country that doesn't run 120VAC (Australia has 240VAC). Of course, I doubled the numbers provided but starters and those less informed would have trouble - definitely a big area to fix as this part is very dangerous if you're messing about and can't get the voltage numbers the manual provides.
 
 ## Finished Product
+
 ![Top of crack](/finished/finished-top.jpg)
 
 ![Bottom of crack](/finished/finished-underside.jpg)
@@ -120,7 +121,7 @@ To finish it off I bought two 90-degree RCA adapters and a 90-degree power cable
 
 You wouldn't believe it either, but Bottlehead doesn't include a step on how to install the volume knob...
 
-## Conclusion & What's Next?
+## Conclusion & What's Next
 
 I would give the crack an 8.5 to 9 / 10 for its sound quality with my HD6XX. The lows are impressive while maintaining the detailed highs. The lows are deep but controlled and smooth throughout.
 

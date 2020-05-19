@@ -19,10 +19,10 @@ thumbnail: thumbnail.png
 
 It took me two days to figure this out. A lot of 'sudo service nginx restart' and 'CTRL + SHIFT + R' presses. To sum up experiences:
 
-*   NGINX cannot proxy it
-*   Apache can proxy it
-*   NGINX can proxy Apache
-*   NGINX can proxy SSL Apache
+* NGINX cannot proxy it
+* Apache can proxy it
+* NGINX can proxy Apache
+* NGINX can proxy SSL Apache
 
 Did you get that? This guide is for users running NGINX as their proxy instead of Apache. If you're using Apache, jump to my configuration file for your answer!
 
@@ -87,7 +87,7 @@ Within NZBmegasearcH there is an option to set the Reverse proxy directory locat
 
 ![connectivity proxy](capture6.png)
 
-This means the URL you will be accessing it from including the protocol, domain and path. So if you were accessing it over _HTTPS_, your domain is _mydomain.com_ and the path will be _/search_ then you will have to put in '_https://mydomain.com/search_'. Save and restart NZBmegasearcH after you have done this.
+This means the URL you will be accessing it from including the protocol, domain and path. So if you were accessing it over _HTTPS_, your domain is _mydomain.com_ and the path will be _/search_ then you will have to put in `https://mydomain.com/search`. Save and restart NZBmegasearcH after you have done this.
 
 After it restarts, when attempting a search it will redirect you to your new URL + whatever you had searched for. This is a good sign, even though it doesn't work. Now we'll get NGINX to proxy Apache to retrieve the right location.
 
@@ -106,7 +106,7 @@ Save and restart NGINX once you're done.
 
 ## Try It Out
 
-If all goes well, simply browsing over to the reverse proxy URL (e.g. the one we specified earlier _https://mydomain.com/search/_) will bring up NZBmegasearcH! Don't forget the trailing slash (/) or it may not apply the stylesheets. Try performing a search and sending it to SABnzbd. The Apache locations for '_api'_ and '_wrap'_ should have you covered.
+If all goes well, simply browsing over to the reverse proxy URL (e.g. the one we specified earlier `https://mydomain.com/search/`) will bring up NZBmegasearcH! Don't forget the trailing slash (/) or it may not apply the stylesheets. Try performing a search and sending it to SABnzbd. The Apache locations for '_api'_ and '_wrap'_ should have you covered.
 
 I found an issue if you use HTTP authentication on Apache or NGINX. SABnzbd would be get notified to download a file from  '/nzbmegasearch/warp' but won't be able to access it due to the authentication required. A simple workaround is to just allow the path through.
 

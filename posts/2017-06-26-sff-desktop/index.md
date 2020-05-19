@@ -33,7 +33,6 @@ Let's start straight off with the spec sheet. I purchased most items back in Feb
 | CASE           | DAN A4 SFX                                           | 388.35  |
 |                | **TOTAL**                                            | **$3715.15** |
 
-
 To sum up this build nicely as you can find [reviews](https://www.hardocp.com/news/2017/01/03/intel_core_i77700k_kaby_lake_processor_review_roundup) and [benchmarks](https://videocardz.com/67173/nvidia-geforce-gtx-1080-ti-review-roundup) everywhere else:
 
 ### CPU - Intel i7 7700K
@@ -54,7 +53,7 @@ Has pretty much every feature at the time under the sun including 2 M.2. slots..
 
 ### RAM: Corsair Vengeance LED 32GB 3200Mhz
 
-Here's the exact link to it: http://www.corsair.com/en-gb/vengeance-led-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-red-led-cmu32gx4m2c3200c16r
+Here's the exact link to it: <http://www.corsair.com/en-gb/vengeance-led-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-red-led-cmu32gx4m2c3200c16r>
 
 The most RAM possible at the moment. While not the fastest memory around, anything above 3200Mhz isn't worth the price from most benchmarks I've seen.
 
@@ -114,6 +113,6 @@ To wrap it up, here a few shots I took over the weekend.
 ![Case](/case/top.jpg)
 ![Case](/case/front.jpg)
 
-## I used to have another GTX 1080 Ti...
+## I used to have another GTX 1080 Ti
 
 Before the Galax 1080 Ti, I had a [Gigabyte Gaming 1080 Ti](/case/gigabyte-1080ti.jpg) (click the link for an image). It was horribly loud and hurt my ears with how loud its coil whine was. I was able to get a refund on it luckily.

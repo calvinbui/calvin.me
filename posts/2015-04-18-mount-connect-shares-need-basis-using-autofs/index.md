@@ -21,13 +21,13 @@ To start, first install autofs through.
 For Ubuntu
 
 ```shell-session
-$ sudo apt-get install autofs
+sudo apt-get install autofs
 ```
 
 For Red Hat, Fedora and CentOS
 
 ```shell-session
-$ sudo yum install autofs
+sudo yum install autofs
 ```
 
 ## Select or create a mount point
@@ -47,19 +47,19 @@ Create a new file in /etc/. I like to name this after my mount point e.g. if I c
 Edit the master autofs configuration file at the bottom
 
 ```shell-session
-$ sudo nano /etc/auto.master
+sudo nano /etc/auto.master
 ```
 
 Add the mountpoint to the bottom
 
-```
+```text
 /mnt   /etc/auto.mnt
 ```
 
 Now create the auto.mnt file
 
 ```shell-session
-$ sudo nano /etc/auto.mnt
+sudo nano /etc/auto.mnt
 ```
 
 There are several types of mounts and each differs in their configuration.
@@ -68,13 +68,13 @@ There are several types of mounts and each differs in their configuration.
 
 Add the following line to your auto.mnt file
 
-```
+```text
 folder   server:/
 ```
 
 Where 'folder' indicates the folder to be created under /mnt to host your shares. e.g.
 
-```
+```text
 qnapfs  192.168.0.2://
 ```
 
@@ -82,34 +82,34 @@ qnapfs  192.168.0.2://
 
 Add the following line to your auto.mnt file
 
-```
+```text
 folder -fstype=nfsv4  server:/
 ```
 
 Where 'folder' indicates the folder to be created under /mnt to host your shares. e.g.
 
-```
+```text
 qnapfs -fstype=nfsv4 192.168.0.2://
 ```
 
 The client needs the same changes to **/etc/default/nfs-common** to connect to an NFSv4 server. In **/etc/default/nfs-common** we set:
 
-```
+```text
 NEED_IDMAPD=yes
 NEED_GSSD=no # no is default
 ```
-### CIFS
 
+### CIFS
 
 Add the following line to your auto.mnt file.
 
-```
+```text
 folder -fstype=cifs,rw,noperm,username=myuser,password=mypass ://example.com/shrname
 ```
 
 If you are using a domain, specify it like so:
 
-```
+```tex
 folder -fstype=cifs,rw,noperm,username=myuser,domain=domain.com,password=mypass ://example.com/shrname
 ```
 
@@ -118,28 +118,28 @@ folder -fstype=cifs,rw,noperm,username=myuser,domain=domain.com,password=mypass 
 Reboot and attempt to access your share.
 
 ```shell-session
-$ ls /mnt/folder
-$ cd /mnt/folder
+ls /mnt/folder
+cd /mnt/folder
 ```
 
 If it does not work, you will have to debug it
 
-1.  Stop the **autofs** daemon
+1. Stop the **autofs** daemon
 
 ```shell-session
-$ sudo service autofs stop
+sudo service autofs stop
 ```
 
-2.  Run **automount** in the foreground with verbose information
+2. Run **automount** in the foreground with verbose information
 
 ```shell-session
-$ sudo automount -f -v
+sudo automount -f -v
 ```
 
-3.  From another terminal, try to mount your file-systems by changing directories into the mountpoint.
-4.  Check the output from the first terminal for clues as to why the mount failed or was not attempted.
+3. From another terminal, try to mount your file-systems by changing directories into the mountpoint.
+4. Check the output from the first terminal for clues as to why the mount failed or was not attempted.
 
-###### Sources:
+## Sources
 
-*   [http://wiki.centos.org/TipsAndTricks/WindowsShares](http://wiki.centos.org/TipsAndTricks/WindowsShares)
-*   [https://help.ubuntu.com/community/Autofs](https://help.ubuntu.com/community/Autofs)
+* [http://wiki.centos.org/TipsAndTricks/WindowsShares](http://wiki.centos.org/TipsAndTricks/WindowsShares)
+* [https://help.ubuntu.com/community/Autofs](https://help.ubuntu.com/community/Autofs)

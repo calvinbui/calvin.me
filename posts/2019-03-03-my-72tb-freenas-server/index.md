@@ -12,13 +12,13 @@ It's been 5 years since my last one and I was starting to run out of space.
 
 <!-- more -->
 
-# Reason for upgrade
+## Reason for upgrade
 
 The drives I used at the time, WD Se, had 5 years warranty and I couldn't risk them all dying on me at the same time.
 
 The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-Z2 configuration, it left me with 14.3TB. You can read more about that in my [previous post](/all-in-one-esxi-server).
 
-# Hardware
+## Hardware
 
 | Type | Item
 |-|-
@@ -53,7 +53,7 @@ I want to talk about a few bits of hardware:
 
 ![](drives.jpg)
 
-# Adding Fans
+## Adding Fans
 
 The airflow in the Norco RPC-431 is pretty bad. There's an option to put 2 x 120mm on the front and 2 x 80mm fans on the rear. From the front to the rear, there is very little room for air to be pushed through due to the hard drive bays.
 
@@ -67,7 +67,7 @@ At the front, instead of installing two fans, I chose to zip tie together three 
 
 ![](front-fans.jpg)
 
-# Completed Build
+## Completed Build
 
 With the completed build, I have 47.9TB of usable storage in RAID-Z2. So far I've used 11.3TB with 36.5TB remaining.
 

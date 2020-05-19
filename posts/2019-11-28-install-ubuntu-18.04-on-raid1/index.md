@@ -14,7 +14,7 @@ Create a RAID1 (mirroring) array and install Ubuntu 18.04 onto it.
 
 The reason for this post is I haven't been able to find a guide for using `mdadm` in the Ubuntu Live server installer to create a RAID1 partition. Following this, there are also no guides on installing the GRUB bootloader to both GPT partitioned devices afterwards.
 
-# Install Ubuntu with software RAID (mdadm)
+## Install Ubuntu with software RAID (mdadm)
 
 For the installation, I'm using the Live server installer for Ubuntu Server 18.04.3. It has less problems running from a USB.
 
@@ -72,7 +72,7 @@ Select `[ Done ]` at the bottom to continue the installation:
 
 If you run into any errors, the Live server installer will fail to 'probe devices' during a reinstall. To fix this, follow [this guide from DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-18-04#resetting-existing-raid-devices) for resetting existing RAID devices.
 
-# Create a Boot Partition on the secondary device
+## Create a Boot Partition on the secondary device
 
 Run `lsblk` to see the partitions you have:
 
@@ -118,7 +118,6 @@ Device          Start        End    Sectors  Size Type
 /dev/sdb1        2048 1000212479 1000210432  477G Linux filesystem
 ```
 
-
 The tool we will use this fix this is [`gdisk`](https://linux.die.net/man/8/gdisk), short for **GPT fdisk**.
 
 Run `gdisk` on the primary device to see the partition table:
@@ -132,13 +131,14 @@ Number  Start (sector)    End (sector)  Size       Code  Name
 ```
 
 This tells us two important details we will need to create the same partition on the secondary device:
+
 - The GRUB partition size is `1024.0 KiB`
 - The GRUB partition is of type `EF02`
 
 Run `gdisk` on the secondary device:
 
 ```shell
-$ gdisk /dev/sdb
+gdisk /dev/sdb
 ```
 
 Enter the following to create a new partition:
@@ -153,6 +153,7 @@ Hex code or GUID (L to show codes, Enter = 8300): EF02
 ```
 
 This creates the boot partition:
+
 - sets the partition table to `2`
 - sets the start sector to be end of the partition table `1` (empty = default)
 - sets the last sector to be `1024 KiB` from the start sector (as we found out before)
@@ -177,10 +178,10 @@ The operation has completed successfully.
 As noted by `gdisk`, you have to run `partprobe` or `kpartx` to let the kernel use the new partition tables:
 
 ```shell
-$ partprobe
+partprobe
 ```
 
-# Install GRUB to the secondary device
+## Install GRUB to the secondary device
 
 Now that the partition is created, run `grub-install` to install GRUB to the secondary device:
 

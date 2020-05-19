@@ -90,9 +90,10 @@ One of the must-have features for me was Android Auto. I use it every drive and 
 ## Profiles
 
 Different profiles are saved in the car's memory that remember a driver's:
--   Seating position
--   Radio favourites
--   Individual driving modes
+
+- Seating position
+- Radio favourites
+- Individual driving modes
 
 This can be selected just before driving but it's also saved in each keyfob!
 
@@ -174,9 +175,9 @@ The air-con goes into the glove box where you can store some drinks. They'll be 
 
 The car does so many things well but there are some niggling things I wish were better.
 
--   Save last-selected Driving Mode after ignition off. Saves having to reselect it.
--   More cup holder spots. Only in the middle of the dash.
--   Select more than one type of data on Active Info Display (this is available on newer VWs)
--   Turning circle is not big. Some turns I used to do now require a three-point turn.
--   No play/pause button the steering wheel or headunit. Would be nice to pause my podcasts whenever I get out to open the gate.
--   All the buttons around the transmission are on the passenger side. Why...?
+- Save last-selected Driving Mode after ignition off. Saves having to reselect it.
+- More cup holder spots. Only in the middle of the dash.
+- Select more than one type of data on Active Info Display (this is available on newer VWs)
+- Turning circle is not big. Some turns I used to do now require a three-point turn.
+- No play/pause button the steering wheel or headunit. Would be nice to pause my podcasts whenever I get out to open the gate.
+- All the buttons around the transmission are on the passenger side. Why...?

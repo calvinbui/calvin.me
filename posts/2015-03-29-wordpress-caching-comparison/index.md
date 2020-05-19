@@ -19,12 +19,12 @@ There are quite a few caching plugins for WordPress that I had to choose from. T
 
 Based on recommendations, popularity and reviews, I had a look at:
 
-*   [Falcon Engine from Wordfence](http://docs.wordfence.com/en/Falcon_Cache)
-*   [WP Rocket](http://wp-rocket.me/)
-*   [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
-*   [Hyper Cache](https://wordpress.org/plugins/hyper-cache/)
-*   [Quick Cache](https://wordpress.org/plugins/quick-cache/)
-*   [CloudFlare Rocket Loader](https://support.cloudflare.com/hc/en-us/articles/200168056-What-does-Rocket-Loader-do-)
+* [Falcon Engine from Wordfence](http://docs.wordfence.com/en/Falcon_Cache)
+* [WP Rocket](http://wp-rocket.me/)
+* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
+* [Hyper Cache](https://wordpress.org/plugins/hyper-cache/)
+* [Quick Cache](https://wordpress.org/plugins/quick-cache/)
+* [CloudFlare Rocket Loader](https://support.cloudflare.com/hc/en-us/articles/200168056-What-does-Rocket-Loader-do-)
 
 ## How I Tested
 
@@ -38,9 +38,9 @@ A total of 8 tests were taken for each plugin and the best 5 were selected to av
 
 Other reputable testing sites include:
 
-*   [Webpage Test](http://www.webpagetest.org/)
-*   [GTmetrix](http://gtmetrix.com/)
-*   [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* [Webpage Test](http://www.webpagetest.org/)
+* [GTmetrix](http://gtmetrix.com/)
+* [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 ## Results (Requests / Response in seconds)
 

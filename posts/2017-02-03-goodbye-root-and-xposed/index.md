@@ -66,9 +66,9 @@ I noticed about a 10%-20% decrease in battery life without both apps installed.
 
 **Used For**: To block ads I used:
 
-- [Adaway](https://f-droid.org/repository/browse/?fdid=org.adaway): For web browsing.
-- [YouTube Adaway](http://repo.xposed.info/module/ma.wanam.youtubeadaway): For YouTube.
-- [MinMinGuard](http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard): For ads in apps.
+* [Adaway](https://f-droid.org/repository/browse/?fdid=org.adaway): For web browsing.
+* [YouTube Adaway](http://repo.xposed.info/module/ma.wanam.youtubeadaway): For YouTube.
+* [MinMinGuard](http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard): For ads in apps.
 
 **Alternative**: The solution so far has been to install [AdGuard](https://adguard.com/en/welcome.html). It's not perfect but it does a good job.
 

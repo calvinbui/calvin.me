@@ -19,18 +19,18 @@ I will be comparing all the apps based on my own experiences here in Sydney, Aus
 
 The most important features to me (and others) are the following:
 
-*   **Offline Maps**: Some apps prefer to download an offline copy of Australia instead of browsing it online. This is meant to save mobile data. This doesn't matter to me as much as other people but it is a handy feature.
-*   **Live Traffic**: During busy peak hours or if an incident happens, the app can present an alternative route which gets to the destination faster. Very important for me.
-*   **Speed Cameras**: There are too many fixed speed cameras around Sydney. Good to know when one is coming up to watch my speed carefully.
-*   **Speed Limit**: The speed limit can vary from turn to turn so this is helpful when there isn't a sign around.
-*   **Police/Mobile Cameras**: Apps can show common places police officers and mobile speed cameras sit. Some apps also allow users to enter it in so it appears for other users as well.
-*   **Lane Assist**: When in the city or on a highway, knowing which lane to take is important to not get lost!
-*   **Voice**: Believe it or not, some apps do not have voice navigation to warn you of oncoming turns in a couple of meters or how long to follow a particular road for. I find voice very important for this reason especially on long straights.
-*   **User Interface**: I am rating this from a scale from 1 to 4. Lowest being 1 where the app is just a pain to use and doesn't make any sense. 2 is when it makes little sense or uses 2.0 UI buttons and colours. 3 is when it's almost perfect but there are niggly things that are inconvenient. 4 is when the UI makes sense, easy to use when driving and hopefully using material design.
+* **Offline Maps**: Some apps prefer to download an offline copy of Australia instead of browsing it online. This is meant to save mobile data. This doesn't matter to me as much as other people but it is a handy feature.
+* **Live Traffic**: During busy peak hours or if an incident happens, the app can present an alternative route which gets to the destination faster. Very important for me.
+* **Speed Cameras**: There are too many fixed speed cameras around Sydney. Good to know when one is coming up to watch my speed carefully.
+* **Speed Limit**: The speed limit can vary from turn to turn so this is helpful when there isn't a sign around.
+* **Police/Mobile Cameras**: Apps can show common places police officers and mobile speed cameras sit. Some apps also allow users to enter it in so it appears for other users as well.
+* **Lane Assist**: When in the city or on a highway, knowing which lane to take is important to not get lost!
+* **Voice**: Believe it or not, some apps do not have voice navigation to warn you of oncoming turns in a couple of meters or how long to follow a particular road for. I find voice very important for this reason especially on long straights.
+* **User Interface**: I am rating this from a scale from 1 to 4. Lowest being 1 where the app is just a pain to use and doesn't make any sense. 2 is when it makes little sense or uses 2.0 UI buttons and colours. 3 is when it's almost perfect but there are niggly things that are inconvenient. 4 is when the UI makes sense, easy to use when driving and hopefully using material design.
 
 **Legend**:
 
-✔ - Available.    
+✔ - Available.
 
 X - Not available.
 

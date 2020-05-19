@@ -31,28 +31,28 @@ But to even run napp-it, I first had to install it somewhere on the host so this
 
 The main reasons for using ZFS (if you can't find it online) to me were:
 
-*   software RAID
-*   detects silent corruption
-*   end to end check-sums tests
-*   snapshots
-*   compression
+* software RAID
+* detects silent corruption
+* end to end check-sums tests
+* snapshots
+* compression
 
 ### Single Points of Failure
 
 From the point above, reducing single points of failures (SPOF) was also a goal. Basically a SPOF is the idea that if one specific part dies, it's gonna stop the entire system from working. Examples include having one power supply or one RAID card (so all your data gets lost). To best prevent this:
 
-*   RAID where possible
-*   Buy popular parts in case I need a 2nd hand part after failure
-*   Long warranties products (5 years and up)
-*   Buy from reputable stores
+* RAID where possible
+* Buy popular parts in case I need a 2nd hand part after failure
+* Long warranties products (5 years and up)
+* Buy from reputable stores
 
 ## Infrastructure
 
 I've learnt a lot of things at work (as I've said about) and there are a lot of things I'd like to implement into my own infrastructure. A lot of neat things have stood out to me:
 
-*   [pfSense](https://www.pfsense.org/) - an open-source firewall, router, UTM and DNS. A great way to get enterprise-level networking without having to buy it. A great place to start setting up VLANs.
-*   [Bitnami](https://bitnami.com) -  several easy and intuitive applications (as virtual appliances) that would be great for an advanced user such as git repositories, stacks and other server software.
-*   Windows Services - as part of their server OS, Microsoft have PXE servers, LDAP servers, Active Directory and Windows Update servers.
+* [pfSense](https://www.pfsense.org/) - an open-source firewall, router, UTM and DNS. A great way to get enterprise-level networking without having to buy it. A great place to start setting up VLANs.
+* [Bitnami](https://bitnami.com) -  several easy and intuitive applications (as virtual appliances) that would be great for an advanced user such as git repositories, stacks and other server software.
+* Windows Services - as part of their server OS, Microsoft have PXE servers, LDAP servers, Active Directory and Windows Update servers.
 
 ## The Parts
 
@@ -60,7 +60,7 @@ I've learnt a lot of things at work (as I've said about) and there are a lot of 
 
 Xeon are meant for servers/workstations. They don't have integrated graphics (well some of them do, but 90% don't). The E3-1230 is more or less a i7 4770 but 100MHz less. It uses the 1150 socket, supports VT-d (for VMware passthrough) and also supports ECC RAM (a must for ZFS) . It's probably the best priced Xeon for private/home usage. If you want to go with an E5 or E7, they may have unique motherboards that only fit in special cases.
 
-_Alternative: E3-1220 for a little slower clock speed but lower price._
+Alternative: E3-1220 for a little slower clock speed but lower price.
 
 ### CPU Cooler - [Noctua NH-L12](http://www.noctua.at/main.php?show=productview&products_id=46&lng=en)
 
@@ -68,71 +68,71 @@ I. Love. Noctua.
 
 The NH-L12 has a very unique top-down design, providing additional cooling for VRMs and the motherboard. This was the selling-point as the LSI RAID controller on the Supermicro motherboard was known to run hot. The cooler is also small enough to fit in the unconventional area Supermicro placed the CPU socket. It uses two fans and low profile.
 
-_Alternatives: Noctua NH-L9i for even smaller or NH-U12S for taller._
+Alternatives: Noctua NH-L9i for even smaller or NH-U12S for taller.
 
 ### Motherboard - [Supermicro X10SL7-F-O](http://www.supermicro.com/products/motherboard/Xeon/C220/X10SL7-F.cfm)
 
 The main selling point of this motherboard is the built-in LSI controller and 8x SAS ports - perfect for a ZFS build. It takes away the need to purchase an additional RAID card which only adds another SPOF. Otherwise this motherboard also has a nifty IPMI port (similar to an IMM port) for server management. The only thing I don't like about it is that its a micro-ATX board instead of a mini-ITX, though I doubt a mITX version could fit 8 SAS ports.
 
-_Alternatives: Any board that supports ECC, server management features and everything you think you'll need over the next few years._
+Alternatives: Any board that supports ECC, server management features and everything you think you'll need over the next few years.
 
 ### Memory - [Samsung ECC DDR3-1600 8GB](http://www.amazon.com/Samsung-M391B1G73QH0-YK0-DDR3-1600-Un-Buffer-PB-Free/dp/B00I30SLJQ) x 4 (32GB)
 
 This RAM was listed as compatible by Supermicro for the X10SL7. Samsung guarantee lifetime warranty on each module and the Supermicro supports 32GB maximum. As everyone should know, you should get as much RAM as possible for a virtualised environment. ZFS should eat up almost half my RAM so having as much as possible becomes really important for the other VMs.
 
-_Alternatives: Any ECC RAM supported by your motherboard manufacturer and as much as possible._
+Alternatives: Any ECC RAM supported by your motherboard manufacturer and as much as possible.
 
 ### Storage - [Intel 520 120GB](http://ark.intel.com/products/66248/Intel-SSD-520-Series-120GB-2_5in-SATA-6Gbs-25nm-MLC) x 2
 
 Two drives I got on sale to run napp-it. Basically these two drives run napp-it and nothing else, reducing their chance of failure. Napp-it has to run somewhere to be able to provide ZFS and two Intel SSDs couldn't be a better choice.
 
-_Alternatives: Any recommended SSD for the lowest price._
+Alternatives: Any recommended SSD for the lowest price.
 
 ### Storage - [Samsung 840 Pro 512GB](http://www.samsung.com/au/consumer/pc-peripherals/solid-state-drive/ssd-840-pro/MZ-7PD512BW) x 2
 
 The 840 Pro was regarded at the time as the best and fastest SSD money could buy (before it will be beaten by the 850 Pro next month). Virtual Machines love fast IOPS and therefore I chose the Samsung 840s. They will be running my VMs exclusively. The great thing is they also have a 5 year warranty.
 
-_Alternatives: Any two fast SSDs_
+Alternatives: Any two fast SSDs
 
 ### Storage - [Western Digital Se 4TB](http://www.wdc.com/en/products/products.aspx?id=1050) x 6
 
 Six 4TB drives for a total of 24TB (21.8T after calculations) raw space. The 'Se' drives are optimal for NAS and 24x7 reliability e.g. Datacenters. These drives will be exclusively used for personal storage like pictures, videos and documents. Data integrity and redundancy is integral so I run them in RAID 6 (or RAIDZ-2) for a usable 14.3TB.
 
-_Alternatives: WD Red, Seagate NAS or enterprise drives. As much as you think you'll need (you can always expand in ZFS)_
+Alternatives: WD Red, Seagate NAS or enterprise drives. As much as you think you'll need (you can always expand in ZFS)
 
 ### Storage - [SanDisk 16GB Cruzer Blade](http://www.sandisk.com.au/products/usb/drives/cruzer-blade/)
 
 This USB's job? To run ESXi. Why waste a HDD or SSD for ESXi when a simple USB can do the job. ESXi runs in the memory after boot so the USB gets little wear and tear on it. While it is a SPOF, it is not a big concern to me as of yet.
 
-_Alternatives: Any USB drive that doesn't suck._
+Alternatives: Any USB drive that doesn't suck.
 
 ### Case - [Fractal Design Define Mini](http://www.fractal-design.com/home/product/cases/define-series/define-mini)
 
 This was the smallest mATX case that supported the most drives (I would've went with the Silverstone DS380 but it's mITX). It is the same case as the ARC Mini R2 but with noise-dampening material. To support more drives (because I had 10 drives altogether) I used two [Icydock MB343SP](http://www.icydock.com/goods.php?id=167) with [Molex-M to 2 SATA](http://www.arc.com.au/image.php?8106) cables. The Icydock allows for two more 2.5" and one 3.5" drive to live in a 5.25" slot.
 
-_Alternatives: ARC Mini R2, Node 804, maybe even a rackmount_
+Alternatives: ARC Mini R2, Node 804, maybe even a rackmount
 
 ### Power Supply - [Corsair AX760](http://www.corsair.com/en/ax760-atx-power-supply-760-watt-80-plus-platinum-certified-fully-modular-psu)
 
 Any respectable power supply really does the job well. The benefit of the AX760 is the hybrid fan which only spins when the system is under a heavy load. Originally I was going to go with a fanless PSU but they were all out of stock. Corsair also holds a 7 year warranty.
 
-_Alternatives: Fanless PSU for low noise or any with a good warranty_
+Alternatives: Fanless PSU for low noise or any with a good warranty
 
 ### UPS - [CyberPower PFC Sinewave 1300Va](http://www.cpsww.com.au/Product/Product/GetProduct?id=10&mid=32#.U_CDyfmPHuQ)
 
 A UPS is essential for not losing/risking data. This server is gonna be a lot of hard work, sweat and tears so having all gone after a blackout will be dreadful. This UPS has its own virtual appliance which can connect to ESXi and order it to shutdown when the power goes out. It can also email me to notify if this has happened so I can rush home. Would provide 10 minutes of power I reckon.
 
-_Alternatives: There is 1500Va model that would give a few more minutes I assume._
+Alternatives: There is 1500Va model that would give a few more minutes I assume.
 
 ### Fans - [Noctua Fans](http://www.noctua.at/main.php?show=produkte&lng=en)
 
 The Fractal Design Define Mini has 6 fan slots but I made a few for myself (attached two to the hard drive cage for more cooling). Noctua fans are the best in my opinion for low-noise and performance, others may argue Gentle Typhoons or Noiseblockers. I had a few Noctuas lying around for the build but also bought a few extra:
 
-*   Two NF-S12B fans in the front (should have been more pressuried fan given the tight space but oh well)
-*   Two NF-S12B fans attached to the HDD cage (they just slide into space, they don't even need cable ties)
-*   One NF-S12B intake on the bottom
-*   One NF-S12B exhaust on the rear
-*   One NF-P14S exhaust on the top
+* Two NF-S12B fans in the front (should have been more pressuried fan given the tight space but oh well)
+* Two NF-S12B fans attached to the HDD cage (they just slide into space, they don't even need cable ties)
+* One NF-S12B intake on the bottom
+* One NF-S12B exhaust on the rear
+* One NF-P14S exhaust on the top
 
 Make sure you have enough cables to power the fans!
 

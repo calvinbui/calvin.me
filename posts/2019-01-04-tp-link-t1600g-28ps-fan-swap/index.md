@@ -13,12 +13,13 @@ The TP-Link T1600G-28PS (TL-SG2424P) network switch has really loud fans, but th
 <!-- more -->
 
 I went with this switch for a few reasons:
--   802.3at/af POE+
--   VLAN support
--   Price compared with other brands
--   24 port (48 port would be nice too)
--   Smart switch (i.e. built-in web interface)
--   Link Aggregation
+
+- 802.3at/af POE+
+- VLAN support
+- Price compared with other brands
+- 24 port (48 port would be nice too)
+- Smart switch (i.e. built-in web interface)
+- Link Aggregation
 
 ...which is all great but it's **loud**, louder than what it should be. Luckily the fans can be easy replaced without voiding the warranty.
 

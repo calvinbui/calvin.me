@@ -35,5 +35,5 @@ I'm going to go for the black version for professionalism.
 
 ## Interested In
 
-*   I think my affection with the IBM Model M keyboard has worn off. It just feels big and clunky. Someone out there will definitely buy it but what will I get instead?
-*   Building a gaming PC for my cousin
+* I think my affection with the IBM Model M keyboard has worn off. It just feels big and clunky. Someone out there will definitely buy it but what will I get instead?
+* Building a gaming PC for my cousin

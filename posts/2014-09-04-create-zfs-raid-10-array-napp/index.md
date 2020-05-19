@@ -55,7 +55,7 @@ _RAID 10 created. Mirrors in a stripe._:
 
 ## My thoughts of RAID 10
 
-*   I just lost 12TB of space just from doing this. RAID 10 and any mirrored level of RAID will take half of your disk space for redundancy.
-*   I like the idea that half your drives can die but the system would still be up, given _the right ones_ die. The possibility of that are slim but good if you are using a lot of drives (more than just 6).
-*   RAID 10 increases your read speeds as more mirrors are added as all the drives perform the same read task. Reading and writing speeds were still limited to my network connection and I did not see any performance difference with RAID-Z2 (RAID 6) - which I eventually changed to.
-*   Upgrading drives, adding and removing mirrors is easier than RAID-Z
+* I just lost 12TB of space just from doing this. RAID 10 and any mirrored level of RAID will take half of your disk space for redundancy.
+* I like the idea that half your drives can die but the system would still be up, given _the right ones_ die. The possibility of that are slim but good if you are using a lot of drives (more than just 6).
+* RAID 10 increases your read speeds as more mirrors are added as all the drives perform the same read task. Reading and writing speeds were still limited to my network connection and I did not see any performance difference with RAID-Z2 (RAID 6) - which I eventually changed to.
+* Upgrading drives, adding and removing mirrors is easier than RAID-Z
