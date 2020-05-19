@@ -50,7 +50,7 @@ The alternative is to open the stream in VLC and pass it onto Milestone.
 
 Save the following as a `.bat` file:
 
-```shell-terminal
+```shell-session
 C:\..\..\vlc.exe rtsp://ip-address/unicast :sout=#rtp{sdp=rtsp://:8554/} :sout-keep
 ```
 
@@ -110,7 +110,7 @@ Use Windows Task Scheduler. **Make sure you have the absolute path to vlc.exe in
 
 In my experience, running VLC as a Windows Service was caused Connection Errors with Milestone but your mileage may vary.
 
-```shell-terminal
+```shell-session
 vlc.exe -I ntservice --ntservice-install --ntservice-extraintf=http --ntservice-name=VLC --ntservice-options="rtsp://ip-address/unicast :sout=#rtp{sdp=rtsp://:8554/} :sout-keep"
 ```
 
