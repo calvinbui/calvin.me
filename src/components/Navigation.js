@@ -56,9 +56,9 @@ export default class Navigation extends Component {
               }
               else if (link.type === "external") {
                 if (link.name === "GitHub") {
-                  icon = <FaGithub className="nav-icons github-nav-icon" />
+                  icon = <FaGithub title="GitHub" className="nav-icons github-nav-icon" />
                 } else if (link.name === "LinkedIn") {
-                  icon = <FaLinkedin className="nav-icons linkedin-nav-icon" />
+                  icon = <FaLinkedin title="LinkedIn" className="nav-icons linkedin-nav-icon" />
                 } else {
                   icon = link.name
                 }
@@ -82,8 +82,8 @@ export default class Navigation extends Component {
                 {theme.dark ? (
                   <IoMdSunny className="nav-icons sun-nav-icon" />
                 ) : (
-                  <BsMoon className="nav-icons moon-nav-icon" />
-                )}
+                    <BsMoon className="nav-icons moon-nav-icon" />
+                  )}
               </button>
             </div>
           </div>

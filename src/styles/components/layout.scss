@@ -273,7 +273,7 @@
   .datetime {
     font-size: 1.1rem;
     display: block;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.6);
     font-weight: 400;
   }
 
@@ -514,7 +514,7 @@ blockquote {
 .filter-count {
   width: 80px;
   text-align: center;
-  color: $primary-color;
+  color: darken($primary-color, 10%);
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -547,7 +547,7 @@ blockquote {
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    color: $primary-color;
+    color: darken($primary-color, 10%);
     cursor: pointer;
 
     .count {
