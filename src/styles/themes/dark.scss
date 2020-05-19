@@ -90,7 +90,7 @@ $dark-primary: $tag;
     }
 
     .links a {
-      color: darken($foreground, 20%);
+      color: darken($foreground, 15%);
 
       &:hover,
       &.active {
@@ -256,7 +256,7 @@ $dark-primary: $tag;
     }
 
     a {
-      color: darken($foreground, 20%);
+      color: darken($foreground, 15%);
 
       &:hover {
         color: lighten($foreground, 10%);
