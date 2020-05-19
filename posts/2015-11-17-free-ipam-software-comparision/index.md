@@ -22,7 +22,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### InfoBlox IPAM Express
 
-[](gestio.png)[![infoblox](infoblox-300x231.png)](infoblox.png)
+![infoblox](infoblox-300x231.png)
 
 [Download](https://www.infoblox.com/downloads/software/ip-address-management-freeware)
 
@@ -35,7 +35,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### phpIPAM
 
-[![ipam](ipam-300x234.png)](ipam.png)
+![ipam](ipam-300x234.png)
 
 [Download](http://phpipam.net/documents/download-phpipam/)
 

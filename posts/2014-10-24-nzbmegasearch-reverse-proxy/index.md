@@ -85,7 +85,7 @@ If it works, let's move onto the next step.
 
 Within NZBmegasearcH there is an option to set the Reverse proxy directory located in the 'Connectivity' section. I found that you have to put the full URL for this to work.
 
-[![connectivity proxy](capture6.png)](capture6.png)
+![connectivity proxy](capture6.png)
 
 This means the URL you will be accessing it from including the protocol, domain and path. So if you were accessing it over _HTTPS_, your domain is _mydomain.com_ and the path will be _/search_ then you will have to put in '_https://mydomain.com/search_'. Save and restart NZBmegasearcH after you have done this.
 

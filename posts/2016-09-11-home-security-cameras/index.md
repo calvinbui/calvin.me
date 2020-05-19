@@ -25,11 +25,11 @@ I ordered two with a 2.8mm lens (narrow) and two with 4mm lens (wider). Two came
 
 The seller was XinRay who is a reputable seller on [Aliexpress](http://www.aliexpress.com/store/319147) but also have their own [eBay store](http://stores.ebay.com.au/dbyz/). A flood had struck their warehouse and it took over a month for the cameras to arrive, however, they made up for it with express shipping from DHL.
 
-[![img_20160910_151152](IMG_20160910_151152.jpg)](IMG_20160910_151152.jpg)
+![img_20160910_151152](IMG_20160910_151152.jpg)
 
 ## PoE Switch
 
-[![PoESWITCH](poeswitch.jpg)](poeswitch.jpg)
+![PoESWITCH](poeswitch.jpg)
 
 I went with the [TP-Link TL-SG2210P](http://www.tp-link.com.au/products/details/TL-SG2210P.html) to power the cameras (using PoE) and provide networking. It is an 8-Port gigabit switch with 2 SFP Slots for a theoretical maximum of 7 cameras as one port is a dedicated connection back to the network. I could not find any similarly priced alternative with 8 PoE ports. It uses the 802.3af PoE standard and is rated up to 53W however each camera only consumes 3W. Head over to the [TP-Link's website](http://www.tp-link.com.au/products/details/TL-SG2210P.html#specifications) for more details.
 
@@ -74,13 +74,13 @@ For editing multiple cameras at once, I recommend using [HikVision's Batch Confi
 
 For my video settings I went with 15 fps @ 2048*1536 (3MP), 5120 Kbps variable bitrate, H.264 and Video Quality at Highest.
 
-[![camera-video-settings](Capture.png)](Capture.png)
+![camera-video-settings](Capture.png)
 
 The FPS sweet spot in a recording is 15 fps. This [video shows and explains it well](https://www.youtube.com/watch?v=W7LYhTPc-Nw). Not much is lost between 25/30fps and 15fps and it would likely catch fast hand movements when going back and pausing at a specific frame. Even 7fps is pretty good if tight on storage, everything you need to see is still captured although a little choppy. As long as the resolution is high enough, most details will be picked up.
 
 The correct bitrate settings (video quality) are based on Hikvision's very own recommendations (3MP @ 15fps):
 
-[![video-bitrate-settings](capture-1.png)](capture-1.png)
+![video-bitrate-settings](capture-1.png)
 
 I could not get H.264+ or H.265 working with Milestone or Blue Iris. I suspect iVMS should support it. The difference would be minimal, however (3 Mb/s vs 1 Mb/s on a 1 Gb/s capable switch).
 
@@ -104,13 +104,13 @@ Milestone Go does not feature any motion detection/alert notifications. This is 
 
 As I already had a Windows PC running the VMS, I installed [Microsoft OneDrive](https://onedrive.live.com?invref=7a3199ab078dcadc&invscr=90) on it. As I already signed up a while back I had 15GB (new users only receive 5GB) as well as 15GB of Camera Roll Bonus (uploading photos). I could further increase this number by referring others (or just myself a 20 times) to get another 10GB. This is 40GB of OneDrive storage which is around 300,000 possible motion detection photos, as each is anywhere from 100kB-150kB.
 
-[![""</yoastmark](capture-4-e1469573899130.png)](Capture-4.png)
+![""</yoastmark](capture-4-e1469573899130.png)
 
 With that in mind, I made a script (.bat file) which would just delete anything older than 30 days. Windows Task Scheduler runs it once daily . The photos would also be deleted on OneDrive as they are located in its folder.
 
 ```shell-session
 $ forfiles /P "C:PathGoesHere" /S /D -30 /C "cmd /c del /q @path"
-```  
+```
 
 A script that deletes photos after the folder reaches a certain size or amount of files is inefficient as the intruder could stick something in front of the camera for a couple of hours to overwrite previous footage.
 
@@ -120,17 +120,17 @@ Of course, you can also use any other cloud storage solution you have lying arou
 
 I used Filezilla as my FTP server running on the VMS server. Setup is straightforward, create a new user and specify the directories on the computer they can access and what permissions they have. I would recommend turning off any limits to ensure the cameras can connect to the FTP server without any issues.
 
-[![filezilla-hikv](capture-3.png)](capture-3.png)
+![filezilla-hikv](capture-3.png)
 
 The camera’s FTP configuration can be found under ‘Configuration > Network > Advanced Settings > FTP’. There are fields to specify the server, port, username, password and the option to save in different directories to sort out each camera.
 
-[![capture2](capture2.png)](capture2.png)
+![capture2](capture2.png)
 
 #### Motion Detection / Intrusion Detection
 
 I found the basic motion detection to trip on almost anything even with the lowest possible sensitively. Instead, I used the Intrusion Detection Feature under 'Event > Smart Event'. Select the entire area or draw the areas to sense motion detection and then choose 'Upload to FTP' under Linkage Method.
 
-[![capture](Capture.png)](Capture.png)
+![capture](Capture.png)
 
 ## Network Configuration
 
@@ -146,7 +146,7 @@ The ports that you need to forward (but you can change) are:
 
 If by chance you are like me and perhaps you're running other web servers at home, here's a working NGINX Proxy configuration. I found other configurations would allow the mobile apps to work but the web interface would show cameras as unavailable. Using a proxy also meant I didn't have to put in the port numbers (8081, 8082) when accessing the web interface.
 
-```nginx    
+```nginx
 server {
     listen 80;
     listen 8081;

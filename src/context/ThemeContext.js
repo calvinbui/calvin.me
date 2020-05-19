@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 const defaultState = {
   dark: false,
   notFound: false,
-  toggleDark: () => {},
+  toggleDark: () => { },
 }
 
 const ThemeContext = React.createContext(defaultState)
@@ -36,7 +36,7 @@ class ThemeProvider extends Component {
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
     if (window.DISQUS) {
-      setTimeout(() => window.DISQUS.reset({ reload: true }), 200);
+      setTimeout(() => window.DISQUS.reset({ reload: true }), 1000);
     }
   }
 

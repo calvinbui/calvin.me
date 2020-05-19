@@ -36,11 +36,11 @@ Those are big numbers that would probably take at least a whole year if you were
 
 According to [Gibson Research](https://www.grc.com/haystack.htm) a simple password such as 'Y3l!ow' (6 characters) could only take **0.00743 seconds** to crack even with **735091890625** possible combinations. In under a second, your savings account would be gone. This is known as a [brute force attack](http://hashcat.net/wiki/doku.php?id=mask_attack).
 
-[![y3l01!](y3l01.png)](y3l01.png)
+![y3l01!](y3l01.png)
 
 However by simply having a longer password length such as 'Y3l!owd0lpH1n!' (13 characters), it now takes **16500 years** to crack. Holy.
 
-[![y3l01!doplh1in](y3l01doplh1in.png)](y3l01doplh1in.png)
+![y3l01!doplh1in](y3l01doplh1in.png)
 
 The amount of guesses exponentially grows when more characters are added. So it doesn't really matter how good your password is unless it's really really long. But that's only the start.
 
@@ -61,14 +61,14 @@ Tools such as [oclHastcat](http://hashcat.net/oclhashcat/) are able to target e
 *   Many sites use two-step verification by sending a message or code to your phone or other device.
 *   Sites like to enforce strong password rules so that hackers must test all 95 characters instead of just lowercase letters
 
-[![someecards](mjaxmy1myzezn2u0nzhlzwzmndu3.png)](mjaxmy1myzezn2u0nzhlzwzmndu3.png)
+![someecards](mjaxmy1myzezn2u0nzhlzwzmndu3.png)
 
 ## How do I make a strong password?
 So how do you make a strong password? You slam random keys on your keyboard until its long enough and random enough. But then how will you remember it? To tell you the truth, I don't, my password manager does.
 
 There are dozens of password managers out there like LastPass (what I use), KeePass, Dashlane and 1Password. They generate and remember passwords for you, you just have to remember one password to unlock the vault and you better make sure its a good one. Some store credentials on their own servers while others ensure you  have an encrypted file that you personally look after.
 
-[![lastpass generator](lastpass-generator.png)](lastpass-generator.png)
+![lastpass generator](lastpass-generator.png)
 
 Plugins and addons are available for popular browsers as well. They recognise login forms and can autofill them when necessary. Mobile applications for the various managers are also available either official or third-party.
 
@@ -85,4 +85,4 @@ Although subject to change (and criticism) my definition of a strong password i
 *   Minimum 12 characters (174 years to crack)
 *   Not memorable, just plain random F&~;1XK{qs'r
 
-[![password_strength](password_strength.png)](password_strength.png)
+![password_strength](password_strength.png)

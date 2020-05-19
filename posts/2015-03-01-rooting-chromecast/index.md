@@ -73,19 +73,19 @@ Sometimes it would flash, sometimes I wouldn't. It would work at certain power p
 
 After a while I gave up, it would turn on and keep throwing me the 'Startup Issues' screen. I decided there and then I was going to make my own powered USB OTG cable.
 
-[![JhGf3Se](jhgf3se.jpg)](jhgf3se.jpg)
+![JhGf3Se](jhgf3se.jpg)
 
 I followed a [very simple guide](http://forum.xda-developers.com/showthread.php?t=1828032) on how to make an OTG cable. Just by soldering the black and red cables together, I could power my unpowered OTG cable. First I needed a USB Male head to power the cable. I got out a USB Mini cable and snipped it off there.
 
-[![IMG_20150108_231328](img_20150108_231328.jpg)](img_20150108_231328.jpg)
+![IMG_20150108_231328](img_20150108_231328.jpg)
 
 I also have a soldering iron from back in the PS3 days, iron-ically. I'm not very good with the solder but I can do basic cable modding without any clips.
 
-[![IMG_20150108_230433](img_20150108_230433.jpg)](img_20150108_230433.jpg)
+![IMG_20150108_230433](img_20150108_230433.jpg)
 
 A few snips with the scissors along with peeling the cable shielding back I was able to fashion a very dodgy powered OTG cable. Plugging it in, I was delighted to see the Chromecast power on (and that the dodgy soldering worked!).
 
-[![IMG_20150108_230910](img_20150108_230910.jpg)](img_20150108_230910.jpg)
+![IMG_20150108_230910](img_20150108_230910.jpg)
 
 Even using the newly made cable, the Chromecast still didn't want to flash, annoyingly showing me the 'Startup Issues' screen over and over again. I thought it could've been an issue with the Teensy so I kept reflashing over and over to make sure it was perfect...and then it happened...the Teensy began flashing orange!
 

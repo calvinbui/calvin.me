@@ -37,7 +37,7 @@ On Windows, you can download and install [OpenSSL from their website](https://ww
 $ openssl.exe req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 ```
 
-[![Windows SSL generation](capture3.png)](capture3.png)
+![Windows SSL generation](capture3.png)
 
 Both these commands will generate a certificate and key file valid for 365 days (1 year) within the directory you ran the command. Increasing 365 to 3650 would make it valid for 10 years.
 

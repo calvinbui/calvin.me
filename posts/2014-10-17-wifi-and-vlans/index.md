@@ -35,7 +35,7 @@ The solution was to find an AP that supported VLANs and multiple SSIDs. Easy rig
 
 ## The Decision - Unifi AP-AC
 
-[![uap-ac-small](uap-ac-small.png)](uap-ac-small.png)
+![uap-ac-small](uap-ac-small.png)
 
 So in the end I picked up two (yes two!) Unifi AP-AC models because it offered:
 
@@ -61,11 +61,11 @@ This part is important: for the access points to have an IP address of their own
 
 So taking the above into account, I made them untagged on 10 and tagged on 20, 30 and 40. By tagging them, it means every packet sent and retrieve will have an associated VLAN attached onto it.
 
-[![switch vlan](capture3.png)](capture3.png)
+![switch vlan](capture3.png)
 
 Next I setup the four networks within the UniFi web application which manages the access points.
 
-[![four networks](capture4.png)](capture4.png)
+![four networks](capture4.png)
 
 NOTE! This is where you should remember what we did above. Because the access points are untagged on VLAN 10, they do not require a VLAN tag associated with the network as they are already on the VLAN. The others will however because they are untagged on that VLAN. Compare the the Admin VLAN and Guest VLAN below.
 

@@ -19,19 +19,19 @@ The most important rule first off is to block access to the pfSense web interfac
 
 First create a new alias containing all the gateways of the various VLANs. Do not leave out your LAN gateway as well (unless it is disabled).
 
-[![pfsense gui access](34.png)](34.png)
+![pfsense gui access](34.png)
 
 Make note of your pfSense TCP Port. Mine is currently 443 but I changed it to 444.
 
-[![pfsense port](52.png)](52.png)
+![pfsense port](52.png)
 
 Go to the Floating Firewall Rules and create a rule which blocks certain VLANs from accessing the pfSense GUI from its TCP Port.
 
-[![firewall rule](7.png)](7.png)
+![firewall rule](7.png)
 
 The end result is something like this:
 
-[![6](62.png)](62.png)
+![6](62.png)
 
 Test it out by attempting to access the pfSense web interface from a host on the blocked VLAN.
 
@@ -47,7 +47,7 @@ These addresses are:
 *   172.16.0.0/12
 *   192.168.0.0/16
 
-[![rfc 1918](8.png)](8.png)
+![rfc 1918](8.png)
 
 Create the following VLAN rules for the Internet Only VLAN:
 
@@ -56,13 +56,13 @@ Create the following VLAN rules for the Internet Only VLAN:
 3.  Any host on the Guest network **CANNOT** access any private addresses. (this blocks all access to anything on the local area network).
 4.  Any host on the Guest network **CAN** access anything. (this last rule enables Internet access)
 
-[![internet only](9.png)](9.png)
+![internet only](9.png)
 
 ## Admin VLAN
 
 An administrative VLAN with access to anyone and anything it wants. Just create a rule where anything on this network can access everything else.
 
-[![admin vlan](101.png)](101.png)
+![admin vlan](101.png)
 
 ## Private No-Internet VLAN
 
@@ -72,4 +72,4 @@ More or less a local area network without Internet access. Hosts on this network
 2.  The network can communicate with itself.
 3.  This network cannot communicate with anything.
 
-[![local vlan](111.png)](111.png)
+![local vlan](111.png)

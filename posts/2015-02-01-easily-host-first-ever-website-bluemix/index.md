@@ -24,7 +24,7 @@ IBM Bluemix offers instantly deployable ‘boilerplates’ such as [WordPress](h
 
 WordPress offers themes, plugins and templates to transform your site to meet your every need. For more information about this, visit the [WordPress documentation on Bluemix](https://www.ng.bluemix.net/docs/#starters/wordpress/index.html). Bluemix can also run Drupal and other popular CMS systems like [Ghost](https://github.com/ibmjstart/bluemix-ghost-js) and [PencilBlue](https://github.com/pencilblue/pencilblue/wiki/Cloud-Hosting:-IBM-Bluemix). Bluemix can also host many other types of websites built using Java, Ruby, PHP and more.
 
-[![workpress-on-bluemix](workpress-on-bluemix.png)](workpress-on-bluemix.png)
+![workpress-on-bluemix](workpress-on-bluemix.png)
 
 ## Enhance your website using Bluemix services
 
@@ -36,7 +36,7 @@ WordPress binds directly with many services offered on Bluemix. Coupled with it 
 *   [BlazeMeter](http://blazemeter.com/) (FREE) and [Load Impact](https://loadimpact.com) (FREE): Self-service enterprise grade performance load testing from all over the world. Monitor how your website (and code) will perform when there are over 250 concurrent users at once.
 *   AppScan Dynamic Analyzer: Tests your application for security issues to help keep them secure. Provides a thorough report when finished containing all issues found and recommended fixes and advisories to protect your site.
 
-[![Capture](Capture.png)](Capture.png)
+![Capture](Capture.png)
 
 ## Its practically free! FREE!
 
@@ -44,7 +44,7 @@ Best of all WordPress could be running for free! With 375 GB-hours free hosting 
 
 If WordPress isn’t to your liking though, Bluemix can similarly offer websites made using either Java, Go, Node.js, Ruby Sinatra or Ruby on Rails for 375GB-hours free as well! Pair these up with Bluemix’s wide selection of databases including NoSQL databases to improve your website’s capabilities.
 
-[![Capture](capture1.png)](capture1.png)
+![Capture](capture1.png)
 
 ## Go even further
 
@@ -54,4 +54,4 @@ If the website ever does get serious, you can buy and add your personalised webs
 
 You can be amazed at the growing capabilities of technology. Websites are no longer limited to savvy individuals as technology has made it easier than ever for small businesses and individuals to create their own. Thanks to Bluemix and WordPress, with very little effort anyone can represent themselves to the digital world.
 
-[![10428706_860527777302228_169226801673963820_n](10428706_860527777302228_169226801673963820_n.png)](10428706_860527777302228_169226801673963820_n.png)
+![10428706_860527777302228_169226801673963820_n](10428706_860527777302228_169226801673963820_n.png)

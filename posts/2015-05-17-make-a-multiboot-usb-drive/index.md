@@ -82,7 +82,7 @@ Things to note straight away (from my experience):
 
 For my USB I went with two partitions. One for the multiboot partition (50GB and had 8GB left over by the end) and the rest was allocated as a general USB drive. I chose to go with FAT32 for the multiboot partition for compatibility reasons and exFAT for my general storage. I found NTFS to have issues with some laptops I owned.
 
-[![hiren](hiren.png)](hiren.png)
+![hiren](hiren.png)
 
 ## Step 5: Make the USB Drive
 
@@ -112,4 +112,4 @@ If installing Windows under UEFI, Easy2Boot requires the ISOs to be reformatted 
 
 To make it a little cooler, you can also edit the background and menu colours...
 
-[![Capture](Capture-1024x795.png)](capture.png)
+![Capture](Capture-1024x795.png)

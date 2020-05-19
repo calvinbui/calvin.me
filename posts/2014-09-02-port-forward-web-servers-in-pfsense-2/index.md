@@ -22,15 +22,15 @@ By opening the 80 and 443 port we are allowing the outside world (Internet) to a
 
 Save and Apply this setting and wait for pfSense to redirect you or you can redirect yourself to the new web interface URL.
 
-[![pfsense-port](1.png)](1.png)
+![pfsense-port](1.png)
 
 **2**. Once in the new URL, return to 'System -> Advanced' and check the '_WebGUI redirect_' option to prevent pfSense from redirecting your web server to itself. Save and Apply this setting.
 
-[![webgui-redirect](2.png)](2.png)
+![webgui-redirect](2.png)
 
 **3.** While still in '_Advanced_', navigate to the '_Firewall/NAT_' tab and scroll down to '_Network Address Translation_'. Change the '_NAT Reflection_' mode for port forwards' to 'Enable'. Choose the option which suits you more. I found '_NAT + Proxy_' works for me but '_Pure NAT_' does not.
 
-[![Choose (NAT + Proxy) Reflection mode](41.png)](41.png)
+![Choose (NAT + Proxy) Reflection mode](41.png)
 
 Choose (NAT + Proxy) Reflection mode.
 
@@ -40,7 +40,7 @@ Choose (NAT + Proxy) Reflection mode.
 
 **4.** Navigate to 'Firewall -> NAT' from the top menu bar. This is where you configure Port Forwarding, 1:1, Outbound and NPt. You want your port forward table to look like this (I used an IP instead of an Alias...bad Calvin). To do so, create a new 'port forwarding' rule.
 
-[![nat-rules](3.png)](3.png)
+![nat-rules](3.png)
 
 **5.** Enter in the details of your web server. Any red input boxes are linked to aliases. You can select HTTP and HTTPS from the port dropdowns . If you are running server blocks on NGINX or Virtual Hosts on Apache, you will only need to port forward that one host.
 
@@ -52,6 +52,6 @@ _Without alias, HTTPS Port (443)_:
 
 ![port-forward-80](4.png)
 
-**6. **Save and Apply the changes.
+**6.** Save and Apply the changes.
 
 Congratulations, you should be able to access your web server from the Internet!

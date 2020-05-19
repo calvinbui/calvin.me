@@ -29,7 +29,7 @@ With this in mind, I have found four options which are really good:
 
 ### Toshiba Chromebook 2 CB35-C3350 ($400 AUD)
 
-[![2_B102F_ToshibaChromebook2_Gandof_Silver](2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)](2_B102F_ToshibaChromebook2_Gandof_Silver.jpg)
+![2_B102F_ToshibaChromebook2_Gandof_Silver](2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)
 
 **Positives**
 
@@ -55,7 +55,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo E460 (~$1000 AUD)
 
-[![lenovo-laptop-thinkpad-e460-front](lenovo-laptop-thinkpad-e460-front.png)](lenovo-laptop-thinkpad-e460-front.png)
+![lenovo-laptop-thinkpad-e460-front](lenovo-laptop-thinkpad-e460-front.png)
 
 **Specs**
 
@@ -90,7 +90,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo ThinkPad X260 $1000 (+$300 for 256GB SSD and 16GB SODIMM)
 
-[![thinkpad-x260-hero](thinkpad-x260-hero-e1469031669606.png)](thinkpad-x260-hero.png)
+![thinkpad-x260-hero](thinkpad-x260-hero-e1469031669606.png)
 
 **Specs**
 
@@ -127,7 +127,7 @@ With this in mind, I have found four options which are really good:
 
 ### Gigabyte Aero 14 $2400
 
-[![20160505160152_big](20160505160152_big-e1469031504756.png)](20160505160152_big.png)
+![20160505160152_big](20160505160152_big-e1469031504756.png)
 
 **Specs**
 
@@ -160,12 +160,12 @@ With this in mind, I have found four options which are really good:
 
 ### Summary
 
-| Laptop | Price | CPU | RAM | Display |
-|-|-|-|-|-|
-| Toshiba Chromebook | $400 | Celeron 3215U | 4GB | 13.3 |
-| Lenovo E460 | $1,000 | i7 6500U | 16GB | 14 |
-| Lenovo  X260 | $1,300 | i5 6200U | 16GB | 12.5 |
-| Gigabyte Aero | $2,400 | i7 6700HQ | 8GB | 14 |
+| Laptop             | Price  | CPU           | RAM  | Display |
+| ------------------ | ------ | ------------- | ---- | ------- |
+| Toshiba Chromebook | $400   | Celeron 3215U | 4GB  | 13.3    |
+| Lenovo E460        | $1,000 | i7 6500U      | 16GB | 14      |
+| Lenovo  X260       | $1,300 | i5 6200U      | 16GB | 12.5    |
+| Gigabyte Aero      | $2,400 | i7 6700HQ     | 8GB  | 14      |
 
 I'm currently leaning towards either the X260 or the Chromebook. The Aero is expensive and an overkill for my needs. The E460 on the other hand offers great value and even better specs than the X260 for a lower price, but it is also thicker, heavier and its keyboard is not backlit. It therefore certainly pays to have get the X260.
 

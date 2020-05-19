@@ -111,7 +111,7 @@ Once it runs successfully (thumbs crossed) it's time to build the system. Just t
 $ make
 ```
 
-[![make finished](Capture.png)](Capture.png)
+![make finished](Capture.png)
 
 To finish it off, install NGINX with all the paths and modules we've specified.
 
@@ -119,7 +119,7 @@ To finish it off, install NGINX with all the paths and modules we've specified.
 $ sudo make install
 ```
 
-[![sudo make install finished](Untitled1.png)](Untitled1.png)
+![sudo make install finished](Untitled1.png)
 
 ## Init script
 
@@ -151,7 +151,7 @@ $ sudo service nginx start
 
 Browse to the host's IP address or FQDN to see the NGINX page:
 
-[![nginx landing page](Capture1.png)](Capture1.png)
+![nginx landing page](Capture1.png)
 
 
 ## (Optional) Package Manager Layout
@@ -255,7 +255,7 @@ $ sudo service nginx restart
 
 Now access the page again and if successful you will be prompted to login!
 
-[![nginx ldap prompt](Capture2.png)](Capture2.png)
+![nginx ldap prompt](Capture2.png)
 
 We're done! For extra configurations have a read through the [nginx ldap module](https://github.com/kvspb/nginx-auth-ldap) documentation.
 

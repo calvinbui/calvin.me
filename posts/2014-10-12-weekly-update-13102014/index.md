@@ -23,13 +23,13 @@ This is something I should've done from the start but better late than never. Be
 
 Luckily there's a solution! Well a work-around, but still better than nothing! When installing Ubuntu Server, you can press F4 to install a 'minimal virtual machine' meaning things like graphics and sound aren't install with the kernel, reducing memory by roughly half!!!! Sadly I didn't do this until I found out, but [Attila Györffy has a post on CoderWall](https://coderwall.com/p/a56j3w) where he shows how to achieve this by manually disabling those components.
 
-[![UbuntuVM](ubuntuvm002.png)](ubuntuvm002.png)
+![UbuntuVM](ubuntuvm002.png)
 
 ### CloudFlare Free SSL
 
 I [posted](/currently-moving-cloudflare/) about this [twice already](/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
 
-[![SSL Issued](capture1.png)](capture1.png)
+![SSL Issued](capture1.png)
 
 ### Changed duplicate passwords via LastPass
 
@@ -49,6 +49,6 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
 
 *   [StatusPage.io](https://statuspage.io) is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
 
-[![PHP Services](capture2.png)](capture2.png)
+![PHP Services](capture2.png)
 
 *   Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.

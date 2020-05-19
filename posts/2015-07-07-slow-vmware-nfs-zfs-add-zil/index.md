@@ -40,7 +40,7 @@ The downside of using this is that if the log device is lost, it is possible to 
 
 I ended up using an old Intel 60GB SSD (thick provisioned through VMware) onto my Samsung 840 Pro mirror.
 
-[![Capture](capture.png)](capture.png)
+![Capture](capture.png)
 
 #### Performance
 

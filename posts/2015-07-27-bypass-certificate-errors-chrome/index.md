@@ -18,19 +18,19 @@ Chrome can remember decisions to proceed through certificate errors for a speci
 
 1.  Enter **chrome://flags** into the address bar
 
-		[![flags](flags.jpg)](flags.jpg)
+![flags](flags.jpg)
 
 2.  Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier. 
 
-		[![remember](remember.jpg)](remember.jpg)
+![remember](remember.jpg)
 
 3.  Select '**Remember for three months**' in the drop-down. 
 
-    [![dropdown](dropdown.jpg)](dropdown.jpg)
+![dropdown](dropdown.jpg)
 
 4.  Relaunch Chrome as prompted. 
 
-    [![relaunch](relaunch.jpg)](relaunch.jpg)
+![relaunch](relaunch.jpg)
 
 ### Explanation of Certificate Errors
 

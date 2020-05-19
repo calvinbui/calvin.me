@@ -39,7 +39,7 @@ Ubuntu 14.04 uses the 3.13 Linux kernel, not a [longterm version of the Linux ke
 
 Apparently Torvalds held off the 3.14 LTR until a week after the [14.04 LTS kernel code freeze occurred](http://www.phoronix.com/scan.php?page=news_item&px=MTY0MjM). Why didn't Ubuntu just wait another week to implement it? Now every new patch release must be manually added and tested by Ubuntu kernel maintainers for the next 5 years...if they even bother. The updates would've gave direct from the official linux kernel if they just went with 3.12 LTR.
 
-[![tux](tux.png)](tux.png)
+![tux](tux.png)
 
 
 ### Reason 3: Landscape costs money! $$$$
@@ -52,6 +52,6 @@ I haven't tried Landscape and I don't plan to because it costs money. Although i
 
 This is Ubuntu's answer to [Red Hat's Satellite](https://access.redhat.com/products/red-hat-satellite) but there isn't an answer to Red Hat's free alternative: [Spacewalk](http://spacewalk.redhat.com/).
 
-[![spacewalk-black](spacewalk-black.png)](spacewalk-black.png)
+![spacewalk-black](spacewalk-black.png)
 
 System management is tough as it is already (I do it as a job) but without the proper tools it gets a lot harder. Until Ubuntu release a free offshoot there's not much to do except try out other alternatives like [Puppet](http://puppetlabs.com/) and [Chef](https://www.chef.io/chef/).

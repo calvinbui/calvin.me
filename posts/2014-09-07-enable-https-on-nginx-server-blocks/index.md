@@ -96,6 +96,7 @@ $ sudo service nginx restart
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
   $_SERVER['HTTPS'] = 'on';
 ```
+
 Remember to change your WordPress Address and Site Address URL to 'https' instead of 'http' under Settings > General
 
 **4.** Head over to the HTTPS version of your site and test it out (remember to port forward 443 if you have to).

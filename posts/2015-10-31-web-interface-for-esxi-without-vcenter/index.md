@@ -46,7 +46,7 @@ Everything you need to know can be found on the [official Fling page](https://la
 1.  SSH into your ESXi host
 2.  Run the command
 
-```shell-session    
+```shell-session
 $ esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui_signed.vib
 ```
 
@@ -67,12 +67,11 @@ Making sure you include the full path name to the file or else installation will
 
 If the VIB installation completes successfully, you should now be able to navigate a web browser to https://<esxip>/ui and the login page should be displayed.
 
-[![Capture2](Capture2-300x291.png)](Capture2.png)[
-](Capture2.png)
+![Capture2](Capture2-300x291.png)
 
 Login with your usually ESXi credentials and try it out.
 
-[![running](running-300x291.png)](running.png)
+![running](running-300x291.png)
 
 ## Verdict
 

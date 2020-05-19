@@ -57,30 +57,30 @@ Eventually I was told the computer didn't have to be small and compact because i
 
 The proposed BRIX however was:
 
-| Type | Item | Price
-|-|-|-
-| System | Gigabyte BRIX Pro i7 4770R	 | $799
-| Memory | 	G.Skill Ripjaws 16GB (2x8GB) | $185
-| SSD | Intel SSD | OWN
-| | **Total** | $984
+| Type   | Item                         | Price |
+| ------ | ---------------------------- | ----- |
+| System | Gigabyte BRIX Pro i7 4770R   | $799  |
+| Memory | G.Skill Ripjaws 16GB (2x8GB) | $185  |
+| SSD    | Intel SSD                    | OWN   |
+|        | **Total**                    | $984  |
 
-[![GB_BrixPro_Package](gb_brixpro_package.jpg)](gb_brixpro_package.jpg)
+![GB_BrixPro_Package](gb_brixpro_package.jpg)
 
 ## Computer Build #2 - The Completely Wrong
 
 Even with the new budget of $800, I said I could do it for way less. For this build I went with a very basic configuration. At this point there was no talk about 'performance first' so I figured I'd build something for as cheap as possible.
 
-| Type | Item | Price
-|-|-|-
-| **CPU** | Intel Pentium G3240 | $76
-| **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
-| **Motherboard** | ASRock H81M-DGS | $57
-| **Case** | Silverstone PS09B | $45
-| **Power Supply** | Corsair VS 350W | $45
-| **SSD** | Intel SSD | OWN
-| **HDD** | Seagate 500GB | OWN
-| **WiFi Adapter** | TP-Link TL-WN881ND | $18
-| |  **Total** | $241
+| Type             | Item                        | Price |
+| ---------------- | --------------------------- | ----- |
+| **CPU**          | Intel Pentium G3240         | $76   |
+| **Memory**       | 32GB DDR3-1600MHz CL11 1.5V | OWN   |
+| **Motherboard**  | ASRock H81M-DGS             | $57   |
+| **Case**         | Silverstone PS09B           | $45   |
+| **Power Supply** | Corsair VS 350W             | $45   |
+| **SSD**          | Intel SSD                   | OWN   |
+| **HDD**          | Seagate 500GB               | OWN   |
+| **WiFi Adapter** | TP-Link TL-WN881ND          | $18   |
+|                  | **Total**                   | $241  |
 
 Too bad this configuration was more for your grandparents than your girlfriend who loves multimedia and studies I.T. A basic business/homework/internet/office use computer but not a Photoshop warrior she would expect. It was a pretty bad mix of components, bottlenecked by the Pentium CPU and its two cores.
 
@@ -94,21 +94,21 @@ In this build made some considerations and assumptions:
 2.  The 450W PSU is in case I give her my GTX 680 when I upgrade. She can take advantage of GPGPU acceleration in Photoshop/Premier Pro.
 3.  The ability to run Mac OS X ala Hackintosh (not that important)
 
-[![sata_express_vs_m2_speed](sata_express_vs_m2_speed.jpg)](sata_express_vs_m2_speed.jpg)
+![sata_express_vs_m2_speed](sata_express_vs_m2_speed.jpg)
 
 So with everything in mind I came up with this:
 
-| Type | Item | Price
-|-|-|-
-| **CPU** | Intel Core i7-4790 | $394
-| **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
-| **Motherboard** | Gigabyte GA-Z97MX-Gaming 5 | $179
-| **Case** | Silverstone TJ08B-E | $99
-| **Power Supply** | SeaSonic G 450W 80+ Gold | $109
-| **SSD** | Intel SSD | OWN
-| **HDD** | Seagate 500GB | OWN
-| **WiFi Adapter** | TP-Link TL-WN881ND | $18
-| |  **Total** | $799
+| Type             | Item                        | Price |
+| ---------------- | --------------------------- | ----- |
+| **CPU**          | Intel Core i7-4790          | $394  |
+| **Memory**       | 32GB DDR3-1600MHz CL11 1.5V | OWN   |
+| **Motherboard**  | Gigabyte GA-Z97MX-Gaming 5  | $179  |
+| **Case**         | Silverstone TJ08B-E         | $99   |
+| **Power Supply** | SeaSonic G 450W 80+ Gold    | $109  |
+| **SSD**          | Intel SSD                   | OWN   |
+| **HDD**          | Seagate 500GB               | OWN   |
+| **WiFi Adapter** | TP-Link TL-WN881ND          | $18   |
+|                  | **Total**                   | $799  |
 
 Everything just fit in the $800 budget!
 
@@ -122,24 +122,24 @@ This build set a very good baseline overall. I felt I needed some little adjustm
 
 ## Computer Build #4 - The One
 
-| Type | Item | Price
-|-|-|-
-| **CPU** | Intel Xeon E3-1231 V3 | $329
-| **Memory** | 32GB DDR3-1600MHz CL11 1.5V |  OWN
-| **Motherboard** | Gigabyte GA-H97-GAMING 3 | $134
-| **GPU** | Palit GT520 | OWN
-| **Case** | NZXT S340 | $100
-| **Power Supply** | Cooler Master V450S 80+ Gold | $98
-| **SSD** | Intel SSD | OWN
-| **HDD** | Seagate 500GB | OWN
-| **WiFi Adapter** | TP-Link TL-WN881ND | $18
-| | **Total** | $679
+| Type             | Item                         | Price |
+| ---------------- | ---------------------------- | ----- |
+| **CPU**          | Intel Xeon E3-1231 V3        | $329  |
+| **Memory**       | 32GB DDR3-1600MHz CL11 1.5V  | OWN   |
+| **Motherboard**  | Gigabyte GA-H97-GAMING 3     | $134  |
+| **GPU**          | Palit GT520                  | OWN   |
+| **Case**         | NZXT S340                    | $100  |
+| **Power Supply** | Cooler Master V450S 80+ Gold | $98   |
+| **SSD**          | Intel SSD                    | OWN   |
+| **HDD**          | Seagate 500GB                | OWN   |
+| **WiFi Adapter** | TP-Link TL-WN881ND           | $18   |
+|                  | **Total**                    | $679  |
 
 The final build! What felt like a few little changes turned out to be quite a lot. Pretty much everything except the WiFi Adapter was changed.
 
 By going with an Xeon, I get a much better binned CPU which is great for longevity. The 1231 V3 is a rebrand of the i7 4790 except with the integrated graphics disabled and a slightly lower clock (3.6Ghz vs 3.4 Ghz) for a MUCH lower price (0.2Ghz = $70?). Not many people consider Xeons because they appear to be 'server' CPUs. I had the same mindset until I got myself a 1230 V3 in my ESXi server and learnt it was pretty much a 4770 without the iGPU. Without the Intel Iris graphics, I've had to include my Nvidia GT 520 otherwise there wouldn't be any video output!
 
-[![Capture](capture5.png)](capture5.png)
+![Capture](capture5.png)
 
 The motherboard change is less dramatic. Gigabyte offer pretty much the same features on their H97 Gaming 3 board as they did with the Z97 Gaming 5. The only difference being the ATX form factor instead of the mATX form factor. The difference between H97 and Z97 is how it overclocks and what you can overclock.
 
