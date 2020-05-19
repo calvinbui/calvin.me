@@ -11,7 +11,7 @@ tags:
 thumbnail: thumbnail.png
 ---
 
-I expose a few of my web services over the Internet like [SABnzbd](http://sabnzbd.org/), [CouchPotato](https://couchpota.to/) and NZBDrone (now known as [Sonarr](https://sonarr.tv/)). Whilst they all have HTTP authentication, they don't support multiple users. LDAP or Active Directory holds multiple user accounts, for authentication purpose. So putting two and two together, [kvspb ](https://github.com/kvspb)has made a [NGINX LDAP module](https://github.com/kvspb/nginx-auth-ldap) which authenticates users against your LDAP or Active Directory servers when they visit specific web pages.
+I expose a few of my web services over the Internet like [SABnzbd](http://sabnzbd.org/), [CouchPotato](https://couchpota.to/) and NZBDrone (now known as [Sonarr](https://sonarr.tv/)). Whilst they all have HTTP authentication, they don't support multiple users. LDAP or Active Directory holds multiple user accounts, for authentication purpose. So putting two and two together, [kvsp ](https://github.com/kvspb) has made a [NGINX LDAP module](https://github.com/kvspb/nginx-auth-ldap) which authenticates users against your LDAP or Active Directory servers when they visit specific web pages.
 
 <!-- more -->
 

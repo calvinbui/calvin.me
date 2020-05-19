@@ -17,7 +17,7 @@ _Example of server blocks on NGINX_:
 
 ![nginx setup](drawing1.png)
 
-**1.** Grab a SSL Certificate. I got mine from [StartSSL ](https://www.startssl.com/%20)for free. Supported in all the popular browsers.
+**1.** Grab a SSL Certificate. I got mine from [StartSSL](https://www.startssl.com/%20) for free. Supported in all the popular browsers.
 
 Digital Ocean has good write-up on [obtaining a certificate through StartSSL](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps). Come back here when it starts getting into 'Apache' as we're using NGINX.
 

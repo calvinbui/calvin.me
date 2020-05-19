@@ -14,7 +14,7 @@ I love nginx. I love how its lightweight, does what it does well and is [extrem
 
 <!-- more -->
 
-_Off-topic: This year ASIC blocked 250000 websites because its blacklisted websites based on their IP addresses instead of their domain name as they were running Virtual Hosts/Server Blocks! Quite a blunder when you get people that don't know how the Internet works to regulate it. [Read it here](http://www.abc.net.au/news/2014-08-27/asic-accidentally-blocked-250000-websites-ip-address/5701734). Take a stand against things like this - see what you can do at [https://stopthespies.org ](https://stopthespies.org/)as Australia plans to track and record your online movements (even physical moments on your mobile devices!)._
+_Off-topic: This year ASIC blocked 250000 websites because its blacklisted websites based on their IP addresses instead of their domain name as they were running Virtual Hosts/Server Blocks! Quite a blunder when you get people that don't know how the Internet works to regulate it. [Read it here](http://www.abc.net.au/news/2014-08-27/asic-accidentally-blocked-250000-websites-ip-address/5701734). Take a stand against things like this - see what you can do at [https://stopthespies.org](https://stopthespies.org/) as Australia plans to track and record your online movements (even physical moments on your mobile devices!)._
 
 ##### Edit the proxy configuration
 

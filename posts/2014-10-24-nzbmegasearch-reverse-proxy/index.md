@@ -38,7 +38,7 @@ _Only my proxy server is exposed to the Internet. It connects to other hosts whe
 
 ## Apache Proxy Install
 
-**1.** I recommend you pull my fork of [NZBmegasearcH. ](https://github.com/calvinbui/usntssearch)I've fixed a  few errors in code such as SSL problems, favicons not showing in proxy and dropdown arrows not displaying.
+**1.** I recommend you pull my fork of [NZBmegasearcH](https://github.com/calvinbui/usntssearch) I've fixed a  few errors in code such as SSL problems, favicons not showing in proxy and dropdown arrows not displaying.
 
 **2.** Install Apache 2 on to the NZBmegasearcHhost. DigitalOcean have a [terrific guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps) on installing Apache with SSL configuration.
 
