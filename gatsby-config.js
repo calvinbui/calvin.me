@@ -19,14 +19,43 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
+        // https://www.gatsbyjs.org/docs/caching/
         headers: {
-          '/*.html': ['cache-control: public, max - age=0, must - revalidate'],
-          '/*.js': ['cache-control: public, max-age=31536000, immutable'],
-          '/*.css': ['cache-control: public, max-age=31536000, immutable'],
-          '/*.png': ['cache-control: public, max-age=31536000, immutable'],
-          '/*.jpg': ['cache-control: public, max-age=31536000, immutable'],
-          '/*.jpeg': ['cache-control: public, max-age=31536000, immutable'],
-          '/sw.js': ['cache-control: public, max-age=0, must-revalidate'],
+          '/**/*.html': [
+            'cache-control: public',
+            'cache-control: max-age=0',
+            'cache-control: must-revalidate'
+          ],
+          '/page-data/*.json': [
+            'cache-control: public',
+            'cache-control: max-age=0',
+            'cache-control: must-revalidate'
+          ],
+          '/app-data.json': [
+            'cache-control: public',
+            'cache-control: max-age=0',
+            'cache-control: must-revalidate'
+          ],
+          '/static/*': [
+            'cache-control: public',
+            'cache-control: max-age=31536000',
+            'cache-control: immutable'
+          ],
+          '/**/*.js': [
+            'cache-control: public',
+            'cache-control: max-age=31536000',
+            'cache-control: immutable'
+          ],
+          '/**/*.css': [
+            'cache-control: public',
+            'cache-control: max-age=31536000',
+            'cache-control: immutable'
+          ],
+          '/sw.js': [
+            'cache-control: public',
+            'cache-control: max-age=0',
+            'cache-control: must-revalidate'
+          ],
         },
       },
     },
