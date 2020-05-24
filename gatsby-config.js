@@ -20,8 +20,12 @@ module.exports = {
       resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {
+          '/*.html': ['cache-control: public, max - age=0, must - revalidate'],
           '/*.js': ['cache-control: public, max-age=31536000, immutable'],
           '/*.css': ['cache-control: public, max-age=31536000, immutable'],
+          '/*.png': ['cache-control: public, max-age=31536000, immutable'],
+          '/*.jpg': ['cache-control: public, max-age=31536000, immutable'],
+          '/*.jpeg': ['cache-control: public, max-age=31536000, immutable'],
           '/sw.js': ['cache-control: public, max-age=0, must-revalidate'],
         },
       },
