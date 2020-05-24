@@ -6,7 +6,7 @@ const config = {
   siteUrl: 'https://calvin.me',
   repo: 'https://github.com/calvinbui/calvin.me',
   pathPrefix: '',
-  dateFromFormat: 'DD-MM-YYYY',
+  dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
     'Calvin Bui is a DevOps Engineer passionate about IT as a career and hobby!',
