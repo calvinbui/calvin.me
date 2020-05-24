@@ -64,12 +64,12 @@ export default class Index extends Component {
               )
             })}
           </div>
+          <label for="searchTerm">Filter posts</label>
           <div className="search-container">
-            <label for="searchTerm"></label>
             <input
+              id="searchTerm"
               className="search"
               type="text"
-              name="searchTerm"
               value={searchTerm}
               placeholder="Type here to filter posts..."
               onChange={this.handleChange}
