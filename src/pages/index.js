@@ -70,6 +70,7 @@ export default class Index extends Component {
               id="searchTerm"
               className="search"
               type="text"
+              name="searchTerm"
               value={searchTerm}
               placeholder="Type here to filter posts..."
               onChange={this.handleChange}
