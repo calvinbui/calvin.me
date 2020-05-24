@@ -15,7 +15,7 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 
 ## Development
 
-```
+```bash
 git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvinbui.github.io.git
 cd calvinbui.github.io
 npm install -g gatsby-cli
