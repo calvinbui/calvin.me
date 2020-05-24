@@ -89,6 +89,7 @@ Afterwards I tested my browser against a few sites:
 - [A list of sites from Reddit](https://www.reddit.com/r/privacytoolsIO/comments/bia6sx/test_your_privacy/)
 
 My fingerprint from Browser Leaks:
+
 ![](browser-leaks.PNG)
 
 ## Android Google Chrome

@@ -1,5 +1,5 @@
 ---
-title: Now powered by Jekyll
+title: Now Powered by Jekyll
 categories:
 -   Blog
 tags:
