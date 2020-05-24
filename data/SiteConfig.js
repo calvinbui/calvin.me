@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: 'Calvin Bui',
   siteLogo: '/favicon/favicon-meta.png',
   siteUrl: 'https://calvin.me',
-  repo: 'https://github.com/calvinbui/calvinbui.github.io',
+  repo: 'https://github.com/calvinbui/calvin.me',
   pathPrefix: '',
   dateFromFormat: 'DD-MM-YYYY',
   dateFormat: 'MMMM Do, YYYY',

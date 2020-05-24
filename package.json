@@ -3,7 +3,7 @@
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "3.0.0",
   "author": "Calvin Bui <blog@bui.io>",
-  "repository": "git@github.com:calvinbui/calvinbui.github.io",
+  "repository": "git@github.com:calvinbui/calvin.me",
   "dependencies": {
     "eslint-utils": "^2.0.0",
     "gatsby": "^2.21.21",
