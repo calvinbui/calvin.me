@@ -17,7 +17,7 @@ As I covered in a [previous post](/comparison-of-free-esxi-vm-backup-softwares),
 
 So I've took it upon myself to script it up, using the available Python 3.5 executable in ESXi and XSIBackups' built-in cron functionality.
 
-{% gist 1954841007c4984769080ec4a12df754 %}
+[Find the code on GitHub Gist](https://gist.github.com/calvinbui/1954841007c4984769080ec4a12df754).
 
 ## ESXi Instructions
 

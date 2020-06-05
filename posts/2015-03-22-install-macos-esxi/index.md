@@ -88,8 +88,6 @@ If you have 10.9 or greater, you will need a Mac to create the ISO.
 
 For macOS or OS X 10.6 to 10.12, you can use this Mac only script to create the ISO if the InstallESD.img or Install.app is in the Applications folder: [https://gist.github.com/calvinbui/3cc1594d85583077a88d6d60eac01aa8](https://gist.github.com/calvinbui/3cc1594d85583077a88d6d60eac01aa8)
 
-{% gist calvinbui/3cc1594d85583077a88d6d60eac01aa8 %}
-
 ### Windows/Linux
 
 Only supports 10.8 and below.
