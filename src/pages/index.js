@@ -64,7 +64,7 @@ export default class Index extends Component {
               )
             })}
           </div>
-          <label for="searchTerm">Filter posts</label>
+          <label htmlFor="searchTerm">Filter posts</label>
           <div className="search-container">
             <input
               id="searchTerm"
