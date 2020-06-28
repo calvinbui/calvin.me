@@ -35,11 +35,13 @@ class ThemeProvider extends Component {
 
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
-    if (JSON.parse(localStorage.getItem('dark'))) {
-      window.REMARK42.changeTheme('light')
-    } else (
-      window.REMARK42.changeTheme('dark')
-    )
+    if (typeof window.REMARK42 !== 'undefined') {
+      if (JSON.parse(localStorage.getItem('dark'))) {
+        window.REMARK42.changeTheme('light')
+      } else (
+        window.REMARK42.changeTheme('dark')
+      )
+    }
   }
 
   setNotFound = () => {
