@@ -12,7 +12,7 @@ class ThemeProvider extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      dark: true,
+      dark: false,
       notFound: false,
     }
   }

@@ -9,8 +9,6 @@ import Comments from '../components/Comments'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 
-const urljoin = require('url-join')
-
 export default class PostTemplate extends Component {
   render() {
     const postNode = this.props.data.markdownRemark
