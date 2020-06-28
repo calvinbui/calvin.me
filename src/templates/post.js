@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
-import Comments from '../components/Comments'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
@@ -12,6 +11,31 @@ import { formatDate, editOnGithub } from '../utils/global'
 const urljoin = require('url-join')
 
 export default class PostTemplate extends Component {
+  componentDidMount() {
+    const script = document.createElement("script");
+    const id = this.props.data.markdownRemark.fileAbsolutePath.split('/').slice(-2)[0].substr(11)
+    script.async = true;
+    script.text = `
+      var remark_config = {
+        host: "https://remark42.bui.services",
+        site_id: "calvin.me",
+        components: ["embed"],
+        url: "${urljoin(config.siteUrl, id)}",
+        theme: "${JSON.parse(localStorage.getItem('dark')) ? 'dark' : 'light'}"
+      };
+
+      (function(c) {
+        for(var i = 0; i < c.length; i++){
+          var d = document, s = d.createElement("script");
+          s.src = remark_config.host + "/web/" +c[i] +".js";
+          s.defer = true;
+          (d.head || d.body).appendChild(s);
+        }
+      })(remark_config.components || ["embed"]);
+    `
+    document.body.appendChild(script);
+  }
+
   render() {
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
@@ -57,7 +81,7 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <Comments url={urljoin(config.siteUrl, post.id)} identifier={`/${post.id}`} title={post.title} />
+        <div className="single container" id="remark42" />
       </Layout>
     )
   }

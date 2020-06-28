@@ -200,12 +200,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `calvinbui`
-      }
-    },
-    {
       resolve: 'gatsby-plugin-matomo',
       options: {
         siteId: '1',

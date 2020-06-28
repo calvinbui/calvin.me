@@ -35,9 +35,11 @@ class ThemeProvider extends Component {
 
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
-    if (window.DISQUS) {
-      setTimeout(() => window.DISQUS.reset({ reload: true }), 1000);
-    }
+    if (JSON.parse(localStorage.getItem('dark'))) {
+      window.REMARK42.changeTheme('light')
+    } else (
+      window.REMARK42.changeTheme('dark')
+    )
   }
 
   setNotFound = () => {
