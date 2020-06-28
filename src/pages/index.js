@@ -26,7 +26,7 @@ export default class Index extends Component {
     const { posts, searchTerm } = this.state
 
     const filteredPosts = posts.filter(post =>
-      post.node.frontmatter.title.toLowerCase().includes(searchTerm.toLowerCase())
+      searchTerm.split(/\s+/).every(str => post.node.frontmatter.title.toLowerCase().includes(str.toLowerCase()))
     )
 
     this.setState({ filteredPosts })
