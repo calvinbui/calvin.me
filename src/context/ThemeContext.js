@@ -33,6 +33,14 @@ class ThemeProvider extends Component {
     }
   }
 
+  setNotFound = () => {
+    this.setState({ notFound: true })
+  }
+
+  setFound = () => {
+    this.setState({ notFound: false })
+  }
+
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
     if (typeof window.REMARK42 !== 'undefined') {
@@ -42,14 +50,6 @@ class ThemeProvider extends Component {
         window.REMARK42.changeTheme('dark')
       )
     }
-  }
-
-  setNotFound = () => {
-    this.setState({ notFound: true })
-  }
-
-  setFound = () => {
-    this.setState({ notFound: false })
   }
 
   render() {

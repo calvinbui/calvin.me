@@ -52,17 +52,15 @@ export default class Index extends Component {
 
         <div className="container front-page">
           <div className="category-container">
-            {categories.map(category => {
-              return (
-                <Link
-                  to={`/categories/${category.fieldValue.toLowerCase()}`}
-                  className="category-filter"
-                  key={category.fieldValue}
-                >
-                  {category.fieldValue}
-                </Link>
-              )
-            })}
+            {categories.map(category => {return(
+              <Link
+                to={`/categories/${category.fieldValue.toLowerCase()}`}
+                className="category-filter"
+                key={category.fieldValue}
+              >
+                {category.fieldValue}
+              </Link>
+            )})}
           </div>
           <label htmlFor="searchTerm">Filter posts</label>
           <div className="search-container">

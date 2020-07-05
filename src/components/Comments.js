@@ -11,10 +11,10 @@ export default class Comments extends Component {
       components: ["embed"],
       theme: JSON.parse(localStorage.getItem('dark')) ? 'dark' : 'light',
       url: urljoin(config.siteUrl, window.location.pathname),
-    }; (function (components) {
-      for (let i = 0; i < components.length; i++) {
+    }; (function loadComments (components) {
+      for (let i = 0; i < components.length; i+=1) {
         const script = window.document.createElement('script')
-        script.src = config.remark42.host + '/web/' + components[i] + '.js'
+        script.src = `${config.remark42.host}/web/${components[i]}.js`
         script.defer = true
         script.id = 'remark-script'
           ; (window.document.head || window.document.body).appendChild(script)

@@ -82,8 +82,8 @@ export default class Navigation extends Component {
                 {theme.dark ? (
                   <IoMdSunny className="nav-icons sun-nav-icon" />
                 ) : (
-                    <BsMoon className="nav-icons moon-nav-icon" />
-                  )}
+                  <BsMoon className="nav-icons moon-nav-icon" />
+                )}
               </button>
             </div>
           </div>
