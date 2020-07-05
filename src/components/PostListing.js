@@ -9,16 +9,18 @@ export default class PostListing extends Component {
   getPostList() {
     const { postEdges } = this.props
     const pathPrefix = config.pathPrefix === '' ? '/' : config.pathPrefix
-    const postList = postEdges.map(postEdge => { return {
-      path: pathPrefix + postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
-      tags: postEdge.node.frontmatter.tags,
-      thumbnail: postEdge.node.frontmatter.thumbnail,
-      title: postEdge.node.frontmatter.title,
-      date: formatDate(postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)),
-      excerpt: postEdge.node.excerpt,
-      timeToRead: postEdge.node.timeToRead,
-      categories: postEdge.node.frontmatter.categories,
-    }})
+    const postList = postEdges.map(postEdge => (
+      {
+        path: pathPrefix + postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(11),
+        tags: postEdge.node.frontmatter.tags,
+        thumbnail: postEdge.node.frontmatter.thumbnail,
+        title: postEdge.node.frontmatter.title,
+        date: formatDate(postEdge.node.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)),
+        excerpt: postEdge.node.excerpt,
+        timeToRead: postEdge.node.timeToRead,
+        categories: postEdge.node.frontmatter.categories,
+      }
+    ))
     return postList
   }
 

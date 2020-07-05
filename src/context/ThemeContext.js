@@ -21,7 +21,7 @@ class ThemeProvider extends Component {
     const lsDark = JSON.parse(localStorage.getItem('dark'))
 
     if (lsDark) {
-      this.setState({ dark: lsDark })
+      this.dark = lsDark
     }
   }
 
