@@ -65,7 +65,7 @@ Making sure you include the full path name to the file or else installation will
 
 ## Try it out
 
-If the VIB installation completes successfully, you should now be able to navigate a web browser to <https://><esxip>/ui and the login page should be displayed.
+If the VIB installation completes successfully, you should now be able to navigate a web browser to `https://<esxip>/ui` and the login page should be displayed.
 
 ![Capture2](Capture2-300x291.png)
 
