@@ -47,7 +47,7 @@ You are ready to connect the WAN port. Connect the NIC from your ESXi host into 
 
 _You can plug in your WAN connection now. Plug a cable from your bridged modem router to the ESXi host running pfSense. Make sure it is into the network card you have specified as your WAN_:
 
-![]("nd2.png")
+![](nd2.png)
 
 _Your network is ready. Having a switch allows you to have more LAN connections. pfSense has now become your router, firewall, DHCP and DNS server._:
 

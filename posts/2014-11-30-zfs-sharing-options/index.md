@@ -69,7 +69,7 @@ Serviio is a media server which allows many different devices to stream from you
 wget -O - www.napp-it.org/serviio | perl
 ```
 
-Serviio is accessible at <http://><nappit>phpserviio/
+Serviio is accessible at `http://<nappit>/phpserviio/`
 
 With Serviio, I am able to specify which shares I want to be visible over DLNA/UPnP. Device such as my PS3 and Yamaha RX-V475 receiver were easily able to access and play from it!
 

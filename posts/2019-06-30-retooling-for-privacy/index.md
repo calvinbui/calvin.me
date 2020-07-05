@@ -167,7 +167,7 @@ I'm sticking with Windows 10 because of the support it has for games I play. Gam
 
 Windows 10 sends a lot of telemetry data by default and this can be turned down from the Settings App. I took things a bit further and used [W10Privacy](https://www.winprivacy.de/english-home/) turned off everything that was possible to turn off.
 
-![](W10Privacy.PNG)
+![](w10privacy.PNG)
 
 ## Google Keep
 
@@ -248,7 +248,7 @@ When I did all the above, I thought it would be a good idea to clean out my Goog
 - [Change what Google tracks](https://myaccount.google.com/data-and-personalization)
 - [Download all the data Google has on you](https://takeout.google.com/)
 
-![](google-dashboard.PNG)
+![](google-dashboard.png)
 
 ## Services not going away
 

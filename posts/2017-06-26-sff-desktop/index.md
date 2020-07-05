@@ -105,7 +105,7 @@ Here's a demo of the boot times. Spoilers: 12.02 seconds. I was using a screwdri
 
 To wrap it up, here a few shots I took over the weekend.
 
-![Case](/featured-image.jpg)
+![Case](/case/back.jpg)
 ![Case](/case/closed-right.jpg)
 ![Case](/case/left-side.jpg)
 ![Case](/case/right-side.jpg)
@@ -115,4 +115,6 @@ To wrap it up, here a few shots I took over the weekend.
 
 ## I used to have another GTX 1080 Ti
 
-Before the Galax 1080 Ti, I had a [Gigabyte Gaming 1080 Ti](/case/gigabyte-1080ti.jpg) (click the link for an image). It was horribly loud and hurt my ears with how loud its coil whine was. I was able to get a refund on it luckily.
+Before the Galax 1080 Ti, I had a Gigabyte Gaming 1080 Ti. It was horribly loud and hurt my ears with how loud its coil whine was. I was able to get a refund on it luckily.
+
+![](/case/gigabyte-1080ti.jpg)

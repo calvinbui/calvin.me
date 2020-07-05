@@ -161,7 +161,7 @@ To summarise the products I've mentioned:
 - Payments: Physical cards
 - Phone: [Rooted](https://forum.xda-developers.com/galaxy-s10/development/magisk-root-galaxy-s10-series-t3918699), [MicroG](https://microg.org/), [AFWall+](https://github.com/ukanth/afwall) and [XPrivacyLua](https://github.com/M66B/XPrivacyLua)
 - Android Auto: Separate phone
-- Location Sharing: [Hauk]((https://github.com/bilde2910/Hauk))
+- Location Sharing: [Hauk](https://github.com/bilde2910/Hauk)
 
 I'm close to full privacy without losing too much productivity and efficiency. The main annoyances that remain are:
 

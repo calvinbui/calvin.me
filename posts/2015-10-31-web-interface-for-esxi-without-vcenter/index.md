@@ -30,9 +30,9 @@ There are some issues too at the moment:
 
 * On ESXi hosts which are assigned a VMware vSphere Hypervisor license, all modification operations will fail silently. We are working on a solution to this issue.
 * On ESXi hosts which have a sub-domain name with large, shared cookies a web console session may fail to initialize. A workaround is to clear cookies or run the host client in an incognito-type window.
-* For ESXi 5.5U2 and prior, and ESXi 6.0 hosts upgraded from any 5.5U2 or prior version, you will get a 503 error returned after visiting <https://><esxhost>/ui/. To resolve this issue, please remove the line starting with /ui from /etc/vmware/rhttpproxy/endpoints.conf and restart rhttpproxy with /etc/init.d/rhttpproxy restart
+* For ESXi 5.5U2 and prior, and ESXi 6.0 hosts upgraded from any 5.5U2 or prior version, you will get a 503 error returned after visiting `https://<esxhost>/ui/`. To resolve this issue, please remove the line starting with /ui from /etc/vmware/rhttpproxy/endpoints.conf and restart rhttpproxy with /etc/init.d/rhttpproxy restart
 * For ESXi 5.5 hosts, in-browser consoles are not supported. Please use VMRC to access guest VM consoles.
-* For ESXi 5.5U2 and prior hosts, you must ensure to append a trailing / (forward slash) to the URL after /ui. The URL must be <https://><esxhost>/ui/
+* For ESXi 5.5U2 and prior hosts, you must ensure to append a trailing / (forward slash) to the URL after /ui. The URL must be `https://<esxhost>/ui/`
 * For some Windows guests, send Ctrl-Alt-Del does not work.
 
 The first issue is a real killer. Only hosts running the evaluation license can perform power operations at the moment. Hopefully the next update fixes this as the evaluation license only lasts 60 days.

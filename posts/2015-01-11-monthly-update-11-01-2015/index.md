@@ -22,7 +22,7 @@ You will also find what I'm currently interested in for the following weeks. If 
 I saw that Jetpack weighed down this site quite a lot (using P3). I found similar plugins that could do features that I wanted from JetPack.
 
 * Stats replaced by [Google Analyticator](https://wordpress.org/plugins/google-analyticator/)
-* Monitor replaced by [Monitor.us](Monitor.us) and [Pingdom](https://www.pingdom.com/).
+* Monitor replaced by [Monitor.us](https://monitor.us) and [Pingdom](https://www.pingdom.com/).
 * Publicize replaced by [NextScripts: Social Networks Auto-Poster](https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/)
 * Enhanced Distribution replaced with a [Ping List](http://www.zdidit.com/wordpress-ping-list-indexing-post-faster/)
 * Sharing replaced by [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/screenshots/)
@@ -33,7 +33,7 @@ I've made a change from W3 Total Cache to [WP-Rocket](http://wp-rocket.me/). It 
 
 ### NPS as RADIUS Server
 
-To allow for 802.1X (combined with WPA2-Enterprise security), my Ubiquiti UniFi controller asked for a RADIUS server. At first I wanted to set up [FreeRADIUS](freeradius.org) but that was more trouble than it was worth so I decided to throw it all together within my domain controller using the Network Policy Server feature.
+To allow for 802.1X (combined with WPA2-Enterprise security), my Ubiquiti UniFi controller asked for a RADIUS server. At first I wanted to set up [FreeRADIUS](https://freeradius.org) but that was more trouble than it was worth so I decided to throw it all together within my domain controller using the Network Policy Server feature.
 
 ### Voucher system on Captive Portal
 
