@@ -1,5 +1,5 @@
 ---
-title: "Cracking DMG, RAR and other passwords on MacOS"
+title: "Cracking .DMG, .RAR and other passwords on MacOS"
 categories:
 - Security
 - Programming
