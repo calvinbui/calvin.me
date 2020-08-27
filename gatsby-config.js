@@ -177,7 +177,7 @@ module.exports = {
                 guid: rssMetadata.site_url + edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
                 custom_elements: [
                   { 'content:encoded': edge.node.html },
-                  { author: config.userEmail },
+                  { author: config.userName },
                 ],
               }))
             },

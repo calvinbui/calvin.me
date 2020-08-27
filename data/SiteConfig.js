@@ -12,9 +12,9 @@ const config = {
     'Calvin Bui is a DevOps Engineer passionate about IT as a career and hobby!',
   siteRss: '/rss.xml',
   postDefaultCategoryID: 'Tech',
-  userName: 'calvinbui',
-  userEmail: 'blog@bui.io',
-  userTwitter: 'ASAPCalvin',
+  userName: 'Calvin Bui',
+  userEmail: '',
+  userTwitter: '',
   menuLinks: [
     {
       name: 'Categories',
