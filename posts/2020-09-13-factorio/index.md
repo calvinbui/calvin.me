@@ -7,7 +7,7 @@ tags:
 thumbnail: thumbnail.png
 ---
 
-I finished Factorio for the first time in just under 50 hours. I waited for the 1.0.0 release to play it and it was well worth it.
+I finished Factorio for the first time in just under 50 hours. I waited for the 1.0 release to play it and it was well worth it.
 
 <!-- more -->
 
