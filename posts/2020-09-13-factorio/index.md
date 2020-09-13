@@ -31,6 +31,8 @@ Watch these amazing trailers for more:
 
 [![](base-thumbnail.png)](base-full.jpg)
 
+Watch my rocket launch:
+
 <video controls width="100%" height="auto">
   <source type="video/mp4" src="rocket.mp4">
   <p>Your browser does not support the video element.</p>
