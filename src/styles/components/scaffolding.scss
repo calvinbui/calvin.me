@@ -234,7 +234,8 @@ a {
 .lead,
 .post,
 .page {
-  a:not(.button):not(.anchor):not(.gatsby-resp-image-link) {
+  a:not(.button):not(.anchor):not(.gatsby-resp-image-link),
+  a:not(span.gatsby-resp-image-wrapper) {
     padding: 1px 2px;
     border-radius: 4px;
 
