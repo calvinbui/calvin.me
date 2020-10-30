@@ -20,7 +20,7 @@ I merged all my home servers together to improve performance while reducing powe
 
 ## Preface
 
-In one of my first ever posts, I shared my [all-in-one server](all-in-one-esxi-server) which has since been split into a separate application server running pure [Docker containers](migrating-from-vms-to-docker) and a [72TB FreeNAS storage server](/my-72tb-freenas-server).
+In one of my first ever posts, I shared my [all-in-one server](/all-in-one-esxi-server) which has since been split into a separate application server running pure [Docker containers](/migrating-from-vms-to-docker) and a [72TB FreeNAS storage server](/my-72tb-freenas-server).
 
 There was an imbalance however. The storage server was way more powerful than the application server yet acted as an archive and used infrequently. It didn't need its 128GB of RAM and Intel Xeon E5 CPU for that. If I swapped the hardware out with the application server, the combination of 32GB of RAM and 72TB of raw disks would have made FreeNAS/ZFS unstable. I decided the best action was to combine my application and storage server together.
 
