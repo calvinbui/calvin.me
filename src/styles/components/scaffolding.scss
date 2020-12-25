@@ -27,6 +27,7 @@ p,
 ol,
 ul,
 dl,
+video,
 .gatsby-resp-iframe-wrapper,
 table {
   margin: 0 0 1.5rem 0;
@@ -38,6 +39,7 @@ table {
   ol,
   ul,
   dl,
+  video,
   .gatsby-resp-iframe-wrapper,
   table {
     margin: 0 0 2rem 0;
@@ -80,13 +82,6 @@ h5 {
   &:not(:first-child) {
     margin: 0 0 1rem 0;
   }
-}
-
-// Increased margin on additional headings
-h1:not(:first-child),
-h2:not(:first-child),
-h3:not(:first-child) {
-  margin-top: 1.5rem;
 }
 
 // Heading individual styles
@@ -137,16 +132,6 @@ h5 {
     &:not(:first-child) {
       margin: 0 0 1.5rem 0;
     }
-  }
-
-  h1:not(:first-child),
-  h2:not(:first-child),
-  h3:not(:first-child) {
-    margin-top: 2.25rem;
-  }
-
-  h4:not(:first-child) {
-    margin-top: 1.75rem;
   }
 
   // Heading desktop individual styles
