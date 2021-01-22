@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
-import Comments from '../components/Comments'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 
@@ -55,7 +54,6 @@ export default class PostTemplate extends Component {
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <Comments className="single container" />
       </Layout>
     )
   }
