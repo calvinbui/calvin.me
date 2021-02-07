@@ -16,11 +16,11 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 ## Development
 
 ```bash
-git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvinbui.github.io.git
-cd calvinbui.github.io
-yarn install
-npx gatsby telemetry --disable
-npx gatsby develop
+git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvin.me.git
+cd calvin.me
+yarn install --frozen-lockfile
+yarn gatsby telemetry --disable
+yarn gatsby develop
 ```
 
 ## Contributing
