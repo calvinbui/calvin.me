@@ -217,7 +217,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-umami`,
       options: {
-        websiteId: '1',
+        websiteId: '90b1fd6b-e6ea-4725-848e-213b6cc123d2',
         srcUrl: 'https://u.bui.services/script.js',
         includeInDevelopment: false,
         autoTrack: true,
