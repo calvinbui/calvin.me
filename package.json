@@ -12,7 +12,6 @@
     "gatsby-plugin-catch-links": "^2.3.1",
     "gatsby-plugin-feed": "^2.5.1",
     "gatsby-plugin-manifest": "^2.4.2",
-    "gatsby-plugin-matomo": "^0.8.3",
     "gatsby-plugin-netlify": "^2.3.2",
     "gatsby-plugin-nprogress": "^2.3.1",
     "gatsby-plugin-offline": "^3.2.7",

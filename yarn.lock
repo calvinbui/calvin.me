@@ -8173,11 +8173,6 @@ gatsby-plugin-manifest@^2.4.2:
     semver "^7.3.2"
     sharp "^0.25.4"
 
-gatsby-plugin-matomo@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.8.3.tgz#e0e9cc9e60f7e4b157c9964dfc9d444d73bc46ee"
-  integrity sha512-fv6TgD+WsxziZrtmz6sNF4m9FgSyV+8y3R1sobA5hB5OxJyhs/Y4HVo9jCPRHu5VLKQsg4i7LJhWL0ocJiqEWQ==
-
 gatsby-plugin-netlify@^2.3.2:
   version "2.3.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.3.14.tgz#635a9754f14f553e6f132af185e920ae3cbb4e32"

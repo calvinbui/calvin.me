@@ -214,16 +214,5 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-matomo`,
-      options: {
-        siteId: '1',
-        matomoUrl: 'https://mtmo.bui.services',
-        matomoPhpScript: 'p.php',
-        matomoJsScript: 'p.js',
-        siteUrl: urljoin(config.siteUrl, config.pathPrefix),
-        dev: false,
-      },
-    },
   ],
 }
