@@ -214,5 +214,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: '1',
+        srcUrl: 'https://u.bui.services/script.js',
+        includeInDevelopment: false,
+        autoTrack: true,
+        respectDoNotTrack: false,
+      },
+    },
   ],
 }
