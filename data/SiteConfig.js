@@ -40,6 +40,12 @@ const config = {
       type: 'external',
       mobile: true,
     },
+    {
+      name: 'Twitter',
+      link: 'https://twitter.com/ASAPCalvin',
+      type: 'external',
+      mobile: true,
+    },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
