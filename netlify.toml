@@ -1,7 +1,6 @@
-[[plugins]]
-package = "netlify-plugin-checklinks"
+[build]
+  publish = "public"
 
-  [plugins.inputs]
-  skipPatterns = [
-    "https://mtmo.bui.services"
-  ]
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+  package = "netlify-plugin-gatsby-cache"
