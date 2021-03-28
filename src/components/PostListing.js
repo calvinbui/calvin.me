@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { formatDate } from '../utils/global'
 
 const config = require('../../data/SiteConfig')
@@ -32,13 +32,13 @@ export default class PostListing extends Component {
         {postList.map(post => {
           let thumbnail
           if (post.thumbnail) {
-            thumbnail = post.thumbnail.childImageSharp.fixed
+            thumbnail = post.thumbnail.childImageSharp.gatsbyImageData
           }
 
           return (
             <Link to={post.path} key={post.title}>
               <div className="each">
-                {thumbnail ? <Img fixed={thumbnail} /> : <div />}
+                {thumbnail ? <GatsbyImage image={thumbnail} /> : <div />}
                 <div className="each-list-item">
                   <h2>{post.title}</h2>
                   <div className="datetime">{post.date}</div>

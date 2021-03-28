@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import { getSrc } from "gatsby-plugin-image"
 import urljoin from 'url-join'
 import config from '../../data/SiteConfig'
 
@@ -17,7 +18,7 @@ export default class SEO extends Component {
       title = postMeta.title
       description = postMeta.description ? postMeta.description : postNode.excerpt
       if (postMeta.thumbnail) {
-        image = postMeta.thumbnail.childImageSharp.fixed.src
+        image = getSrc(postMeta.thumbnail.childImageSharp.gatsbyImageData)
       }
       postURL = urljoin(config.siteUrl, replacePath(postPath))
     } else {

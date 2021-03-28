@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
@@ -20,7 +20,7 @@ export default class PostTemplate extends Component {
     post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
     if (post.thumbnail) {
-      thumbnail = post.thumbnail.childImageSharp.fixed
+      thumbnail = post.thumbnail.childImageSharp.gatsbyImageData
     }
 
     const date = formatDate(post.date)
@@ -34,7 +34,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
-            {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
+            {thumbnail && <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
@@ -72,9 +72,12 @@ export const pageQuery = graphql`
         tags
         thumbnail {
           childImageSharp {
-            fixed(width: 150, height: 150) {
-              ...GatsbyImageSharpFixed
-            }
+            gatsbyImageData(
+              layout: FIXED
+              width: 150
+              height: 150
+              quality: 100
+            )
           }
         }
       }

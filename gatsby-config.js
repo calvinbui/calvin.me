@@ -84,6 +84,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 850,
+              quality: 100,
             },
           },
           {
@@ -116,6 +117,7 @@ module.exports = {
         color: config.themeColor,
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-catch-links`,
