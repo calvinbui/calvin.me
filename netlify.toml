@@ -1,6 +1,2 @@
 [build]
   publish = "public"
-
-[[plugins]]
-  package = "netlify-plugin-checklinks"
-  package = "netlify-plugin-gatsby-cache"
