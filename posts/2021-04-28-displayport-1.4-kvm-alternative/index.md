@@ -17,7 +17,7 @@ My cheaper solution to purchasing a DisplayPort 1.4 compatible KVM.
 ```
 ## New Monitor
 
-In my [previous post showcasing my WFH setup](/my-wfh-setup#switching-between-my-pc-and-laptop), I used an Aten DP KVM to switch between my PC and Macbook. I have since upgraded my monitor from an [Acer X34P](https://www.acer.com/ac/en/AU/content/predator-model/UM.CX0SA.P02) to the new [Alienware AW3821DW](https://www.dell.com/en-au/shop/alienware-38-curved-gaming-monitor-aw3821dw/apd/210-axni/monitors-monitor-accessories).
+In my [previous post showcasing my WFH setup](/my-wfh-setup), I used an Aten DP KVM to switch between my PC and Macbook. I have since upgraded my monitor from an [Acer X34P](https://www.acer.com/ac/en/AU/content/predator-model/UM.CX0SA.P02) to the new [Alienware AW3821DW](https://www.dell.com/en-au/shop/alienware-38-curved-gaming-monitor-aw3821dw/apd/210-axni/monitors-monitor-accessories).
 
 ![](aw3821dw.jpg)
 
