@@ -56,9 +56,9 @@ T
 
 ## Monitor Switching
 
-I had to find an easy and manageable way to switch the DP1.4 cable without getting my head underneath the monitor each time with my phone's flashlight. The monitor only has only one DP port behind a small crevice making it even more difficult.
+I had to find an easy and manageable way to switch the DP1.4 cable without getting my head underneath the monitor with my phone's flashlight. The monitor has only one DP port behind a small crevice making it even more difficult.
 
-I thought about having a short extender and I came across the [Cable Matters DisplayPort Repeater](https://www.cablematters.com/pc-1212-154-active-displayport-repeater-8k-ready.aspx), a $28 DP1.4 signal repeater that I converted to become a small extension cable. It also needs to be powered through micro USB which I have done through one of the monitor's 4 USB ports.
+I thought about having a short extender and I came across the [Cable Matters DisplayPort Repeater](https://www.cablematters.com/pc-1212-154-active-displayport-repeater-8k-ready.aspx) for $28. It is a DP1.4 signal repeater that I converted to become a small extension cable. It also needs to be powered through micro USB which I have done through one of the monitor's 4 USB ports.
 
 <iframe src="https://www.youtube.com/embed/Gu4RI4ybwgo" allowfullscreen width="1280" height="720"></iframe>
 
