@@ -11,7 +11,7 @@ thumbnail: thumbnail.png
 
 The official Book Cover Keyboard Case from Samsung provides zero protection around the edges of the tablet. My goal was to combine a cheap TPU case to give it the protection it needs.
 
-<!-- more --->
+<!-- more -->
 
 ```toc
 # This code block gets replaced with the TOC
@@ -19,7 +19,7 @@ The official Book Cover Keyboard Case from Samsung provides zero protection arou
 
 ## Samsung Galaxy Tab S7+
 
-I bought this tablet because it was the best Android tablet I could find. What drew me to the device were: 
+I bought this tablet because it was the best Android tablet I could find. What drew me to the device were:
 
 - the large AMOLED screen and powerful chip to stream 4K videos
 - the integrations with my Galaxy S10+ (call & text, hotspot)
@@ -69,7 +69,7 @@ They are advertised as being 2mm thick but measured 1.72mm.
 
 ## Cutting
 
-Using these points, I marked areas to cut on the TPU case. I cut the TPU case using pliers and a box cutter. 
+Using these points, I marked areas to cut on the TPU case. I cut the TPU case using pliers and a box cutter.
 
 ![](case-before-cut.jpg)
 

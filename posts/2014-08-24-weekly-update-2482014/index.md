@@ -7,7 +7,9 @@ tags:
 thumbnail: thumbnail.png
 ---
 
-In the weekly update, I bring you what I've been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides. You will also find what I'm currently interested in for the following weeks. If something doesn't have a link, I may cover it myself in the future because I couldn't find much about it online. <!-- more -->
+In the weekly update, I bring you what I've been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides. You will also find what I'm currently interested in for the following weeks. If something doesn't have a link, I may cover it myself in the future because I couldn't find much about it online.
+
+<!-- more -->
 
 ## Weekly Update 24/08/2014
 

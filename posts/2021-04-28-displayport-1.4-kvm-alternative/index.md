@@ -10,7 +10,7 @@ thumbnail: thumbnail.png
 
 My cheaper solution to purchasing a DisplayPort 1.4 compatible KVM.
 
-<!-- more --->
+<!-- more -->
 
 ```toc
 # This code block gets replaced with the TOC
@@ -45,7 +45,7 @@ I purchased the [UGREEN USB 3.0 switch from Amazon](https://www.amazon.com.au/UG
 ![](ugreen.jpg)
 
 I have populated the four ports with:
-T
+
 1. USB Audio Interface (has its own power)
 2. Keyboard
 3. USB Type-C cable for connecting other devices
