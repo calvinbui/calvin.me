@@ -15,12 +15,23 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 
 ## Development
 
+### Setup
 ```bash
 git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvin.me.git
 cd calvin.me
-yarn install --frozen-lockfile
+yarn install
 yarn gatsby telemetry --disable
-yarn gatsby develop
+```
+
+### Developing
+```bash
+yarn dev
+```
+
+## Upgrading
+
+```bash
+yarn upgrade-interactive --latest
 ```
 
 ## Contributing
