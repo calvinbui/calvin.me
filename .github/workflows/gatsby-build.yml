@@ -19,7 +19,11 @@ jobs:
           ref: master
           path: master
 
+      - run: ls
+      - run: pwd
       - run: cd master
+      - run: ls
+      - run: pwd
 
       - name: Get nvm version
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
@@ -43,7 +47,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Yarn install
-        run: yarn install --prod --frozen-lockfile
+        run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
 
       - run: yarn build
