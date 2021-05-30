@@ -56,18 +56,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
 
-      - run: yarn build
-        working-directory: master
-
       - name: Check out pages branch
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Clean directory
-        run: rm -rf *
-        working-directory: gh-pages
+      - name: Use gh-pages as cache
+        run: |
+          mkdir -p public/
+          mv ../gh-pages/* public/
+        working-directory: master
+
+      - run: yarn build
+        working-directory: master
 
       - run: mv public/* ../gh-pages
         working-directory: master
