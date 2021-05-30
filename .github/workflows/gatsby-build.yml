@@ -2,10 +2,6 @@
 
 name: Gatsby
 
-
-env:
-  pages_branch: gh-pages
-
 on:
   push:
     branches:
@@ -23,7 +19,7 @@ jobs:
           ref: master
           path: master
 
-      - run: cd ${GITHUB_WORKSPACE}/master
+      - run: cd master
 
       - name: Get nvm version
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
@@ -58,9 +54,9 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - run: mv public/* ${GITHUB_WORKSPACE}/gh-pages
+      - run: mv public/* ../gh-pages
 
-      - run: cd ${GITHUB_WORKSPACE}/gh-pages
+      - run: cd ../gh-pages
 
       - name: commit
         run: |
