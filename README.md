@@ -1,7 +1,5 @@
 # calvin.me
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/f04c8da6-6e11-4813-afa0-320f886be71e/deploy-status)](https://app.netlify.com/sites/calvinme/deploys) [![Maintainability](https://api.codeclimate.com/v1/badges/0eed6116d53f8a7a048c/maintainability)](https://codeclimate.com/github/calvinbui/calvin.me/maintainability)
-
 Calvin's personal website running on Gatsby, React, and Node.js.
 
 ## Features
@@ -28,11 +26,15 @@ yarn gatsby telemetry --disable
 yarn dev
 ```
 
-## Upgrading
+### Upgrading
 
 ```bash
 yarn upgrade-interactive --latest
 ```
+
+## Deployment
+
+Currently deployed using GitHub Actions into GitHub Pages.
 
 ## Contributing
 
