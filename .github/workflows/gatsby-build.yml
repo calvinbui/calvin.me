@@ -1,7 +1,13 @@
 ---
 
 name: Gatsby
-on: [push]
+
+on:
+  push:
+    branches:
+      - master
+      - actions # remove after finished testing
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +18,7 @@ jobs:
           ref: master
           path: master
 
-      - run: pwd
-      - run: ls
+      - run: cd master
 
       - name: Get nvm version
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
@@ -40,8 +45,7 @@ jobs:
         run: yarn install --prod --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
 
-      - name: Gatsby build
-        run: yarn build
+      - run: yarn build
 
       - name: Check out gh-pages branch
         uses: actions/checkout@v2
@@ -49,5 +53,13 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - run: pwd
-      - run: ls
+      - run: mv public/* ../gh-pages
+
+      - run: cd ../gh-pages
+
+      - name: commit
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am {{ github.event.head_commit.message }}
+          git push
