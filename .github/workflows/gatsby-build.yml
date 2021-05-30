@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - master
-      - actions # remove after finished testing
 
 jobs:
   build-and-deploy:
@@ -62,7 +61,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: 🥡 Use gh-pages files as cache
+      - name: 🥡 Use gh-pages branch files as cache
         run: |
           mkdir -p public/
           mv ../gh-pages/* public/
@@ -72,11 +71,11 @@ jobs:
         run: yarn build
         working-directory: master
 
-      - name: ✨ Move static files to gh-pages to be merged
+      - name: ✨ Move Gatsby output to gh-pages branch
         run: mv public/* ../gh-pages
         working-directory: master
 
-      - name: ✔️ Commit changes
+      - name: ✔️ Commit Gatsby output changes to gh-pages branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
