@@ -34,7 +34,8 @@ jobs:
         run: echo "::set-output name=dir::$(yarn cache dir)"
         working-directory: master
 
-      - uses: actions/cache@v2
+      - name: Getting yarn cache
+        uses: actions/cache@v2
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -46,13 +47,11 @@ jobs:
         run: yarn install --frozen-lockfile
         working-directory: master
 
-      - name: Caching Gatsby
+      - name: Getting Gatsby cache
         id: gatsby-cache-build
         uses: actions/cache@v2
         with:
-          path: |
-            master/public
-            master/.cache
+          path: master/.cache
           key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
