@@ -68,7 +68,7 @@ jobs:
 
       - name: Clean directory
         run: rm -rf *
-        working-directory: master
+        working-directory: gh-pages
 
       - run: mv public/* ../gh-pages
         working-directory: master
