@@ -4,7 +4,6 @@ name: Gatsby
 
 
 env:
-  main_branch: master
   pages_branch: gh-pages
 
 on:
@@ -21,10 +20,10 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
         with:
-          ref: "${main_branch}"
-          path: "${main_branch}"
+          ref: master
+          path: master
 
-      - run: cd ${GITHUB_WORKSPACE}/${main_branch}
+      - run: cd ${GITHUB_WORKSPACE}/master
 
       - name: Get nvm version
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
@@ -56,12 +55,12 @@ jobs:
       - name: Check out pages branch
         uses: actions/checkout@v2
         with:
-          ref: "${pages_branch}"
-          path: "${pages_branch}"
+          ref: gh-pages
+          path: gh-pages
 
-      - run: mv public/* ${GITHUB_WORKSPACE}/${pages_branch}
+      - run: mv public/* ${GITHUB_WORKSPACE}/gh-pages
 
-      - run: cd ${GITHUB_WORKSPACE}/${pages_branch}
+      - run: cd ${GITHUB_WORKSPACE}/gh-pages
 
       - name: commit
         run: |
