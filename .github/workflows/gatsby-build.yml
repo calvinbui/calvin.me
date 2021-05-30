@@ -8,7 +8,7 @@ on:
       - master
 
 concurrency:
-  group: ${{ github.head_ref }}
+  group: gatsby
   cancel-in-progress: true
 
 jobs:
