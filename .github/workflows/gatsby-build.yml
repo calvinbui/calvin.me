@@ -19,15 +19,10 @@ jobs:
           ref: master
           path: master
 
-      - run: ls
-      - run: pwd
-      - run: cd master
-      - run: ls
-      - run: pwd
-
       - name: Get nvm version
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
         id: nvm
+        working-directory: master
 
       - name: Setup node.js environment
         uses: actions/setup-node@v2
@@ -37,6 +32,7 @@ jobs:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
+        working-directory: master
 
       - uses: actions/cache@v2
         id: yarn-cache
@@ -45,12 +41,15 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+        working-directory: master
 
       - name: Yarn install
         run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
+        working-directory: master
 
       - run: yarn build
+        working-directory: master
 
       - name: Check out pages branch
         uses: actions/checkout@v2
@@ -59,8 +58,7 @@ jobs:
           path: gh-pages
 
       - run: mv public/* ../gh-pages
-
-      - run: cd ../gh-pages
+        working-directory: master
 
       - name: commit
         run: |
@@ -68,3 +66,4 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am {{ github.event.head_commit.message }}
           git push
+        working-directory: gh-pages
