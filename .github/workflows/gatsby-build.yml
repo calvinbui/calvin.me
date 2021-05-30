@@ -44,8 +44,18 @@ jobs:
 
       - name: Yarn install
         run: yarn install --frozen-lockfile
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
         working-directory: master
+
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            master/public
+            master/.cache
+          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
 
       - run: yarn build
         working-directory: master
@@ -64,6 +74,6 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
-          git commit -m "{{ github.event.head_commit.message }}"
+          git commit -m "${{ github.event.head_commit.message }}"
           git push
         working-directory: gh-pages
