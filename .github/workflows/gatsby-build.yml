@@ -66,6 +66,10 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
+      - name: Clean directory
+        run: rm -rf *
+        working-directory: master
+
       - run: mv public/* ../gh-pages
         working-directory: master
 
