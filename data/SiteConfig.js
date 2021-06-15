@@ -48,12 +48,7 @@ const config = {
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#ffffff',
-  remark42: {
-    host: "https://remark42.bui.services",
-    site_id: "calvin.me",
-    components: ["embed"],
-  }
+  backgroundColor: '#ffffff'
 }
 
 // Make sure pathPrefix is empty if not needed
