@@ -50,6 +50,12 @@ jobs:
         run: yarn install --prod --pure-lockfile
         working-directory: master
 
+      - name: ESLint
+        run: yarn lint:js
+
+      - name: markdownlint
+        run: yarn lint:md
+
       - name: 🥡 Getting Gatsby cache
         id: gatsby-cache-build
         uses: actions/cache@v2
