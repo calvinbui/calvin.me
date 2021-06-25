@@ -56,3 +56,8 @@ Install your new fans
 
 ![](13.jpg)
 ![](14.jpg)
+
+[Two notes by zeroZshadow over on GitHub](https://github.com/calvinbui/calvin.me/issues/16):
+
+1. Noctua fans while quieter, are a significant step down in cooling power. This might be problematic for switches in warm closed spaces or that are under load.
+2. Some units have a fan status LED appearing to indicate an issue with the fans. This can be safely ignored.
