@@ -50,11 +50,11 @@ jobs:
         run: yarn install --pure-lockfile
         working-directory: master
 
-      - name: ESLint
+      - name: 💨 ESLint
         run: yarn lint:js
         working-directory: master
 
-      - name: markdownlint
+      - name: ☄️ markdownlint
         run: yarn lint:md
         working-directory: master
 
