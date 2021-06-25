@@ -47,7 +47,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: 🧶 Yarn install
-        run: yarn install --prod --pure-lockfile
+        run: yarn install --pure-lockfile
         working-directory: master
 
       - name: ESLint
