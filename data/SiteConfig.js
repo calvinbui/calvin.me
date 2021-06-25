@@ -17,32 +17,20 @@ const config = {
   userTwitter: '',
   menuLinks: [
     {
-      name: 'Categories',
-      link: '/categories/',
-      type: 'internal',
-      mobile: false,
-    },
-    {
-      name: 'Tags',
-      link: '/tags/',
-      type: 'internal',
-      mobile: false,
-    },
-    {
       name: 'GitHub',
       link: 'https://git.io/calvin',
       type: 'external',
       mobile: true,
     },
     {
-      name: 'LinkedIn',
-      link: 'https://linkedin.com/in/c-bui',
+      name: 'Twitter',
+      link: 'https://twitter.com/ASAPCalvin',
       type: 'external',
       mobile: true,
     },
     {
-      name: 'Twitter',
-      link: 'https://twitter.com/ASAPCalvin',
+      name: 'LinkedIn',
+      link: 'https://linkedin.com/in/c-bui',
       type: 'external',
       mobile: true,
     },
