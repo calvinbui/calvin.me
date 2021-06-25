@@ -100,22 +100,20 @@ $ zpool import
      id: 11082528084113358057
   state: ONLINE
  status: The pool was last accessed by another system.
- action: The pool can be imported using its name or numeric identifier and
-	the '-f' flag.
-   see: http://zfsonlinux.org/msg/ZFS-8000-EY
+ action: The pool can be imported using its name or numeric identifier and the '-f' flag. see: http://zfsonlinux.org/msg/ZFS-8000-EY
  config:
 
-	files       ONLINE
-	  raidz2-0  ONLINE
-	    sdi     ONLINE
-	    sdk     ONLINE
-	    sdj     ONLINE
-	    sdd     ONLINE
-	    sda     ONLINE
-	    sdm     ONLINE
-	    sdl     ONLINE
-	    sdc     ONLINE
-	    sdb     ONLINE
+  files       ONLINE
+    raidz2-0  ONLINE
+      sdi     ONLINE
+      sdk     ONLINE
+      sdj     ONLINE
+      sdd     ONLINE
+      sda     ONLINE
+      sdm     ONLINE
+      sdl     ONLINE
+      sdc     ONLINE
+      sdb     ONLINE
 ```
 
 I imported the pool with the special `-d /dev/disk/by-id` option so it auto-mounts after reboots:

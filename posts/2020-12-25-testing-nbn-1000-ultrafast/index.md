@@ -72,7 +72,6 @@ During peak hours, my speed went down to around ~589 Mbps. It was of useable of 
   <p>Your browser does not support the video element.</p>
 </video>
 
-
 ### fast.com
 
 <video autoplay loop controls width="100%" height="auto">
@@ -117,7 +116,6 @@ With [Premiumize](https://www.premiumize.me/) within [JDownloader](https://jdown
 
 ![](jdownloader.png)
 
-
 ## Samsung Firmware
 
 Using [Frija](https://forum.xda-developers.com/t/tool-frija-samsung-firmware-downloader-checker.3910594/), I was able to max out my connection while downloading a firmware update for my Galaxy S10+. It maintained this connection for the entire download.
@@ -142,7 +140,6 @@ Doing the same download through [Internet Download Manager](http://internetdownl
   <source type="video/webm" src="idm-ubuntu.webm">
   <p>Your browser does not support the video element.</p>
 </video>
-
 
 ## YouTube
 

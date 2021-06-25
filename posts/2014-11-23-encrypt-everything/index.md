@@ -43,7 +43,7 @@ Both these commands will generate a certificate and key file valid for 365 days 
 
 There are a variety of commands available to convert your .CRT and .KEY file into another encoding format. The .CRT and .KEY files are definitely the most popular option but I've had situations where a .PVK or .PEM file was needed (Sonarr I'm looking at you!). SSLShopper has a [guide for these commands](https://www.sslshopper.com/article-most-common-openssl-commands.html).
 
-## Encrypt Everything. EVERYTHING.
+## Encrypt Everything...EVERYTHING
 
 With a (unsigned) certificate in one hand and a key in the other (sorry people with no hands), you can now encrypt everything you want...as long as it supports it. Sure sure you should generate new certificates for every new thing but does it really matter if its only going to be private? The fact that data will be encrypted is well, good enough for a home network.
 

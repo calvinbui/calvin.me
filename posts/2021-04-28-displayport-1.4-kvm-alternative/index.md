@@ -15,6 +15,7 @@ My cheaper solution to purchasing a DisplayPort 1.4 compatible KVM.
 ```toc
 # This code block gets replaced with the TOC
 ```
+
 ## New Monitor
 
 In my [previous post showcasing my WFH setup](/my-wfh-setup), I used an Aten DP KVM to switch between my PC and Macbook. I have since upgraded my monitor from an [Acer X34P](https://www.acer.com/ac/en/AU/content/predator-model/UM.CX0SA.P02) to the new [Alienware AW3821DW](https://www.dell.com/en-au/shop/alienware-38-curved-gaming-monitor-aw3821dw/apd/210-axni/monitors-monitor-accessories).
@@ -70,18 +71,18 @@ StarTech has a collection of certified DisplayPort 1.4 cables in different lengt
 
 For my PC, I needed a DP to DP cable. This cable is sold in many lengths. I got the 2M cable which cost $35. I also got a 1M cable for the DP Repeater which cost $25.
 
-- https://www.startech.com/en-au/cables/dp14mm1m
-- https://www.startech.com/en-au/cables/dp14mm2m
-- https://www.startech.com/en-au/cables/dp14mm3m
-- https://www.startech.com/en-au/cables/dp14mm4m
-- https://www.startech.com/en-au/cables/dp14mm5m
+- [dp14mm1m](https://www.startech.com/en-au/cables/dp14mm1m)
+- [dp14mm2m](https://www.startech.com/en-au/cables/dp14mm2m)
+- [dp14mm3m](https://www.startech.com/en-au/cables/dp14mm3m)
+- [dp14mm4m](https://www.startech.com/en-au/cables/dp14mm4m)
+- [dp14mm5m](https://www.startech.com/en-au/cables/dp14mm5m)
 
 ![](dp-to-dp-cable.jpg)
 
 For my Mac, I needed a DP to USB-C cable. I liked this one because it was also reversible (USB-C to DP or DP to USB-C). I got the 2M cable which cost $55
 
-- https://www.startech.com/en-au/audio-video-products/cdp2dp141mbd
-- https://www.startech.com/en-au/audio-video-products/cdp2dp142mbd
+- [cdp2dp141mbd](https://www.startech.com/en-au/audio-video-products/cdp2dp141mbd)
+- [cdp2dp142mbd](https://www.startech.com/en-au/audio-video-products/cdp2dp142mbd)
 
 ![](dp-to-usb-c-cable.jpg)
 

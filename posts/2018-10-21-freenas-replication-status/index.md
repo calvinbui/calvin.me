@@ -36,4 +36,3 @@ Refreshing in 3
 It currently only supports one replication job. I don't plan to make it support >1 as I'll probably never run more than one.
 
 [Find the code on GitHub Gist](https://gist.github.com/calvinbui/913bb4726334e1461c0616cc3248aa9d).
-

@@ -61,6 +61,7 @@ For DMG files, we'll pass the `encrypted-files.dmg` file to the `dmg2john` comma
 $ /usr/local/Cellar/john-jumbo/1.9.0/share/john/dmg2john encrypted-files.dmg > encrypted-files.dmg.hash
 encrypted-files.dmg (DMG v2) successfully parsed, iterations count 333333
 ```
+
 The other tools available to generate hash files are:
 
 - RAR: `rar2john_cmd`

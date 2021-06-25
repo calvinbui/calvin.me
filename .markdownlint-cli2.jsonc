@@ -1,0 +1,10 @@
+{
+  "config": {
+    "no-inline-html": false,
+    "line-length": false,
+    "commands-show-output": false,
+    "ol-prefix": false,
+    "no-trailing-punctuation": false,
+    "no-alt-text": false
+  }
+}

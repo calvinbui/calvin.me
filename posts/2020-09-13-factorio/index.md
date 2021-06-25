@@ -119,4 +119,3 @@ Finally I threw it in [ImageOptim](https://imageoptim.com/mac)/[FileOptimizer](h
 $ guetzli new.jpg new-guetzli.jpg
 Image too large
 ```
-
