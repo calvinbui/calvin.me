@@ -6,7 +6,10 @@
     "baseUrl": "src",
     "jsx": "react",
     "paths": {
-      "*": ["*", "src/*"]
+      "*": [
+        "*",
+        "src/*"
+      ]
     }
   },
   "typeAcquisition": {
@@ -17,5 +20,10 @@
   },
   "compileOnSave": true,
   "allowJS": true,
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
