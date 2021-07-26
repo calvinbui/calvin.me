@@ -25,7 +25,7 @@ I took up the [$30 off deal for NBN 1000/50 from Aussie Broadband](https://www.o
 
 NBN 1000, officially known as [Home Ultrafast](https://www.nbnco.com.au/learn/speed#home-ultrafast), is a speed tier provided to households with a [Hybrid Fibre Coaxial (HFC)](https://www.nbnco.com.au/learn/network-technology/hybrid-fibre-coaxial-explained-hfc-3) or [Fibre to the Premises (FTTP)](https://www.nbnco.com.au/learn/network-technology/fibre-to-the-premises-explained-fttp) connections. Note that only around 7% of HFC customers are eligible.
 
-NBN 1000 / Home Ultrafast rated between **500 Mbps to 1000 Mbps (1 Gbps)** downloads and up to **50 Mbps** upload. Converting that from megabits to megabytes, it would be **62.5 MB/s to 125 MB/s** downloads and **6.25 MB/s** upload.
+NBN 1000 / Home Ultrafast is rated between **500 Mbps to 1000 Mbps (1 Gbps)** downloads and up to **50 Mbps** upload. Converting that from megabits to megabytes, it would be **62.5 MB/s to 125 MB/s** downloads and **6.25 MB/s** upload.
 
 ## Test methodology
 
@@ -46,7 +46,7 @@ I tested using [speedtest.net](https://speedtest.net), [fast.com](http://fast.co
 ### speedtest.net
 
 <video autoplay loop controls width="100%" height="auto">
-  <source type="video/webm" src="speedtest-peak.webm">
+  <source type="video/webm" src="speedtest-offpeak.webm">
   <p>Your browser does not support the video element.</p>
 </video>
 
@@ -68,7 +68,7 @@ When running OpenVPN directly on my MacBook I assume the CPU overhead and traffi
 During peak hours, my speed went down to around ~589 Mbps. It was of useable of course.
 
 <video autoplay loop controls width="100%" height="auto">
-  <source type="video/webm" src="speedtest-offpeak.webm">
+  <source type="video/webm" src="speedtest-peak.webm">
   <p>Your browser does not support the video element.</p>
 </video>
 
