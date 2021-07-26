@@ -31,7 +31,7 @@ NBN 1000 / Home Ultrafast is rated between **500 Mbps to 1000 Mbps (1 Gbps)** do
 
 All tests performed were late at night during off-peak/evening hours (~2 AM to ~8 AM) to get the most of the connection.
 
-I ran the tests on my PC I have shared in my [previous posts](/sff-desktop). It has a a gigabit LAN connection.
+I ran the tests on my PC I have shared in my [previous posts](/sff-desktop). It has a gigabit LAN connection.
 
 I am on a HFC connection from Aussie Broadband. It goes through the NBN provided Arris CM8200 modem into my [OPNsense router](https://opnsense.org/). From there it goes to a [UniFi Switch 8-150W](https://www.ui.com/unifi-switching/unifi-switch-8-150w/) and then into my computer.
 
@@ -54,7 +54,7 @@ During off-peak, I was able to max it out at 946 Mbps (118.25 MB/s) after a few 
 
 I attempted the same tests while connected to [Mullvad's OpenVPN server and WireGuard server](https://mullvad.net/en/servers/) in Australia through OPNsense. I also performed the same test on my MacBook Pro through OpenVPN as a real-world example.
 
-There is overhead when using a VPN service. WireGuard is faster than OpenVPN, however neither were able to break the 900 Mbps barrier.
+There is an overhead when using a VPN service. WireGuard is faster than OpenVPN, however, neither were able to break the 900 Mbps barrier.
 
 When running OpenVPN directly on my MacBook I assume the CPU overhead and traffic hops was the reason it scored so low.
 
@@ -65,7 +65,7 @@ When running OpenVPN directly on my MacBook I assume the CPU overhead and traffi
 | Wireguard (OPNsense) | 107 MB/s (856 Mbps) |
 | OpenVPN (MacOS)      | 78 MB/s (624 Mbps)  |
 
-During peak hours, my speed went down to around ~589 Mbps. It was of useable of course.
+During peak hours, my speed went down to around ~589 Mbps. It was useable of course.
 
 <video autoplay loop controls width="100%" height="auto">
   <source type="video/webm" src="speedtest-peak.webm">
