@@ -465,7 +465,7 @@ blockquote {
     padding: 0;
     font-size: 1.15rem;
 
-    &:last-of-type {
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -484,6 +484,12 @@ blockquote {
 
   code {
     margin: 1rem 0 0;
+  }
+
+  ul {
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
