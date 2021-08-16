@@ -17,6 +17,8 @@ I wrote a tool to automatically add and remove new services to the popular [Home
 
 The initial idea came from my personal experience. Adding, changing or removing a self-hosted service also required updating the Homer dashboard configuration. I wanted to automate this similar to how Traefik would reverse proxy any new containers using its labels.
 
+![](dashboard.png)
+
 ## About
 
 The application is written in Golang and is free and open-source including the CI and release process on [GitHub Actions](https://github.com/calvinbui/homer-service-discovery/actions).
