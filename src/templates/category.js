@@ -49,6 +49,8 @@ export const pageQuery = graphql`
                   placeholder: BLURRED
                 )
               }
+              extension
+              publicURL
             }
           }
         }

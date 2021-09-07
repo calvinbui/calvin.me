@@ -20,7 +20,13 @@ export default class PostTemplate extends Component {
     post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
     if (post.thumbnail) {
-      thumbnail = post.thumbnail.childImageSharp.gatsbyImageData
+      if (post.thumbnail.childImageSharp) {
+        thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
+      } else {
+        thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
+      }
+    } else {
+      thumbnail = <div />
     }
 
     const date = formatDate(post.date)
@@ -34,7 +40,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
-            {thumbnail && <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />}
+            {thumbnail}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
@@ -80,6 +86,8 @@ export const pageQuery = graphql`
               placeholder: BLURRED
             )
           }
+          extension
+          publicURL
         }
       }
     }

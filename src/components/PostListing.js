@@ -32,13 +32,19 @@ export default class PostListing extends Component {
         {postList.map(post => {
           let thumbnail
           if (post.thumbnail) {
-            thumbnail = post.thumbnail.childImageSharp.gatsbyImageData
+            if (post.thumbnail.childImageSharp) {
+              thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
+            } else {
+              thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
+            }
+          } else {
+            thumbnail = <div />
           }
 
           return (
             <Link to={post.path} key={post.title}>
               <div className="each">
-                {thumbnail ? <GatsbyImage image={thumbnail} /> : <div />}
+                {thumbnail}
                 <div className="each-list-item">
                   <h2>{post.title}</h2>
                   <div className="datetime">{post.date}</div>
