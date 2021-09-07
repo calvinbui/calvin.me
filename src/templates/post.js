@@ -25,8 +25,6 @@ export default class PostTemplate extends Component {
       } else {
         thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
       }
-    } else {
-      thumbnail = <div />
     }
 
     const date = formatDate(post.date)
@@ -40,7 +38,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
-            {thumbnail}
+            {thumbnail ? thumbnail : <div />}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">

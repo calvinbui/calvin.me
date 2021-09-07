@@ -37,14 +37,12 @@ export default class PostListing extends Component {
             } else {
               thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
             }
-          } else {
-            thumbnail = <div />
           }
 
           return (
             <Link to={post.path} key={post.title}>
               <div className="each">
-                {thumbnail}
+                {thumbnail ? thumbnail : <div />}
                 <div className="each-list-item">
                   <h2>{post.title}</h2>
                   <div className="datetime">{post.date}</div>
