@@ -35,14 +35,14 @@ export default class PostListing extends Component {
             if (post.thumbnail.childImageSharp) {
               thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
             } else {
-              thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
+              thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} alt="" /></div>
             }
           }
 
           return (
             <Link to={post.path} key={post.title}>
               <div className="each">
-                {thumbnail ? thumbnail : <div />}
+                {thumbnail || <div />}
                 <div className="each-list-item">
                   <h2>{post.title}</h2>
                   <div className="datetime">{post.date}</div>

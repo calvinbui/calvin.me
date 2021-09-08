@@ -23,7 +23,7 @@ export default class PostTemplate extends Component {
       if (post.thumbnail.childImageSharp) {
         thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
       } else {
-        thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} /></div>
+        thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} alt="" /></div>
       }
     }
 
@@ -38,7 +38,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
-            {thumbnail ? thumbnail : <div />}
+            {thumbnail || <div />}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
