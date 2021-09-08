@@ -5,7 +5,8 @@ categories:
 tags:
 - displayport
 - kvm
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/4757451/computer_device_hardware_monitor_pc_screen_technology_icon
+thumbnail: thumbnail.svg
 ---
 
 My cheaper solution to purchasing a DisplayPort 1.4 compatible KVM.

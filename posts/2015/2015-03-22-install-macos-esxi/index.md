@@ -1,14 +1,15 @@
 ---
 title: Install macOS on ESXi
 categories:
--   Virtualisation
+- Virtualisation
 tags:
--   esxi
--   install
--   mac os x
--   macOS
--   vmware
-thumbnail: thumbnail.png
+- esxi
+- install
+- mac os x
+- macOS
+- vmware
+# https://www.iconfinder.com/icons/1891024/apple_command_key_keyboard_modifier_icon
+thumbnail: thumbnail.svg
 ---
 
 UPDATE 18/10/16: Changed to support 10.12

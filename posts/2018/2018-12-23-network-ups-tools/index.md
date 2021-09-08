@@ -1,11 +1,12 @@
 ---
 title: Network UPS Tools
 categories:
--   Computers
+- Computers
 tags:
--   nut
--   ups
-thumbnail: thumbnail.png
+- nut
+- ups
+# https://www.iconfinder.com/icons/379540/battery_charging_icon
+thumbnail: thumbnail.svg
 ---
 
 Notify servers of network power loss so they begin shutting down.

@@ -1,14 +1,15 @@
 ---
 title: Android GPS App Comparison
 categories:
--   Mobile
--   Review
+- Mobile
+- Review
 tags:
--   android
--   best
--   comparison
--   gps
-thumbnail: thumbnail.png
+- android
+- best
+- comparison
+- gps
+# https://www.iconfinder.com/icons/1055086/compass_direction_location_navigation_icon
+thumbnail: thumbnail.svg
 ---
 
 I drive a lot for work. To work and from work. The most handy thing I have on my drive is my phone running my GPS to let me know the fastest way there. There are a lot of apps out there though and I can't stand it knowing there might be a better one out there. The only way to find out the best one, is to try them all.
@@ -38,21 +39,21 @@ X - Not available.
 
 ● - Paid option.
 
-| App | Offline Maps | Live Traffic | Speed Cameras | Speed Limit | Police/Cameras | Lane Assist | Voice | UI | Notes |
-|-|-|-|-|-|-|-|-|-|-|
-| Google Maps | ✔ | ✔ | X | X | X | ✔ | ✔ | 4/4 | Lane Guidance not available in Australia |
-| Waze | X | ✔ | ✔ | ✔ | ✔ | X | ✔ | 4/4 | Took me the long way home a few times. |
-| TomTom | ● | ● | ● | ● | ● | ● | ● | 3/4 | Free for 75km. Handy fuel stations on the side |
-| Sygic | ✔ | ● | ○ | ✔ | ✔ | ● | ✔ | 4/4 | Crashes if Xposed is installed |
-| CoPilot | ✔ | ● | ● | ● | X | ● | ● | 3/4 | Free version is limited. Premium version much better. |
-| NAVIGON ($29.95) | ● | ● | ● | ● | ● | ● | ● | 1/4 | The design is so old and very outdated. |
-| MapFactor | ✔ | X | X | X | X | ✔ | ✔ | 2/4 | Crashed once |
-| Offline maps & Navigation | ✔ | X | ○ | ● | X | ● | ✔ | 3/4 | Also known as GPS Navigation BE-ON-ROAD |
-| Route 66 Navigate | ● | ● | ● | ● | X | ● | ● | 3/4 | Installs on a one month trial basis |
-| HERE | ✔ | ✔ | X | ✔ | X | X | ✔ | 4/4 | Has some social features |
-| Scout | ● | ○ | ✔ | ● | ● | ● | ✔ | 3/4 | Entering destination is clunky |
-| MAPS.ME | ✔ | X | X | X | X | X | X | 4/4 | Could not find common locations like schools |
-| OsmAnd | ○ | X | X | X | X | X | ✔ | 2/4 | Entering destination is clunky |
-| Wisepilot | X | ✔ | X | ✔ | X | X | ✔ | 3/4 | Could not find schools, speed limit only on major roads |
+| App                       | Offline Maps | Live Traffic | Speed Cameras | Speed Limit | Police/Cameras | Lane Assist | Voice | UI  | Notes                                                   |
+|---------------------------|--------------|--------------|---------------|-------------|----------------|-------------|-------|-----|---------------------------------------------------------|
+| Google Maps               | ✔            | ✔            | X             | X           | X              | ✔           | ✔     | 4/4 | Lane Guidance not available in Australia                |
+| Waze                      | X            | ✔            | ✔             | ✔           | ✔              | X           | ✔     | 4/4 | Took me the long way home a few times.                  |
+| TomTom                    | ●            | ●            | ●             | ●           | ●              | ●           | ●     | 3/4 | Free for 75km. Handy fuel stations on the side          |
+| Sygic                     | ✔            | ●            | ○             | ✔           | ✔              | ●           | ✔     | 4/4 | Crashes if Xposed is installed                          |
+| CoPilot                   | ✔            | ●            | ●             | ●           | X              | ●           | ●     | 3/4 | Free version is limited. Premium version much better.   |
+| NAVIGON ($29.95)          | ●            | ●            | ●             | ●           | ●              | ●           | ●     | 1/4 | The design is so old and very outdated.                 |
+| MapFactor                 | ✔            | X            | X             | X           | X              | ✔           | ✔     | 2/4 | Crashed once                                            |
+| Offline maps & Navigation | ✔            | X            | ○             | ●           | X              | ●           | ✔     | 3/4 | Also known as GPS Navigation BE-ON-ROAD                 |
+| Route 66 Navigate         | ●            | ●            | ●             | ●           | X              | ●           | ●     | 3/4 | Installs on a one month trial basis                     |
+| HERE                      | ✔            | ✔            | X             | ✔           | X              | X           | ✔     | 4/4 | Has some social features                                |
+| Scout                     | ●            | ○            | ✔             | ●           | ●              | ●           | ✔     | 3/4 | Entering destination is clunky                          |
+| MAPS.ME                   | ✔            | X            | X             | X           | X              | X           | X     | 4/4 | Could not find common locations like schools            |
+| OsmAnd                    | ○            | X            | X             | X           | X              | X           | ✔     | 2/4 | Entering destination is clunky                          |
+| Wisepilot                 | X            | ✔            | X             | ✔           | X              | X           | ✔     | 3/4 | Could not find schools, speed limit only on major roads |
 
 I personally would not use an app if it did not have live traffic data. Waze is also a strong contender and I find myself using it a lot of the time just for its simplicity and trust in traffic data. Sometimes that's all that matters. Waze has voice search, uses Google when searching locations and takes traffic data from multiple places including Waze. It only lacks in Lane Assistance. **Waze is therefore my choice of GPS app**.

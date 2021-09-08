@@ -1,14 +1,15 @@
 ---
 title: Monthly Update (11/01/2015)
 categories:
--   Misc
+- Misc
 tags:
--   chromecast
--   distributed switches
--   monthly update
--   nps
--   plex
-thumbnail: thumbnail.png
+- chromecast
+- distributed switches
+- monthly update
+- nps
+- plex
+# https://www.iconfinder.com/icons/2799196/bonfire_camping_fire_light_outdoor_flame_icon
+thumbnail: thumbnail.svg
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

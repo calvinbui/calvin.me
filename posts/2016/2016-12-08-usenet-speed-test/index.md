@@ -1,10 +1,11 @@
 ---
 title: Usenet Providers Speed Test from Sydney
 categories:
--   Web
+- Web
 tags:
--   usenet
-thumbnail: thumbnail.png
+- usenet
+# https://www.iconfinder.com/icons/1034366/speed_fast_stopwatch_timer_icon
+thumbnail: thumbnail.svg
 ---
 
 I signed up for a few trials before the Black Friday sales to test out some different providers and their download speeds.
@@ -21,17 +22,17 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 * Only providers with SSL were used.
 * I used up all available connections advertised by the provider.
 
-| Provider | Advertised (MB/s) | Real (MB/s) | Length | Downloaded | Notes
-|-|-|-|-|-|-
-| CheapNews | 15 | 5.46 | 1 year | 2.1TB | My old provider
-| Usenet.Farm | N/A | 4.44 | 5 days | 7.5GB | 10GB Trial
-| Giganews | N/A | 7.19 | 6 days | 10GB | 10GB Trial
-| UsenetBucket | N/A | 11.8 | 7 days | 18GB | 7 Day / 25GB Trial
-| TweakNews | 2.5 | 2.07 | 5 days | 10GB | 7 Day / 10GB Trial
-| EasyNews | N/A | 13.5 | 14 days | 162GB | 14 Day / 10 GB Trial, which kept going
-| Newsdemon | Unlimited | 11.1 | 5 days | 14GB | 15GB Trial
-| Newsgroupdirect (US) | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
-| Frugal (US) | N/A | 12.0 | 10 days | 38GB | EU servers @ 6.8MB/s
+| Provider             | Advertised (MB/s) | Real (MB/s) | Length  | Downloaded | Notes                                  |
+|----------------------|-------------------|-------------|---------|------------|----------------------------------------|
+| CheapNews            | 15                | 5.46        | 1 year  | 2.1TB      | My old provider                        |
+| Usenet.Farm          | N/A               | 4.44        | 5 days  | 7.5GB      | 10GB Trial                             |
+| Giganews             | N/A               | 7.19        | 6 days  | 10GB       | 10GB Trial                             |
+| UsenetBucket         | N/A               | 11.8        | 7 days  | 18GB       | 7 Day / 25GB Trial                     |
+| TweakNews            | 2.5               | 2.07        | 5 days  | 10GB       | 7 Day / 10GB Trial                     |
+| EasyNews             | N/A               | 13.5        | 14 days | 162GB      | 14 Day / 10 GB Trial, which kept going |
+| Newsdemon            | Unlimited         | 11.1        | 5 days  | 14GB       | 15GB Trial                             |
+| Newsgroupdirect (US) | Unlimited         | 13.5        | 7 days  | 50GB       | EU servers @ 7MB/s                     |
+| Frugal (US)          | N/A               | 12.0        | 10 days | 38GB       | EU servers @ 6.8MB/s                   |
 
 ## Summary
 

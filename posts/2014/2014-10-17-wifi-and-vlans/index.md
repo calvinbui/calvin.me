@@ -1,11 +1,12 @@
 ---
 title: WiFi and VLANs
 categories:
--   Networking
+- Networking
 tags:
--   vlan
--   wifi
-thumbnail: thumbnail.png
+- vlan
+- wifi
+# https://www.iconfinder.com/icons/3259413/media_social_wifi_icon
+thumbnail: thumbnail.svg
 ---
 
 WiFi is so important in the household with the emergence of portable devices. Pretty much everyone that comes over my place, young or old, will want to connect to it for some YouTube (young) and Viber (old). Because my network is segregated into various VLANs, they must be directed and placed correctly into the right network. This is how I made my network work with WiFi and VLANs.

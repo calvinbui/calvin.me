@@ -1,11 +1,12 @@
 ---
 title: My Prusa i3 MK3 3D Printer Mods
 categories:
--   Misc
+- Misc
 tags:
--   3d-printing
--   prusa
-thumbnail: thumbnail.png
+- 3d-printing
+- prusa
+# https://www.iconfinder.com/icons/2620507/employee_job_print_seeker_unemployee_work_icon
+thumbnail: thumbnail.svg
 ---
 
 The Prusa i3 MK3 is one of FDM printers you can buy. Here's my printer with a bunch of mods to improve print quality and ease of use.

@@ -4,7 +4,8 @@ categories:
 - Gaming
 tags:
 - factorio
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/2674077/object_gear_web_essential_icon
+thumbnail: thumbnail.svg
 ---
 
 I finished Factorio for the first time in just under 50 hours. I waited for the 1.0 release to play it and it was well worth it.

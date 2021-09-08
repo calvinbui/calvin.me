@@ -1,13 +1,14 @@
 ---
 title: Easily host your first ever website on Bluemix
 categories:
--   Web
+- Web
 tags:
--   bluemix
--   hosting
--   ibm
--   wordpress
-thumbnail: thumbnail.png
+- bluemix
+- hosting
+- ibm
+- wordpress
+# https://www.iconfinder.com/icons/4263525/builder_code_design_monitor_website_icon
+thumbnail: thumbnail.svg
 ---
 
 You don’t need to be an IT nerd to start and manage a website – at least not when using [IBM Bluemix](https://console.ng.bluemix.net/). Bluemix takes the worry out of setting up a website. It’s a lot of work configuring a web server, opening network ports and dealing with your home Internet’s upload speed. It’s also most likely against the conditions of your Internet Service Provider to allow hosting at any of their residential plans. Bluemix can host your website though.

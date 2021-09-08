@@ -1,11 +1,12 @@
 ---
 title: My 72TB FreeNAS Server
 categories:
--   Storage
+- Storage
 tags:
--   freenas
--   nas
-thumbnail: thumbnail.png
+- freenas
+- nas
+# https://www.iconfinder.com/icons/4263519/backups_disk_drive_hdd_icon
+thumbnail: thumbnail.svg
 ---
 
 It's been 5 years since my last one and I was starting to run out of space.
@@ -20,18 +21,18 @@ The last FreeNAS server was built in mid-2014 with 24TB of raw space. In a RAID-
 
 ## Hardware
 
-| Type | Item
-|-|-
-| **CPU** | [Intel Xeon E5-1620 V4](https://ark.intel.com/content/www/us/en/ark/products/92991/intel-xeon-processor-e5-1620-v4-10m-cache-3-50-ghz.html)
-| **Memory** | 16GB Micron 128GB VLP DDR4 x 8 (128GB)
-| **Motherboard** | [Supermicro X10SRi-F](https://www.supermicro.com/products/motherboard/xeon/c600/X10SRi-F.cfm)
-| **Case** | [Norco RPC-431](http://www.norcotek.com/product/rpc-431/)
-| **Power Supply** | Corsair AX760
-| **SSD** | Intel 520 120GB SSD
-| **HDD** | Seagate Ironwolf 8TB x 9
-| **CPU Cooler** | [Noctua NH-U9DX i4](https://noctua.at/en/nh-u9dx-i4)
-| **Front fans** | [Noctua NF A12x25 ULN](https://noctua.at/en/nf-a12x25-uln) x 3
-| **Rear fans** | [Noctua NF-A8 FLX](https://noctua.at/en/products/fan/nf-a8-flx) x 2
+| Type             | Item                                                                                                                                        |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **CPU**          | [Intel Xeon E5-1620 V4](https://ark.intel.com/content/www/us/en/ark/products/92991/intel-xeon-processor-e5-1620-v4-10m-cache-3-50-ghz.html) |
+| **Memory**       | 16GB Micron 128GB VLP DDR4 x 8 (128GB)                                                                                                      |
+| **Motherboard**  | [Supermicro X10SRi-F](https://www.supermicro.com/products/motherboard/xeon/c600/X10SRi-F.cfm)                                               |
+| **Case**         | [Norco RPC-431](http://www.norcotek.com/product/rpc-431/)                                                                                   |
+| **Power Supply** | Corsair AX760                                                                                                                               |
+| **SSD**          | Intel 520 120GB SSD                                                                                                                         |
+| **HDD**          | Seagate Ironwolf 8TB x 9                                                                                                                    |
+| **CPU Cooler**   | [Noctua NH-U9DX i4](https://noctua.at/en/nh-u9dx-i4)                                                                                        |
+| **Front fans**   | [Noctua NF A12x25 ULN](https://noctua.at/en/nf-a12x25-uln) x 3                                                                              |
+| **Rear fans**    | [Noctua NF-A8 FLX](https://noctua.at/en/products/fan/nf-a8-flx) x 2                                                                         |
 
 I want to talk about a few bits of hardware:
 

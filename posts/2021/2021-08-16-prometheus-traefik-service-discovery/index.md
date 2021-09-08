@@ -6,7 +6,8 @@ tags:
 - prometheus
 - traefik
 - golang
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/5243663/binocular_field_glass_magnifying_glass_search_spyglass_icon
+thumbnail: thumbnail.svg
 ---
 
 I wrote a tool to generate [Prometheus](https://github.com/prometheus/prometheus) targets from [Traefik](https://github.com/traefik/traefik). Prometheus Traefik Service Discovery is available over on GitHub at [calvinbui/prometheus-traefik-sd](https://github.com/calvinbui/prometheus-traefik-sd).

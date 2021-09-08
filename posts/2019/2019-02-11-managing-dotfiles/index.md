@@ -1,10 +1,12 @@
 ---
 title: Managing Dotfiles
 categories:
--   Computers
+- Computers
 tags:
--   dotbot
-thumbnail: thumbnail.png
+- dotbot
+- dotfiles
+# https://www.iconfinder.com/icons/7324042/ui_interface_more_options_menu_dots_icon
+thumbnail: thumbnail.svg
 ---
 
 How I backup, restore and sync preferences and settings across computers.

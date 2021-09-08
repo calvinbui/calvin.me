@@ -1,14 +1,15 @@
 ---
 title: Slow VMware NFS on ZFS? Add a ZIL!
 categories:
--   Storage
--   Virtualisation
+- Storage
+- Virtualisation
 tags:
--   nfs
--   vmware
--   zfs
--   zil
-thumbnail: thumbnail.png
+- nfs
+- vmware
+- zfs
+- zil
+# https://www.iconfinder.com/icons/4417092/fast_load_speed_website_server_speedometer_web_icon
+thumbnail: thumbnail.svg
 ---
 
 A short post on how I exponentially sped up my VMware environment.

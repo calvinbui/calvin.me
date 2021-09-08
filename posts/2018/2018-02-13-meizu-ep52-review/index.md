@@ -1,11 +1,12 @@
 ---
 title: Meizu EP52 Wireless Bluetooth Sport Earphones Review
 categories:
--   Review
+- Review
 tags:
--   meizu
--   audio
-thumbnail: thumbnail.png
+- meizu
+- audio
+# https://www.iconfinder.com/icons/4105545/audio_melody_music_sound_icon
+thumbnail: thumbnail.svg
 ---
 
 A really quick review of the Meizu EP52 earphones I use for the gym.

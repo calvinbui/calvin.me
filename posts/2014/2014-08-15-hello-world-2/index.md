@@ -1,10 +1,11 @@
 ---
 title: Hello World, Hi I'm Calvin
 categories:
--   Blog
+- Blog
 tags:
--   hello world
-thumbnail: thumbnail.png
+- hello world
+# https://www.iconfinder.com/icons/1312084/circle_outline_social-media_wordpress_icon
+thumbnail: thumbnail.svg
 ---
 
 Hello World !

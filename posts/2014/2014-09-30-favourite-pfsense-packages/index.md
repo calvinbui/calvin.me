@@ -1,11 +1,12 @@
 ---
 title: The Best pfSense Packages
 categories:
--   Networking
+- Networking
 tags:
--   packages
--   pfsense
-thumbnail: thumbnail.png
+- packages
+- pfsense
+# https://www.iconfinder.com/icons/1871424/gift_online_shop_shopping_icon
+thumbnail: thumbnail.svg
 ---
 
 pfSense, the great software that it already is, can get even better with 'packages' (plugin, extension etc. whatever you want to call it) available straight from the Package Manager menu. pfSense packages include diagnostics, increased network management capabilities, enhanced security or to extend pfSense's range of services. Here are the pfSense packages that I use personally plus some highly recommended ones as well!

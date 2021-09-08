@@ -1,10 +1,11 @@
 ---
 title: Dragon Quest Builders Results
 categories:
--   Gaming
+- Gaming
 tags:
--   dragon-quest
-thumbnail: thumbnail.png
+- dragon-quest
+# https://www.iconfinder.com/icons/2620497/employee_job_seeker_test_unemployee_work_icon
+thumbnail: thumbnail.svg
 ---
 
 My results from all four chapter of this wonderful game!

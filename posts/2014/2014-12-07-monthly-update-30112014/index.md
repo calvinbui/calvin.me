@@ -1,20 +1,21 @@
 ---
 title: The Monthly Update (30/11/2014)
 categories:
--   Misc
+- Misc
 tags:
--   apt-cacher
--   gist
--   havp
--   lifx
--   monitoring
--   monthly update
--   pbx
--   syntax
--   usenet
--   video player
--   wordpress
-thumbnail: thumbnail.png
+- apt-cacher
+- gist
+- havp
+- lifx
+- monitoring
+- monthly update
+- pbx
+- syntax
+- usenet
+- video player
+- wordpress
+# https://www.iconfinder.com/icons/2799189/camping_outdoor_travel_knife_pocket_icon
+thumbnail: thumbnail.svg
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

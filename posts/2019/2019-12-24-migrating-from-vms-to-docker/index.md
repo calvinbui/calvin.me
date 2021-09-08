@@ -1,13 +1,14 @@
 ---
 title: Migrating from VMs to Docker
 categories:
--   Networking
--   Virtualisation
+- Networking
+- Virtualisation
 tags:
--   docker
--   vmware
--   vlans
-thumbnail: thumbnail.png
+- docker
+- vmware
+- vlans
+# https://github.com/Iconscout/unicons/blob/master/svg/line/docker.svg
+thumbnail: thumbnail.svg
 ---
 
 My journey from VMware ESXi to purely Docker.

@@ -1,16 +1,17 @@
 ---
 title: Retooling for Privacy Part 2
 categories:
--   Security
--   Privacy
+- Security
+- Privacy
 tags:
--   google
--   nextcloud
--   piwigo
--   xbrowsersync
--   snips
--   hauk
-thumbnail: thumbnail.png
+- google
+- nextcloud
+- piwigo
+- xbrowsersync
+- snips
+- hauk
+# https://www.iconfinder.com/icons/5243664/shield_user_privacy_user_protection_user_shield_webpage_icon
+thumbnail: thumbnail.svg
 ---
 
 More I've done for my online privacy since my [previous post](/retooling-for-privacy).

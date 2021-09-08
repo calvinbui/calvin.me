@@ -1,11 +1,12 @@
 ---
 title: My Ansible Roles
 categories:
--   Computers
+- Computers
 tags:
--   ansible
--   automation
-thumbnail: thumbnail.png
+- ansible
+- automation
+# https://www.iconfinder.com/icons/3316553/animal_cow_cows_milk_vaca_icon
+thumbnail: thumbnail.svg
 ---
 
 A collection of Ansible roles I wrote to automate installation and configuration of my homelab.

@@ -9,7 +9,8 @@ tags:
 - password
 - cracking
 - macos
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/4757447/key_lock_password_secure_security_icon
+thumbnail: thumbnail.svg
 ---
 
 [John The Ripper](https://www.openwall.com/john/) is a free and open-source software for fast password cracking. Cracking DMG, RAR and other types of passwords is made easier using [magnumripper's "jumbo" version of John The Ripper](https://github.com/magnumripper/JohnTheRipper).

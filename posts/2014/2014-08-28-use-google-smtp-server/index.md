@@ -1,13 +1,14 @@
 ---
 title: Use the Google SMTP Server for notifications
 categories:
--   Networking
+- Networking
 tags:
--   email
--   google
--   notification
--   smtp
-thumbnail: thumbnail.png
+- email
+- google
+- notification
+- smtp
+# https://www.iconfinder.com/icons/5027859/chat_letter_mail_message_icon
+thumbnail: thumbnail.svg
 ---
 
 A lot of (the good ones at least) hardware and software give you the ability to send notifications via email when scheduled too or a warning/error occurs. Without having to build and maintain your own mail server, you can use the Google SMTP server as your sending mail server.

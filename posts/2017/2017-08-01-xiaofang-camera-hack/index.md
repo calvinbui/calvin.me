@@ -1,11 +1,12 @@
 ---
 title: Hacking the Xiaomi Xiaofang Camera
 categories:
--   Programming
+- Programming
 tags:
--   xiaomi
--   camera
-thumbnail: thumbnail.png
+- xiaomi
+- camera
+# https://www.iconfinder.com/icons/4171340/camera_day_love_movie_valentine_valentines_video_icon
+thumbnail: thumbnail.svg
 ---
 
 Hacking a $25 indoor camera to do more than it's worth.

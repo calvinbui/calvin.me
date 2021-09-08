@@ -1,11 +1,12 @@
 ---
 title: Twenty Fifteen Theme Problems
 categories:
--   Review
+- Review
 tags:
--   wordpress
--   theme
-thumbnail: thumbnail.png
+- wordpress
+- theme
+# https://www.iconfinder.com/icons/287518/wordpress_icon
+thumbnail: thumbnail.svg
 ---
 
 I don't like this year's default theme. I was excited for a few months looking at the previews and news circulating around, but it ended up not meeting my expectations.

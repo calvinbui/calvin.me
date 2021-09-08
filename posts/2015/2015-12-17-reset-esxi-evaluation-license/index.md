@@ -1,15 +1,16 @@
 ---
 title: Reset ESXi 6 Evaluation License (cron script included)
 categories:
--   Virtualisation
+- Virtualisation
 tags:
--   cron
--   esxi
--   evaluation
--   license
--   reset
--   script
-thumbnail: thumbnail.png
+- cron
+- esxi
+- evaluation
+- license
+- reset
+- script
+# https://www.iconfinder.com/icons/1720769/reload_recycle_refresh_remove_synchronize_icon
+thumbnail: thumbnail.svg
 ---
 
 For testing and educational purposes only.

@@ -1,13 +1,14 @@
 ---
 title: Forward IP Addresses with NGINX Proxy
 categories:
--   Networking
--   Web
+- Networking
+- Web
 tags:
--   ip address
--   nginx
--   proxy
-thumbnail: thumbnail.png
+- ip address
+- nginx
+- proxy
+# https://www.iconfinder.com/icons/4263513/address_dedicated_globe_ip_icon
+thumbnail: thumbnail.svg
 ---
 
 I love nginx. I love how its lightweight, does what it does well and is [extremely **fast**](http://www.theorganicagency.com/apache-vs-nginx-performance-comparison/). Nginx has the ability to perform server blocks (virtual hosts in Apache) which is great, though causes problems when having to forward IP addresses within its proxy headers. There is a solution.

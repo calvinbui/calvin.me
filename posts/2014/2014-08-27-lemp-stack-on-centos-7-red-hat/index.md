@@ -1,14 +1,15 @@
 ---
 title: 'Install LEMP Stack on CentOS 7 (Red Hat 7)'
 categories:
--   Web
+- Web
 tags:
--   centos
--   lemp
--   mysql
--   nginx
--   php
-thumbnail: thumbnail.png
+- centos
+- lemp
+- mysql
+- nginx
+- php
+# https://www.iconfinder.com/icons/5027849/businessman_creative_idea_lamp_icon
+thumbnail: thumbnail.svg
 ---
 
 A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as a LEMP stack on CentOS 7 (and usable on Red Hat 7 as well). _Image from Digital Ocean [link](https://twitter.com/digitalocean/status/496697898248065025)._

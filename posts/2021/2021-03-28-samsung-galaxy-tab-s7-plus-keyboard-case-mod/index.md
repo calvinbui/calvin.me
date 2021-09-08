@@ -6,7 +6,8 @@ tags:
 - samsung galaxy tab s7+
 - diy
 - tablet
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/667360/browse_internet_online_surf_tablet_icon
+thumbnail: thumbnail.svg
 ---
 
 The official Book Cover Keyboard Case from Samsung provides zero protection around the edges of the tablet. My goal was to combine a cheap TPU case to give it the protection it needs.

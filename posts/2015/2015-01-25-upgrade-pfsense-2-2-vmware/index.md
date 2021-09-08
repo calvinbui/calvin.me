@@ -1,12 +1,13 @@
 ---
 title: Upgrade to pfSense 2.2 on VMware
 categories:
--   Networking
+- Networking
 tags:
--   pfsense
--   upgrade
--   vmware
-thumbnail: thumbnail.png
+- pfsense
+- upgrade
+- vmware
+# https://www.iconfinder.com/icons/4263538/bigger_larger_resource_scaling_server_upgrade_icon
+thumbnail: thumbnail.svg
 ---
 
 pfSense 2.2 has been released! This release brings FreeBSD 10.1 but also fixes over 300 bugs as well. The biggest change for those virtualising on VMware will be the VMXNET3 label change from 'vmx3f' to 'vmx'.

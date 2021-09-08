@@ -9,7 +9,8 @@ tags:
 - personal rig
 - elgato hd60 s+
 - avermedia live gamer 4k gc573
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/search?q=heart+computer&price=free&license=gte__2
+thumbnail: thumbnail.svg
 ---
 
 A small update to my personal computer.

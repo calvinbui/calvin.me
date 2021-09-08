@@ -1,11 +1,12 @@
 ---
 title: My Next Laptop
 categories:
--   Review
--   Computers
+- Review
+- Computers
 tags:
--   laptop
-thumbnail: thumbnail.png
+- laptop
+# https://www.iconfinder.com/icons/4417111/browser_laptop_on_web_browsing_surfing_icon
+thumbnail: thumbnail.svg
 ---
 
 I’m not into writing a buying guides, [LappyList](http://www.lappylist.com/) is probably the best place to find a laptop if you want something that would probably do the job pretty well. This is based off my own research I have done in preparation to replace my slowly dying (but strong) 5-year-old Lenovo X220. These laptops are what I would probably end up purchasing.
@@ -153,7 +154,7 @@ Summary:
 ### Summary
 
 | Laptop             | Price  | CPU           | RAM  | Display |
-| ------------------ | ------ | ------------- | ---- | ------- |
+|--------------------|--------|---------------|------|---------|
 | Toshiba Chromebook | $400   | Celeron 3215U | 4GB  | 13.3    |
 | Lenovo E460        | $1,000 | i7 6500U      | 16GB | 14      |
 | Lenovo  X260       | $1,300 | i5 6200U      | 16GB | 12.5    |

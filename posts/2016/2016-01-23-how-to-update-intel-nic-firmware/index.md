@@ -1,10 +1,11 @@
 ---
 title: How to Update Firmware on an Intel NIC
 categories:
--   Networking
+- Networking
 tags:
--   intel
-thumbnail: thumbnail.png
+- intel
+# https://www.iconfinder.com/icons/2317718/communication_computing_connection_internet_lan_lancard_satellite_icon
+thumbnail: thumbnail.svg
 ---
 
 You should update your NIC cause newer is always better right? Right!

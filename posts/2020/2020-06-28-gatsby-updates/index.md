@@ -1,10 +1,11 @@
 ---
 title: "Blog Updates"
 categories:
--   Blog
+- Blog
 tags:
--   gatsby
-thumbnail: thumbnail.png
+- gatsby
+# https://www.iconfinder.com/icons/728898/page_folder_add_plus_file_create_new_icon
+thumbnail: thumbnail.svg
 ---
 
 A few more changes building on top of [my previous post](/now-powered-by-gatsby).

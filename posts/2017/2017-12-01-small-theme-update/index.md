@@ -1,10 +1,11 @@
 ---
 title: Small Theme Update
 categories:
--   Misc
+- Misc
 tags:
--   jekyll
-thumbnail: thumbnail.png
+- jekyll
+# https://www.iconfinder.com/icons/1154378/brush_easel_art_paint_painting_icon
+thumbnail: thumbnail.svg
 ---
 
 Some small tweaks here and there.

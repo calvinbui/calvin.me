@@ -1,12 +1,13 @@
 ---
 title: More Apps for the System Admin USB Drive
 categories:
--   Computers
+- Computers
 tags:
--   apps
--   system admin
--   usb
-thumbnail: thumbnail.png
+- apps
+- system admin
+- usb
+# https://www.iconfinder.com/icons/2317687/connector_data_dongle_flash_receiver_usb_wireless_icon
+thumbnail: thumbnail.svg
 ---
 
 If you haven't read the last post about making a [Multiboot USB Drive](https://calvin.me/make-a-multiboot-usb-drive/), definitely take a look! It creates a powerful drive that can be used to troubleshoot, fix problems, remove viruses and install operating systems!!! Since then I have been adding more tools to it as I need or discover.

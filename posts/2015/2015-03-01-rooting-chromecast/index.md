@@ -1,12 +1,13 @@
 ---
 title: Rooting the Chromecast
 categories:
--   Hacking
+- Hacking
 tags:
--   chromecast
--   hubcap
--   root
-thumbnail: thumbnail.png
+- chromecast
+- hubcap
+- root
+# https://www.iconfinder.com/icons/3225896/chrome_google_media_network_social_icon
+thumbnail: thumbnail.svg
 ---
 
 Rooting a Chromecast looks easy. The method itself looks easy. But when things look easy, they're never really easy. This is what I went through to get [Hubcap](http://forum.xda-developers.com/hardware-hacking/chromecast/root-hubcap-chromecast-root-release-t2855893) running on my Chromecast.

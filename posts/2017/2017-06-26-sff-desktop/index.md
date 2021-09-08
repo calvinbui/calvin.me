@@ -1,11 +1,12 @@
 ---
 title: My Ultra Compact Gaming Desktop
 categories:
--   Computers
+- Computers
 tags:
--   sff
--   mini-itx
-thumbnail: thumbnail.png
+- sff
+- mini-itx
+# https://www.iconfinder.com/icons/4417102/desktop_pc_server_icon
+thumbnail: thumbnail.svg
 ---
 
 A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!
@@ -18,20 +19,20 @@ A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!
 
 Let's start straight off with the spec sheet. I purchased most items back in February with eBay's 20% off deals from Futu Online where possible. I found this a bit cheaper than the usual brick and mortar stores like MSY, Umart or IJK.
 
-| COMPONENT      | ITEM                                                 | PRICE   |
-|----------------|------------------------------------------------------|---------|
-| CPU            | Intel 7700K ([Delidded](/delidding-7700k))                                          | 479.20   |
-| MOBO           | ASUS ROG STRIX Z270i                                 | 280.00     |
-| RAM            | Corsair Vengeance LED 32GB 3200Mhz C16 | 300.00     |
-| SSD1 (OS+APPS) | Samsung 850 EVO 500GB                                | 204.00     |
-| SSD2 (GAMES)   | Samsung 850 EVO 1TB                                  | 399.20   |
-| SSD3 (RECORD)  | Samsung 960 EVO 1TB                                  | 599.20   |
-| GPU            | Galax GTX 1080 Ti                                    | 0 (gift)       |
-| PSU            | Corsair SF600                                        | 162.00     |
-| CPU FAN        | Noctua NH-L9i                                        | 40.00      |
-| MONITOR        | Acer Predator XB1 XB271HU                            | 863.20   |
-| CASE           | DAN A4 SFX                                           | 388.35  |
-|                | **TOTAL**                                            | **$3715.15** |
+| COMPONENT      | ITEM                                       | PRICE        |
+|----------------|--------------------------------------------|--------------|
+| CPU            | Intel 7700K ([Delidded](/delidding-7700k)) | 479.20       |
+| MOBO           | ASUS ROG STRIX Z270i                       | 280.00       |
+| RAM            | Corsair Vengeance LED 32GB 3200Mhz C16     | 300.00       |
+| SSD1 (OS+APPS) | Samsung 850 EVO 500GB                      | 204.00       |
+| SSD2 (GAMES)   | Samsung 850 EVO 1TB                        | 399.20       |
+| SSD3 (RECORD)  | Samsung 960 EVO 1TB                        | 599.20       |
+| GPU            | Galax GTX 1080 Ti                          | 0 (gift)     |
+| PSU            | Corsair SF600                              | 162.00       |
+| CPU FAN        | Noctua NH-L9i                              | 40.00        |
+| MONITOR        | Acer Predator XB1 XB271HU                  | 863.20       |
+| CASE           | DAN A4 SFX                                 | 388.35       |
+|                | **TOTAL**                                  | **$3715.15** |
 
 To sum up this build nicely as you can find [reviews](https://www.hardocp.com/news/2017/01/03/intel_core_i77700k_kaby_lake_processor_review_roundup) and [benchmarks](https://videocardz.com/67173/nvidia-geforce-gtx-1080-ti-review-roundup) everywhere else:
 

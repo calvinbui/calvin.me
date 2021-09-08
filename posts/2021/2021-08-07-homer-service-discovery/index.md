@@ -6,7 +6,8 @@ tags:
 - homer
 - dashboard
 - golang
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/1055031/magnifying_search_view_icon
+thumbnail: thumbnail.svg
 ---
 
 I wrote a tool to automatically add and remove new services to the popular [Homer dashboard](https://github.com/bastienwirtz/homer). Homer Service Discovery is available over on GitHub at [calvinbui/homer-service-discovery](https://github.com/calvinbui/homer-service-discovery).

@@ -8,7 +8,8 @@ tags:
 - nbn
 - superfast
 - internet
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/2817115/newyears_party_rocket_icon
+thumbnail: thumbnail.svg
 ---
 
 After [testing NBN 1000 in my previous post](/testing-nbn-1000-ultrafast), I concluded that NBN 250 would be more than enough for me. I'll be putting that to the test.

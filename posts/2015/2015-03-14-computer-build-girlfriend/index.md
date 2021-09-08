@@ -1,12 +1,13 @@
 ---
 title: Computer Build for Girlfriend
 categories:
--   Computers
+- Computers
 tags:
--   computer build
--   log
--   parts
-thumbnail: thumbnail.png
+- computer build
+- log
+- parts
+# https://www.iconfinder.com/icons/3430590/avatar_female_girl_heart_love_valentine_woman_icon
+thumbnail: thumbnail.svg
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.
@@ -58,7 +59,7 @@ Eventually I was told the computer didn't have to be small and compact because i
 The proposed BRIX however was:
 
 | Type   | Item                         | Price |
-| ------ | ---------------------------- | ----- |
+|--------|------------------------------|-------|
 | System | Gigabyte BRIX Pro i7 4770R   | $799  |
 | Memory | G.Skill Ripjaws 16GB (2x8GB) | $185  |
 | SSD    | Intel SSD                    | OWN   |
@@ -71,7 +72,7 @@ The proposed BRIX however was:
 Even with the new budget of $800, I said I could do it for way less. For this build I went with a very basic configuration. At this point there was no talk about 'performance first' so I figured I'd build something for as cheap as possible.
 
 | Type             | Item                        | Price |
-| ---------------- | --------------------------- | ----- |
+|------------------|-----------------------------|-------|
 | **CPU**          | Intel Pentium G3240         | $76   |
 | **Memory**       | 32GB DDR3-1600MHz CL11 1.5V | OWN   |
 | **Motherboard**  | ASRock H81M-DGS             | $57   |
@@ -99,7 +100,7 @@ In this build made some considerations and assumptions:
 So with everything in mind I came up with this:
 
 | Type             | Item                        | Price |
-| ---------------- | --------------------------- | ----- |
+|------------------|-----------------------------|-------|
 | **CPU**          | Intel Core i7-4790          | $394  |
 | **Memory**       | 32GB DDR3-1600MHz CL11 1.5V | OWN   |
 | **Motherboard**  | Gigabyte GA-Z97MX-Gaming 5  | $179  |
@@ -123,7 +124,7 @@ This build set a very good baseline overall. I felt I needed some little adjustm
 ## Computer Build #4 - The One
 
 | Type             | Item                         | Price |
-| ---------------- | ---------------------------- | ----- |
+|------------------|------------------------------|-------|
 | **CPU**          | Intel Xeon E3-1231 V3        | $329  |
 | **Memory**       | 32GB DDR3-1600MHz CL11 1.5V  | OWN   |
 | **Motherboard**  | Gigabyte GA-H97-GAMING 3     | $134  |

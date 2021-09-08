@@ -1,11 +1,12 @@
 ---
 title: I'm migrating from Ubuntu to CentOS
 categories:
--   Computers
+- Computers
 tags:
--   centos
--   ubuntu
-thumbnail: thumbnail.png
+- centos
+- ubuntu
+# https://www.iconfinder.com/icons/5367252/linux_operating_system_ubuntu_icon
+thumbnail: thumbnail.svg
 ---
 
 I'm migrating from Ubuntu to CentOS as my main Linux distro. Literally every virtual machine (VM) I've set up so far runs Ubuntu's latest and greatest LTS (14.04 Trusty Tahr) so I won't be manually setting them all up again, only every VM I set up from this point onward. There's a couple of reasons for the change.

@@ -6,7 +6,8 @@ tags:
 - github actions
 - github pages
 - umami
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/379430/open_sign_icon
+thumbnail: thumbnail.svg
 ---
 
 I've made changes to this blog's build, hosting and analytics to be more transparent.

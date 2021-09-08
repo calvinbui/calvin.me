@@ -1,12 +1,13 @@
 ---
 title: Budget Gaming Computer Build
 categories:
--   Computers
+- Computers
 tags:
--   computer build
--   gaming
--   pc
-thumbnail: thumbnail.png
+- computer build
+- gaming
+- pc
+# https://www.iconfinder.com/icons/728948/control_device_game_joypad_playing_play_icon
+thumbnail: thumbnail.svg
 ---
 
 My cousin is a console convert. Previously owning a PS3 and Xbox One, he's moved over to exclusively gaming on his laptop. After realising how bad laptops are for gaming (they're bad), he's asked me to build him a budget gaming computer for less than $1000.
@@ -82,7 +83,7 @@ There weren't any other SSDs that were as good as the MX100 in this price range.
 ## Parts and Price List
 
 | Type        | Item                     | Price   |
-| ----------- | ------------------------ | ------- |
+|-------------|--------------------------|---------|
 | CPU         | Intel Core i7-2600       | $200    |
 | Motherboard | Asus P8P67 WS Revolution | OWN     |
 | Graphics    | Galax GTX 960            | $259.00 |

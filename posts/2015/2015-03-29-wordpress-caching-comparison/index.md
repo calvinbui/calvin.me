@@ -1,12 +1,13 @@
 ---
 title: WordPress Caching Comparison
 categories:
--   Web
+- Web
 tags:
--   caching
--   speed
--   wordpress
-thumbnail: thumbnail.png
+- caching
+- speed
+- wordpress
+# https://www.iconfinder.com/icons/940975/wordpress_wp_icon_icon
+thumbnail: thumbnail.svg
 ---
 
 WordPress caching is the fastest way to improve website performance. Caching WordPress reduces server load by reducing the number of requests per page. For every single user that visits your site, data is retrieved from MySQL, processed with PHP and then displayed as HTML. This is a draining process if several hundred users at on your site at once. Caching saves the webpage into files which it shows visitors instead, not requiring MySQL or PHP which reduces load time significantly.
@@ -45,7 +46,7 @@ Other reputable testing sites include:
 ## Results (Requests / Response in seconds)
 
 | Plugin         | Average   | Best      | Median    | Worse     |
-| -------------- | --------- | --------- | --------- | --------- |
+|----------------|-----------|-----------|-----------|-----------|
 | CloudFlare     | 54 / 2.34 | 54 / 1.23 | 56 / 2.96 | 55 / 3.07 |
 | Falcon         | 55 / 3.58 | 56 / 1.35 | 55 / 3.92 | 55 / 4.83 |
 | WP Rocket      | 34 / 2.63 | 32 / 2.25 | 35 / 2.53 | 35 / 3.90 |

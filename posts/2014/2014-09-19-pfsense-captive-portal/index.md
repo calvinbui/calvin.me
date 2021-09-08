@@ -1,12 +1,13 @@
 ---
 title: My pfSense Captive Portal
 categories:
--   Web
--   Networking
+- Web
+- Networking
 tags:
--   pfsense
--   captive portal
-thumbnail: thumbnail.png
+- pfsense
+- captive portal
+# https://www.iconfinder.com/icons/4263528/browser_site_staging_website_window_icon
+thumbnail: thumbnail.svg
 ---
 
 A Captive Portal is a special webpage users see before using the Internet. It will intercept network packets  and when users try to access a webpage it prompt them to login. My personal captive portal utilises pfSense's own Captive Portal features to authenticate users before they begin using the Internet.

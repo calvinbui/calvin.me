@@ -1,10 +1,11 @@
 ---
 title: My Work Setup
 categories:
--   Computers
+- Computers
 tags:
--   autopilot
-thumbnail: thumbnail.png
+- autopilot
+# https://www.iconfinder.com/search?q=work+computer&price=free&license=gte__2
+thumbnail: thumbnail.svg
 ---
 
 Look at how many screens I've got!

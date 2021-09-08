@@ -1,13 +1,14 @@
 ---
 title: Free IPAM Software Comparision
 categories:
--   Networking
--   Review
+- Networking
+- Review
 tags:
--   comparison
--   free
--   ipam
-thumbnail: thumbnail.png
+- comparison
+- free
+- ipam
+# https://www.iconfinder.com/icons/4263533/hosting_monitors_server_shared_web_icon
+thumbnail: thumbnail.svg
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!

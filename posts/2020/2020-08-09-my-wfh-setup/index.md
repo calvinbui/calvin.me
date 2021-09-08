@@ -6,7 +6,8 @@ tags:
 - battlestation
 - setup
 - kvm
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/5964551/home_office_work_work_from_home_house_icon
+thumbnail: thumbnail.svg
 ---
 
 Due to unprecedented times, I'm working from home.

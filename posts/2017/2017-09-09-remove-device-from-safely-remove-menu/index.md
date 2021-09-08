@@ -1,10 +1,11 @@
 ---
 title: Remove Device from Windows Safely Remove Menu
 categories:
--   Computers
+- Computers
 tags:
--   windows
-thumbnail: thumbnail.png
+- windows
+# https://www.iconfinder.com/icons/5355377/audio_eject_media_multimedia_music_sound_volume_icon
+thumbnail: thumbnail.svg
 ---
 
 A step-by-step guide to remove unwanted devices such as DVD drives, USB drives, capture cards and permanently attached hard drives from appearing in Window's Safely Remove and Eject Media.

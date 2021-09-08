@@ -1,12 +1,13 @@
 ---
 title: My Definition of a Strong Password
 categories:
--   Security
+- Security
 tags:
--   password
--   secure password
--   strong password
-thumbnail: thumbnail.png
+- password
+- secure password
+- strong password
+# https://www.iconfinder.com/icons/5243690/key_lock_protection_retro_key_safety_icon
+thumbnail: thumbnail.svg
 ---
 
 It's a common misconception that difficult passwords (e.g. X2hj2i) are strong passwords. It takes a computer 0.00743 seconds to crack that one...

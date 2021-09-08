@@ -1,11 +1,12 @@
 ---
 title: Facebook Messenger Bot
 categories:
--   Programming
+- Programming
 tags:
--   facebook
--   bot
-thumbnail: thumbnail.png
+- facebook
+- bot
+# https://www.iconfinder.com/icons/6214509/facebook_logo_messenger_icon
+thumbnail: thumbnail.svg
 ---
 
 My shameless Facebook Messenger bot that sends YouTube videos and GIFs if a message received matches a [TWICE](https://twitter.com/JYPETWICE) song.

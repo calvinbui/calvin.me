@@ -1,10 +1,11 @@
 ---
 title: The Weekly Update (29/9/2014)
 categories:
--   Misc
+- Misc
 tags:
--   weekly update
-thumbnail: thumbnail.png
+- weekly update
+# https://www.iconfinder.com/icons/5243661/internet_password_internet_security_shield_web_security_website_icon
+thumbnail: thumbnail.svg
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

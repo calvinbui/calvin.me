@@ -4,7 +4,8 @@ categories:
 - Gaming
 tags:
 - chicory
-thumbnail: thumbnail.png
+# https://www.iconfinder.com/icons/1519779/brush_colorful_office_paint_painting_palette_icon_school_icon
+thumbnail: thumbnail.svg
 ---
 
 I enjoyed playing this game. The themes it explores were deep. The music matched the environments. The boss fights remind me of Undertale.

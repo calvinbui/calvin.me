@@ -1,10 +1,11 @@
 ---
 title: Monthly Update (March 2015)
 categories:
--   Misc
+- Misc
 tags:
--   monthly update
-thumbnail: thumbnail.png
+- monthly update
+# https://www.iconfinder.com/icons/3225899/android_media_network_social_icon
+thumbnail: thumbnail.svg
 ---
 
 In the monthly update, I like to cover what I've been doing throughout the past month in regards to technology, computers and more.

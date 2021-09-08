@@ -1,13 +1,14 @@
 ---
 title: HSTS with Traefik
 categories:
--   Web
--   Networking
--   Security
+- Web
+- Networking
+- Security
 tags:
--   hsts
--   traefik
-thumbnail: thumbnail.png
+- hsts
+- traefik
+# https://github.com/traefik/traefik/issues/482
+thumbnail: thumbnail.svg
 ---
 
 The settings to get an A+ rating on SSL Labs!

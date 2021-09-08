@@ -1,10 +1,11 @@
 ---
 title: Monthly Update (08/02/2015)
 categories:
--   Misc
+- Misc
 tags:
--   monthly update
-thumbnail: thumbnail.png
+- monthly update
+# https://www.iconfinder.com/icons/5243659/electric_light_flashlight_light_pocket_torch_torch_icon
+thumbnail: thumbnail.svg
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

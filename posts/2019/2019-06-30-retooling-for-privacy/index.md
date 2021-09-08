@@ -1,16 +1,17 @@
 ---
 title: Retooling for Privacy
 categories:
--   Security
--   Privacy
+- Security
+- Privacy
 tags:
--   google
--   vpn
--   dns
--   dropbox
--   email
--   calendar
-thumbnail: thumbnail.png
+- google
+- vpn
+- dns
+- dropbox
+- email
+- calendar
+# https://www.iconfinder.com/icons/5243664/shield_user_privacy_user_protection_user_shield_webpage_icon
+thumbnail: thumbnail.svg
 ---
 
 The applications and tools I've started using to increase my privacy and security.

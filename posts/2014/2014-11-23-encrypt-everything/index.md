@@ -1,14 +1,15 @@
 ---
 title: Encrypt Everything with SSL/TLS
 categories:
--   Security
+- Security
 tags:
--   certificate
--   encryption
--   openssl
--   ssl
--   tls
-thumbnail: thumbnail.png
+- certificate
+- encryption
+- openssl
+- ssl
+- tls
+# https://www.iconfinder.com/icons/5243681/access_padlock_protection_security_unlock_icon
+thumbnail: thumbnail.svg
 ---
 
 Why send data over plain text when you can encrypt it as well! SSL/TLS doesn't have to cost anything - it certainly doesn't cost me anything. Certificate Authorities supply 'trusted' certificates but we can generate our own 'untrusted' certificates, and well who doesn't trust themselves right?!

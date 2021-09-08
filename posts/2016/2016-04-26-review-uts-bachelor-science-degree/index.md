@@ -1,13 +1,14 @@
 ---
 title: Review of the UTS Bachelor of Science in IT Degree
 categories:
--   Review
--   Blog
+- Review
+- Blog
 tags:
--   it degree
--   university of technology
--   uts
-thumbnail: thumbnail.png
+- it degree
+- university of technology
+- uts
+# https://www.iconfinder.com/icons/2620520/employee_graduate_job_seeker_unemployee_work_icon
+thumbnail: thumbnail.svg
 ---
 
 Today I graduate from UTS with my Bachelor of Science in IT degree.

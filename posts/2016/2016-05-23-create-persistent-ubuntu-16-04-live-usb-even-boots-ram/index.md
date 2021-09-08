@@ -1,11 +1,12 @@
 ---
 title: Create a persistent Ubuntu USB which boots to RAM
 categories:
--   Computers
+- Computers
 tags:
--   ubuntu
--   usb
-thumbnail: thumbnail.png
+- ubuntu
+- usb
+# https://www.iconfinder.com/icons/1790673/data_drive_flash_memory_usb_stick_icon
+thumbnail: thumbnail.svg
 ---
 
 When your drive dies, or in my case, the SATA port fails completely, this is a good temporary solution until the replacement arrives.

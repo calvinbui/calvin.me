@@ -1,12 +1,13 @@
 ---
 title: "Now Powered by Gatsby"
 categories:
--   Blog
+- Blog
 tags:
--   gatsby
--   react
--   netlify
-thumbnail: thumbnail.png
+- gatsby
+- react
+- netlify
+# https://www.gatsbyjs.com/Gatsby-Monogram.svg
+thumbnail: thumbnail.svg
 ---
 
 After [three and half years of Jekyll](/wordpress-to-jekyll), I've made the move over to [GatsbyJS](https://www.gatsbyjs.org/).
@@ -47,7 +48,7 @@ Writing a blog post was always a big pain for me. I removed almost all of these 
 
 After writing each post I would have to find a featured image. This image then had to be edited in Photoshop, exported in two sizes (small and large), renamed and optimised using [FileOptimizer](https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer) or [ImageOptim](https://imageoptim.com/mac).
 
-Now all I have to do is find an image and rename it to `thumbnail.png` so that [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/) and [gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp) can take care of the rest.
+Now all I have to do is find an image and rename it to `thumbnail.svg` so that [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/) and [gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp) can take care of the rest.
 
 ![images are the right size](image.png)
 
@@ -108,5 +109,5 @@ Cloudflare is responsible for DNS but also it's caching and automatic optimisati
 There are some things that still need to be done:
 
 - Hamburger menu on mobile devices for [Categories](/categories/) and [Tags](/tags/)
-- Automatically load `thumbnail.png` instead of having to specify it in the frontmatter
+- Automatically load `thumbnail.svg` instead of having to specify it in the frontmatter
 - A fuzzy filter search

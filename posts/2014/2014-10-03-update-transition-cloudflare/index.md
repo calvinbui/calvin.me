@@ -1,10 +1,11 @@
 ---
 title: Currently Moving to CloudFlare (Update)
 categories:
--   Blog
+- Blog
 tags:
--   cloudflare
-thumbnail: thumbnail.png
+- cloudflare
+# https://www.iconfinder.com/icons/1084619/time_alarm_clock_timer_watch_icon
+thumbnail: thumbnail.svg
 ---
 
 It's been almost 5 days now and the SSL certificate from CloudFlare still hasn't come through. Expected though with [2 million websites to deploy to](https://blog.cloudflare.com/universal-ssl-be-just-a-bit-more-patient/). But the good thing is my account now as an 'SSL issuing' message on it!

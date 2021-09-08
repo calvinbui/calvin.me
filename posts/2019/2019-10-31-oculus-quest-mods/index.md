@@ -1,11 +1,12 @@
 ---
 title: Oculus Quest Mods
 categories:
--   Gaming
+- Gaming
 tags:
--   oculus
--   vr
-thumbnail: thumbnail.png
+- oculus
+- vr
+# https://www.iconfinder.com/icons/3688433/reality_virtual_virtual_reality_vr_headset_oculus_icon
+thumbnail: thumbnail.svg
 ---
 
 A look at all the mods I've thrown into my Oculus Quest all-in-one VR gaming headset.

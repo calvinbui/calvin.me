@@ -1,11 +1,12 @@
 ---
 title: Delidding My 7700K and Results
 categories:
--   Computers
+- Computers
 tags:
--   delid
--   intel
-thumbnail: thumbnail.png
+- delid
+- intel
+# https://www.iconfinder.com/icons/2317746/chip_computer_cpu_device_frequency_microchip_processor_icon
+thumbnail: thumbnail.svg
 ---
 
 I dropped my Intel i7 7700K a total of 15 degrees at load and 6 degrees at idle. You can stop reading if you that's all you wanted to know :yum:

@@ -1,13 +1,14 @@
 ---
 title: Make A Multiboot USB Drive
 categories:
--   Computers
+- Computers
 tags:
--   multiboot
--   system admin
--   tool
--   usb
-thumbnail: thumbnail.png
+- multiboot
+- system admin
+- tool
+- usb
+# https://www.iconfinder.com/icons/2317741/connector_data_dongle_flash_receiver_usb_wireless_icon
+thumbnail: thumbnail.svg
 ---
 
 For my job and as a system admin, I'm expected to provide quick fixes and know the solution to every single problem that my users face. That is why I need a tool that just works wherever I bring it and that tool is my USB drive. It can rescue systems from death, scan for viruses, partition drives, install Linux or Windows but best of all it's on a light and speedy portable SSD!

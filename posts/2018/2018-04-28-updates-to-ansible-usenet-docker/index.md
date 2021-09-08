@@ -1,14 +1,15 @@
 ---
 title: Updates to Ansible Playbook for Usenet Docker containers
 categories:
--   Computers
+- Computers
 tags:
--   ansible
--   traefik
--   usenet
--   docker
--   monitoring
-thumbnail: thumbnail.png
+- ansible
+- traefik
+- usenet
+- docker
+- monitoring
+# https://www.iconfinder.com/icons/1055068/download_arrow_cloud_down_icon
+thumbnail: thumbnail.svg
 ---
 
 Up to date practices, new services, monitoring, logging, backups and heap of other improvements.
