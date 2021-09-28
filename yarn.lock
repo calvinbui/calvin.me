@@ -1367,7 +1367,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.14.8", "@babel/runtime@^7.15.3":
+"@babel/runtime@^7.14.8", "@babel/runtime@^7.15.3", "@babel/runtime@^7.15.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -6048,6 +6048,13 @@ gatsby-plugin-sitemap@4.9.0:
     common-tags "^1.8.0"
     minimatch "^3.0.4"
     sitemap "^7.0.0"
+
+gatsby-plugin-twitter@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-3.14.0.tgz#5e4c61c27220811b208fb011329e45e5fcbbc171"
+  integrity sha512-SgyaHLdrVMu6kGomLuI4nmzbEYdLIU4z9DO1cTx4SbhMi9l3YgbjbcY6VQ0WYDyDGLajMOwcoh7qHA4MCA0vIw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
 
 gatsby-plugin-typescript@^3.13.0:
   version "3.13.0"
