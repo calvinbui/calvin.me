@@ -13,7 +13,7 @@ export default class MainLayout extends Component {
     const { children } = this.props
     let themeClass = ''
 
-    if (dark && !notFound) {
+    if (!dark && !notFound) {
       themeClass = 'dark'
     } else if (notFound) {
       themeClass = 'not-found'

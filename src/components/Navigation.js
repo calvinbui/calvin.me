@@ -78,13 +78,13 @@ export default class Navigation extends Component {
               <button
                 className="dark-switcher"
                 onClick={theme.toggleDark}
-                aria-label="Toggle Dark Mode."
-                title="Toggle Dark Mode"
+                aria-label="Toggle Light/Dark Mode."
+                title="Toggle Light/Dark Mode"
               >
                 {theme.dark ? (
-                  <IoMdSunny className="nav-icons sun-nav-icon" />
-                ) : (
                   <BsMoon className="nav-icons moon-nav-icon" />
+                ) : (
+                  <IoMdSunny className="nav-icons sun-nav-icon" />
                 )}
               </button>
             </div>
