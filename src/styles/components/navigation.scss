@@ -1,0 +1,206 @@
+.nav {
+  transition: background 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: white;
+
+  &.scroll {
+    box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+
+    .nav-container {
+      padding: 0 1.5rem;
+    }
+  }
+
+  .cta {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0.75rem;
+  }
+
+  .nav-container {
+    padding: 1.5rem 1.5rem 0;
+    height: 55px;
+    max-width: $width;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: height 0.4s ease;
+
+    .nav-icon-hide-mobile {
+      display: none;
+    }
+  }
+
+  .brand {
+    a {
+      display: flex;
+      align-items: center;
+      color: #333;
+      margin-right: 0;
+      font-weight: 500;
+      font-size: 1.15rem;
+
+      &:hover,
+      &:focus {
+        color: black;
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 1.05rem;
+      font-weight: 400;
+      padding: 0.75rem;
+      margin: 0.25rem;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 1.2;
+      text-align: center;
+      border-radius: $border-radius;
+
+      &:hover,
+      &:active,
+      &.active {
+        color: #111;
+        background: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}
+
+.favicon {
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  border-radius: 50%;
+}
+
+button.dark-switcher {
+  -webkit-appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0.75rem 0.5rem;
+  background: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.nav-icons {
+  height: 1.3rem;
+  width: 1.3rem;
+  min-width: 1.3rem;
+  margin-bottom: 0;
+}
+
+.github-nav-icon {
+  color: black;
+}
+
+.linkedin-nav-icon {
+  color: #0077b5;
+}
+
+.twitter-nav-icon {
+  color: #1da1f2;
+}
+
+.sun-nav-icon {
+  color: #fcc21b;
+}
+
+.moon-nav-icon {
+  color: #7890ff;
+}
+
+@include small-breakpoint {
+  .nav {
+    &.scroll {
+      .nav-container {
+        height: 60px;
+      }
+
+      .favicon {
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+      }
+    }
+
+    .nav-container {
+      height: 160px;
+      padding: 0 2rem;
+
+      .nav-icon-hide-mobile {
+        display: flex;
+      }
+    }
+
+    .brand {
+      a {
+        font-size: 1.3rem;
+      }
+
+      .text {
+        display: block;
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      height: 100%;
+
+      a {
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
+        padding: 1rem;
+        border-bottom: 2px solid transparent;
+      }
+    }
+
+    .favicon {
+      margin-right: 1rem;
+      height: 70px;
+      width: 70px;
+      min-width: 70px;
+    }
+
+    button.dark-switcher {
+      margin: 0;
+      font-size: 1.4rem;
+      padding: 0.75rem 1rem;
+    }
+
+    .nav-icons {
+      height: 1.65rem;
+      width: 1.65rem;
+      min-width: 1.65rem;
+      margin-bottom: 0;
+    }
+  }
+
+  @media print {
+    .nav {
+      display: none;
+    }
+  }
+}
