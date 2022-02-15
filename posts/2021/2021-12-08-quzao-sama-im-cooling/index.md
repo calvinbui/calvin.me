@@ -54,3 +54,11 @@ In these tests, I used a combination of regular [Noctua NF-A12x25 ULN/PWM](https
 | 5    | Reg    | Reg + Slim | Reg + Slim | 80  | 72  |
 
 From my testing, I went with the middle option to have one fan on the bottom, side, and top to balance fan noise, GPU and CPU temperatures (80/80).
+
+![](case-01.jpg)
+
+![](case-02.jpg)
+
+![](case-03.jpg)
+
+![](case-04.jpg)
