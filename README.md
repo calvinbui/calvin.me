@@ -17,9 +17,10 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 ```console
 git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvin.me.git
 cd calvin.me
+nvm install "$(cat .nvmrc)"
 nvm use
 npm install -g yarn
-yarn install
+yarn install --frozen-lockfile
 yarn gatsby telemetry --disable
 ```
 

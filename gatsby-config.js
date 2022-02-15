@@ -77,7 +77,12 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        checkSupportedExtensions: false
+      }
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sitemap`,
     {
