@@ -49,6 +49,7 @@ class ThemeProvider extends Component {
     const { children } = this.props
     const { dark, notFound } = this.state
 
+    /* eslint-disable react/jsx-no-constructed-context-values */
     return (
       <ThemeContext.Provider
         value={{

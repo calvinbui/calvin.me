@@ -28,7 +28,7 @@ export default class MainLayout extends Component {
         >
           <html lang="en" />
           <meta name="description" content={config.siteDescription} />
-          <link rel="shortcut icon" type="image/png" href={favicon} />
+          <link rel="icon" type="image/png" href={favicon} />
         </Helmet>
         <Navigation menuLinks={config.menuLinks} />
         <main id="main-content">{children}</main>

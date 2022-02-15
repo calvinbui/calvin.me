@@ -5,6 +5,8 @@
   "author": "Calvin Bui",
   "repository": "git@github.com:calvinbui/calvin.me",
   "dependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-react": "^7.16.7",
     "gatsby": "^4.7.1",
     "gatsby-cli": "^4.7.0",
     "gatsby-plugin-catch-links": "^4.7.0",
