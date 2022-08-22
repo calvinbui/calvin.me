@@ -1,6 +1,6 @@
 # calvin.me
 
-Calvin's personal website running on Gatsby, React, and Node.js.
+Calvin's personal website running on Gatsby, React and Node.js.
 
 ## Features
 
@@ -15,7 +15,7 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 
 ### Setup
 ```console
-git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvin.me.git
+git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
 nvm install "$(cat .nvmrc)"
 nvm use
@@ -37,7 +37,7 @@ yarn upgrade-interactive --latest
 
 ## Deployment
 
-Currently deployed using GitHub Actions into GitHub Pages.
+This repo is mirrored by Drone into GitHub. GitHub Actions is responsible for building and deploying into GitHub Pages.
 
 ## Contributing
 
