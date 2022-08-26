@@ -16,3 +16,20 @@ steps:
         from_secret: github_pat
     commands:
       - ./.drone/mirror-to-github.sh
+
+  - name: mattermost failure notification
+    image: calvinbui/drone-mattermost:localhost
+    settings:
+      url:
+        from_secret: mattermost_url
+      token:
+        from_secret: mattermost_token
+      team: nguoi-dep
+      channel: home-lab-alerts
+      template: |
+        👎 **{{ repo.name }} ({{ build.branch }}) #{{ build.number }}**
+        {{ commit.message.title }} - {{ commit.author.name }} ([{{ truncate commit 7 }}]({{commit.link}}))
+        [View build]({{ build.link }})
+    when:
+      status:
+        - failure
