@@ -47,7 +47,7 @@ My Galaxy S21 only charges up to 25W and my [Galaxy Tab S7+](/samsung-galaxy-tab
 
 On the phone itself, fast charging has to be enabled under Settings > Battery and Device Care > Battery > More battery settings.
 
-![](settings-s21.jpg)
+![](setting-s21.jpg)
 
 ## Wall Charger
 
