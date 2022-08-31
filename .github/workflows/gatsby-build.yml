@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set runner timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Australia/Sydney"
+
       - name: 🛎️ Check out master branch
         uses: actions/checkout@v2
         with:
