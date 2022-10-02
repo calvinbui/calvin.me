@@ -19,7 +19,7 @@ Modifying and installing homebrew on a Nintendo Switch OLED.
 
 ## Winning a Nintendo Switch
 
-My wife won a Nintendo Switch at a [meetup we attended](https://www.eventbrite.com.au/e/beerops-sydney-australias-largest-devops-data-meetup-tickets-323016740767). We initially regretting our decision to attend. On the night of the event, transport workers were taking industrial action, it was raining, the food and drinks were poor and the place was tightly crowded. The next day she got the call notifying her of the winning the Wordle competition the night prior which made up for everything!
+My wife won a Nintendo Switch at a [meetup we attended](https://www.eventbrite.com.au/e/beerops-sydney-australias-largest-devops-data-meetup-tickets-323016740767). We initially regretted our decision to attend. On the night of the event, transport workers were taking industrial action, it was raining, the food and drinks were poor and the place was tightly crowded. The next day she got the call notifying her of the winning the Wordle competition the night prior which made up for everything!
 
 ![](winning/competition.jpeg)
 
