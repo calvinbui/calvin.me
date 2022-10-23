@@ -2,6 +2,7 @@
 title: Daikin Airbase Across VLANs
 categories:
 - Networking
+- Home
 tags:
 - daikin
 - vlans

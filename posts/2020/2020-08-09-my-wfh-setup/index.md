@@ -1,7 +1,7 @@
 ---
 title: "My WFH Setup"
 categories:
-- Programming
+- Home
 tags:
 - battlestation
 - setup

@@ -2,6 +2,7 @@
 title: Home Security Cameras Setup
 categories:
 - Security
+- Home
 tags:
 - cameras
 - hikvision

@@ -1,7 +1,7 @@
 ---
 title: Designing Taller Sofa Feet
 categories:
-- Misc
+- Home
 tags:
 - fusion 360
 - couch

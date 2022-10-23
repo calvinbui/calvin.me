@@ -4,6 +4,7 @@ categories:
 - Networking
 - Review
 - Web
+- Home
 tags:
 - nbn
 - superfast
