@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import { BsMoon } from 'react-icons/bs'
-import { IoMdSunny } from 'react-icons/io'
+import { IoMdSunny, IoMdMoon } from 'react-icons/io'
 import avatar from '../../static/avatar.png'
 import ThemeContext from '../context/ThemeContext'
 
@@ -82,7 +81,7 @@ export default class Navigation extends Component {
                 title="Toggle Light/Dark Mode"
               >
                 {theme.dark ? (
-                  <BsMoon className="nav-icons moon-nav-icon" />
+                  <IoMdMoon className="nav-icons moon-nav-icon" />
                 ) : (
                   <IoMdSunny className="nav-icons sun-nav-icon" />
                 )}
