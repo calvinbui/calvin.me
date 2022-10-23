@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
@@ -53,6 +53,18 @@ export default class PostTemplate extends Component {
                   Edit
                 </a>
               </div>
+              <div className="category-container">
+                {post.categories.map(category => (
+                  <Link
+                    to={`/categories/${category.toLowerCase()}`}
+                    className="category-filter"
+                    key={category}
+                  >
+                    {category}
+                  </Link>
+                ))}
+              </div>
+
               <PostTags tags={post.tags} />
             </div>
           </header>

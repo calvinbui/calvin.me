@@ -534,7 +534,7 @@ blockquote {
 .category-container {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
 
   .category-filter {
@@ -592,7 +592,7 @@ blockquote {
 
 @include small-breakpoint {
   .category-container {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 
     .category-filter {
       padding: 0.5rem 1rem;
