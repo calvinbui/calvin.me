@@ -177,6 +177,8 @@ There are a few all-in-one homebrew packs on the Internet. Personally, I don't h
 
 To access the homebrew menu, hold R while opening a game/title. It can also be accessed by opening the Album application, but this opens in Applet mode, giving the homebrew less memory. Only use the Album method if you don't have any games/titles installed. Also read up on [Forwarders later in this post](#forwarders).
 
+I recommend making a note of all the homebrew that installs folders into `/atmosphere/content`. **This folder must be empty during a firmware upgrade**. An error screen may appear after upgrading if folders are left inside of the folder, but clearing it will solve the problem. That's why it's important to know what has been installed here.
+
 ### Must Haves
 
   - [hekate & Nyx](https://github.com/CTCaer/hekate): Bootloader.
@@ -244,6 +246,7 @@ I am not condoning piracy.
   - [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
   - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
   - [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
+  - [Avatool](https://gbatemp.net/threads/avatool-homebrew-tool-to-change-avatars.525654/): Change account avatars.
 
 ## Theming
 
