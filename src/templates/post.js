@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../layout'
@@ -32,9 +31,6 @@ export default class PostTemplate extends Component {
 
     return (
       <Layout>
-        <Helmet>
-          <title>{`${post.title} – ${config.siteTitle}`}</title>
-        </Helmet>
         <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
@@ -74,6 +70,8 @@ export default class PostTemplate extends Component {
     )
   }
 }
+
+export const Head = ({ data }) => <title>{`${data.markdownRemark.frontmatter.title} – ${config.siteTitle}`}</title>
 
 export const pageQuery = graphql`
   query BlogPostBySlug($filter: String!) {

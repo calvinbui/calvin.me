@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
@@ -12,7 +11,6 @@ export default class TagTemplate extends Component {
 
     return (
       <Layout>
-        <Helmet title={`Posts tagged as "${tag}" – ${config.siteTitle}`} />
         <div className="container">
           <h1>
             Posts tagged as{' '}
@@ -26,6 +24,8 @@ export default class TagTemplate extends Component {
     )
   }
 }
+
+export const Head = ({ pageContext }) => <title>{`Posts tagged as "${pageContext.tag}" – ${config.siteTitle}`}</title>
 
 export const pageQuery = graphql`
   query TagPage($tag: String) {

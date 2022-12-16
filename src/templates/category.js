@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
@@ -12,7 +11,6 @@ export default class CategoryTemplate extends Component {
 
     return (
       <Layout>
-        <Helmet title={`Posts in category "${category}" – ${config.siteTitle}`} />
         <div className="container">
           <h1>{category}</h1>
           <PostListing postEdges={postEdges} />
@@ -21,6 +19,8 @@ export default class CategoryTemplate extends Component {
     )
   }
 }
+
+export const Head = ({ pageContext }) => <title>{`Posts in category "${pageContext.category}" – ${config.siteTitle}`}</title>
 
 export const pageQuery = graphql`
   query CategoryPage($category: String) {

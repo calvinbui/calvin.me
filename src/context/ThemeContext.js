@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 
 const defaultState = {
-  dark: false,
-  notFound: false,
-  toggleDark: () => { },
+  userPreferredTheme: "dark",
+  switch: () => { },
 }
 
 const ThemeContext = React.createContext(defaultState)
@@ -12,52 +11,29 @@ class ThemeProvider extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      dark: false,
-      notFound: false,
+      userPreferredTheme: "dark",
     }
   }
 
   componentDidMount() {
-    const lsDark = JSON.parse(localStorage.getItem('dark'))
-
-    if (lsDark) {
-      this.setState({ dark: lsDark })
-    }
+    this.setState({ userPreferredTheme: window.__theme == "dark" ? "light" : "dark" })
   }
 
-  componentDidUpdate(prevState) {
-    const { dark } = this.state
-
-    if (prevState.dark !== dark) {
-      localStorage.setItem('dark', JSON.stringify(dark))
-    }
-  }
-
-  setNotFound = () => {
-    this.setState({ notFound: true })
-  }
-
-  setFound = () => {
-    this.setState({ notFound: false })
-  }
-
-  toggleDark = () => {
-    this.setState(prevState => ({ dark: !prevState.dark }))
+  switch = () => {
+    window.__setPreferredTheme(window.__theme == "dark" ? "light" : "dark")
+    this.setState({ userPreferredTheme: window.__theme == "dark" ? "light" : "dark" })
   }
 
   render() {
     const { children } = this.props
-    const { dark, notFound } = this.state
+    const { userPreferredTheme } = this.state
 
     /* eslint-disable react/jsx-no-constructed-context-values */
     return (
       <ThemeContext.Provider
         value={{
-          dark,
-          notFound,
-          setFound: this.setFound,
-          setNotFound: this.setNotFound,
-          toggleDark: this.toggleDark,
+          userPreferredTheme,
+          switch: this.switch,
         }}
       >
         {children}

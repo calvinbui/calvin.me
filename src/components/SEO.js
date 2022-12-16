@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import urljoin from 'url-join'
 import config from '../../data/SiteConfig'
+import favicon from '../../static/favicon/favicon-256.png'
 
 export default class SEO extends Component {
   render() {
@@ -66,8 +66,9 @@ export default class SEO extends Component {
         }
       )
     }
+
     return (
-      <Helmet>
+      <>
         <meta name="description" content={description} />
         <meta name="image" content={image} />
 
@@ -84,7 +85,9 @@ export default class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-      </Helmet>
+
+        <link rel="icon" type="image/png" href={favicon} />
+      </>
     )
   }
 }

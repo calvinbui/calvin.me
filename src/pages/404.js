@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import ThemeContext from '../context/ThemeContext'
 import Layout from '../layout'
 import SEO from '../components/SEO'
@@ -21,8 +20,6 @@ export default class NotFoundPage extends Component {
   render() {
     return (
       <Layout>
-        <Helmet title={`Page not found – ${config.siteTitle}`} />
-        <SEO />
         <div className="container">
           <div className="text-center">
             <h1>404</h1>
@@ -48,5 +45,12 @@ export default class NotFoundPage extends Component {
     )
   }
 }
+
+export const Head = () => (
+  <>
+    <SEO />
+    <title>{`Page not found – ${config.siteTitle}`}</title>
+  </>
+)
 
 NotFoundPage.contextType = ThemeContext

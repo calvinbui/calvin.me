@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
@@ -39,8 +38,6 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Tech Blog`} />
-        <SEO />
         <div className="container">
           <div className="lead">
             <div className="elevator">
@@ -81,6 +78,13 @@ export default class Index extends Component {
     )
   }
 }
+
+export const Head = () => (
+  <>
+    <SEO />
+    <title>{`${config.siteTitle} – Tech Blog`}</title>
+  </>
+)
 
 export const pageQuery = graphql`
   query IndexQuery {

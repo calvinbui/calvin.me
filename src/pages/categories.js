@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import kebabCase from 'lodash.kebabcase'
 import Layout from '../layout'
@@ -13,8 +12,6 @@ export default class CategoriesPage extends Component {
 
     return (
       <Layout>
-        <SEO />
-        <Helmet title={`Categories – ${config.siteTitle}`} />
         <div className="container">
           <h1>Categories</h1>
           <div className="tag-container">
@@ -31,6 +28,13 @@ export default class CategoriesPage extends Component {
     )
   }
 }
+
+export const Head = () => (
+  <>
+    <SEO />
+    <title>{`Categories – ${config.siteTitle}`}</title>
+  </>
+)
 
 export const pageQuery = graphql`
   query CategoriesQuery {
