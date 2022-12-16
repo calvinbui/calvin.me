@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /
 
-sitemap: https://calvin.me/sitemap/sitemap-index.xml
+Sitemap: https://calvin.me/sitemap/sitemap-index.xml
