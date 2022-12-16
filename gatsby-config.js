@@ -84,7 +84,12 @@ module.exports = {
       }
     },
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: '/sitemap',
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
