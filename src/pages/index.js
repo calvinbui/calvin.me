@@ -84,10 +84,7 @@ export default class Index extends Component {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    posts: allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [fileAbsolutePath], order: DESC }
-    ) {
+    posts: allMarkdownRemark(limit: 2000, sort: {fileAbsolutePath: DESC}) {
       edges {
         node {
           excerpt(pruneLength: 180)
@@ -115,7 +112,7 @@ export const pageQuery = graphql`
       }
     }
     categories: allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___categories) {
+      group(field: {frontmatter: {categories: SELECT}}) {
         fieldValue
         totalCount
       }

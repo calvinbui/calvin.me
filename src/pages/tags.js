@@ -34,7 +34,7 @@ export default class TagsPage extends Component {
 export const pageQuery = graphql`
   query TagsQuery {
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount
       }
