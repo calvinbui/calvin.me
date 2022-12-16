@@ -17,7 +17,7 @@ Calvin's personal website running on Gatsby, React and Node.js.
 ```console
 git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
-nvm install "$(cat .nvmrc)"
+nvm install
 nvm use
 npm install -g yarn
 yarn install --frozen-lockfile
