@@ -17,21 +17,13 @@ export default class SEO extends Component {
       const postMeta = postNode.frontmatter
       title = postMeta.title
       description = postMeta.description ? postMeta.description : postNode.excerpt
-      if (postMeta.thumbnail) {
-        if (postMeta.thumbnail.childImageSharp) {
-          image = getSrc(postMeta.thumbnail.childImageSharp.gatsbyImageData)
-        } else {
-          image = postMeta.thumbnail.publicURL
-        }
-      }
       postURL = urljoin(config.siteUrl, replacePath(postPath))
     } else {
       title = config.siteTitle
       description = config.siteDescription
-      image = config.siteLogo
     }
 
-    image = urljoin(config.siteUrl, image)
+    image = urljoin(config.siteUrl, config.siteLogo)
     const blogURL = urljoin(config.siteUrl, config.pathPrefix)
     const schemaOrgJSONLD = [
       {
