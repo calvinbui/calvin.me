@@ -14,7 +14,7 @@ const config = {
   postDefaultCategoryID: 'Tech',
   userName: 'Calvin Bui',
   userEmail: '',
-  userTwitter: '',
+  userTwitter: '@ASAPCalvin',
   menuLinks: [
     {
       name: 'GitHub',
