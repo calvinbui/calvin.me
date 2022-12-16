@@ -31,7 +31,6 @@ export default class PostTemplate extends Component {
 
     return (
       <Layout>
-        <SEO postPath={post.id} postNode={postNode} postSEO />
         <article className="single container">
           <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
             {thumbnail || <div />}
@@ -70,10 +69,15 @@ export default class PostTemplate extends Component {
     )
   }
 }
+
 export function Head({ data }) {
   return (
     <>
-      <SEO />
+      <SEO
+        postPath={data.markdownRemark.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}
+        postNode={data.markdownRemark}
+        postSEO
+      />
       <title>{`${data.markdownRemark.frontmatter.title} – ${config.siteTitle}`}</title>
     </>
   )
