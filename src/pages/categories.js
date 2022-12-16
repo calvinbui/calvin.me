@@ -29,12 +29,14 @@ export default class CategoriesPage extends Component {
   }
 }
 
-export const Head = () => (
-  <>
-    <SEO />
-    <title>{`Categories – ${config.siteTitle}`}</title>
-  </>
-)
+export function Head() {
+  return (
+    <>
+      <SEO />
+      <title>{`Categories – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query CategoriesQuery {

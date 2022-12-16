@@ -70,8 +70,14 @@ export default class PostTemplate extends Component {
     )
   }
 }
-
-export const Head = ({ data }) => <title>{`${data.markdownRemark.frontmatter.title} – ${config.siteTitle}`}</title>
+export function Head({ data }) {
+  return (
+    <>
+      <SEO />
+      <title>{`${data.markdownRemark.frontmatter.title} – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query BlogPostBySlug($filter: String!) {

@@ -28,12 +28,14 @@ export default class TagsPage extends Component {
   }
 }
 
-export const Head = () => (
-  <>
-    <SEO />
-    <title>{`Tags – ${config.siteTitle}`}</title>
-  </>
-)
+export function Head() {
+  return (
+    <>
+      <SEO />
+      <title>{`Tags – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query TagsQuery {

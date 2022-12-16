@@ -46,11 +46,13 @@ export default class NotFoundPage extends Component {
   }
 }
 
-export const Head = () => (
-  <>
-    <SEO />
-    <title>{`Page not found – ${config.siteTitle}`}</title>
-  </>
-)
+export function Head() {
+  return (
+    <>
+      <SEO />
+      <title>{`Page not found – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 NotFoundPage.contextType = ThemeContext

@@ -1,5 +1,3 @@
-'use strict';
-
 const React = require("react")
 
 exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
@@ -19,10 +17,10 @@ exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
             } else {
               document.documentElement.className = 'light';
             }
-            window.__theme = theme;
+            window.theme = theme;
           };
 
-          window.__setPreferredTheme = function(theme) {
+          window.setPreferredTheme = function(theme) {
             setTheme(theme);
             try {
               localStorage.setItem('preferred-theme', theme);
@@ -35,13 +33,13 @@ exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
             preferredTheme = localStorage.getItem('preferred-theme');
           } catch (e) {}
 
-          window.__themeListeners = [];
+          window.themeListeners = [];
 
           var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
           darkQuery.addListener(function(e) {
-            window.__setPreferredTheme(e.matches ? 'dark' : 'light');
-            window.__themeListeners.forEach(function(listener) {
+            window.setPreferredTheme(e.matches ? 'dark' : 'light');
+            window.themeListeners.forEach(function(listener) {
               listener();
             });
           });

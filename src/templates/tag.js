@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
+import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
 export default class TagTemplate extends Component {
@@ -25,7 +26,14 @@ export default class TagTemplate extends Component {
   }
 }
 
-export const Head = ({ pageContext }) => <title>{`Posts tagged as "${pageContext.tag}" – ${config.siteTitle}`}</title>
+export function Head({ pageContext }) {
+  return (
+    <>
+      <SEO />
+      <title>{`Posts tagged as "${pageContext.tag}" – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query TagPage($tag: String) {

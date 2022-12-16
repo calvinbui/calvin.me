@@ -16,12 +16,12 @@ class ThemeProvider extends Component {
   }
 
   componentDidMount() {
-    this.setState({ userPreferredTheme: window.__theme == "dark" ? "light" : "dark" })
+    this.setState({ userPreferredTheme: window.theme === "dark" ? "light" : "dark" })
   }
 
   switch = () => {
-    window.__setPreferredTheme(window.__theme == "dark" ? "light" : "dark")
-    this.setState({ userPreferredTheme: window.__theme == "dark" ? "light" : "dark" })
+    window.setPreferredTheme(window.theme === "dark" ? "light" : "dark")
+    this.setState({ userPreferredTheme: window.theme === "dark" ? "light" : "dark" })
   }
 
   render() {

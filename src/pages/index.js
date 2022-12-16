@@ -79,12 +79,14 @@ export default class Index extends Component {
   }
 }
 
-export const Head = () => (
-  <>
-    <SEO />
-    <title>{`${config.siteTitle} – Tech Blog`}</title>
-  </>
-)
+export function Head() {
+  return (
+    <>
+      <SEO />
+      <title>{`${config.siteTitle} – Tech Blog`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query IndexQuery {

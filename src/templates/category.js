@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
+import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
 export default class CategoryTemplate extends Component {
@@ -20,7 +21,14 @@ export default class CategoryTemplate extends Component {
   }
 }
 
-export const Head = ({ pageContext }) => <title>{`Posts in category "${pageContext.category}" – ${config.siteTitle}`}</title>
+export function Head({ pageContext }) {
+  return (
+    <>
+      <SEO />
+      <title>{`Posts in category "${pageContext.category}" – ${config.siteTitle}`}</title>
+    </>
+  )
+}
 
 export const pageQuery = graphql`
   query CategoryPage($category: String) {

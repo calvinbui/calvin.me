@@ -80,7 +80,7 @@ export default class Navigation extends Component {
                 aria-label="Toggle Light/Dark Mode."
                 title="Toggle Light/Dark Mode"
               >
-                {theme.userPreferredTheme == "dark" ? (
+                {theme.userPreferredTheme === "dark" ? (
                   <IoMdMoon className="nav-icons moon-nav-icon" />
                 ) : (
                   <IoMdSunny className="nav-icons sun-nav-icon" />
