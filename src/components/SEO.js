@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-import { getSrc } from "gatsby-plugin-image"
 import urljoin from 'url-join'
 import config from '../../data/SiteConfig'
 
