@@ -193,7 +193,7 @@ I am not condoning piracy.
   - [Tinfoil](https://tinfoil.io/): Title/game manager.
   - [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
   - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
-  - [Breeze](https://github.com/tomvita/Breeze-Beta/wiki): Cheats. An updated version of [EdiZon SE](https://github.com/tomvita/EdiZon-SE/) by the same author.
+  - [Breeze](https://github.com/tomvita/Breeze-Beta): Cheats. An updated version of [EdiZon SE](https://github.com/tomvita/EdiZon-SE/) by the same author.
   - [Mission Control](https://github.com/ndeadly/MissionControl): Use controllers from other consoles.
   - [SimpleModManager](https://github.com/nadrino/SimpleModManager): Run mods from GameBanana.
 
@@ -203,7 +203,7 @@ I am not condoning piracy.
   - [NX-Shell](https://github.com/joel16/NX-Shell): File browser.
   - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool): Dump game cards and eShop titles.
   - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM): Dump keys within Hekate.
-  - [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer): File browser within Hekate.
+  - [TegraExplorer](https://github.com/dezem/TegraExplorer): File browser within Hekate and executing scripts. This is a forked version working on OLED due too [this BDK update issue](https://github.com/suchmememanyskill/TegraExplorer/issues/53).
     - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts)
 
 ### Screen Overlay (Tesla)
@@ -246,7 +246,7 @@ I am not condoning piracy.
   - [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
   - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
   - [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
-  - [Avatool](https://gbatemp.net/threads/avatool-homebrew-tool-to-change-avatars.525654/): Change account avatars.
+  - [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
 
 ## Theming
 
