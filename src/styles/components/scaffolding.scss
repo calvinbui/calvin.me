@@ -76,7 +76,6 @@ h5 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   color: $heading-font-color;
-  scroll-margin-top: 2.75em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -98,6 +97,7 @@ h1 {
 h2 {
   font-size: $h2-mobile;
   font-weight: 500;
+  scroll-margin-top: 2.75em;
   padding-bottom: 0.2rem;
 
   code {
@@ -108,18 +108,21 @@ h2 {
 h3 {
   font-size: $h3-mobile;
   font-weight: 500;
+  scroll-margin-top: 2.75em;
   color: lighten($heading-font-color, 20%);
 }
 
 h4 {
   font-size: $h4-mobile;
   font-weight: 500;
+  scroll-margin-top: 2.75em;
   color: lighten($heading-font-color, 40%);
 }
 
 h5 {
   font-size: $h5-mobile;
   font-weight: 500;
+  scroll-margin-top: 2.75em;
 }
 
 @include small-breakpoint {
