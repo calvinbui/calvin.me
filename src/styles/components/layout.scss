@@ -1,12 +1,11 @@
 #main-content {
-  margin-top: 55px;
-  padding: 40px 0 0;
+  padding: 7em 0 0;
   min-height: calc(100vh - 190px);
 }
 
 @include small-breakpoint {
   #main-content {
-    margin-top: 140px;
+    padding-top: 13.5rem;
     min-height: calc(100vh - 360px);
   }
 }
