@@ -113,7 +113,8 @@ $dark-primary: $tag;
   ul,
   ol,
   li,
-  table {
+  table,
+  label {
     color: $foreground;
   }
 
