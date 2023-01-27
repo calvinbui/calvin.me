@@ -1,7 +1,7 @@
 ---
 title: Solar Power
 categories:
-- home
+- Home
 tags:
 - solar
 - huawei
@@ -9,7 +9,6 @@ tags:
 - openwrt
 - fusionsolar
 - electricity
-- bills
 # https://www.reshot.com/free-svg-icons/item/solar-energy-NQTDV4EH7L/
 thumbnail: thumbnail.svg
 ---
