@@ -45,12 +45,6 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              showLineNumbers: true,
-            },
-          },
-          {
             resolve: `gatsby-remark-copy-linked-files`,
             options: {
               ignoreFileExtensions: [],
@@ -62,6 +56,12 @@ module.exports = {
               offsetY: `100`,
               maintainCase: false,
               removeAccents: true,
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
             },
           },
           `gatsby-remark-responsive-iframe`,
