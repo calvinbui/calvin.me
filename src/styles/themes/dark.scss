@@ -38,6 +38,7 @@ $dark-primary: $tag;
 
   .post,
   .page {
+
     a:not(.button):not(.anchor):not(.gatsby-resp-image-link),
     a:not(span.gatsby-resp-image-wrapper) {
       border-bottom: 2px solid transparent;
@@ -68,7 +69,7 @@ $dark-primary: $tag;
     }
   }
 
-  :not(pre) > code {
+  :not(pre)>code {
     background: rgba(255, 255, 255, 0.1);
     color: $foreground;
   }
