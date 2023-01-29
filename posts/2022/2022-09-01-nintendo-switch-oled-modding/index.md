@@ -242,6 +242,7 @@ I am not condoning piracy.
   - [emuiibo](https://github.com/XorTroll/emuiibo): Emulate amiibos.
   - [Amiigo](https://github.com/CompSciOrBust/Amiigo): GUI for emuiibo (above).
   - [SwitchPoff](https://github.com/Storm21CH/SwitchPoff-ShutdownSwitch): A shortcut to power-off.
+  - [NXReboot](https://github.com/Ericvf/NXReboot): A shortcut to reboot.
   - [NX-Activity-Log](https://github.com/tallbl0nde/NX-Activity-Log): Displays time playing games.
   - [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
   - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
