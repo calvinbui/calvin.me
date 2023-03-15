@@ -262,6 +262,7 @@ I am not condoning piracy.
 1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
 1. Run Daybreak select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
 1. Restore `sdcard:/atmosphere/contents/` and update all homebrew to be compatible with the new firmware.
+1. Themes will have to be reinstalled. Delete the `0100000000001000` and `0100000000001007` folders if they exists under `sdcard:/atmosphere/contents/` or Atmosphere will crash.
 
 ## Theming
 
