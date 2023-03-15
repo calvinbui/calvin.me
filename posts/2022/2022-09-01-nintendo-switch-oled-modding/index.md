@@ -238,7 +238,8 @@ I am not condoning piracy.
 
   - [Homebrew App Store](https://github.com/fortheusers/hb-appstore): App store for homebrew. I don't recommend installing or uninstalling anything with this as it messes around with the SD card files. Good to browse for apps.
   - [AIO-Switch-Updater](https://github.com/HamletDuFromage/AIO-switch-updater): Helper to update bootloader, custom firmware etc.
-  - [hwfly-toolbox](https://github.com/hwfly-nx/hwfly-toolbox): Update modchip firmware.
+  - [hwfly-toolbox](https://github.com/hwfly-nx/hwfly-toolbox): Update modchip firmware. [Guide here](https://www.sthetix.info/updating-the-chip-using-a-special-toolbox/).
+  - [hwfly-nx firmware](https://github.com/hwfly-nx/firmware): Firmware for the modchip.
   - [emuiibo](https://github.com/XorTroll/emuiibo): Emulate amiibos.
   - [Amiigo](https://github.com/CompSciOrBust/Amiigo): GUI for emuiibo (above).
   - [SwitchPoff](https://github.com/Storm21CH/SwitchPoff-ShutdownSwitch): A shortcut to power-off.
@@ -248,6 +249,19 @@ I am not condoning piracy.
   - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
   - [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
   - [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
+
+## Updating Horizon OS
+
+1. Boot into Stock SysMMC and update the firmware.
+1. Run [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) and select **Dump from SysNAND**.
+1. Run [TegraExplorer](https://github.com/dezem/TegraExplorer) and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) via the **Browse the SD card option** to **Dump sysmmc**.
+1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
+1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
+1. Copy the latest [Sigpatches](https://sigmapatches.coomer.party) release over to the SD card.
+1. Replace `sdcard:/payload.bin` with `fusee.bin` from Atmosphere.
+1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
+1. Run Daybreak select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
+1. Restore `sdcard:/atmosphere/contents/` and update all homebrew to be compatible with the new firmware.
 
 ## Theming
 
