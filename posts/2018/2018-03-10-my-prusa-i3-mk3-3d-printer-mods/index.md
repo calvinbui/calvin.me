@@ -1,7 +1,7 @@
 ---
 title: My Prusa i3 MK3 3D Printer Mods
 categories:
-- Misc
+- 3D Printing
 tags:
 - 3d-printing
 - prusa

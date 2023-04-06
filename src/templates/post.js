@@ -4,6 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
+import TOC from '../components/TOC'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 
@@ -39,6 +40,10 @@ export default class PostTemplate extends Component {
               <div className="post-meta">
                 <time className="date">{date}</time>
                 /
+                <div className="time-to-read">
+                  {postNode.timeToRead} min read
+                </div>
+                /
                 <a
                   className="github-link"
                   href={githubLink}
@@ -63,6 +68,10 @@ export default class PostTemplate extends Component {
               <PostTags tags={post.tags} />
             </div>
           </header>
+
+          <TOC
+            tableOfContents={postNode.tableOfContents}
+          />
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
       </Layout>
@@ -88,6 +97,7 @@ export const pageQuery = graphql`
     markdownRemark(fileAbsolutePath: {regex: $filter}) {
       html
       timeToRead
+      tableOfContents
       excerpt
       fileAbsolutePath
       frontmatter {

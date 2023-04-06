@@ -2,7 +2,6 @@
 title: Free IPAM Software Comparision
 categories:
 - Networking
-- Review
 tags:
 - comparison
 - free

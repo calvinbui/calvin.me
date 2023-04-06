@@ -1,8 +1,7 @@
 ---
 title: Review of the UTS Bachelor of Science in IT Degree
 categories:
-- Review
-- Blog
+- Career
 tags:
 - it degree
 - university of technology

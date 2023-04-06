@@ -386,4 +386,8 @@ $dark-primary: $tag;
   .github-nav-icon {
     color: white;
   }
+
+  nav.toc {
+    border-left: 1px solid $dark-border;
+  }
 }

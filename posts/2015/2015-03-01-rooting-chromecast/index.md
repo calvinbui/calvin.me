@@ -1,7 +1,7 @@
 ---
 title: Rooting the Chromecast
 categories:
-- Hacking
+- Hardware
 tags:
 - chromecast
 - hubcap

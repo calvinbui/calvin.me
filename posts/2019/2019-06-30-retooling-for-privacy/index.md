@@ -2,7 +2,6 @@
 title: Retooling for Privacy
 categories:
 - Security
-- Privacy
 tags:
 - google
 - vpn

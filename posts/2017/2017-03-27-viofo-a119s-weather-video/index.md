@@ -1,7 +1,7 @@
 ---
 title: Viofo A119S - Sydney Weather
 categories:
-- Review
+- Hardware
 tags:
 - cameras
 - viofo

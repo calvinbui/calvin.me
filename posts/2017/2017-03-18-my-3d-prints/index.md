@@ -1,7 +1,7 @@
 ---
 title: My 3D Prints
 categories:
-- Misc
+- 3D Printing
 tags:
 - 3d-printing
 # https://www.iconfinder.com/icons/4567741/app_device_print_printer_printing_icon

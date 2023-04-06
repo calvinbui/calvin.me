@@ -2,7 +2,6 @@
 title: A week with an iPhone
 categories:
 - Mobile
-- Review
 tags:
 - ios
 - iphone

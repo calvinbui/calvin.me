@@ -1,7 +1,7 @@
 ---
 title: 3D Printer Upgrades Galore
 categories:
-- Misc
+- 3D Printing
 tags:
 - 3d-printing
 - prusa

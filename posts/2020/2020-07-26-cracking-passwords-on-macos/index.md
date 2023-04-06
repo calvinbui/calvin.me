@@ -3,7 +3,6 @@ title: "Cracking .DMG, .RAR and other passwords on MacOS"
 categories:
 - Security
 - Programming
-- Hacking
 tags:
 - john the ripper
 - password

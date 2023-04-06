@@ -1,7 +1,7 @@
 ---
 title: Small Theme Update
 categories:
-- Misc
+- Blog
 tags:
 - jekyll
 # https://www.iconfinder.com/icons/1154378/brush_easel_art_paint_painting_icon

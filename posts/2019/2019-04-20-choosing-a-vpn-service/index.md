@@ -2,7 +2,6 @@
 title: Choosing a VPN Service
 categories:
 - Security
-- Privacy
 tags:
 - vpn
 # https://github.com/mullvad/mullvadvpn-app/blob/master/graphics/icon.svg
@@ -58,7 +57,7 @@ As unscientically as the come, the testing methodology was:
 ![](speedtest.PNG)
 
 | Provider             | Ping | Download | Upload | Fourteen Eyes Country |
-|----------------------|------|----------|--------|-----------------------|
+|:---------------------|:-----|:---------|:-------|:----------------------|
 | No VPN (Telstra)     | 11   | 115.71   | 5.06   | Five                  |
 | BoxPN                | 12   | 88.1     | 4.7    | No                    |
 | FrootVPN             | 12   | 95.87    | 4.68   | Fourteen              |
@@ -82,7 +81,7 @@ As I mentioned before, I wanted at least 100Mbps download and the providers that
 Luckily for me, each VPN provider listed had a money-back guarantee which I took them upon. This was used as an indicator of how ethical they were. I paid using PayPal so I could use them to step in for a refund if needed.
 
 | Provider | Days to refund  | Time taken |
-|----------|-----------------|------------|
+|:---------|:----------------|:-----------|
 | BoxPN    | 7               | 1          |
 | FrootVPN | 30              | 2          |
 | Ivacy    | 30              | 1          |

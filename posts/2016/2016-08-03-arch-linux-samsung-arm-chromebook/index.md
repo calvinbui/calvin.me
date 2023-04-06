@@ -2,7 +2,6 @@
 title: Arch Linux on Samsung ARM Chromebook
 categories:
 - Computers
-- Hacking
 tags:
 - arch linux
 - chromebook

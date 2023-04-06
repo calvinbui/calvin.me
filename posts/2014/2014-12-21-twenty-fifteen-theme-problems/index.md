@@ -1,7 +1,7 @@
 ---
 title: Twenty Fifteen Theme Problems
 categories:
-- Review
+- Blog
 tags:
 - wordpress
 - theme

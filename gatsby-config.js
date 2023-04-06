@@ -193,5 +193,17 @@ module.exports = {
         respectDoNotTrack: false,
       },
     },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: [{ regex: "^/.*" }],
+        excludePaths: ["/", "/tags", "/categories", { regex: "^/categories/.*" }, { regex: "^/tags/.*" }],
+        height: 3,
+        prependToBody: false,
+        color: `#cc3333`,
+        footerHeight: 100,
+        headerHeight: 0,
+      },
+    },
   ],
 }

@@ -1,7 +1,6 @@
 ---
 title: My Next Laptop
 categories:
-- Review
 - Computers
 tags:
 - laptop
@@ -154,7 +153,7 @@ Summary:
 ### Summary
 
 | Laptop             | Price  | CPU           | RAM  | Display |
-|--------------------|--------|---------------|------|---------|
+|:-------------------|:-------|:--------------|:-----|:--------|
 | Toshiba Chromebook | $400   | Celeron 3215U | 4GB  | 13.3    |
 | Lenovo E460        | $1,000 | i7 6500U      | 16GB | 14      |
 | Lenovo  X260       | $1,300 | i5 6200U      | 16GB | 12.5    |

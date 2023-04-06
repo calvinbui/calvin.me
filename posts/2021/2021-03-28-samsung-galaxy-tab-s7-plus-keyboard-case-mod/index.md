@@ -1,7 +1,8 @@
 ---
 title: "Samsung Galaxy S7+ Keyboard Case Mod"
 categories:
-- Misc
+- Hardware
+- Mobile
 tags:
 - samsung galaxy tab s7+
 - diy

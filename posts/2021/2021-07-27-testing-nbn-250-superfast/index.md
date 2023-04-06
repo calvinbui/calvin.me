@@ -2,7 +2,6 @@
 title: "Testing NBN 250 Superfast"
 categories:
 - Networking
-- Review
 - Web
 - Home
 tags:

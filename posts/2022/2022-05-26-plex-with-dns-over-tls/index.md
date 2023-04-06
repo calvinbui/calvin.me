@@ -2,7 +2,6 @@
 title: Troubleshooting Plex with OPNsense
 categories:
 - Networking
-- Misc
 tags:
 - plex
 - opnsense

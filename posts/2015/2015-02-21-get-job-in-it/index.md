@@ -1,7 +1,7 @@
 ---
 title: Getting a Job in I.T.
 categories:
-- Misc
+- Career
 tags:
 - advice
 - IT

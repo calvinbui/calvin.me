@@ -2,7 +2,6 @@
 title: Nintendo Switch OLED Modding
 categories:
 - Gaming
-- Hacking
 tags:
 - nintendo
 - switch

@@ -2,7 +2,6 @@
 title: Android GPS App Comparison
 categories:
 - Mobile
-- Review
 tags:
 - android
 - best
@@ -40,7 +39,7 @@ X - Not available.
 ● - Paid option.
 
 | App                       | Offline Maps | Live Traffic | Speed Cameras | Speed Limit | Police/Cameras | Lane Assist | Voice | UI  | Notes                                                   |
-|---------------------------|--------------|--------------|---------------|-------------|----------------|-------------|-------|-----|---------------------------------------------------------|
+|:--------------------------|:-------------|:-------------|:--------------|:------------|:---------------|:------------|:------|:----|:--------------------------------------------------------|
 | Google Maps               | ✔            | ✔            | X             | X           | X              | ✔           | ✔     | 4/4 | Lane Guidance not available in Australia                |
 | Waze                      | X            | ✔            | ✔             | ✔           | ✔              | X           | ✔     | 4/4 | Took me the long way home a few times.                  |
 | TomTom                    | ●            | ●            | ●             | ●           | ●              | ●           | ●     | 3/4 | Free for 75km. Handy fuel stations on the side          |

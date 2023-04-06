@@ -2,8 +2,8 @@
 title: "Testing NBN 1000 Ultrafast"
 categories:
 - Networking
-- Review
 - Web
+- Home
 tags:
 - nbn
 - gigabit

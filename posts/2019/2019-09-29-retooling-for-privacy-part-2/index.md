@@ -2,7 +2,6 @@
 title: Retooling for Privacy Part 2
 categories:
 - Security
-- Privacy
 tags:
 - google
 - nextcloud

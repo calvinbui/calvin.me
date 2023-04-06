@@ -1,7 +1,8 @@
 ---
 title: Tech Inside My 2018 VW Golf R
 categories:
-- Misc
+- Hardware
+- Home
 tags:
 - car
 # https://www.iconfinder.com/icons/2526575/transportation_vehicle_icon
