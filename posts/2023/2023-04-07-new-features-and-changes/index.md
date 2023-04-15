@@ -54,6 +54,8 @@ On larger screens, there is now a floating table of contents on the right-hand s
   <p>Your browser does not support the video element.</p>
 </video>
 
+Update: I've switched to [JavaScript](https://github.com/cferdinandi/smooth-scroll) instead of CSS. There were issues navigating links between pages with CSS.
+
 ## Page Progress Indicator
 
 Lastly, I've implemented a [page progress indicator](https://github.com/devjmetivier/gatsby-plugin-page-progress) top the top of each blog post. The red colour matches my favicon.
