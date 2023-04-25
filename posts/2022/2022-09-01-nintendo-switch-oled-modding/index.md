@@ -257,7 +257,8 @@ I am not condoning piracy.
 1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
 1. Copy the latest [Sigpatches](https://sigmapatches.coomer.party) release over to the SD card.
-1. Replace `sdcard:/payload.bin` with `fusee.bin` from Atmosphere.
+1. Copy the latest [fusee.bin](https://github.com/Atmosphere-NX/Atmosphere) to `sdcard:/bootloader/payloads/`
+1. Replace `sdcard:/payload.bin` with `hekate_ctcaer_X.Y.Z.bin` from hekate.
 1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
 1. Run Daybreak select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
 1. Restore `sdcard:/atmosphere/contents/` and update all homebrew to be compatible with the new firmware.
