@@ -253,14 +253,14 @@ I am not condoning piracy.
 
 1. Boot into Stock SysMMC and update the firmware.
 1. Run [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) and select **Dump from SysNAND**.
-1. Run [TegraExplorer](https://github.com/dezem/TegraExplorer) and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) via the **Browse the SD card option** to **Dump sysmmc**.
+1. Run [TegraExplorer](https://github.com/dezem/TegraExplorer), select **Browse the SD card option** and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) and select **Dump sysmmc**.
 1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
 1. Copy the latest [Sigpatches](https://sigmapatches.coomer.party) release over to the SD card.
 1. Copy the latest [fusee.bin](https://github.com/Atmosphere-NX/Atmosphere) to `sdcard:/bootloader/payloads/`
 1. Replace `sdcard:/payload.bin` with `hekate_ctcaer_X.Y.Z.bin` from hekate.
 1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
-1. Run Daybreak select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
+1. Run **Daybreak** and select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
 1. Restore `sdcard:/atmosphere/contents/` and update all homebrew to be compatible with the new firmware.
 1. Themes will have to be reinstalled. Delete the `0100000000001000` and `0100000000001007` folders if they exists under `sdcard:/atmosphere/contents/` or Atmosphere will crash.
 
