@@ -47,6 +47,45 @@ As the game is capping itself at 30 FPS, there is a bit of performance left on t
     - [Telsa Menu](https://github.com/WerWolv/Tesla-Menu): Overlay menu to activate FPSLocker and Status-Monitor-Overlay.
     - [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader): Host process for loading Tesla Menu.
 
+1. Your sdcard should look like this by the end of it:
+
+    ```
+    sdcard
+    ├── SaltySD
+    │   ├── exceptions.txt
+    │   ├── flags
+    │   │   └── log.flag
+    │   ├── patches
+    │   ├── plugins
+    │   │   └── NX-FPS.elf
+    │   └── saltysd_core.elf
+    ├── atmosphere
+    │   └── contents
+    │       ├── 0000000000534C56
+    │       │   ├── exefs.nsp
+    │       │   ├── flags
+    │       │   │   └── boot2.flag
+    │       │   └── toolbox.json
+    │       ├── 0100F2C0115B6000
+    │       │   ├── exefs
+    │       │   │   ├── main.npdm
+    │       │   │   └── subsdk9
+    │       │   └── romfs
+    │       │       └── dfps
+    │       │           ├── 60fps.ini
+    │       │           └── default.ini
+    │       └── 420000000007E51A
+    │           ├── exefs.nsp
+    │           ├── flags
+    │           │   └── boot2.flag
+    │           └── toolbox.json
+    └── switch
+        └── .overlays
+            ├── FPSLocker.ovl
+            ├── Status-Monitor-Overlay.ovl
+            └── ovlmenu.ovl
+    ```
+
 1. Start the game and press `L` + `DPad Down` + `R3` to bring up the Tesla menu overlay.
 
 1. Open FPSLocker and set **Window Sync Wait** set to **Disabled**.
