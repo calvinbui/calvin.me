@@ -10,9 +10,9 @@ tags:
 thumbnail: thumbnail.svg
 ---
 
-<!-- more -->
-
 I want to share how I modded [The Legend of Zelda: Tears of the Kingdom](https://zelda.nintendo.com/tears-of-the-kingdom/) on my Nintendo Switch as guides on the internet were targetted at [Yuzu](https://yuzu-emu.org/) or [Ryujinx](https://ryujinx.org/) emulators.
+
+<!-- more -->
 
 ```toc
 # This code block gets replaced with the TOC
