@@ -104,6 +104,8 @@ Each week I feed the worms a combination of nitrogen (greens) and carbons (brown
 - Coffee grounds and tea bags: crushed coffee pucks from my morning coffee.
 - Shredded paper (microcut): sensitive documents, and now the main source of carbon.
 
+A tip I've learnt is to freeze food scraps to stop them from decomposing and smelling. When it thaws, it breaks down the cell walls as water inside expands, making it decompose faster and easier for worms to eat.
+
 Worms can consume anything that was previously 'alive', such as leaves, fingernail clippings, hair and vacuum dust. It's important to bury and cover all food (worms live underground).
 
 *Example 1: Carrot tops, broccoli stems and strawberry tops*
