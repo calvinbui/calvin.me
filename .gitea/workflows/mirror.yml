@@ -1,0 +1,24 @@
+---
+
+name: Mirror to GitHub
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    container: calvinbui/gitea-actions:localhost
+
+    steps:
+      - name: 🛎️ Check out master branch
+        uses: actions/checkout@v4
+
+      - name: 📋 Mirror to GitHub
+        run: ./mirror-to-github.sh
+        env:
+          USER_NAME: ${{ github.actor }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          REPOSITORY: ${{ github.repository }}
