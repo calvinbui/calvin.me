@@ -4,8 +4,7 @@ name: Mirror to GitHub
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   lint:
@@ -13,7 +12,7 @@ jobs:
     container: calvinbui/gitea-actions:localhost
 
     steps:
-      - name: 🛎️ Check out master branch
+      - name: 🛎️ Checkout
         uses: actions/checkout@v4
 
       - name: 📋 Mirror to GitHub
@@ -22,3 +21,14 @@ jobs:
           USER_NAME: ${{ github.actor }}
           GH_PAT: ${{ secrets.GH_PAT }}
           REPOSITORY: ${{ github.repository }}
+
+      - name: 🔊 Notification
+        uses: ravsamhq/notify-slack-action@v2
+        if: ${{ failure() }}
+        with:
+          status: ${{ job.status }}
+          notification_title: "{emoji} *<{run_url}|{workflow}>* {status_message} in <{repo_url}|{repo}> on <{commit_url}|{commit_sha}>"
+          message_format: ""
+          footer: ""
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
