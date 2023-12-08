@@ -41,7 +41,6 @@ As the game is capping itself at 30 FPS, there is a bit of performance left on t
 1. Follow [this guide](https://gist.github.com/masagrator/65fcbd5ad09243399268d145aaab899b) to install:
 
     - [SaltyNX](https://github.com/masagrator/SaltyNX): Background process for the Nintendo Switch for file/code modification
-    - [NX-FPS](https://github.com/masagrator/NX-FPS): Collects FPS data in Nintendo Switch games.
     - [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
     - [FPSLocker](https://github.com/masagrator/FPSLocker): Set custom FPS in Nintendo Switch games
     - [Telsa Menu](https://github.com/WerWolv/Tesla-Menu): Overlay menu to activate FPSLocker and Status-Monitor-Overlay.
@@ -56,8 +55,6 @@ As the game is capping itself at 30 FPS, there is a bit of performance left on t
     │   ├── flags
     │   │   └── log.flag
     │   ├── patches
-    │   ├── plugins
-    │   │   └── NX-FPS.elf
     │   └── saltysd_core.elf
     ├── atmosphere
     │   └── contents

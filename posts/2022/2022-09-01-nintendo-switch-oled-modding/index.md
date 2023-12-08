@@ -111,7 +111,10 @@ I followed these guides to create an EmuNAND:
 1. Before booting into Atmosphere, I strongly recommend doing the following:
 
     - [Enable USB 3.0 for Homebrew](https://github.com/Atmosphere-NX/Atmosphere/blob/master/config_templates/system_settings.ini#L7=)
-    - [Zero out the serial number and create a host file to block Nintendo servers](https://rentry.org/ExosphereDNSMITM)
+    - [Zero out the serial number and create a hosts file to block Nintendo servers](https://rentry.org/ExosphereDNSMITM)
+    - In `atmosphere/config/system_settings.ini`, add/uncomment:
+        - `enable_dns_mitm = u8!0x1`
+        - `add_defaults_to_dns_hosts = u8!0x1`
 
 1. Create `bootloader/hekate_ipl.ini` with the following. This autoboots into EmuMMC unless the `VOL-` is pressed within 3 seconds:
 
@@ -125,6 +128,9 @@ I followed these guides to create an EmuNAND:
 
     ; 0: Disable (It also disables bootlogo. Having VOL- pressed since injection goes to menu.), #: Time to wait for VOL- to enter menu. Max: 20s.
     bootwait=3
+
+    ; 0: Animated line is drawn during custom bootlogo, signifying time left to skip to menu. 1: Disable.
+    noticker=0
 
     ; 0: Disable, 1: If woke up from HOS via an RTC alarm, shows logo, then powers off completely, 2: No logo, immediately powers off.
     autohosoff=2
@@ -142,6 +148,9 @@ I followed these guides to create an EmuNAND:
     backlight=100
 
     [CFW EmuMMC]
+    ; chain loading fusee instead of fss0/package3 removes the need for other patches.
+    ; this includes having to load kips manually.
+    ; https://rentry.org/SwitchTerminology#fusee
     payload=bootloader/payloads/fusee.bin
     icon=bootloader/res/emummc.bmp
 
@@ -151,14 +160,15 @@ I followed these guides to create an EmuNAND:
     emummc_force_disable=1
     icon=bootloader/res/sysnand.bmp
 
-    [Stock SysMMC]
-    fss0=atmosphere/package3
-    stock=1
-    emummc_force_disable=1
-    icon=bootloader/res/stock.bmp
+    ; Use the reboot OFW option in Hekate instead.
+    ; [Stock SysMMC]
+    ; fss0=atmosphere/package3
+    ; stock=1
+    ; emummc_force_disable=1
+    ; icon=bootloader/res/stock.bmp
     ```
 
-I used icons from [Sthetix's HATS Pack](https://github.com/sthetix/HATS)
+I used icons from [Sthetix's HATS Pack](https://u.pcloud.link/publink/show?code=XZAkVUXZkgrREaCGTQLsTYfCeUqXFhKDnfBk)
 
 ![](sd/configs.png)
 
@@ -201,9 +211,9 @@ I am not condoning piracy.
   - [ftpd](https://github.com/mtheall/ftpd): FTP server.
   - [NX-Shell](https://github.com/joel16/NX-Shell): File browser.
   - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool): Dump game cards and eShop titles.
-  - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM): Dump keys within Hekate.
-  - [TegraExplorer](https://github.com/dezem/TegraExplorer): File browser within Hekate and executing scripts. This is a forked version working on OLED due too [this BDK update issue](https://github.com/suchmememanyskill/TegraExplorer/issues/53).
-    - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts)
+  - [Lockpick_RCM](https://sigmapatches.coomer.party/): Dump keys within Hekate.
+  - [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer): File browser within Hekate and executing scripts.
+    - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts).
 
 ### Screen Overlay (Tesla)
 
@@ -211,11 +221,8 @@ I am not condoning piracy.
 
   - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
   - [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
-  - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring. Hold `L3` + `R3` to close.
-    - [NX-FPS](https://github.com/masagrator/NX-FPS): FPS counter.
-  - [sys-clk](https://github.com/retronx-team/sys-clk): Set CPU/GPU/Memory clocks according to the application and docked state.
-    - [sys-clk database](https://github.com/retronx-team/sys-clk-db): Configs for a lot of games.
-    - More configs on their [Discord server under #oc-perf-submissions](https://discord.gg/jTmfAEx).
+  - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
+  - [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite): Overclocking.
   - [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
       - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
       - [SaltyNX](https://github.com/masagrator/SaltyNX): Required to be installed first.
@@ -248,16 +255,19 @@ I am not condoning piracy.
   - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
   - [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
   - [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
+  - [FPSLocker](https://github.com/masagrator/FPSLocker): Unlock FPS in games.
 
 ## Updating Horizon OS
 
 1. Boot into Stock SysMMC and update the firmware.
-1. Run [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) and select **Dump from SysNAND**.
-1. Run [TegraExplorer](https://github.com/dezem/TegraExplorer), select **Browse the SD card option** and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) and select **Dump sysmmc**.
+1. Wait for the modchip to retrain and boot back into Hekate.
+1. Run [Lockpick_RCM](https://sigmapatches.coomer.party/) and select **Dump from SysNAND**.
+1. Run [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer), select **Browse the SD card option** and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) and select **Dump sysmmc**.
 1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
 1. Copy the latest [Sigpatches](https://sigmapatches.coomer.party) release over to the SD card.
 1. Copy the latest [fusee.bin](https://github.com/Atmosphere-NX/Atmosphere) to `sdcard:/bootloader/payloads/`
+1. Update [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) to a compatible version.
 1. Replace `sdcard:/payload.bin` with `hekate_ctcaer_X.Y.Z.bin` from hekate.
 1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
 1. Run **Daybreak** and select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
