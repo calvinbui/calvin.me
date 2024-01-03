@@ -17,12 +17,12 @@ jobs:
 
     steps:
       - name: Set runner timezone
-        uses: szenius/set-timezone@v1.0
+        uses: szenius/set-timezone@v1
         with:
           timezoneLinux: "Australia/Sydney"
 
       - name: 🛎️ Check out master branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: master
           path: master
@@ -33,7 +33,7 @@ jobs:
         working-directory: master
 
       - name: ⚙️ Setup node.js environment
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
 
@@ -43,7 +43,7 @@ jobs:
         working-directory: master
 
       - name: 🧶 Get Yarn cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -65,7 +65,7 @@ jobs:
 
       - name: 🥡 Getting Gatsby cache
         id: gatsby-cache-build
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: master/.cache
           key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
@@ -73,7 +73,7 @@ jobs:
             ${{ runner.os }}-gatsby-build-
 
       - name: 🛎️ Check out gh-pages branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
