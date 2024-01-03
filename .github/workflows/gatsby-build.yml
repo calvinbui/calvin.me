@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Set runner timezone
-        uses: szenius/set-timezone@v1
+        uses: szenius/set-timezone@v1.2
         with:
           timezoneLinux: "Australia/Sydney"
 
