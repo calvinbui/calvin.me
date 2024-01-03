@@ -4977,7 +4977,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-jsx-a11y: "npm:^6.8.0"
     eslint-plugin-react: "npm:^7.33.2"
-    eslint-plugin-react-hooks: "npm:^4.3.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
     gatsby: "npm:^5.13.1"
     gatsby-cli: "npm:^5.13.1"
     gatsby-plugin-catch-links: "npm:^5.13.0"
@@ -6898,7 +6898,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.3.0, eslint-plugin-react-hooks@npm:^4.6.0":
+"eslint-plugin-react-hooks@npm:^4.6.0":
   version: 4.6.0
   resolution: "eslint-plugin-react-hooks@npm:4.6.0"
   peerDependencies:
