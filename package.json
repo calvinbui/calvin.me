@@ -81,5 +81,6 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
