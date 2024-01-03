@@ -28,7 +28,7 @@ jobs:
           path: master
 
       - name: 💭 Get nvm version
-        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+        run: echo "NODE_VERSION=$(cat .nvmrc)" >> $GITHUB_OUTPUT
         id: nvm
         working-directory: master
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: 🧶 Get Yarn cache directory
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
         working-directory: master
 
       - name: 🧶 Get Yarn cache
