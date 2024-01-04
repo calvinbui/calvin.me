@@ -61,9 +61,9 @@ public/
 # Bundle stats
 bundle-stats.json
 
-# yarn v2
-.pnp.*
+# yarn berry
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases

@@ -39,7 +39,7 @@ jobs:
 
       - name: 🧶 Get Yarn cache directory
         id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
         working-directory: master
 
       - name: 🧶 Get Yarn cache
@@ -52,7 +52,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: 🧶 Yarn install
-        run: yarn install --pure-lockfile
+        run: yarn install --immutable
         working-directory: master
 
       - name: 💨 ESLint
