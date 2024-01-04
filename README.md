@@ -17,10 +17,9 @@ Calvin's personal website running on Gatsby, React and Node.js.
 ```console
 git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
-nvm install
 nvm use
 npm install -g yarn
-yarn install --frozen-lockfile
+yarn install --immutable
 yarn gatsby telemetry --disable
 ```
 
@@ -32,7 +31,7 @@ yarn dev
 ### Upgrading
 
 ```console
-yarn upgrade-interactive --latest
+yarn upgrade-interactive
 ```
 
 ## Deployment
