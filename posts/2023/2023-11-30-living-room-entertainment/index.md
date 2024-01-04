@@ -3,6 +3,7 @@ title: Living Room Entertainment
 categories:
 - Home
 tags:
+- karaoke
 - electronics
 - television
 - entertainment

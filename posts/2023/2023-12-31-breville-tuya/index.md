@@ -4,6 +4,8 @@ categories:
 - Home
 - Hardware
 tags:
+- breville
+- electric blanket
 - electronics
 - home assistant
 # https://www.reshot.com/free-svg-icons/item/blanket-4G69W8JKSH/
