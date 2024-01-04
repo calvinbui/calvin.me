@@ -99,7 +99,7 @@ I also filed down the sides of my case to make it an easier fit. This may not be
 The controls for the unit can then be found on [GitHub](https://github.com/gcormier/megadesk#quick-commands)
 
 | UP pushes | Function                                        |
-|-----------|-------------------------------------------------|
+|:----------|:------------------------------------------------|
 | 2-10      | Memory positions                                |
 | 11        | Set the minimum height to the current position  |
 | 12        | Set the maximum height to the current position  |
@@ -210,7 +210,7 @@ I am still using the same soldering equipment from [my previous post where I ins
 I started by working on the JST RCY connector. I removed the split male connector and cut off one cable as it won't be used. My colour coding will be:
 
 | Function | Power  | RC Servo | Action                          |
-|----------|--------|----------|---------------------------------|
+|:---------|:-------|:---------|:--------------------------------|
 | LINBUS   | Yellow | Black    | Not required. Cut at the split. |
 | GROUND   | Black  | Red      | Solder split to IN-             |
 | 24V      | Red    | White    | Solder split to IN+             |
@@ -220,15 +220,13 @@ I started by working on the JST RCY connector. I removed the split male connecto
 At this point, I chose to connect a male JST connector to the GROUND and 24V wires.
 
 | Function | RC Servo | JST-Connector | Action              |
-|----------|----------|---------------|---------------------|
+|:---------|:---------|:--------------|:--------------------|
 | GROUND   | Red      | Black         | Solder split to IN- |
 | 24V      | White    | Red           | Solder split to IN+ |
 
 ![](soldering/rcy-jst.jpg)
 
-
 Run a JST SM female cable through the case's left channel and solder the black cable to `IN-` (Ground). The red cable will have to be shortened. Cut it just a bit ahead of where `IN+` (24V) is and solder it in.
-
 
 ![](soldering/step-down-in-solder.jpg)
 
@@ -239,7 +237,7 @@ Connect the step-down converter to the power through the RCY/servo splitter. Adj
 Run a JST SM cable through the case's right channel and solder it to the D1 Mini.
 
 | D1 Mini | JST-Connector |
-|---------|---------------|
+|:--------|:--------------|
 | RX      | Yellow        |
 | TX      | Red           |
 
@@ -252,7 +250,7 @@ Solder a cable to OUT+ and OUT- on the step-down converter. Use the case's inter
 Solder the cables from the previous step to the D1 Mini
 
 | Function | LM2596S | D1 Mini |
-|----------|---------|---------|
+|:---------|:--------|:--------|
 | 3.3V     | OUT+    | 3V3     |
 | GROUND   | OUT-    | Black   |
 
@@ -269,7 +267,7 @@ Check the D1 Mini is being wired properly and working by powering the step-down 
 Solder a male JST connector onto the Megadesk PCB. The cable must be on the side with the other connectors.
 
 | Function | JST-Connector |
-|----------|---------------|
+|:---------|:--------------|
 | MISO     | Yellow        |
 | SCK      | Red           |
 
@@ -284,7 +282,7 @@ Connect the RCY/servo splitter to the Megadesk PCB and close it back up. Test it
 Connect everything together. Every connector should have a male and a female making it easy to know what goes where. Do a final test raising/lowering the desk manually and through the web interface.
 
 | Function | Color              | From               | To                  |
-|----------|--------------------|--------------------|---------------------|
+|:---------|:-------------------|:-------------------|:--------------------|
 | Power    | Yellow, Black, Red | Desk               | RCY/Servo Splitter  |
 | Power    | Black, Red         | RCY/Servo Splitter | Step-down converter |
 | Serial   | Yellow, Red        | Megadesk           | ESP Microcontroller |

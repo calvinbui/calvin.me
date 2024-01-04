@@ -107,7 +107,6 @@ I followed these guides to create an EmuNAND:
     - [EmuNAND guide on Rentry](https://rentry.org/MarikoEmuNAND)
     - [EmuNAND guide by Homebrew Guide](https://switch.homebrew.guide/emummc/emummc.html)
 
-
 1. Before booting into Atmosphere, I strongly recommend doing the following:
 
     - [Enable USB 3.0 for Homebrew](https://github.com/Atmosphere-NX/Atmosphere/blob/master/config_templates/system_settings.ini#L7=)
@@ -190,72 +189,72 @@ I recommend making a note of all the homebrew that installs folders into `/atmos
 
 ### Must Haves
 
-  - [hekate & Nyx](https://github.com/CTCaer/hekate): Bootloader.
-  - [Atmosphere & fusee](https://github.com/Atmosphere-NX/Atmosphere): Custom firmware.
-  - [hbmenu](https://github.com/switchbrew/nx-hbmenu): Included with Atmosphere. Opens when launching the Album or holding R and launching a game/title.
+- [hekate & Nyx](https://github.com/CTCaer/hekate): Bootloader.
+- [Atmosphere & fusee](https://github.com/Atmosphere-NX/Atmosphere): Custom firmware.
+- [hbmenu](https://github.com/switchbrew/nx-hbmenu): Included with Atmosphere. Opens when launching the Album or holding R and launching a game/title.
 
 ### Gaming
 
 I am not condoning piracy.
 
-  - [Sigpatches](https://sigmapatches.coomer.party): Patch Atmosphere to run unsigned code (such as backups).
-  - [Tinfoil](https://tinfoil.io/): Title/game manager.
-  - [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
-  - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
-  - [Breeze](https://github.com/tomvita/Breeze-Beta): Cheats. An updated version of [EdiZon SE](https://github.com/tomvita/EdiZon-SE/) by the same author.
-  - [Mission Control](https://github.com/ndeadly/MissionControl): Use controllers from other consoles.
-  - [SimpleModManager](https://github.com/nadrino/SimpleModManager): Run mods from GameBanana.
+- [Sigpatches](https://sigmapatches.coomer.party): Patch Atmosphere to run unsigned code (such as backups).
+- [Tinfoil](https://tinfoil.io/): Title/game manager.
+- [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
+- [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
+- [Breeze](https://github.com/tomvita/Breeze-Beta): Cheats. An updated version of [EdiZon SE](https://github.com/tomvita/EdiZon-SE/) by the same author.
+- [Mission Control](https://github.com/ndeadly/MissionControl): Use controllers from other consoles.
+- [SimpleModManager](https://github.com/nadrino/SimpleModManager): Run mods from GameBanana.
 
 ### File Management and Backup
 
-  - [ftpd](https://github.com/mtheall/ftpd): FTP server.
-  - [NX-Shell](https://github.com/joel16/NX-Shell): File browser.
-  - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool): Dump game cards and eShop titles.
-  - [Lockpick_RCM](https://sigmapatches.coomer.party/): Dump keys within Hekate.
-  - [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer): File browser within Hekate and executing scripts.
-    - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts).
+- [ftpd](https://github.com/mtheall/ftpd): FTP server.
+- [NX-Shell](https://github.com/joel16/NX-Shell): File browser.
+- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool): Dump game cards and eShop titles.
+- [Lockpick_RCM](https://sigmapatches.coomer.party/): Dump keys within Hekate.
+- [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer): File browser within Hekate and executing scripts.
+  - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts).
 
 ### Screen Overlay (Tesla)
 
 [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu) is an overlay menu available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/) is also required to load Tesla. The following overlays are available:
 
-  - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
-  - [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
-  - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
-  - [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite): Overclocking.
-  - [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
-      - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
-      - [SaltyNX](https://github.com/masagrator/SaltyNX): Required to be installed first.
-        - [SaltyNX-Tool](https://github.com/masagrator/SaltyNX-Tool): To manage SaltyNX.
-  - [TextReaderOverlay](https://github.com/diwo/TextReaderOverlay-NX): Display text files.
-  - [QuickNTP](https://github.com/nedex/QuickNTP): Syncing time as blocking DNS also blocks time syncs with Nintendo servers.
-  - [sys-ftpd-ovl](https://github.com/SegFault42/sys-ftpd-ovl): Display IP address.
-  - [CaptureSight](https://github.com/zaksabeast/CaptureSight/): Tesla overlay for viewing Pokemon data.
+- [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
+- [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
+- [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
+- [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite): Overclocking.
+- [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
+  - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
+  - [SaltyNX](https://github.com/masagrator/SaltyNX): Required to be installed first.
+    - [SaltyNX-Tool](https://github.com/masagrator/SaltyNX-Tool): To manage SaltyNX.
+- [TextReaderOverlay](https://github.com/diwo/TextReaderOverlay-NX): Display text files.
+- [QuickNTP](https://github.com/nedex/QuickNTP): Syncing time as blocking DNS also blocks time syncs with Nintendo servers.
+- [sys-ftpd-ovl](https://github.com/SegFault42/sys-ftpd-ovl): Display IP address.
+- [CaptureSight](https://github.com/zaksabeast/CaptureSight/): Tesla overlay for viewing Pokemon data.
 
 ![](homebrew/tesla.jpg)
 
 ### Screen capture and Streaming
 
-  - [SysDVR](https://github.com/exelix11/SysDVR): Stream to a PC.
-  - [Moonlight-Switch](https://github.com/XITRIX/Moonlight-Switch). An updated fork of [Moonlight-NX](https://github.com/rock88/moonlight-nx/): Better performance than [switch-remote-play](https://github.com/Moehammered/switch-remote-play) and [SkyNX](https://github.com/DevL0rd/SkyNX) as I have an NVIDIA GPU. I have raised an [issue with them about Wake On LAN not working](https://github.com/XITRIX/Moonlight-Switch/issues/71).
-  - [Chiaki](https://sr.ht/~thestr4ng3r/chiaki/): PlayStation Remote Play.
+- [SysDVR](https://github.com/exelix11/SysDVR): Stream to a PC.
+- [Moonlight-Switch](https://github.com/XITRIX/Moonlight-Switch). An updated fork of [Moonlight-NX](https://github.com/rock88/moonlight-nx/): Better performance than [switch-remote-play](https://github.com/Moehammered/switch-remote-play) and [SkyNX](https://github.com/DevL0rd/SkyNX) as I have an NVIDIA GPU. I have raised an [issue with them about Wake On LAN not working](https://github.com/XITRIX/Moonlight-Switch/issues/71).
+- [Chiaki](https://sr.ht/~thestr4ng3r/chiaki/): PlayStation Remote Play.
 
 ### Tools and Utilities
 
-  - [Homebrew App Store](https://github.com/fortheusers/hb-appstore): App store for homebrew. I don't recommend installing or uninstalling anything with this as it messes around with the SD card files. Good to browse for apps.
-  - [AIO-Switch-Updater](https://github.com/HamletDuFromage/AIO-switch-updater): Helper to update bootloader, custom firmware etc.
-  - [hwfly-toolbox](https://github.com/hwfly-nx/hwfly-toolbox): Update modchip firmware. [Guide here](https://www.sthetix.info/updating-the-chip-using-a-special-toolbox/).
-  - [hwfly-nx firmware](https://github.com/hwfly-nx/firmware): Firmware for the modchip.
-  - [emuiibo](https://github.com/XorTroll/emuiibo): Emulate amiibos.
-  - [Amiigo](https://github.com/CompSciOrBust/Amiigo): GUI for emuiibo (above).
-  - [SwitchPoff](https://github.com/Storm21CH/SwitchPoff-ShutdownSwitch): A shortcut to power-off.
-  - [NXReboot](https://github.com/Ericvf/NXReboot): A shortcut to reboot.
-  - [NX-Activity-Log](https://github.com/tallbl0nde/NX-Activity-Log): Displays time playing games.
-  - [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
-  - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
-  - [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
-  - [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
-  - [FPSLocker](https://github.com/masagrator/FPSLocker): Unlock FPS in games.
+- [Homebrew App Store](https://github.com/fortheusers/hb-appstore): App store for homebrew. I don't recommend installing or uninstalling anything with this as it messes around with the SD card files. Good to browse for apps.
+- [AIO-Switch-Updater](https://github.com/HamletDuFromage/AIO-switch-updater): Helper to update bootloader, custom firmware etc.
+- [hwfly-toolbox](https://github.com/hwfly-nx/hwfly-toolbox): Update modchip firmware. [Guide here](https://www.sthetix.info/updating-the-chip-using-a-special-toolbox/).
+- [hwfly-nx firmware](https://github.com/hwfly-nx/firmware): Firmware for the modchip.
+- [emuiibo](https://github.com/XorTroll/emuiibo): Emulate amiibos.
+- [Amiigo](https://github.com/CompSciOrBust/Amiigo): GUI for emuiibo (above).
+- [SwitchPoff](https://github.com/Storm21CH/SwitchPoff-ShutdownSwitch): A shortcut to power-off.
+- [NXReboot](https://github.com/Ericvf/NXReboot): A shortcut to reboot.
+- [NX-Activity-Log](https://github.com/tallbl0nde/NX-Activity-Log): Displays time playing games.
+- [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
+- [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
+- [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
+- [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
+- [FPSLocker](https://github.com/masagrator/FPSLocker): Unlock FPS in games.
 
 ## Updating Horizon OS
 
@@ -304,7 +303,6 @@ To create a forwarder, I used a tool called [SAK](https://github.com/dezem/SAK) 
 - [homebrew nsp forwarder no.2](https://gbatemp.net/threads/homebrew-nsp-forwarder-no-2.579975/)
 
 ![](forwarder/nro-forwarder.png)
-
 
 Copy the `.NSP` file onto the Switch's microSD card. The `.NSP` file can be installed through DBI or Tinfoil.
 

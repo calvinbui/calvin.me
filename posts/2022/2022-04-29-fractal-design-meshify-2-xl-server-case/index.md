@@ -36,6 +36,7 @@ What I did not like about the case was the tempered glass side panel as it is un
 ## Hard Drives
 
 ### Storage Layout
+
 The Meshify 2 XL can support up to 18 x 3.5" and 5 x 2.5" drivers in its Storage Layout.
 
 ![](fully-loaded.png)

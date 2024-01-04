@@ -28,7 +28,6 @@ Wikipedia has a [compatibility list](https://en.wikipedia.org/wiki/Uname) for `u
 
 dotbot's config has two main functions: linking files and running scripts. It's possible to split each function for each operating system.
 
-
 ### Links
 
 For symlinks, use the `if` parameter to link different files. In this example, I'm linking a different `.gitlocal` file based on the output of `uname -s`.
@@ -92,11 +91,11 @@ My `gitconfig` file differs between operating systems because of the GPG signing
 
 ```ini
 [user]
-	name = Calvin Bui
-	email = 3604363+calvinbui@users.noreply.github.com
+  name = Calvin Bui
+  email = 3604363+calvinbui@users.noreply.github.com
 
 [include]
-	path = .gitlocal
+  path = .gitlocal
 ```
 
 Linux specific `gitconfig` options:
@@ -113,12 +112,12 @@ Mac-specific `gitconfig`, which uses a different credential store:
   signingkey = MyMacSigningKey
 
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 ```
 
 ## ZSH
 
-I use ZSH with oh-my-zsh. It has a [custom directory](https://github.com/ohmyzsh/ohmyzsh#custom-directory) which is loads any `.zsh` files when the terminal is initialised. This is the recommended method of adding paths or custom functions instead of appending them onto `~/.zshrc`. Using the `uname` method as before, I can selectively include different paths and functions based on the operating system: 
+I use ZSH with oh-my-zsh. It has a [custom directory](https://github.com/ohmyzsh/ohmyzsh#custom-directory) which is loads any `.zsh` files when the terminal is initialised. This is the recommended method of adding paths or custom functions instead of appending them onto `~/.zshrc`. Using the `uname` method as before, I can selectively include different paths and functions based on the operating system:
 
 ```bash
 # ~/.oh-my-zsh/custom/paths.zsh

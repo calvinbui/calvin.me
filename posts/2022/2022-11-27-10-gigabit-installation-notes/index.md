@@ -46,7 +46,7 @@ I am using Ubuntu 22.04 as my operating system.
 
 After installing the NIC, check if the device is connected using `sudo lshw -class network`
 
-```
+```shell
 ❯ sudo lshw -class network
   *-network:0
        description: Ethernet interface
@@ -83,7 +83,7 @@ After installing the NIC, check if the device is connected using `sudo lshw -cla
 
 Find the interface name using `sudo ip a`. Ubuntu chose `ens3f` for me.
 
-```
+```shell
 ❯ sudo ip a
 
 4: ens3f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
@@ -98,7 +98,7 @@ Find the interface name using `sudo ip a`. Ubuntu chose `ens3f` for me.
 
 Create a new file under `/etc/netplan`. Replace currently interface (`eno1`) with new one (`ens3f0`). Move the old NIC configuration out then apply.
 
-```
+```shell
 $ sed s/eno1/ens3f0/g > ens3f0.yaml
 $ sudo mv eno1.yaml ~/eno1.yaml
 $ sudo netplan apply
@@ -106,7 +106,7 @@ $ sudo netplan apply
 
 Update all Docker to use the new network interface. I used Ansible to create my Docker networks so it was simply changing the parent interface on the MacVLAN networks.
 
-```
+```shell
 TASK [Create Docker networks] **************************************************************************************************************************
 --- before
 +++ after
@@ -140,9 +140,9 @@ TASK [Create Docker networks] **************************************************
 
 Redeploy any containers with a static IP address. For me, these were:
 
-  - Authelia
-  - TP-Link Omada
-  - Plex
-  - qBittorrent (opened port)
+- Authelia
+- TP-Link Omada
+- Plex
+- qBittorrent (opened port)
 
 Finally, restart the host. I preferred this over restarting the Docker daemon. This will also clean ups the deleted VLAN interfaces.

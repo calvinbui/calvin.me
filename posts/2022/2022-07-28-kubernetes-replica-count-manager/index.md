@@ -15,9 +15,10 @@ This tool provides an API alongside the native Kubernetes deployment controller 
 
 <!-- more -->
 
-You can find this on my GitHub at https://github.com/calvinbui/k8s-replica-count-manager.
+You can find this on my GitHub at [https://github.com/calvinbui/k8s-replica-count-manager](https://github.com/calvinbui/k8s-replica-count-manager).
 
 From developing this application, I learnt:
+
 - [gRPC](https://grpc.io/)
 - [Protobuf](https://developers.google.com/protocol-buffers/)
 - how to implement a mutual TLS (mTLS) server

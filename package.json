@@ -74,7 +74,7 @@
     "serve": "gatsby serve",
     "build": "gatsby build",
     "lint:js": "eslint --ext .js,.jsx .",
-    "lint:md": "markdownlint-cli2 posts/*/*.md",
+    "lint:md": "markdownlint-cli2 posts/*/*/*.md",
     "clean": "rm -rf public .cache"
   },
   "remarkConfig": {

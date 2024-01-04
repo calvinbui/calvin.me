@@ -13,7 +13,7 @@ thumbnail: thumbnail.svg
 
 Last year, my wife and I purchased our first home together. I'll be sharing some of the wisdom we picked up from our 3-year-long search.
 
-*Disclaimer: This is not financial advice*
+*Disclaimer*: This is not financial advice
 
 ```toc
 # This code block gets replaced with the TOC

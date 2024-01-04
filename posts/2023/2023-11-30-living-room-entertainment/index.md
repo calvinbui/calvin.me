@@ -184,7 +184,7 @@ The AVR initially did not fit inside the [BESTÅ Entertainment Unit](#entertainm
 I'm using the [UDP Broadcast Relay](https://forum.opnsense.org/index.php?topic=15721.0) to access the AVR across VLANs. The ports I have discovered are:
 
 | Name                                                                                                | Broadcast Address | Port   |
-|-----------------------------------------------------------------------------------------------------|-------------------|--------|
+|:----------------------------------------------------------------------------------------------------|:------------------|:-------|
 | [Denon AVR Remote App](https://play.google.com/store/apps/details?id=com.dmholdings.DenonAVRRemote) |                   | `3813` |
 | SSDP DLNA UPnP (Audyssey)                                                                           | `239.255.255.250` | `1900` |
 
@@ -193,7 +193,7 @@ I'm using the [UDP Broadcast Relay](https://forum.opnsense.org/index.php?topic=1
 And the additional firewall rules for [HEOS](https://play.google.com/store/apps/details?id=com.dnm.heos.phone):
 
 | Name                 | Source          | Destination                  |
-|----------------------|-----------------|------------------------------|
+|:---------------------|:----------------|:-----------------------------|
 | Access to Denon HEOS | Net:*           | AVR:80, AVR:10101, AVR:60006 |
 | HEOS Response        | AVR:51000-53000 | Net:49200                    |
 | HEOS Response 2      | AVR:56000-57000 | Net:49201                    |
@@ -242,7 +242,7 @@ Another reason is that Sony's built-in Google TV limited Android apps to 4K60 wh
 
 To improve performance on the Shield, I follow these [steps by Florisse](https://florisse.nl/shield/) to downgrade the Shield to 8.2.3 and remove unneeded applications. The newer firmware has more ads, more background processes, more telemetry and video stuttering. Additionally, I also removed GeForce NOW for Shield TV by running:
 
-```
+```shell
 adb shell pm uninstall -k --user 0 com.nvidia.tegrazone3
 ```
 
@@ -280,7 +280,7 @@ NVIDIA Gamestream streams my computer's output to my TV using a high-speed, low-
 
 ![](gaming/moonlight.png)
 
-Unfortunately in February 2023,[ NVIDIA announced they were ending support for GameStream clients](https://nvidia.custhelp.com/app/answers/detail/a_id/5436) starting in February 2024. While this only affects their client, it is highly unlikely they would continue their investment into the server if no official client exists.
+Unfortunately in February 2023, [NVIDIA announced they were ending support for GameStream clients](https://nvidia.custhelp.com/app/answers/detail/a_id/5436) starting in February 2024. While this only affects their client, it is highly unlikely they would continue their investment into the server if no official client exists.
 
 Around the same time, [Sunshine](https://github.com/LizardByte/Sunshine), an open-source implementation that also works with AMD and Intel GPUs started gaining traction. I have switched over to it completely and have felt no noticeable difference in gaming latency or quality.
 

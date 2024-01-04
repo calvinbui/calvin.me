@@ -27,13 +27,13 @@ The root cause comes from [Plex using DNS rebinding](https://forums.plex.tv/t/wh
 
 The error message I ran into were either:
 
-```
+```log
 [Transcode] get - invalid size value: 46318922853"
 ```
 
 or
 
-```
+```log
 i: [DownloadQueueManager] Download failed: 4d20d1ba6459d6cb6f31ed69ee95f5984ad81629
 e: An exception occurred: java.io.IOException: Unsuccessful response: 0
 e: Stacktrace: java.io.IOException: Unsuccessful response: 0

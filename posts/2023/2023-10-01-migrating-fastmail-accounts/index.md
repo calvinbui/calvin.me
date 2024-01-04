@@ -18,7 +18,7 @@ How to migrate between two Fastmail accounts without any downtime when using a c
 
 ## Sign Up
 
-Sign up for a new Fastmail account at https://app.fastmail.com/signup/. You can also sign up using the [1Password promotional discount for 25%](https://app.fastmail.com/signup/1password) off.
+Sign up for a new Fastmail account at [https://app.fastmail.com/signup/](https://app.fastmail.com/signup/). You can also sign up using the [1Password promotional discount for 25%](https://app.fastmail.com/signup/1password) off.
 
 ![](signup.png)
 

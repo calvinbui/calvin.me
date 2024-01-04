@@ -108,13 +108,13 @@ A tip I've learnt is to freeze food scraps to stop them from decomposing and sme
 
 Worms can consume anything that was previously 'alive', such as leaves, fingernail clippings, hair and vacuum dust. It's important to bury and cover all food (worms live underground).
 
-*Example 1: Carrot tops, broccoli stems and strawberry tops*
+Example 1: Carrot tops, broccoli stems and strawberry tops:
 
 ![](feeding/food-1.jpg)
 
 ![](feeding/adding-food.jpg)
 
-*Example 2: Coffee grounds, shredded paper, dead leaves and green beans ends*
+Example 2: Coffee grounds, shredded paper, dead leaves and green beans ends:
 
 ![](feeding/food-2.jpg)
 

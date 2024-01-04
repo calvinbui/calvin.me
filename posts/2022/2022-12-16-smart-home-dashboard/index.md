@@ -112,10 +112,10 @@ To quickly develop a dashboard, I highly recommend using the [VS Code Server](ht
 
 I used custom cards from the [UI Lovelace Minimalist](https://github.com/UI-Lovelace-Minimalist/UI) and [Lovelace Mushroom by @piitaya](https://github.com/piitaya/lovelace-mushroom) project. A few other shoutouts for their amazing work:
 
-  - [multiple-entity-row by @benct](https://github.com/benct/lovelace-multiple-entity-row)
-  - [Atomic Calendar Revive by @totaldebug](https://github.com/totaldebug/atomic-calendar-revive)
-  - [Lovelace Vacuum Map by @PiotrMachowski](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card)
-  - [ApexCharts Card by @RomRider](https://github.com/RomRider/apexcharts-card)
+- [multiple-entity-row by @benct](https://github.com/benct/lovelace-multiple-entity-row)
+- [Atomic Calendar Revive by @totaldebug](https://github.com/totaldebug/atomic-calendar-revive)
+- [Lovelace Vacuum Map by @PiotrMachowski](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card)
+- [ApexCharts Card by @RomRider](https://github.com/RomRider/apexcharts-card)
 
 ## Tablets
 
@@ -159,13 +159,13 @@ The tablets were installed in Foyer near the front door, in the Dining Room (ope
 
 To display the dashboards on the tablet, instead of the Home Assistant app or a web browser, I used an app called [Fully Kiosk Browser](https://www.fully-kiosk.com/). Fully Kiosk Browser uses the Android Webview to display the dashboard but goes beyond with extra features such as:
 
-  - Enabling 'kiosk' mode by disabling common browser features such as history, back buttons, address bars, etc.
-  - Auto reloading on idle, network reconnects and page load errors
-  - Fullscreen mode with no system bars
-  - Autostarting on boot and returning to the app to the foreground after inactivity
-  - Screen on when the front camera detects motion and turns off on idle. Can also detect faces but I found it buggy.
-  - Bypasses the lock screen
-  - Remote control and administration over LAN
+- Enabling 'kiosk' mode by disabling common browser features such as history, back buttons, address bars, etc.
+- Auto reloading on idle, network reconnects and page load errors
+- Fullscreen mode with no system bars
+- Autostarting on boot and returning to the app to the foreground after inactivity
+- Screen on when the front camera detects motion and turns off on idle. Can also detect faces but I found it buggy.
+- Bypasses the lock screen
+- Remote control and administration over LAN
 
 ![](tablets/fully-kiosk-browser.jpg)
 
@@ -206,36 +206,36 @@ To be extra careful, I ticked the `Clear and disable packages instead of uninsta
 
 I was able to gain around 350 MB of RAM by disabling this list of applications:
 
-  - Application Recommendations (`com.samsung.android.mapsagent`)
-  - BBCAgent (`com.samsung.android.bbc.bbcagent`)
-  - Calendar (`com.samsung.android.calendar`)
-  - Calendar storage (`com.android.providers.calendar`)
-  - Call & Text on other devices (`com.samsung.android.mdecservice`)
-  - ClipboardSaveService (`com.samsung.clipboardsaveservice`)
-  - Configuration update (`com.samsung.android.sdm.config`)
-  - Continuity Service (`com.samsung.android.mcfds`)
-  - Customisation Service (`com.samsung.android.rubin.app`)
-  - Device security (`com.samsung.android.sm.devicesecurity`)
-  - DiagMonAgent (`com.sec.android.diagmonagent`)
-  - Digital Wellbeing (`com.samsung.android.forest`)
-  - FaceService (`com.samsung.faceservice`)
-  - Find My Mobile (`com.samsung.android.fmm`)
-  - Galaxy Themes Service (`com.samsung.android.themecenter`)
-  - Game Optimizing Service (`com.samsung.android.game.gos`)
-  - Google Calendar Sync (`com.google.android.syncadapters.calendar`)
-  - Group sharing (`com.samsung.android.mobileservice`)
-  - HandwritingService (`com.samsung.android.sdk.handwriting`)
-  - IPService (`com.samsung.ipservice`)
-  - KLMS Agent (`com.samsung.klmsagent`)
-  - Nearby Device Scanning (`com.samsung.android.beaconmanager`)
-  - Samsung account (`com.osp.app.signin`)
-  - Samsung Push Service (`com.sec.spp.push`)
-  - Smart View (`com.samsung.android.smartmirroring`)
-  - SoundAlive (`com.sec.android.app.soundalive`)
+- Application Recommendations (`com.samsung.android.mapsagent`)
+- BBCAgent (`com.samsung.android.bbc.bbcagent`)
+- Calendar (`com.samsung.android.calendar`)
+- Calendar storage (`com.android.providers.calendar`)
+- Call & Text on other devices (`com.samsung.android.mdecservice`)
+- ClipboardSaveService (`com.samsung.clipboardsaveservice`)
+- Configuration update (`com.samsung.android.sdm.config`)
+- Continuity Service (`com.samsung.android.mcfds`)
+- Customisation Service (`com.samsung.android.rubin.app`)
+- Device security (`com.samsung.android.sm.devicesecurity`)
+- DiagMonAgent (`com.sec.android.diagmonagent`)
+- Digital Wellbeing (`com.samsung.android.forest`)
+- FaceService (`com.samsung.faceservice`)
+- Find My Mobile (`com.samsung.android.fmm`)
+- Galaxy Themes Service (`com.samsung.android.themecenter`)
+- Game Optimizing Service (`com.samsung.android.game.gos`)
+- Google Calendar Sync (`com.google.android.syncadapters.calendar`)
+- Group sharing (`com.samsung.android.mobileservice`)
+- HandwritingService (`com.samsung.android.sdk.handwriting`)
+- IPService (`com.samsung.ipservice`)
+- KLMS Agent (`com.samsung.klmsagent`)
+- Nearby Device Scanning (`com.samsung.android.beaconmanager`)
+- Samsung account (`com.osp.app.signin`)
+- Samsung Push Service (`com.sec.spp.push`)
+- Smart View (`com.samsung.android.smartmirroring`)
+- SoundAlive (`com.sec.android.app.soundalive`)
 
 Finally, other options I changed within the settings:
 
-  - Disabled Bluetooth (Under `Connections`)
-  - Disabled Nearby Device Scanning (Under `Connections` > `More connection settings`)
-  - Disabled Location (Under `Location`)
-  - Enabled Battery Protection to only charge up to 85% (Under `Battery and device care` > `Battery` > `More battery settings`)
+- Disabled Bluetooth (Under `Connections`)
+- Disabled Nearby Device Scanning (Under `Connections` > `More connection settings`)
+- Disabled Location (Under `Location`)
+- Enabled Battery Protection to only charge up to 85% (Under `Battery and device care` > `Battery` > `More battery settings`)

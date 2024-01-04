@@ -66,14 +66,14 @@ Leading up to the surgery, I was told to take 1000mg of Vitamin C each day to he
 
 ![](vitaminc.jpeg)
 
-## Surgery
+## Surgery Process
 
 ### Pre-surgery
 
 I arrived at 11:30 AM at the clinic where a few other people were also arriving or leaving their surgery. The receptionist gave me a list of prescriptions and told me to go downstairs to the pharmacy to buy $66.24 of medicine.
 
 | Medicine          | Qty | Price  | Prescription |
-|-------------------|-----|--------|--------------|
+|:------------------|:----|:-------|:-------------|
 | Dolased Forte     | 20  | $18.50 | Yes          |
 | Valpam 5          | 10  | $39.90 | Yes          |
 | Dozile            | 20  | $11.95 | Yes          |

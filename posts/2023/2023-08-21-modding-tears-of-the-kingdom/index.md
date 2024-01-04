@@ -48,7 +48,7 @@ As the game is capping itself at 30 FPS, there is a bit of performance left on t
 
 1. Your sdcard should look like this by the end of it:
 
-    ```
+    ```shell
     sdcard
     ├── SaltySD
     │   ├── exceptions.txt

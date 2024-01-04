@@ -64,7 +64,7 @@ Unfortunately, the wired version is not sold in Australia. [LifeHackster has a v
 
 ![](front-door/doorbell-wiring.jpg)
 
-### Home Assistant
+### Eufy Home Assistant Integration
 
 Both devices, including the HomeBase 2, are supported in Home Assistant with the [fuatakgun/eufy_security](https://github.com/fuatakgun/eufy_security) integration which utilises the [bropat/eufy-security-ws](https://github.com/bropat/eufy-security-ws) library.
 
@@ -108,7 +108,6 @@ I found they were the best for value after watching a comparison video from DPC 
 
 <iframe src="https://www.youtube.com/embed/gaiGrIdZIWs" allowfullscreen width="1280" height="720"></iframe>
 
-
 There is now a [G5 Flex in Early Access](https://eu.store.ui.com/collections/unifi-protect-cameras/products/camera-g5-flex-ea) with a [video comparison on YouTube](https://www.youtube.com/watch?v=xoWjU6bEOQU) showing its clearer and wider image.
 
 <iframe src="https://www.youtube.com/embed/xoWjU6bEOQU" allowfullscreen width="1280" height="720"></iframe>
@@ -148,7 +147,7 @@ The biggest selling point is UniFi Protect's web and mobile interfaces. They are
 
 ![](cameras/mobile-home.png)
 
-### Home Assistant
+### UniFi Protection Home Assistant Integration
 
 Home Assistant has an official integration for [UniFi Protect](https://www.home-assistant.io/integrations/unifiprotect/). The camera feeds are laggy and delayed compared to viewing them from UniFi Protect directly. One workaround is to enable the RTSP stream and use the [WebRTC custom component](https://github.com/AlexxIT/WebRTC) instead.
 
@@ -205,7 +204,7 @@ The module attaches to the side of the metal cabinet with screws.
 
 ![](alarm/network-module.jpg)
 
-### Home Assistant
+### Bosch Home Assistant Integration
 
 A Home Assistant integration is provided by [sanjay900/solution3000-home-assistant](https://github.com/sanjay900/solution3000-home-assistant). It supports arming, disarming as well as providing the state of the motion detectors.
 

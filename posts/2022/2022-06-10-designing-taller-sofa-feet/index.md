@@ -141,7 +141,6 @@ A picture of the map from the Roborock app.
 
 ![](vacuum-map.png)
 
-
 ## Files
 
 These files are for the sofa feet designs shown in this blog post. They fall under the MIT License.
