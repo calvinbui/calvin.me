@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build-and-lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,12 +25,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: master
-          path: master
 
       - name: 💭 Get nvm version
         run: echo "NODE_VERSION=$(cat .nvmrc)" >> $GITHUB_OUTPUT
         id: nvm
-        working-directory: master
 
       - name: ⚙️ Setup node.js environment
         uses: actions/setup-node@v4
@@ -40,7 +38,6 @@ jobs:
       - name: 🧶 Get Yarn cache directory
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
-        working-directory: master
 
       - name: 🧶 Get Yarn cache
         uses: actions/cache@v3
@@ -53,44 +50,26 @@ jobs:
 
       - name: 🧶 Yarn install
         run: yarn install --immutable
-        working-directory: master
 
       - name: 💨 ESLint
         run: yarn lint:js
-        working-directory: master
 
       - name: ☄️ markdownlint
         run: yarn lint:md
-        working-directory: master
 
       - name: 🥡 Getting Gatsby cache
-        id: gatsby-cache-build
+        id: gatsby-cache--and-lint
         uses: actions/cache@v3
         with:
-          path: master/.cache
-          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          path: |
+            public
+            .cache
+          key: ${{ runner.os }}-gatsby-build-
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
 
-      - name: 🛎️ Check out gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: 🥡 Use gh-pages branch files as cache
-        run: |
-          mkdir -p public/
-          mv ../gh-pages/* public/
-        working-directory: master
-
       - name: 🧶 Yarn build
         run: yarn build
-        working-directory: master
-
-      - name: ✨ Move Gatsby output to gh-pages branch
-        run: mv public/* ../gh-pages
-        working-directory: master
 
       - name: ✔️ Commit Gatsby output changes to gh-pages branch
         run: |
@@ -100,3 +79,26 @@ jobs:
           git commit --allow-empty -m "${{ github.event.head_commit.message }}"
           git push
         working-directory: gh-pages
+
+      - name: ⤴️ Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions:
+      pages: write
+      id-token: write
+
+    needs: build-and-lint
+
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
