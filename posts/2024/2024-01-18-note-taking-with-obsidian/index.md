@@ -46,20 +46,17 @@ The aha moment came when I was watching Nicole van der Hoeven's video on Obsidia
 
 A comparison of the features that matter to me beyond editing notes:
 
-| Feature                           | Joplin                                        | Obsidian |
-|-----------------------------------|-----------------------------------------------|----------|
-| Open-source                       | Yes                                           | No       |
-| Mobile App                        | Yes                                           | Yes      |
-| Notes are stored offline          | Yes                                           | Yes      |
-| Notes can be accessed without app | Possible                                      | Yes      |
-| Encryption at rest                | Yes                                           | Possible |
-| Encryption in transit             | Yes                                           | Possible |
-| Sync across devices/platforms     | Yes                                           | Possible |
-| File attachments                  | Yes                                           | Yes      |
-| ###  Plugins                      | [Yes](https://joplinapp.org/plugins/#tab-all) | [Yes     |
-
+| Feature                           | Joplin                                        | Obsidian                           |
+|-----------------------------------|-----------------------------------------------|------------------------------------|
+| Open-source                       | Yes                                           | No                                 |
+| Mobile App                        | Yes                                           | Yes                                |
+| Notes are stored offline          | Yes                                           | Yes                                |
+| Notes can be accessed without app | Possible                                      | Yes                                |
+| Encryption at rest                | Yes                                           | Possible                           |
+| Encryption in transit             | Yes                                           | Possible                           |
+| Sync across devices/platforms     | Yes                                           | Possible                           |
+| File attachments                  | Yes                                           | Yes                                |
 | Plugins                           | [Yes](https://joplinapp.org/plugins/#tab-all) | [Yes](https://obsidian.md/plugins) |
-
 
 Joplin has a clear lead here, but then when I compare the quality of the features, Obsidian is ahead.
 
@@ -198,7 +195,7 @@ To track and manage my tasks, I use [Periodic Notes](#periodic-notes) and [Templ
 ![](all-tasks.png)
 
 <details>
-  <summary>Click to expand code</summary>
+  <summary>Click to see code</summary>
 
 ````javascript
 # To Do
@@ -226,6 +223,7 @@ short mode
 limit 10
 ```
 ````
+
 </details>
 
 ### Templater
@@ -243,7 +241,7 @@ This template pulls in tasks rescheduled and due today. It also has navigation l
 ![](daily-tasks.png)
 
 <details>
-  <summary>Click to expand code</summary>
+  <summary>Click to see code</summary>
 
 ````javascript
 <- [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[All Tasks]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] ->
@@ -267,6 +265,7 @@ due {{date:YYYY-MM-DD}}
 hide task count
 ```
 ````
+
 </details>
 
 ### Stand Up
@@ -276,7 +275,7 @@ This template pulls in everything from the previous stand-up notes sections to p
 ![](standup.png)
 
 <details>
-  <summary>Click to expand code</summary>
+  <summary>Click to see code</summary>
 
 ````javascript
 <%-*
@@ -321,4 +320,5 @@ tR += today.substring(today.indexOf("\n")+1).toString();
 - [ ]
 
 ````
+
 </details>
