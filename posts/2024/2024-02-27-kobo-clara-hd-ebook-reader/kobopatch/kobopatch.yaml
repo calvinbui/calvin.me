@@ -1,0 +1,27 @@
+in: src/kobo-update-4.38.21908.zip
+log: out/log.txt
+out: out/KoboRoot.tgz
+overrides:
+  src/libadobe.so.yaml: null
+  src/libnickel.so.1.0.0.yaml:
+    DeveloperSettings - AutoUsbGadget: true
+    FeatureSettings - BookSpecificStats: true
+    Increase page navigation history: true
+    Never show Kobo Plus, wishlist, and points SmartLinks: true
+  src/librmsdk.so.1.0.0.yaml: null
+  src/nickel.yaml:
+    Dictionary pop-up - increase available text area: true
+    Increase Book Details synopsis area: true
+    Increase headlines font: true
+    Increase home screen cover size: true
+    Increase library cover size: true
+    Increase size of kepub chapter progress chart: true
+    Reduce new header/footer height: true
+    Series list increase cover thumbnails: true
+patchFormat: kobopatch
+patches:
+  src/libadobe.so.yaml: usr/local/Kobo/libadobe.so
+  src/libnickel.so.1.0.0.yaml: usr/local/Kobo/libnickel.so.1.0.0
+  src/librmsdk.so.1.0.0.yaml: usr/local/Kobo/librmsdk.so.1.0.0
+  src/nickel.yaml: usr/local/Kobo/nickel
+version: 4.38.21908
