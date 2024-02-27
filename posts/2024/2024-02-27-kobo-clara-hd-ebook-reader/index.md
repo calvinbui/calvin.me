@@ -89,7 +89,7 @@ Configure NickelMenu:
 1. Create `KOBOeReader/.adds/nm/config`
 1. Following [the instructions](https://github.com/pgaskin/NickelMenu/blob/master/res/doc) in `/.adds/nm/doc` to create a config file. Here's mine:
 
-```
+```cpp
 # ---
 
 menu_item  :main     :Calibre        :nickel_browser  :modal:http://calibre:8081/mobile
@@ -127,10 +127,12 @@ menu_item  :browser  :Quit           :nickel_misc     :home
 Following the [installation instructions](https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices#alternative-manual-installation-method-based-on-nickelmenu):
 
 1. Add the following to `KOBOeReader/.kobo/Kobo/Kobo eReader.conf`:
+
     ```ini
     [FeatureSettings]
     ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
     ```
+
 1. [Download](https://github.com/koreader/koreader/releases) and extract KOReader to `KOBOeReader/.adds`.
 1. Eject and unplug
 1. Start KOReader from NickelMenu
@@ -221,7 +223,6 @@ Following the [installation instructions](https://github.com/koreader/koreader/w
     ![](calibre/4-reload.png)
 
     ![](calibre/5-clean.png)
-
 
 ### Converting eBooks
 
