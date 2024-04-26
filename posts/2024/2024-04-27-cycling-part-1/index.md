@@ -76,7 +76,6 @@ The bike arrives in a box and requires additional construction. to fit the wheel
 
 ![](bikes/endurace/5.jpg)
 
-
 I ended up [returning the bike for free within the 30-day window](https://www.canyon.com/en-au/customer-service/manage-return-order/returns.html) as the bottle cage screw holes on the downtube were out of alignment.
 
 ![](bikes/endurace/issue.jpg)
