@@ -20,8 +20,6 @@ Last year, I bought a bike and began cycling near my home around Sydney Olympic 
 
 ## Bicycles
 
-### Requirements
-
 Choosing a bike can be confusing as there are too many overlapping use cases (hybrid, all-road, gravel, endurance). About myself, my area and my style of riding:
 
 - I want to feel and be comfortable at all times.
@@ -149,7 +147,7 @@ I connect it to my head unit using a GoPro adapter.
 
 ![](gear/cycliq/3.jpg)
 
-### Garmin Varia RCT715
+### Garmin Varia
 
 The [Garmin Varia RCT715](https://www.garmin.com/en-AU/p/721258) is a radar, camera and rear light combo. The three-in-one solution is incredibly handy when there is limited space to mount each device separately.
 
@@ -218,7 +216,7 @@ The bag is mounted onto my seatpost with all-weather tape to protect the carbon 
 Inside the saddle bag, I have all my emergency and repair tools:
 
 - [Ridenow TPU Inner Tube](https://www.ridenowtech.com/?page_id=649&lang=en): In case I get a big puncture. Weighs 45g.
-- [Topeak Mini PT30 Multi-Tool](https://www.topeak.com/global/en/product/1339-MINI-PT30): has tubeless tyre repair tools and a removable chain breaker.
+- [Topeak Mini PT30 Multi-Tool](https://www.topeak.com/global/en/product/1339-MINI-PT30): has tubeless tyre repair tools and a removable chain breaker. It's important for a multi-tool to have a 2.5mm hex which is used in SRAM limit screws.
 - Tyre repair strips: Can be used with my multi-tool.
 - [Pedro Tire Levers](https://pedros.com/products/tire-levers): Most recommended tire levers
 - Protein bars
@@ -325,3 +323,7 @@ From top to bottom, I'm wearing:
 After each ride, I do a quick wash of my clothes and hang them up so I can use them again the next day. After a few rides, I put them into the washing machine.
 
 ![](clothing/washing.jpg)
+
+## Continued in Part 2
+
+There was too much to fit into one post. [A second post](/cycling-part-2/) continues on from this one.
