@@ -221,7 +221,6 @@ I am not condoning piracy.
 - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
 - [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
-- [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite): Overclocking.
 - [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
   - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
   - [SaltyNX](https://github.com/masagrator/SaltyNX): Required to be installed first.
@@ -266,7 +265,6 @@ I am not condoning piracy.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
 1. Copy the latest [sys-patch](https://github.com/impeeza/sys-patch) release over to the SD card.
 1. Copy the latest [fusee.bin](https://github.com/Atmosphere-NX/Atmosphere) to `sdcard:/bootloader/payloads/`
-1. Update [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) to a compatible version.
 1. Replace `sdcard:/payload.bin` with `hekate_ctcaer_X.Y.Z.bin` from hekate.
 1. Backup the `sdcard:/atmosphere/contents/` folder to the computer and delete the folder.
 1. Run **Daybreak** and select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
