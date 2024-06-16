@@ -197,7 +197,7 @@ I recommend making a note of all the homebrew that installs folders into `/atmos
 
 I am not condoning piracy.
 
-- [Sigpatches](https://sigmapatches.coomer.party): Patch Atmosphere to run unsigned code (such as backups).
+- [sys-patch](https://github.com/impeeza/sys-patch): Patch Atmosphere to run unsigned code (such as backups).
 - [Tinfoil](https://tinfoil.io/): Title/game manager.
 - [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
 - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
@@ -210,7 +210,7 @@ I am not condoning piracy.
 - [ftpd](https://github.com/mtheall/ftpd): FTP server.
 - [NX-Shell](https://github.com/joel16/NX-Shell): File browser.
 - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool): Dump game cards and eShop titles.
-- [Lockpick_RCM](https://sigmapatches.coomer.party/): Dump keys within Hekate.
+- [Lockpick_RCM](https://github.com/Decscots/Lockpick_RCM): Dump keys within Hekate.
 - [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer): File browser within Hekate and executing scripts.
   - [Scripts](https://github.com/suchmememanyskill/TegraScript/tree/master/scripts).
 
@@ -264,7 +264,7 @@ I am not condoning piracy.
 1. Run [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer), select **Browse the SD card option** and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) and select **Dump sysmmc**.
 1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
-1. Copy the latest [Sigpatches](https://sigmapatches.coomer.party) release over to the SD card.
+1. Copy the latest [sys-patch](https://github.com/impeeza/sys-patch) release over to the SD card.
 1. Copy the latest [fusee.bin](https://github.com/Atmosphere-NX/Atmosphere) to `sdcard:/bootloader/payloads/`
 1. Update [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) to a compatible version.
 1. Replace `sdcard:/payload.bin` with `hekate_ctcaer_X.Y.Z.bin` from hekate.
