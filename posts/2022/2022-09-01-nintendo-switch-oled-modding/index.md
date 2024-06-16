@@ -216,7 +216,7 @@ I am not condoning piracy.
 
 ### Screen Overlay (Tesla)
 
-[Tesla-Menu](https://github.com/WerWolv/Tesla-Menu) is an overlay menu available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/) is also required to load Tesla. The following overlays are available:
+[Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay) is an libtesla overlay available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/) is also required to load Tesla. The following overlays are available:
 
 - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
 - [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
