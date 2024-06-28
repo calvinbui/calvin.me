@@ -44,6 +44,7 @@ I recently flew [Business Class round-the-world](https://www.pointhacks.com.au/q
 ![](jal.jpg)
 
 - The JAL Sakura Lounge Skyview is so much better than the regular lounge.
+- The Sapporo Sakura Lounge does not have food
 
 ## Countries/Cities
 
@@ -166,6 +167,21 @@ I recently flew [Business Class round-the-world](https://www.pointhacks.com.au/q
 - [This guide](https://travelsurfrepeat.com/complete-one-day-petra-guide-free-trail-map) has everything you need to know about Petra.
 - WiFi is available at a few points along the way.
 - In 5.5 hours. I was able to hike the main trail to the monastery and the Al-Khubtha trail to the Treasury Viewpoint.
+
+### Korea
+
+![](korea.jpg)
+
+- Stay in Myeongdong near Euljiro 3 for sightseeing or food, and stay in Hongdae for shopping.
+- Some ATMs at the airport close at 10 PM.
+- Pedestrian crossing activate by themselves.
+- Train doors are numbered and Naver Maps will tell you the best one for your destination.
+- Palaces in Seoul give free entry for anyone wearing Hanboks.
+- Shops advertising 1+1, 2+1, 3+1, etc. means buy 1 get 1 free, buy 2 get 1 free, buy 3 get 1 free, etc.
+- Stores either give a instant tax refund or it has to be claimed at the airport. There are ways to start the claim earlier through kiosks or , but it's not worth the effort when you need to get the refund at the airport anyway.
+- Tax refunds are not a full 10% off, but are tiered. See [this cheat sheet](https://www.lemon8-app.com/nessnessaaa/7251906506054976001).
+- A lot of people are smokers, so there's a lot of cigarette butts, coughing and spitting everywhere.
+- Most Korean drivers do not respect speed limits, signage, traffic rules or pedestrian crossings so be careful.
 
 ### Netherlands (Amsterdam)
 

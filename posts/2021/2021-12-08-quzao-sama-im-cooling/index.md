@@ -62,3 +62,11 @@ From my testing, I went with the middle option to have one fan on the bottom, si
 ![](case-03.jpg)
 
 ![](case-04.jpg)
+
+## Fan Spacers
+
+Copying  [OptimumTech's video](https://www.youtube.com/watch?v=ztOZesVGIVo), I 3D-printed and copied [Noctua's NA-IS1-12 Sx2](https://noctua.at/en/na-is1-12-sx2) fan spacers to reduce noise and improve airflow.
+
+![](fan-spacer.jpg)
+
+![](fan-spacer-installed.jpg)

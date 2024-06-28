@@ -51,6 +51,10 @@ The bottom tray collects excess water and moisture known as leachate. It is dang
 
 ![](factory/bottom-tray.jpg)
 
+Unfortunately worms will follow the moisture that drips down into the bottom tray and get stuck down there. To prevent this, I filled it with dry shredded paper. The dry paper will force worms to return to the feeding tray. At each feeding, I do a quick scrap of worms that stayed down there along with any nearby shredded paper and add it to the feeding tray as part of their weekly food. I refill this tray with shredded paper back to the top. This has been a much cleaner method than having to drain dirty leachate and rescue worms each week. This idea was taken from this [Vermicompost Learn by Doing video](https://www.youtube.com/watch?v=SfUzjr107Hw).
+
+![](factory/bottom-tray-paper.jpg)
+
 The air holes on the lid were big enough to allow vinegar flies through. I covered them up using gauze and electrical tape. When it wears out, I'll ask my wife for some old pantyhose.
 
 ![](factory/gauze.jpg)
@@ -58,6 +62,10 @@ The air holes on the lid were big enough to allow vinegar flies through. I cover
 Worms work best between 18 and 24 degrees Celsius. During winter, I move the bin into the garage to maintain a warmer temperature.
 
 ![](factory/garage.jpg)
+
+As of early 2024, I have removed the top cover completely and use paper and bubble wrap to trap the condensation inside the bin. Previously, the lid would be covered with water and worms would hanging around the lid and sides instead of in the soil. This method, combined with the shredded bottom tray ensures all the moisture remains in the feeding tray and encourages worms to stay there.
+
+![](factory/top-layer-plastic.jpg)
 
 ## Bedding
 

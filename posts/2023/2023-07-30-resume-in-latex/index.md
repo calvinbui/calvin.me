@@ -60,13 +60,11 @@ To edit the resume, I used VSCode along with the very powerful [LaTeX Workshop e
 
 ![](vscode.png)
 
-## Building with GitHub Actions
+## Building with Gitea Actions
 
-LaTeX files (`.tex`) can be compiled into PDFs and other popular file formats. Using GitHub Actions, I am compiling the PDF on each commit with my real phone number and email (via secrets) and exporting the artifact.
+LaTeX files (`.tex`) can be compiled into PDFs and other popular file formats. Using Gitea Actions, I am compiling the PDF on each commit with my real phone number and email (via secrets) and exporting the artifact.
 
-![](artifact.png)
-
-At the moment, I am downloading and deleting the artifact straightaway. However, I'll be moving the build to [Gitea Actions](https://blog.gitea.com/feature-preview-gitea-actions/) once it becomes stable, so I can compile the PDF privately.
+![](gitea-actions.png)
 
 ## Why the change?
 

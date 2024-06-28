@@ -244,25 +244,38 @@ This template pulls in tasks rescheduled and due today. It also has navigation l
   <summary>Click to see code</summary>
 
 ````javascript
-<- [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[All Tasks]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] ->
-# Tasks
+# To Do
 
-- [ ]
-
-# Rescheduled to Today
-
+`="[[ To Do/" + dateformat(date(today), "yyyy/MM - MMMM/yyyy-MM-dd") + "|📆 View Today's Tasks]]"`
 ```tasks
-scheduled {{date:YYYY-MM-DD}}
+((not done) AND (scheduled before tomorrow)) OR ((not done) AND (no scheduled date))
+is not recurring
+path includes To Do
 
 hide task count
 ```
-
-# Due Today
-
+# Recurring
 ```tasks
-due {{date:YYYY-MM-DD}}
-
+is recurring
+not done
 hide task count
+```
+# Rescheduled
+```tasks
+not done
+scheduled AFTER today
+path includes To Do
+hide edit button
+hide task count
+```
+# Done
+```tasks
+done
+sort by filename reverse
+path includes To Do
+hide edit button
+short mode
+limit 10
 ```
 ````
 
@@ -280,26 +293,27 @@ This template pulls in everything from the previous stand-up notes sections to p
 ````javascript
 <%-*
 var prevNote;
-var dateFormat = "[Stand Up]/YYYY/[W]W/ddd MMM Do";
+var noteFolder = "[Stand Up]/YYYY/[W]W/";
+var noteTitle = "ddd MMM Do";
+var absolutePathFormat = noteFolder + noteTitle;
 
 for (let i = -1; i > -100; i--) {
-  prevNote = tp.date.now(dateFormat, i);
-  if (await tp.file.exists(prevNote + ".md")) {
-    var prevBreadcrumb = tp.date.now("ddd MMM Do", 0, prevNote, dateFormat);
-    for (let j = 1; j < 7; j++) {
-      let testDate = tp.date.now("ddd", j);
-      if (testDate != "Saturday" && testDate != "Sunday") {
-        var nextNote = tp.date.now(dateFormat, j);
-        var nextBreadcrumb = tp.date.now("ddd MMM Do", 0, nextNote, dateFormat);
-        break;
-      }
-    }
-    break;
-  }
+	prevNote = tp.date.now(absolutePathFormat, i, tp.file.title, noteTitle);
+	if (await tp.file.exists(prevNote + ".md")) {
+		var prevBreadcrumb = tp.date.now(noteTitle, 0, prevNote, absolutePathFormat);
+		for (let j = 1; j < 7; j++) {
+			let testDate = tp.date.now("ddd", j, tp.file.title, noteTitle);
+			if (testDate != "Sat" && testDate != "Sun") {
+				var nextNote = tp.date.now(absolutePathFormat, j, tp.file.title, noteTitle);
+				var nextBreadcrumb = tp.date.now(noteTitle, 0, nextNote, absolutePathFormat);
+				break;
+			}
+		}
+		break;
+	}
 }
 -%>
-
-<- [[<% prevNote + "|" + prevBreadcrumb %> | ]] | [[<% nextNote + "|" + nextBreadcrumb %>]] ->
+<- [[<% prevNote + "|" + prevBreadcrumb %> ]] | [[<% nextNote + "|" + nextBreadcrumb %>]] ->
 
 # What did I accomplish yesterday
 
@@ -307,7 +321,6 @@ for (let i = -1; i > -100; i--) {
 let yesterday = await tp.file.include("[[" + prevNote + "#^What will I do today?]]");
 tR += yesterday.substring(yesterday.indexOf("\n")+1).toString();
 -%>
-
 # What will I do today?
 
 <%-*

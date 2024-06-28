@@ -601,6 +601,8 @@ card:
 
 Solar is also an investment. After a few years, the system should pay itself off and start returning only profits. With the metrics inside Home Assistant, it's possible to get an accurate breakeven date.
 
+As of June 2024, my expected payback date is the 13th of July 2027, or 5 years.
+
 ### Energy Provider
 
 With the size of my system, I signed up for [GloBird Energy](https://www.globirdenergy.com.au/) Solar Plus which is offering an uncapped 20c feed-in tariff. The other costs however are much higher than any other electricity plan I've seen, but my calculations have it being the best for me.

@@ -218,6 +218,7 @@ I am not condoning piracy.
 
 [Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay) is an libtesla overlay available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/) is also required to load Tesla. The following overlays are available:
 
+- [Studious Pancake](https://github.com/HookedBehemoth/studious-pancake): Restart into different payloads from Atmosphere.
 - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
 - [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
@@ -311,6 +312,25 @@ Aftewards, go to the home screen and it will then appear as a game/title with al
 Download the Homebrew Menu forwarder I created above [here](forwarder/HBMENU-011a8df5c3152000.nsp).
 
 ![](forwarder/installed.jpg)
+
+## Overclocking and Undervolting
+
+I overclocked and undervolted following the [Really Simple Overclocking (OC) Guide on Rentry](https://rentry.co/ocsc). The overclocking utilities EOS (or Swiftcraft) can be found on the [NSwitch 60 FPS Cheats & Mods discord server](https://discord.com/invite/VndKxFg7EE).
+
+My Switch details are:
+
+| Setting      | Value |
+|--------------|-------|
+| DRAM ID      | WT:F  |
+| CPU Speedo 0 | 1680  |
+| CPU Speedo 2 | 1687  |
+| SoC Speedo   | 1704  |
+
+![](overclocking/hw-fuses.png)
+
+With my values, I followed the guide and used their recommended overclocked settings. To achieve a higher RAM clock than 1600 MHz, the `loader.kip` file has to be modified by the webpage configurator.
+
+![](overclocking/oc-toolkit-sc.png)
 
 ## Games
 

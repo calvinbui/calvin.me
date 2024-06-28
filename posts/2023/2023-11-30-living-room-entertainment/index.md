@@ -148,6 +148,62 @@ action:
 mode: single
 ```
 
+### Calibration
+
+I dialed in my colour settings using [D-Nice's post on AVSForum](https://www.avsforum.com/posts/60533051/). To calibrate each, the TV's source must be playing SDR or HDR content first, then editing the `Custom Pro N` setting will apply those settings to that type of source and content from then on.
+
+| Setting            | Content      | Picture Mode      |
+|--------------------|--------------|-------------------|
+| Enhanced Night SDR | SDR          | Custom Pro 1      |
+| Enhanced Day SDR   | SDR          | Custom Pro 2      |
+| Enhanced HDR       | HDR          | Custom Pro 2      |
+| Dolby Dark         | Dolby Vision | Dolby Vision Dark |
+
+### Automatic Game Picture Mode
+
+There is a Picture Mode called `Game` which greatly reduces input lag and is noticeable when [streaming games from my PC](#nvidia-gamestream) or playing my [Nintendo Switch](/nintendo-switch-oled-modding/). Changing to `Game` is manual and forgetting to switch it back will mean all content from the TV will be in lower quality.
+
+To automate switching between `Game` and `Custom Pro 2`, I created two Home Assistant automations that make API calls to the TV using the [RESTful Command integration](https://www.home-assistant.io/integrations/rest_command/):
+
+```yaml
+---
+bravia_set_picture_mode:
+  url: http://<TV>/sony/video
+  verify_ssl: false
+  method: POST
+  headers:
+    X-Auth-PSK: "0000" # configure in the TV's settings
+  content_type: application/json
+  payload: '{"method":"setPictureQualitySettings","params":[{"settings":[{"value":"{% raw %}{{ pictureMode }}{% endraw %}","target":"pictureMode"}]}],"id":40,"version":"1.0"}'
+```
+
+In the automation, I watch for whenever [Moonlight](https://moonlight-stream.org/) is opened or closed:
+
+```yaml
+---
+alias: TV - Game Mode Shield Apps
+mode: single
+trigger:
+  - platform: state
+    entity_id:
+      - media_player.shield
+    attribute: app_id
+condition:
+  - condition: state
+    entity_id: media_player.shield
+    state: "on"
+action:
+  - service: rest_command.bravia_set_picture_mode
+    data_template:
+      pictureMode: |
+        {% if trigger.to_state.attributes.app_id in ["com.limelight"] %}
+          game
+        {% else %}
+          customForPro2
+        {% endif %}
+    alias: Change picture mode
+```
+
 ## Audio
 
 During the 2022 Black Friday sales, I picked up the [Denon X3800H AVR](https://www.denon.com/en-au/shop/avreceiver/avcx3800h), [SVS Ultra Towers](https://www.svsound.com.au/collections/speakers/products/ultra-tower) and [SVS Ultra Centre](https://www.svsound.com.au/collections/speakers/products/ultra-centre) for a 3.0.0 speaker setup.

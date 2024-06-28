@@ -239,3 +239,19 @@ Finally, other options I changed within the settings:
 - Disabled Nearby Device Scanning (Under `Connections` > `More connection settings`)
 - Disabled Location (Under `Location`)
 - Enabled Battery Protection to only charge up to 85% (Under `Battery and device care` > `Battery` > `More battery settings`)
+
+## Updates (2024)
+
+Sharing updates I've made to my dashboards.
+
+On the Solar page, I've added Previous and Next buttons to change the time range of the graph.
+
+![](dashboard/updates-2024/days.png)
+
+On the Security page, I've added the a live feed of the doorbell with two-way audio. This page opens automatically whenever the doorbell is rang.
+
+![](dashboard/updates-2024/doorbell.png)
+
+I've created a new gardening page, which I will touch on later in another blog post.
+
+![](dashboard/updates-2024/gardening.png)

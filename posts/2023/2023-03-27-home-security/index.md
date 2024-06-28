@@ -64,6 +64,20 @@ Unfortunately, the wired version is not sold in Australia. [LifeHackster has a v
 
 ![](front-door/doorbell-wiring.jpg)
 
+### Reolink Doorbell (2024)
+
+In February 2024, I replaced the Eufy Doorbell with the [Reolink Video Doorbell PoE](https://reolink.com/au/product/reolink-video-doorbell/). The wireless lag, battery drain and poor Home Assistant integration were the reasons for the change. It lacks a downward facing package camera, but I found I never used it anyway. The electrician was able to easily wire it using the existing CAT5 cable.
+
+![](reolink/reolink-doorbell.jpg)
+
+The doorbell is mounted using a [3D-printed wedge by Stéphane RATELET](https://www.printables.com/model/624146-reolink-doorbell-wedge-adjustable-from-10deg-to-35). I tried other angles and found 35 degrees worked best.
+
+![](reolink/wedge.png)
+
+The doorbell is integrated into UniFi using [unifi-cam-proxy](https://github.com/keshavdv/unifi-cam-proxy). I can watch the camera live and see motion detections, but playback is not possible.
+
+![](reolink/unifi-cam-proxy.png)
+
 ### Eufy Home Assistant Integration
 
 Both devices, including the HomeBase 2, are supported in Home Assistant with the [fuatakgun/eufy_security](https://github.com/fuatakgun/eufy_security) integration which utilises the [bropat/eufy-security-ws](https://github.com/bropat/eufy-security-ws) library.
@@ -186,6 +200,10 @@ The screen also supports custom backgrounds...
 
 ![](alarm/screen-new.jpg)
 
+Each user can also connect their mobile phone to the screen via Bluetooth. When they need to disarm the alarm, the screen will attempt a Bluetooth connection to the phone and automatically disarm the alarm. It works half the time.
+
+![](alarm/phone-disarm.jpg)
+
 ### Motion Detector
 
 The motion detectors are the basic [Blue Line Gen2 PIR](https://commerce.boschsecurity.com/au/en/Blue-Line-Gen2-PIR-Motion-Detectors/p/2602384139/) models. They detect movement within a 12m x 12m area. They don't trigger on my robot vacuums, and I assume on small pets as well.
@@ -206,7 +224,7 @@ The module attaches to the side of the metal cabinet with screws.
 
 ### Bosch Home Assistant Integration
 
-A Home Assistant integration is provided by [sanjay900/solution3000-home-assistant](https://github.com/sanjay900/solution3000-home-assistant). It supports arming, disarming as well as providing the state of the motion detectors.
+A Home Assistant integration is provided by [mag1024/bosch-alarm-homeassistant](https://github.com/mag1024/bosch-alarm-homeassistant). It supports arming, disarming as well as providing the state of the motion detectors.
 
 ![](alarm/home-assistant.png)
 
