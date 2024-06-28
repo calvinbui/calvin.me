@@ -298,19 +298,19 @@ var noteTitle = "ddd MMM Do";
 var absolutePathFormat = noteFolder + noteTitle;
 
 for (let i = -1; i > -100; i--) {
-	prevNote = tp.date.now(absolutePathFormat, i, tp.file.title, noteTitle);
-	if (await tp.file.exists(prevNote + ".md")) {
-		var prevBreadcrumb = tp.date.now(noteTitle, 0, prevNote, absolutePathFormat);
-		for (let j = 1; j < 7; j++) {
-			let testDate = tp.date.now("ddd", j, tp.file.title, noteTitle);
-			if (testDate != "Sat" && testDate != "Sun") {
-				var nextNote = tp.date.now(absolutePathFormat, j, tp.file.title, noteTitle);
-				var nextBreadcrumb = tp.date.now(noteTitle, 0, nextNote, absolutePathFormat);
-				break;
-			}
-		}
-		break;
-	}
+  prevNote = tp.date.now(absolutePathFormat, i, tp.file.title, noteTitle);
+  if (await tp.file.exists(prevNote + ".md")) {
+    var prevBreadcrumb = tp.date.now(noteTitle, 0, prevNote, absolutePathFormat);
+    for (let j = 1; j < 7; j++) {
+      let testDate = tp.date.now("ddd", j, tp.file.title, noteTitle);
+      if (testDate != "Sat" && testDate != "Sun") {
+        var nextNote = tp.date.now(absolutePathFormat, j, tp.file.title, noteTitle);
+        var nextBreadcrumb = tp.date.now(noteTitle, 0, nextNote, absolutePathFormat);
+        break;
+      }
+    }
+    break;
+  }
 }
 -%>
 <- [[<% prevNote + "|" + prevBreadcrumb %> ]] | [[<% nextNote + "|" + nextBreadcrumb %>]] ->
