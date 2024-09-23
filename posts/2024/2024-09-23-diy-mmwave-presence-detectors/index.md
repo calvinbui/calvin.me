@@ -18,6 +18,7 @@ Building a mmWave presence detector from off-the-shelf components.
 ```toc
 # This code block gets replaced with the TOC
 ```
+
 ## What is mmWave
 
 mmWave presence detectors use millimeter-wave radar technology (30-300 GHz range) to detect motion and presence. Unlike traditional motion detectors (PIR sensors), mmWave sensors are more sensitive and detect subtle movements like breathing.
@@ -51,7 +52,7 @@ Notes:
 - I used the D1 Mini ESP8266 as I few spare ones lying around. If I didn't have these, I would instead use an ESP32-C3 device like the Super Mini.
 - I purchased the LD2410 and 1.25mm to 2.54 connectors in 5 packs for a discount.
 - I have spare USB-C and 5V/1A Phone chargers lying around.
-- I created my own 3d-printed case which is [shared below](#case).
+- I created my own 3d-printed case which is [shared below](#caseenclosure).
 
 Building my presence detector comes to a saving of 94% over buying the Aqara FP2 ($167 on sale) and 60% over an Apollo MSR2 ($67 shipped). Disregarding the time and effort for soldering and putting it together, that's a total saving of $785 for five devices.
 
