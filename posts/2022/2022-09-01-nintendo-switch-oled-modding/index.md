@@ -198,6 +198,7 @@ I recommend making a note of all the homebrew that installs folders into `/atmos
 I am not condoning piracy.
 
 - [sys-patch](https://github.com/impeeza/sys-patch): Patch Atmosphere to run unsigned code (such as backups).
+- [sigpatches](https://sigmapatches.su/): Same as sys-patch, but static instead of dynamic.
 - [Tinfoil](https://tinfoil.io/): Title/game manager.
 - [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
 - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
@@ -252,7 +253,7 @@ I am not condoning piracy.
 - [NX-Activity-Log](https://github.com/tallbl0nde/NX-Activity-Log): Displays time playing games.
 - [NXGallery](https://github.com/iultimatelp/nxgallery): Transfer screenshots to your phone through a web server and QR code.
 - [Fizeau](https://github.com/averne/Fizeau/): Blue-light filter.
-- [Linkalho](https://github.com/rdmrocha/linkalho/): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
+- [Linkalho](https://github.com/impeeza/linkalho): Link Nintendo Network ID accounts offline. Required for some games such as Jackbox Party Pack.
 - [Avatool](https://github.com/J-D-K/Avatool): Change account avatars.
 - [FPSLocker](https://github.com/masagrator/FPSLocker): Unlock FPS in games.
 
