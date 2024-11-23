@@ -217,11 +217,11 @@ I am not condoning piracy.
 
 ### Screen Overlay (Tesla)
 
-[Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay) is an libtesla overlay available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/) is also required to load Tesla. The following overlays are available:
+[Ultrahand](https://github.com/ppkantorski/Ultrahand-Overlay) is an libtesla overlay available at any time by pressing `L` + `DPad Down` + `R3`. [nx-ovlloader+](https://github.com/ppkantorski/nx-ovlloader) is also required to load Tesla. The following overlays are available:
 
 - [Studious Pancake](https://github.com/HookedBehemoth/studious-pancake): Restart into different payloads from Atmosphere.
 - [EdiZon Overlay](https://github.com/proferabg/EdiZon-Overlay/): Cheats from EdiZon.
-- [ovlSysmodule](https://github.com/WerWolv/ovl-sysmodules): Toggle sysmodules on the fly.
+- [ovlSysmodule](https://github.com/ppkantorski/ovl-sysmodules): Toggle sysmodules on the fly.
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
 - [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
   - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
@@ -316,7 +316,7 @@ Download the Homebrew Menu forwarder I created above [here](forwarder/HBMENU-011
 
 ## Overclocking and Undervolting
 
-I overclocked and undervolted following the [Really Simple Overclocking (OC) Guide on Rentry](https://rentry.co/ocsc). The overclocking utilities EOS (or Swiftcraft) can be found on the [NSwitch 60 FPS Cheats & Mods discord server](https://discord.com/invite/VndKxFg7EE).
+I overclocked and undervolted following the [Really Simple Overclocking (OC) Guide on Rentry](https://rentry.co/ocsc). The overclocking utility [Switchcraft EOS can be found on GitHub](https://github.com/halop/OC-Switchcraft-EOS).
 
 My Switch details are:
 
