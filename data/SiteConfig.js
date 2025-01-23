@@ -14,17 +14,10 @@ const config = {
   postDefaultCategoryID: 'Tech',
   userName: 'Calvin Bui',
   userEmail: '',
-  userTwitter: '@ASAPCalvin',
   menuLinks: [
     {
       name: 'GitHub',
       link: 'https://git.io/calvin',
-      type: 'external',
-      mobile: true,
-    },
-    {
-      name: 'Twitter',
-      link: 'https://twitter.com/ASAPCalvin',
       type: 'external',
       mobile: true,
     },

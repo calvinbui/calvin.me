@@ -5088,7 +5088,6 @@ __metadata:
     gatsby-plugin-sass: "npm:^6.13.1"
     gatsby-plugin-sharp: "npm:^5.13.1"
     gatsby-plugin-sitemap: "npm:6.13.1"
-    gatsby-plugin-twitter: "npm:^5.13.1"
     gatsby-plugin-umami: "npm:^0.1.5"
     gatsby-remark-autolink-headers: "npm:^6.13.1"
     gatsby-remark-copy-linked-files: "npm:^6.13.1"
@@ -8280,17 +8279,6 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
   checksum: 10c0/09aaf314c41ff01185149440cff4bb86d0dc48c9eb2b7e3510543d05211d871ad5a0cd306cd6ba4f65ab532ec725decaf29328852bf7688a443242ceec734a25
-  languageName: node
-  linkType: hard
-
-"gatsby-plugin-twitter@npm:^5.13.1":
-  version: 5.13.1
-  resolution: "gatsby-plugin-twitter@npm:5.13.1"
-  dependencies:
-    "@babel/runtime": "npm:^7.20.13"
-  peerDependencies:
-    gatsby: ^5.0.0-next
-  checksum: 10c0/546aa1a7ae41c320d9809f46a1e5bb41562fa0f34ecad28a5c1ed4acf110fd3ca91ee6ba9dcfda35c541486ba6362b8ca59aa5a978eb5c60a09c3484d7d3c00f
   languageName: node
   linkType: hard
 

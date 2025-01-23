@@ -81,20 +81,6 @@ a.button.muted-bottom {
   }
 }
 
-.twitter-button,
-a.twitter-button {
-  background: #00aced;
-  border: 2px solid #00aced;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background: darken(#00aced, 5%);
-    border: 2px solid darken(#00aced, 5%);
-    color: white;
-  }
-}
-
 @include small-breakpoint {
   #{$buttons} {
     padding: 0.75rem 1.25rem;

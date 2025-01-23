@@ -21,7 +21,6 @@
     "gatsby-plugin-sass": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-sitemap": "6.13.1",
-    "gatsby-plugin-twitter": "^5.13.1",
     "gatsby-plugin-umami": "^0.1.5",
     "gatsby-remark-autolink-headers": "^6.13.1",
     "gatsby-remark-copy-linked-files": "^6.13.1",
