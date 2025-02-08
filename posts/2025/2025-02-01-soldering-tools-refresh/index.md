@@ -36,6 +36,8 @@ I've also [redesigned my snap fit lid case](https://www.printables.com/model/111
 
 ![](esp32.jpg)
 
+In the future, I hope to replace them all with the ESP32 C6. The C6 is similar to the C3 in raw processing power, but has slightly more RAM and WiFi 6 + 802.15.4 (Zigbee/Thread). Having each work as a Zigbee Router would vastly improve their usefulness.
+
 ## PCB Holders
 
 I replaced my Doc Ock helping hands holder with two different PCB holders. The helping hands style requires getting every bend and angle correct, and made it difficult to solder at different angles. In comparison, the new one takes only a few seconds to put a board in place and can even rotate!
