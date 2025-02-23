@@ -14,6 +14,10 @@ Updating my soldering tools.
 
 <!-- more -->
 
+```toc
+# This code block gets replaced with the TOC
+```
+
 Last September, I wrote about [mmWave sensors I created using ESP8266 boards and HiLink LD2410 sensors](/diy-mmwave-presence-detectors/). I built these using my high school soldering equipment, along with a few extra tools I purchased to [install a modchip in my Nintendo Switch](nintendo-switch-oled-modding/#modchip).
 
 I recently needed to install [Bluetooth proxies for Home Assistant](https://www.home-assistant.io/integrations/bluetooth/#remote-adapters-bluetooth-proxies) around the house. An easy solution would be to replace existing ESP8266 devices with ESP32. With the monthly AliExpress sales (and boosted cashback on top), I went ahead and upgraded my tools to make the job a lot quicker and easier.
@@ -32,11 +36,37 @@ In comparison to my ESP8266 boards, the ESP32-C3 Super Mini is:
 - Smaller: About 50% the size of a D1 Mini.
 - Has the same amount of GPIO pins.
 
+There's also an expansion board available to speed up testing.
+
+![](expansion-board.jpg)
+
 I've also [redesigned my snap fit lid case](https://www.printables.com/model/1117998-esp32-c3-super-mini-and-ld2410) to fit the ESP32-C3 Super Mini.
 
 ![](esp32.jpg)
 
-In the future, I hope to replace them all with the ESP32 C6. The C6 is similar to the C3 in raw processing power, but has slightly more RAM and WiFi 6 + 802.15.4 (Zigbee/Thread). Having each work as a Zigbee Router would vastly improve their usefulness.
+In the future, I hope to replace them all with the ESP32 C6. The C6 is similar to the C3 in raw processing power, but has slightly more RAM and WiFi 6 + 802.15.4 (Zigbee/Thread). Having each work as a Zigbee Router would vastly improve their usefulness. [ESPHome is still working on supporting Zigbee/Thread at this time](https://github.com/esphome/feature-requests/issues/1397).
+
+## Multimeter
+
+I've replaced my [old Jaycar DT-830B multimeter](https://www.jaycar.com.au/low-cost-digital-multimeter-dmm/p/QM1500) with new [Brymen's BM2257](https://brymen.eu/shop/bm2257/) from [The EEVBlog Store](https://eevblog.store/products/eevblog-bm2257-multimeter). The BM2257 is a step up from the BM235.
+
+![](multimeter-comparison.jpg)
+
+The biggest benefits to me so far have been:
+
+- Auto-range functionality
+- Backlit screen for dim working conditions
+- Certified CAT IV rating to work with mains voltages (would've been good for the [Bottlehead Crack](/bottlehead-crack-build-log/))
+- Banana plug test leads which make connecting crocodile clips so much easier
+- The case has cutouts to hold the test leads when not in use
+
+![](multimeter-banana-plugs.jpg)
+
+![](multimeter-test-leads-holder.jpg)
+
+I squeezed everything into an AliExpress hard shell case measuring 13cm x 7cm x 17cm.
+
+![](multimeter-case.jpg)
 
 ## PCB Holders
 
@@ -76,6 +106,12 @@ I am now using a stand that has brass instead of a wet sponge to clean my solder
 
 ![](stand.jpg)
 
+## Cutting Mat
+
+I've upgraded my cutting mat size from A5 to A3 for extra room to work. There are two types of these mats on AliExpress and the one made from foam instead of plastic is superior as it does not slide around the table.
+
+![](cutting-mat.jpg)
+
 ## Tweezers
 
 The last upgrade was to replace my tweezer set. The old set would transfer heat up to my fingers when the iron was touching them. The new set has ceramic tips which prevents this issue.
@@ -87,3 +123,7 @@ The tweezers are also self-closing (also known as reverse-action, cross-locking,
 ![](tweezer-open.jpg)
 
 ![](tweezer-closed.jpg)
+
+But just in case, I also bought regular ceramic tweezers too.
+
+![](tweezers-normal.jpg)
