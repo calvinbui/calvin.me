@@ -84,16 +84,16 @@ I took measurements on the middle, left and right of my main listening position 
 ### Tips
 
 - Turn ECO mode `Off` during measurement. Return it to `Auto` when finished.
-    - ![](a1-evo-nexus/eco.png)
+  ![](a1-evo-nexus/eco.png)
 - Disable `CinemaEQ` and `Loudness Management`.
-    - ![](a1-evo-nexus/cinema-eq.png)
+  ![](a1-evo-nexus/cinema-eq.png)
 - Ensure subwoofers do not interfere with speaker measurements:
   - Ensure crossover is `Off (Full Range)`.
   - Ensure subwoofer output is `LFE` and not `LFE + Main`.
   - Better yet, turn off the subwoofers when measuring the speakers.
 - Each subwoofer is measured individually. Turn off other subwoofers to measure a single unit (SW1/SW2/SWx...)
 - Get the middle position (or skip if not MLP) within 3cm. Every measurement is aligned to this at the end.
-    - ![](a1-evo-nexus/3cm.png)
+  ![](a1-evo-nexus/3cm.png)
 
 ### Results
 
