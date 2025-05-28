@@ -55,8 +55,11 @@ I bought two [GARDENA AquaZoom M Oscillating Sprinklers](https://www.bunnings.co
 ![](sprinklers/map.png)
 
 I connected both sprinklers to the tap using:
+
 - [Pope 12mm x 30m hose](https://www.bunnings.com.au/pope-12mm-x-30m-handy-garden-hose_p3110072) I chopped up.
+
 - Holman hose connectors. No longer available at Bunnings.
+
 - [Pope 12mm 3 Way Coupler](https://www.bunnings.com.au/pope-12mm-3-way-coupler_p0046152).
 
 ![](sprinklers/cutting-hose.jpg)
