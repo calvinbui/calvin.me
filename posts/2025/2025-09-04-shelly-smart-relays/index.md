@@ -1,5 +1,5 @@
 ---
-title: Shelly Smart Switches
+title: Shelly Smart Relays
 categories:
 - Home
 tags:
@@ -10,7 +10,7 @@ tags:
 thumbnail: thumbnail.svg
 ---
 
-I've installed a Shelly smart switch for every possible light switch in my home over the past three and a half years. These are great devices that work over Wi-Fi, Bluetooth and Zigbee.
+I've installed a Shelly smart relay for every possible light switch in my home over the past three and a half years. These are great devices that work over Wi-Fi, Bluetooth, Matter and Zigbee.
 
 <!-- more -->
 
@@ -18,11 +18,11 @@ I've installed a Shelly smart switch for every possible light switch in my home 
 # This code block gets replaced with the TOC
 ```
 
-## Shelly Smart Switches
+## Shelly Smart Relays
 
-Shelly smart switches are compact, Wi-Fi-enabled relays that turn electrical appliances and lighting into smart devices without requiring rewiring or a complete system overhaul. All Shelly devices can be controlled locally without requiring cloud services. They can be operated through the browser, API, MQTT, Bluetooth (Gen2+), Matter (Gen3+), Zigbee (Gen4) and Z-Wave (Wave series).
+Shelly smart relays are compact, Wi-Fi-enabled relays that turn electrical appliances and lighting into smart devices without requiring rewiring or a complete system overhaul. All Shelly devices can be controlled locally without requiring cloud services. They can be operated through the browser, API, MQTT, Bluetooth (Gen2+), Matter (Gen3+), Zigbee (Gen4) and Z-Wave (Wave series).
 
-I have retrofitted them behind each light switch in my house while maintaining their look and functionality. Shelly switches let your wall switches work normally while the relay behind the scenes handles smart control. Unlike smart light bulbs, they don't have to be left on to control them. No more "please don't touch that switch" conversations, no more dead smart bulbs after someone accidentally flips the wrong switch, and no standby power waste from keeping switches permanently enabled. The physical switches remain intuitive and functional while automation continues working seamlessly in the background.
+I have retrofitted them behind each light switch in my house while maintaining their look and functionality. It lets your light switches work normally while the relay behind the scenes handles smart control. Unlike smart light bulbs, they don't have to be left on to control them. No more "please don't touch that switch" conversations, no more dead smart bulbs after someone accidentally flips the wrong switch, and no standby power waste from keeping switches permanently enabled. The physical switches remain intuitive and functional while automation continues working seamlessly in the background.
 
 I've taken this photo from their website, because all my wiring photos shown later are nasty.
 
