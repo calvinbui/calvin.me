@@ -115,6 +115,14 @@ In reality, wiring is not as pretty as the diagrams.
 
 ![](wiring/example-2.jpg)
 
+## Ansible
+
+I use Ansible to manage and configure my 19 Shelly smart relays. My [playbook](https://github.com/calvinbui/ansible-monorepo/blob/master/shelly-gen2.yml) configures the device from a factory reset state following the [API docs](https://shelly-api-docs.shelly.cloud/gen2/).
+
+Authentication is through HTTP Digest SHA-256, which at the time of this post is not supported in Python's urllib library. I have [added into Python](https://github.com/python/cpython/pull/128193) and it should be released in 3.14. In the meantime, I worked around it by adding the two extra lines into `Lib/urllib/request.py`.
+
+Using Terraform would be ideal for this, but I haven't seen any providers that support the full Shelly API yet.
+
 ## Home Assistant
 
 The [official Home Assistant integration for Shelly](https://www.home-assistant.io/integrations/shelly) works perfectly and does everything I want. It communicates using WebSockets over HTTP (RPC), exposes all sensors and supports firmware updates directly from Home Assistant.
