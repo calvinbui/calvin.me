@@ -77,8 +77,8 @@ calvin@homeserver:~$ efibootmgr
 BootCurrent: 0000
 Timeout: 1 seconds
 BootOrder: 0005,0000
-Boot0000* debian2	HD(1,GPT,00b0d5a1-e05d-49b2-a9e2-bc88c2eec925,0x800,0x1e8000)/File(\EFI\DEBIAN\SHIMX64.EFI)
-Boot0005* debian	HD(1,GPT,11e33c90-68b2-49db-bc61-c4ce2d60c8d3,0x800,0x1e8000)/File(\EFI\DEBIAN\SHIMX64.EFI)0000424f
+Boot0000* debian2 HD(1,GPT,00b0d5a1-e05d-49b2-a9e2-bc88c2eec925,0x800,0x1e8000)/File(\EFI\DEBIAN\SHIMX64.EFI)
+Boot0005* debian HD(1,GPT,11e33c90-68b2-49db-bc61-c4ce2d60c8d3,0x800,0x1e8000)/File(\EFI\DEBIAN\SHIMX64.EFI)0000424f
 ```
 
 ### Networking
