@@ -14,7 +14,7 @@ Calvin's personal website running on Gatsby, React and Node.js.
 ## Development
 
 ### Setup
-```console
+```shell-session
 git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
 nvm use
@@ -24,19 +24,19 @@ yarn gatsby telemetry --disable
 ```
 
 ### Developing
-```console
+```shell-session
 yarn dev
 ```
 
 ### Upgrading
 
-```console
+```shell-session
 yarn upgrade-interactive
 ```
 
 ## Deployment
 
-This repo is mirrored by Drone into GitHub. GitHub Actions is responsible for building and deploying into GitHub Pages.
+GitHub Actions is responsible for building and deploying into GitHub Pages.
 
 ## Contributing
 

@@ -115,7 +115,6 @@ exports.createPages = ({ graphql, actions }) => {
         `
       ).then(result => {
         if (result.errors) {
-          // eslint-disable-next-line no-console
           console.log(result.errors)
           reject(result.errors)
         }

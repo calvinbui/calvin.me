@@ -94,7 +94,7 @@ The setting can be found under Router connection settings:
 
 You can test it works by running `telnet`:
 
-```console
+```shell-session
 ❯ telnet 192.168.3.46 6607
 Trying 192.168.3.46...
 Connected to solar-inverter-1.xxx.

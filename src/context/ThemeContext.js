@@ -28,7 +28,6 @@ class ThemeProvider extends Component {
     const { children } = this.props
     const { userPreferredTheme } = this.state
 
-    /* eslint-disable react/jsx-no-constructed-context-values */
     return (
       <ThemeContext.Provider
         value={{
