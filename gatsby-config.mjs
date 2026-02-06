@@ -1,7 +1,12 @@
-const urljoin = require('url-join')
-const config = require('./data/SiteConfig')
+import urljoin from 'url-join'
+import config from './data/SiteConfig.js'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-module.exports = {
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+export default {
   pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),

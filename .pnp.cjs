@@ -75,7 +75,7 @@ const RAW_RUNTIME_STATE =
           ["sharp", "npm:0.33.2"],\
           ["smooth-scroll", "npm:16.1.3"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
-          ["url-join", "npm:4.0.1"],\
+          ["url-join", "npm:5.0.0"],\
           ["webpack", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:5.105.0"]\
         ],\
         "linkType": "SOFT"\
@@ -8216,7 +8216,7 @@ const RAW_RUNTIME_STATE =
           ["sharp", "npm:0.33.2"],\
           ["smooth-scroll", "npm:16.1.3"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
-          ["url-join", "npm:4.0.1"],\
+          ["url-join", "npm:5.0.0"],\
           ["webpack", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:5.105.0"]\
         ],\
         "linkType": "SOFT"\
@@ -22608,10 +22608,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["url-join", [\
-      ["npm:4.0.1", {\
-        "packageLocation": "../../.yarn/berry/cache/url-join-npm-4.0.1-e1f4415722-10c0.zip/node_modules/url-join/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/url-join-npm-5.0.0-27d329c4cf-10c0.zip/node_modules/url-join/",\
         "packageDependencies": [\
-          ["url-join", "npm:4.0.1"]\
+          ["url-join", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
