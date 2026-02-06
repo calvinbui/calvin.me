@@ -1,11 +1,11 @@
 {
   "config": {
-    "no-inline-html": false,
-    "line-length": false,
     "commands-show-output": false,
-    "ol-prefix": false,
-    "no-trailing-punctuation": false,
+    "descriptive-link-text": false,
+    "line-length": false,
     "no-alt-text": false,
-    "descriptive-link-text": false
+    "no-inline-html": false,
+    "no-trailing-punctuation": false,
+    "ol-prefix": false
   }
 }
