@@ -81,5 +81,5 @@
       "remark-preset-lint-recommended"
     ]
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.12.0"
 }
