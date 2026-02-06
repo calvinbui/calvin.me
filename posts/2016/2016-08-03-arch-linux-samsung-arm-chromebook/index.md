@@ -17,19 +17,19 @@ I took my Chromebook out of retirement over the week and experimented around wit
 
 I assume you are familiar with Linux so I won't be explaining what everything is and what it does.
 
-### Install Arch Linux following the official guide
+## Install Arch Linux following the official guide
 
 Install Arch on the Chromebook using [the official guide](https://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook).
 
 To install to the internal memory, use _/dev/mmcblk0_ as the path after launching Arch from a USB. For this to work you will need Internet (_wifi-menu_), _wget_ and _cgpt_ (pacman -S cgpt wget).
 
-### Set up Wi-Fi
+## Set up Wi-Fi
 
 On the first boot without a GUI, the command _wifi-menu_ should work out of the box to pick a simple network. It does not support WPA2 Enterprise or Hidden Networks however.
 
 Proper networking will be explained later on once we have a GUI ready.
 
-### Update the system
+## Update the system
 
 Simply run:
 
@@ -39,7 +39,7 @@ pacman -Syu
 
 then reboot and hope everything still works.
 
-### Create a user
+## Create a user
 
 The next few steps require some files to be created in a user's home directory or preferences changed under their profile. This is would be a good time to do that unless you plan to use 'root' forever.
 
@@ -73,7 +73,7 @@ calvin ALL=(ALL) ALL
 
 Login to your new user and let's begin.
 
-### Get a GUI
+## Get a GUI
 
 ![Screenshot at 2016-07-31 19:58:07](Screenshot-at-2016-07-31-195807-1024x576.png)
 
@@ -105,7 +105,7 @@ systemctl enable lightdm.service
 
 Reboot and try it out.
 
-### Fix the trackpad
+## Fix the trackpad
 
 Now the trackpad will not feel right. This is easily fixed with a config file and driver.
 
@@ -140,7 +140,7 @@ This should enable a good working trackpad on boot with tapping working. Afterwa
 
 Note: if it's really hard navigating with the broken trackpad, press _CTRL + ALT + Refresh_ to return to the command line.
 
-### Networking
+## Networking
 
 Install _Network Manager_ and _network-manager-applet:_
 
@@ -156,7 +156,7 @@ systemctl enable NetworkManager.service
 
 ![Screenshot at 2016-07-31 20:17:20](screenshot-at-2016-07-31-201720.png)
 
-### Brightness Control
+## Brightness Control
 
 First make controlling brightness available to every user by editing permissions at startup. Create _/etc/tmpfiles.d/brightness.conf_ with:
 
@@ -211,7 +211,7 @@ Shortcut F7
 
 If it doesn't work, make sure you have rebooted first to set the right permissions to the brightness file. Try running the scripts manually as well to see what the problem could be.
 
-### Sound
+## Sound
 
 First install _alsa-utils_
 
@@ -242,7 +242,7 @@ Press ESC when down and it should save itself.
 
 Set the volume keyboard shortcuts by going to '_System > Preferences > Hardware > Keyboard Shortcuts_'
 
-### Suspend on lid close
+## Suspend on lid close
 
 Forget about _acpid_ and _pm-utils_ in the wiki, sleeping works fine without them and it's easier to manage with systemd.
 
@@ -272,7 +272,7 @@ Then enable the unit:
 systemctl enable tp-wake-disable.service
 ```
 
-### Suspend after idle
+## Suspend after idle
 
 The Chromebook does not suspend after a period of inactivity in my tests, the display goes black and stays that way until woken again. I've found the easiest way to activate suspend is to edit _/etc/systemd/logind.conf_ and change the _IdleAction_ and _IdleActionSec_ fields. This means 1 minute after the display is put to sleep it will suspend.  The time for the display to sleep is configured through Screensaver in '_System Preferences > Preferences > Look and Feel > Screensaver_'.
 
@@ -291,7 +291,7 @@ Reboot to apply.
 
 Note: During startup, _LightDM_ will not suspend the computer if no one logs on, just leaving the laptop awake at the prompt indefinitely. I have experimented with _xautolock_, running it as a systemd unit and _LightDM_ script but nothing seems to fix it. Closing the lid will also not suspend the computer. Basically, don't leave it on at the login screen without anyone logged in.
 
-### Change Search key to Caps Lock
+## Change Search key to Caps Lock
 
 Install _xmodmap_:
 
@@ -305,7 +305,7 @@ By default, _LightDM_ will read the _~/.Xmodmap_ file and modify the keymaps lis
 keycode 133 = Caps_Lock
 ```
 
-### Delete/Home/End/Page Up/Page Down
+## Delete/Home/End/Page Up/Page Down
 
 Install _xbindkeys_ (for creating shortcuts) and _xvkbd_ (emulate keyboard input):
 
@@ -351,19 +351,19 @@ To run the configuration file at startup, add it to the _~/.xprofile_ which is e
 echo 'xbindkeys &' >> ~/.xprofile
 ```
 
-### Enable Compositing
+## Enable Compositing
 
 '_System > Preferences > Look and Feel > Windows_' and tick '_Enable software compositing window manager_' in the General tab.
 
 ![Screenshot at 2016-07-31 19:18:52](screenshot-at-2016-07-31-191852.png)
 
-### Set Hostname
+## Set Hostname
 
 ```shell-session
 hostnamectl set-hostname arch-chromebook
 ```
 
-### Set the Time Zone
+## Set the Time Zone
 
 First find your time zone:
 
@@ -378,7 +378,7 @@ Then set the time zone:
 timedatectl set-timezone Australia/Sydney
 ```
 
-### Other Notes
+## Other Notes
 
 * The trackpad sometimes doesn't work on boot. A restart fixes it (press the power button)
 * Can't seem to get PulseAudio working

@@ -15,7 +15,7 @@ When your drive dies, or in my case, the SATA port fails completely, this is a g
 
 Live USB/CDs are a great way to try out new Linux distros or run things securely. They're also great when you don't have any other operating system to run or hard drive to install to. The problem with Live USB/CDs is that anything you do in them are erased as soon as you turn the computer off as it's all stored temporarily. The way around this is to create a persistent file storage system on-top of the Live USB which captures all files and folder changes. So now when you turn off your computer, everything you've done will be saved!
 
-#### Note to pre-16.04 distros
+## Note to pre-16.04 distros
 
 This used to be a very simple process in Ubuntu before 16.04 using the Startup Disk Creator program. If you have 15.10, 15.04, 14.10, etc. on hand without any Internet, this is the best and easy temporary solution. Persistence was removed in 16.04:
 

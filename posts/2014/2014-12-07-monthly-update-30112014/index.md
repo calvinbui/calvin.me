@@ -26,7 +26,7 @@ You will also find what I'm currently interested in for the following weeks. If 
 
 Weekly update becomes fortnightly update becomes monthly update.
 
-### Find myself a Gist
+## Find myself a Gist
 
 After trying out the projects online:
 
@@ -37,7 +37,7 @@ After trying out the projects online:
 
 I plan to use a Gist for scripts I like to update as well as pulling in information via curl/wget (by viewing it raw).
 
-### System Monitoring and Logging
+## System Monitoring and Logging
 
 I begin having a thing for system monitoring and logging. As things grew, I wanted to be able to monitor it all - mainly disk usage and any log files it produced. Most solutions required an add-on to be installed onto the host but I found that simply ridiculous...why not specify SSH details and commands to retrieve them? There were a few popular monitoring solutions I encountered:
 
@@ -53,7 +53,7 @@ I begin having a thing for system monitoring and logging. As things grew, I want
 * [Stashboard](http://www.stashboard.org): Same as StatusPage.io but free.
 * [ELK Stack](http://www.elasticsearch.org/overview/): A bunch of tools put together to log a system. Very light and simple.
 
-### More Usenet Tools
+## More Usenet Tools
 
 I installed Headphones, NZBMegasearcH and LazyLibarian.
 
@@ -61,7 +61,7 @@ I installed Headphones, NZBMegasearcH and LazyLibarian.
 
 I also tried finding an automatic games downloader. The options available, [Gamez by avjui](https://github.com/avjui/Gamez) and [GamezServer by Riveu](https://github.com/Riveu/GamezServer) both didn't work for me :disappointed: I may try again later
 
-### WordPress
+## WordPress
 
 Got a few new plugins
 
@@ -78,13 +78,13 @@ Lastly I had a stupid error with JetPack. It kept giving me a 32601 error meani
 $_SERVER['SERVER_PORT'] = 443;
 ```
 
-### HAVP templates
+## HAVP templates
 
 I contributed English translations to x-way's HAVP templates. You can find them [here](https://github.com/x-way/havp-templates).
 
 ![Screenshot](https://camo.githubusercontent.com/685b256e9994133867c373981a0d1a99c1e4d951/68747470733a2f2f6769742e782d7761792e6f72672f782d7761792f686176702d74656d706c617465732f626c6f622f6d61737465722f73637265656e73686f742e706e673f7261773d74727565)
 
-### Continuous Integration
+## Continuous Integration
 
 There were two main CI programs that I took a look at:
 
@@ -93,7 +93,7 @@ There were two main CI programs that I took a look at:
 
 I can say I don't have a single clue how to even use my CI. I definitely would like to though and decrease my time testing.
 
-### PBX
+## PBX
 
 They were all very interesting PBX systems but in the end my VoIP setup wasn't that big so I deleted them all before getting to the point where I compared them. Instead I migrated from my FritzBox 7390 which was acting as my DECT station and VoIP host to my smaller (and sometimes unreliable but maybe not this time around) Gigaset A510IP. Overall the change would hopefully be more power efficient and fix the issue where it would drop calls after a period of time unless restarted. Interestingly it took a few things to get the Gigaset working. First it blocked anything not on the same network/vlan as itself, I didn't realise this and troubleshooted everything until I found the checkbox under 'Advanced Settings' to turn that off. Next Snort was blocking SIP (a VoIP protocol) but that was taken care of swiftly. Lastly my VoIP account details weren't working but a firmware update fixed that. I love when updates fix stuff. Hopefully Grandma is happier now if it doesnt drop calls again.
 
@@ -104,7 +104,7 @@ The PBX systems I found were:
 * [PBX In A Flash](http://pbxinaflash.com/community/home/)
 * [AsteriskNOW](http://www.asterisk.org/downloads/asterisknow)
 
-### LIFX Light bulb
+## LIFX Light bulb
 
 Got the [LIFX light bulb](http://au.lifx.co/) on my birthday! :smile:
 
@@ -112,15 +112,15 @@ It's funny that the first 'home appliance' I ever did a firmware upgrade to was 
 
 The mobile application doesn't have all the features advertised yet but still does a good job of changing colours and performing effects.
 
-### Apt-Cacher
+## Apt-Cacher
 
 I set up an Apt-Cache server using a [tutorial from Tecmint](http://www.tecmint.com/apt-cache-server-in-ubuntu/). Apt-Cacher NG is a repository similar to Windows Server Update Services where all 'apt-get install' files are saved for future downloads.
 
-### Syntax Highlighting in Word
+## Syntax Highlighting in Word
 
 I spent half of November studying and doing exams. One subject has a purely programming subject and including code into Microsoft Word always had to be screenshots. In comes planetB's copy and paste [Syntax Highlighter](http://www.planetb.ca/syntax-highlight-word). Works in Chrome and IE but apparently has issues in Firefox.
 
-### PotPlayer Video Quality
+## PotPlayer Video Quality
 
 A lot of people like VLC. I think it's complete crap. PotPlayer (previously known as KMPlayer) is the king of video players.
 
@@ -128,7 +128,7 @@ I aimed to get even higher quality form my PotPlayer and luckily other people ha
 
 It has a lot of things I didn't think I needed like LAV Filters and madVR (for Madshi).
 
-### GPU Overclocking
+## GPU Overclocking
 
 My 2 year old GTX 680 isn't handling games at max settings very well anymore. I had to overclock it to play Far Cry 4. An easy task for any novice really, but it shows that it's possible to keep old stuff running but dumping more voltage into them.
 

@@ -16,7 +16,7 @@ Home is an application I developed last year (Nov-Dec) while learning the MEAN (
 
 <!-- more -->
 
-### Problem
+## Problem
 
 Every application is made to solve a particular problem. There needs to be a reason to make it.
 

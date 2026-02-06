@@ -15,6 +15,8 @@ Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of
 
 <!-- more -->
 
+## Guide
+
 Chrome can remember decisions to proceed through certificate errors for a specified length of time of up to three months.
 
 1. Enter **chrome://flags** into the address bar
@@ -33,7 +35,7 @@ Chrome can remember decisions to proceed through certificate errors for a speci
 
 ![relaunch](relaunch.jpg)
 
-### Explanation of Certificate Errors
+## Explanation of Certificate Errors
 
 Browsers, like Internet Explorer, Firefox and Chrome will usually show these errors when they cannot trust the source of the certificate. This is seen as a privacy issue as they cannot establish a secure connection with the website.
 

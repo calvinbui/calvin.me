@@ -18,7 +18,7 @@ A short post on how I exponentially sped up my VMware environment.
 
 Even with 20-30 or so VMs, I always found that they were always unresponsive or slow to do very standard things like logging in, listing directories, reading files.
 
-#### Slow Performance Factors
+## Slow Performance Factors
 
 I knew it was down to four main factors: CPU, memory, network or storage.
 
@@ -27,13 +27,13 @@ I knew it was down to four main factors: CPU, memory, network or storage.
 * I don't think it's the network since I'm teaming four connections together for 4 gigabits/s
 * I wouldn't assume it to be the storage since I'm mirroring two Samsung 840 Pro SSDs together
 
-#### The Reason
+## The Reason
 
 Cutting to the point, after playing around with it all I realised that the storage was the limiting factor.
 
 A few searches on the net led me to find that the reason for slow performance was the fact that **VMware ALWAYS writes to the NFS datastore using FSYNC** meaning that it's gotta wait for an acknowledge before any data is written.
 
-#### The Solution: ZIL
+## The Solution: ZIL
 
 The solution to increasing the speed of FSYNC is to add a ZFS Intent Log or ZIL drive. This requires a fast disk such as an SSD or battery-backed NVRAM. The simple explanation of how a ZIL works is that it takes any writes to the zpool and hold them until it is free to flush them over.
 
@@ -43,7 +43,7 @@ I ended up using an old Intel 60GB SSD (thick provisioned through VMware) onto m
 
 ![Capture](capture.png)
 
-#### Performance
+## Performance
 
 A simple test I do is just performing an apt-update and dist-upgrade on VMs I haven't touched in a while
 

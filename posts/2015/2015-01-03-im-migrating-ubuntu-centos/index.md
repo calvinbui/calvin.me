@@ -24,7 +24,7 @@ I'm not hating on Ubuntu, I'm just against it from now on for my own usage - not
 
 ![ubuntu-trusty-320x205](ubuntu-trusty-320x205.jpg)
 
-### Reason 1: Upstart vs Systemd
+## Reason 1: Upstart vs Systemd
 
 This is probably the biggest reason for my switch - 14.04 LTS uses [upstart](http://upstart.ubuntu.com/). If you haven't heard, the rest of the Linux world (except a minor few) use [systemd](http://www.freedesktop.org/wiki/Software/systemd/).
 
@@ -34,7 +34,7 @@ I'm not clear on how to convert upstart scripts to systemd. I hope it just autom
 
 I guess this isn't their fault as they follow Debian closely.
 
-### Reason 2: Longterm Kernel
+## Reason 2: Longterm Kernel
 
 Ubuntu 14.04 uses the 3.13 Linux kernel, not a [longterm version of the Linux kernel](https://www.kernel.org/). Longterm kernels (LTR) are supported for roughly 3 years, where higher stability would be provided than a 'mainline' or newer release. For a 'server' environment, I don't understand why Ubuntu 14.04 LTS went with 3.13 and not the 3.12 LTR.
 
@@ -42,7 +42,7 @@ Apparently Torvalds held off the 3.14 LTR until a week after the [14.04 LTS ker
 
 ![tux](tux.png)
 
-### Reason 3: Landscape costs money! $$$$
+## Reason 3: Landscape costs money! $$$$
 
 [Landscape](http://www.ubuntu.com/management) is Canonical's system management tool for all your Ubuntu hosts. It does everything you would expect from updating/upgrading software (using apt-get and aptitude), host monitoring like when you see CPU usage and warnings; and deployment features for OpenStack and cloud infrastructure.
 

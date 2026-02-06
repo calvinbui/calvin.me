@@ -20,7 +20,7 @@ Of course this is something I would never pay for (and the commercial ones cost 
 
 Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https://en.wikipedia.org/wiki/IP_address_management), the three IPAMs that stood out where InfoBlox, phpIPAM and GestioIP.
 
-### InfoBlox IPAM Express
+## InfoBlox IPAM Express
 
 ![infoblox](infoblox-300x231.png)
 
@@ -33,7 +33,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 * Interface is not mobile optimised
 * Seemed more trouble than it was so didn't continue using it after 5 minutes
 
-### phpIPAM
+## phpIPAM
 
 ![ipam](ipam-300x234.png)
 
@@ -47,7 +47,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 * Pings devices to see if they are online
 * Very pleasant to use and easy to understand
 
-### GestioIP
+## GestioIP
 
 ![gestio](gestio-300x281.png)
 
