@@ -336,7 +336,8 @@ exports.createPages = ({ graphql, actions }) => {
         const categoryList = Array.from(categorySet)
         categoryList.forEach(category => {
           createPage({
-            path: `/categories/${category.toLowerCase()}/`,
+            // Use the same URL normalization as tags (handles spaces/punctuation).
+            path: `/categories/${kebabCase(category)}/`,
             component: categoryPage,
             context: {
               category,

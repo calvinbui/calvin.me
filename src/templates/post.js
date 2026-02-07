@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { graphql, Link } from 'gatsby'
+import kebabCase from 'lodash.kebabcase'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
@@ -57,7 +58,7 @@ export default class PostTemplate extends Component {
               <div className="category-container">
                 {post.categories.map(category => (
                   <Link
-                    to={`/categories/${category.toLowerCase()}`}
+                    to={`/categories/${kebabCase(category)}/`}
                     className="category-filter"
                     key={category}
                   >

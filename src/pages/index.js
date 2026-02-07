@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { graphql, Link } from 'gatsby'
+import kebabCase from 'lodash.kebabcase'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
@@ -51,7 +52,7 @@ export default class Index extends Component {
           <div className="category-container">
             {categories.map(category => (
               <Link
-                to={`/categories/${category.fieldValue.toLowerCase()}`}
+                to={`/categories/${kebabCase(category.fieldValue)}/`}
                 className="category-filter"
                 key={category.fieldValue}
               >
