@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { GatsbyImage } from 'gatsby-plugin-image'
 import { formatDate } from '../utils/global'
 
 const config = require('../../data/SiteConfig')
@@ -32,11 +31,11 @@ export default class PostListing extends Component {
         {postList.map(post => {
           let thumbnail
           if (post.thumbnail) {
-            if (post.thumbnail.childImageSharp) {
-              thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
-            } else {
-              thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} alt="" /></div>
-            }
+            thumbnail = (
+              <div className="gatsby-image-wrapper">
+                <img src={post.thumbnail.publicURL} alt="" loading="lazy" decoding="async" />
+              </div>
+            )
           }
 
           return (

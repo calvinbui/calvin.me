@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { graphql, Link } from 'gatsby'
-import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
@@ -22,11 +21,11 @@ export default class PostTemplate extends Component {
     post.date = postNode.fields?.date ?? postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
     if (thumbnailFile) {
-      if (thumbnailFile.childImageSharp) {
-        thumbnail = <GatsbyImage image={thumbnailFile.childImageSharp.gatsbyImageData} />
-      } else {
-        thumbnail = <div className="gatsby-image-wrapper"><img src={thumbnailFile.publicURL} alt="" /></div>
-      }
+      thumbnail = (
+        <div className="gatsby-image-wrapper">
+          <img src={thumbnailFile.publicURL} alt="" loading="eager" decoding="async" />
+        </div>
+      )
     }
 
     const date = formatDate(post.date)
@@ -113,15 +112,6 @@ export const pageQuery = graphql`
         tags
       }
       thumbnail {
-        childImageSharp {
-          gatsbyImageData(
-            layout: FIXED
-            width: 150
-            height: 150
-            quality: 100
-            placeholder: BLURRED
-          )
-        }
         extension
         publicURL
       }

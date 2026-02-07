@@ -49,15 +49,6 @@ export const pageQuery = graphql`
             categories
           }
           thumbnail {
-            childImageSharp {
-              gatsbyImageData(
-                layout: FIXED
-                width: 150
-                height: 150
-                quality: 100
-                placeholder: BLURRED
-              )
-            }
             extension
             publicURL
           }
