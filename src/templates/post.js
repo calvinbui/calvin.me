@@ -17,9 +17,9 @@ export default class PostTemplate extends Component {
 
     let thumbnail
 
-    post.id = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)
+    post.id = postNode.fields?.postId ?? postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)
     post.category_id = config.postDefaultCategoryID
-    post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
+    post.date = postNode.fields?.date ?? postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
     if (thumbnailFile) {
       if (thumbnailFile.childImageSharp) {
@@ -85,7 +85,7 @@ export function Head({ data }) {
   return (
     <>
       <SEO
-        postPath={data.markdownRemark.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}
+        postPath={data.markdownRemark.fields?.postId ?? data.markdownRemark.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}
         postNode={data.markdownRemark}
         postSEO
       />
@@ -95,13 +95,18 @@ export function Head({ data }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($filter: String!) {
-    markdownRemark(fileAbsolutePath: {regex: $filter}) {
+  query BlogPostBySlug($postId: String!) {
+    markdownRemark(fields: {postId: {eq: $postId}}) {
       html
       timeToRead
       tableOfContents
       excerpt
       fileAbsolutePath
+      fields {
+        slug
+        date
+        postId
+      }
       frontmatter {
         title
         categories

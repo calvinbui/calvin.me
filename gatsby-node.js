@@ -309,11 +309,15 @@ exports.createPages = ({ graphql, actions }) => {
             })
           }
 
+          const postFolder = edge.node.fileAbsolutePath.split('/').slice(-2)[0]
+          const postId = postFolder.substring(11)
+
           createPage({
-            path: edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
+            path: postId,
             component: postPage,
             context: {
-              filter: `/^.*\\/\\d{4}-\\d{2}-\\d{2}-${edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11)}\\/.*$/`,
+              // Avoid `regex` filters for per-post queries; they're slow on the datastore.
+              postId,
             },
           })
         })
