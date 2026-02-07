@@ -7,6 +7,97 @@ sharp.cache(false)
 
 const postNodes = []
 
+// Avoid N+1 thumbnail lookups.
+//
+// `MarkdownRemark.thumbnail` is queried for lists (index/tag/category pages). If
+// we do a `nodeModel.findOne()` per Markdown node, we end up with an N+1 query
+// pattern against the datastore.
+//
+// Strategy:
+// - Cache per-Markdown id so repeated appearances across pages don't re-query.
+// - Batch loads per GraphQL request using `nodeModel.findAll({ absolutePath: { in: [...] } })`.
+//
+// Cache stores `File` node ids (or null) so we can re-fetch via
+// `nodeModel.getNodeById()` on each page and still correctly track page
+// dependencies.
+const thumbnailIdByMarkdownId = new Map()
+const thumbnailFileLoaderByNodeModel = new WeakMap()
+
+function createThumbnailFileLoader(nodeModel) {
+  /** @type {Map<string, Promise<any>>} */
+  const cache = new Map()
+  /** @type {Map<string, { resolve: (v: any) => void, reject: (e: any) => void }>} */
+  let queue = new Map()
+  let scheduled = false
+
+  const flush = async () => {
+    scheduled = false
+
+    const batch = queue
+    queue = new Map()
+
+    const absolutePaths = Array.from(batch.keys())
+    if (absolutePaths.length === 0) return
+
+    try {
+      const { entries } = await nodeModel.findAll({
+        type: 'File',
+        query: {
+          filter: {
+            absolutePath: {
+              in: absolutePaths,
+            },
+          },
+          // Not required, but makes the intent explicit.
+          limit: absolutePaths.length,
+        },
+      })
+
+      const fileNodes = Array.from(entries)
+      const fileNodeByAbsolutePath = new Map(fileNodes.map(node => [node.absolutePath, node]))
+
+      for (const absolutePath of absolutePaths) {
+        batch.get(absolutePath).resolve(fileNodeByAbsolutePath.get(absolutePath) ?? null)
+      }
+    } catch (error) {
+      for (const { reject } of batch.values()) {
+        reject(error)
+      }
+    }
+  }
+
+  const scheduleFlush = () => {
+    if (scheduled) return
+    scheduled = true
+    // Batch within the same event loop turn.
+    process.nextTick(flush)
+  }
+
+  return {
+    load(absolutePath) {
+      if (cache.has(absolutePath)) return cache.get(absolutePath)
+
+      const promise = new Promise((resolve, reject) => {
+        queue.set(absolutePath, { resolve, reject })
+        scheduleFlush()
+      })
+
+      cache.set(absolutePath, promise)
+      return promise
+    },
+  }
+}
+
+function getThumbnailFileLoader(nodeModel) {
+  if (thumbnailFileLoaderByNodeModel.has(nodeModel)) {
+    return thumbnailFileLoaderByNodeModel.get(nodeModel)
+  }
+
+  const loader = createThumbnailFileLoader(nodeModel)
+  thumbnailFileLoaderByNodeModel.set(nodeModel, loader)
+  return loader
+}
+
 function resolveThumbnailAbsolutePath({ postFileAbsolutePath, frontmatterThumbnail }) {
   const siblingDir = path.dirname(postFileAbsolutePath)
 
@@ -73,17 +164,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       slug = `/${parsedFilePath.dir}/`
     }
 
-    if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
-      if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath'))
-        slug = `/${node.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}/`
-      if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath')) {
-        const date = new Date(node.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10))
+    // Posts live under `posts/YYYY/YYYY-MM-DD-slug/index.md`.
+    // Derive stable identifiers once here so templates/components don't need to
+    // repeatedly parse `fileAbsolutePath`.
+    if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath')) {
+      const postFolder = node.fileAbsolutePath.split('/').slice(-2)[0]
+      const match = /^(\d{4}-\d{2}-\d{2})-(.+)$/.exec(postFolder)
 
-        createNodeField({
-          node,
-          name: 'date',
-          value: date.toISOString(),
-        })
+      if (match) {
+        const [, date, postId] = match
+        slug = `/${postId}/`
+
+        createNodeField({ node, name: 'date', value: date })
+        createNodeField({ node, name: 'postId', value: postId })
       }
     }
 
@@ -106,24 +199,52 @@ exports.createResolvers = ({ createResolvers }) => {
       thumbnail: {
         type: 'File',
         resolve: (source, _args, context) => {
-          const parentFileNode = context.nodeModel.getNodeById({ id: source.parent })
-          if (!parentFileNode?.absolutePath) return null
+          if (thumbnailIdByMarkdownId.has(source.id)) {
+            const cached = thumbnailIdByMarkdownId.get(source.id)
 
-          const absolutePath = resolveThumbnailAbsolutePath({
-            postFileAbsolutePath: parentFileNode.absolutePath,
-            frontmatterThumbnail: source.frontmatter?.thumbnail,
-          })
+            // `cached` can be a value (string/null) or an in-flight Promise.
+            if (cached && typeof cached.then !== 'function') {
+              return context.nodeModel.getNodeById({ id: cached, type: 'File' })
+            }
 
-          return context.nodeModel.findOne({
-            type: 'File',
-            query: {
-              filter: {
-                absolutePath: {
-                  eq: absolutePath,
-                },
-              },
-            },
-          })
+            if (cached === null) return null
+
+            return cached.then(id => (id ? context.nodeModel.getNodeById({ id, type: 'File' }) : null))
+          }
+
+          // Store the in-flight promise immediately to dedupe concurrent resolver calls.
+          const promise = (async () => {
+            // `MarkdownRemark` nodes already expose `fileAbsolutePath`.
+            // Use it to avoid an extra `getNodeById()` per node.
+            const postFileAbsolutePath =
+              source.fileAbsolutePath ?? context.nodeModel.getNodeById({ id: source.parent })?.absolutePath
+
+            if (!postFileAbsolutePath) return null
+
+            const absolutePath = resolveThumbnailAbsolutePath({
+              postFileAbsolutePath,
+              frontmatterThumbnail: source.frontmatter?.thumbnail,
+            })
+
+            const loader = getThumbnailFileLoader(context.nodeModel)
+            const fileNode = await loader.load(absolutePath)
+            return fileNode?.id ?? null
+          })()
+
+          // Cache the in-flight promise, then replace it with the resolved id for
+          // faster subsequent lookups. If the thumbnail doesn't exist (null),
+          // don't cache that permanently so it can appear later during develop.
+          thumbnailIdByMarkdownId.set(source.id, promise)
+          promise
+            .then(id => {
+              if (id) thumbnailIdByMarkdownId.set(source.id, id)
+              else thumbnailIdByMarkdownId.delete(source.id)
+            })
+            .catch(() => {
+              thumbnailIdByMarkdownId.delete(source.id)
+            })
+
+          return promise.then(id => (id ? context.nodeModel.getNodeById({ id, type: 'File' }) : null))
         },
       },
     },
@@ -150,10 +271,13 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMarkdownRemark {
+            allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/\\/posts\\//"}}) {
               edges {
                 node {
                   fileAbsolutePath
+                  fields {
+                    slug
+                  }
                   frontmatter {
                     tags
                     categories
