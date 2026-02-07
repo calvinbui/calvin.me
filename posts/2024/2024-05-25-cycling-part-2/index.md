@@ -7,7 +7,6 @@ tags:
 - sport
 - transport
 # https://www.reshot.com/free-svg-icons/item/bicycle-tour-2U7S6C5RBX/
-thumbnail: thumbnail.svg
 ---
 
 Continuing from [my previous post](/cycling-part-1/).

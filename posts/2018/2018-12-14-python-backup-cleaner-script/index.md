@@ -7,7 +7,6 @@ tags:
 - python
 - xsibackup
 # https://www.iconfinder.com/icons/282803/python_logo_icon
-thumbnail: thumbnail.svg
 ---
 
 A Python script I've written to clean up old backups, keeping only the newest specified amount.

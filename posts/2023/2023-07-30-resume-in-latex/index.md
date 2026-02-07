@@ -6,7 +6,6 @@ tags:
 - resume
 - latex
 # https://www.reshot.com/free-svg-icons/item/resume-LAG8SUMQFZ/
-thumbnail: thumbnail.svg
 ---
 
 I grew tired of updating my current resume and made a new one with LaTeX.

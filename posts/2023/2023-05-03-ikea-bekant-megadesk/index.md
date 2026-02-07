@@ -9,7 +9,6 @@ tags:
 - esphome
 - home assistant
 # https://www.reshot.com/free-svg-icons/item/table-HWS4YVTJN2/
-thumbnail: thumbnail.svg
 ---
 
 I modified the IKEA Bekant sit/stand desk to add memory positions and remote control.

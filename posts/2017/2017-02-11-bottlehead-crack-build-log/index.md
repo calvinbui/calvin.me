@@ -7,7 +7,6 @@ tags:
 - amp
 - audio
 # https://www.iconfinder.com/icons/4105547/audio_melody_music_sound_icon
-thumbnail: thumbnail.svg
 ---
 
 This is a quick build log of Bottlehead Crack OTL tube amplifier with some pictures and little stories.

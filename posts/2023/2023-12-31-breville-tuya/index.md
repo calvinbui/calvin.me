@@ -9,7 +9,6 @@ tags:
 - electronics
 - home assistant
 # https://www.reshot.com/free-svg-icons/item/blanket-4G69W8JKSH/
-thumbnail: thumbnail.svg
 ---
 
 How to connect the Breville BodyZone Plus Connect electric blanket to Home Assistant.

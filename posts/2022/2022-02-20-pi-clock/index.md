@@ -7,7 +7,6 @@ tags:
 - pi
 - clock
 # https://www.iconfinder.com/icons/1337508/clock_game_go_play_pokemon_time_icon
-thumbnail: thumbnail.svg
 ---
 
 My Grandma sometimes forgets the date and day of the week as she gets older. She doesn't use a smartphone, only analogue clocks. She doesn't know English, so digital clocks wouldn't help. Some digital clocks also lose their time and date after a power cycle. I couldn't get her a voice assistant, as Google doesn't support the Vietnamese language yet. Since there was nothing available for her, I decided to hack together a solution.

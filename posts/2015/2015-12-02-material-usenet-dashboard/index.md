@@ -7,7 +7,6 @@ tags:
 - material
 - usenet
 # https://www.iconfinder.com/icons/4263532/browser_cloning_plus_site_website_websites_windows_icon
-thumbnail: thumbnail.svg
 ---
 
 A personalised dashboard built using Google's Material Design.

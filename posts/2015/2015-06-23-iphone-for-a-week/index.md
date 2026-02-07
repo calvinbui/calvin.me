@@ -6,7 +6,6 @@ tags:
 - ios
 - iphone
 # https://www.iconfinder.com/icons/1790669/apple_device_ios_iphone_iphone_7_smartphone_mobile_icon
-thumbnail: thumbnail.svg
 ---
 
 I had a few days with an iPhone so I decided to try it out and see if it was usable for someone like me.

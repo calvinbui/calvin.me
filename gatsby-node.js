@@ -7,6 +7,17 @@ sharp.cache(false)
 
 const postNodes = []
 
+function resolveThumbnailAbsolutePath({ postFileAbsolutePath, frontmatterThumbnail }) {
+  const siblingDir = path.dirname(postFileAbsolutePath)
+
+  const preferred =
+    typeof frontmatterThumbnail === 'string' && frontmatterThumbnail.trim() !== ''
+      ? frontmatterThumbnail.trim()
+      : 'thumbnail.svg'
+
+  return path.resolve(siblingDir, preferred)
+}
+
 function addSiblingNodes(createNodeField) {
   for (let i = 0; i < postNodes.length; i += 1) {
     const nextID = i + 1 < postNodes.length ? i + 1 : 0
@@ -75,9 +86,48 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         })
       }
     }
+
     createNodeField({ node, name: 'slug', value: slug })
     postNodes.push(node)
   }
+}
+
+// Code-driven default thumbnail.
+//
+// Query this as `markdownRemark { thumbnail { ... } }`.
+//
+// Behavior:
+// - If `frontmatter.thumbnail` exists, it is used as the filename (relative to the post folder).
+// - Otherwise, Gatsby will try `thumbnail.svg` in the same folder as `index.md`.
+// - If the file doesn't exist, `thumbnail` resolves to null (matching current behavior).
+exports.createResolvers = ({ createResolvers }) => {
+  createResolvers({
+    MarkdownRemark: {
+      thumbnail: {
+        type: 'File',
+        resolve: (source, _args, context) => {
+          const parentFileNode = context.nodeModel.getNodeById({ id: source.parent })
+          if (!parentFileNode?.absolutePath) return null
+
+          const absolutePath = resolveThumbnailAbsolutePath({
+            postFileAbsolutePath: parentFileNode.absolutePath,
+            frontmatterThumbnail: source.frontmatter?.thumbnail,
+          })
+
+          return context.nodeModel.findOne({
+            type: 'File',
+            query: {
+              filter: {
+                absolutePath: {
+                  eq: absolutePath,
+                },
+              },
+            },
+          })
+        },
+      },
+    },
+  })
 }
 
 exports.setFieldsOnGraphQLNodeType = ({ type, actions }) => {

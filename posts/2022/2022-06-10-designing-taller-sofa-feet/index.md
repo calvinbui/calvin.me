@@ -7,7 +7,6 @@ tags:
 - couch
 - 3d printing
 # https://www.reshot.com/free-svg-icons/item/sofa-26QB8DHTXW/
-thumbnail: thumbnail.svg
 ---
 
 ```toc

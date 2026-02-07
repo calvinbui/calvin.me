@@ -9,7 +9,6 @@ tags:
 - virtualised
 - vmware
 # https://www.iconfinder.com/icons/1337523/game_go_play_pokecenter_pokemon_icon
-thumbnail: thumbnail.svg
 ---
 
 Now that our pfSense installation is set up and working, we will have to wrap up our installation with a few necessities such as VMware Tools. You can find follow along our installation in [Part 1](/part-1-install-pfsense-on-esxi-5-5/), [Part 2](/part-2-install-pfsense-esxi-5-5/) and [Part 3](/part-3-install-pfsense-esxi-5-5/).

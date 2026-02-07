@@ -5,7 +5,6 @@ categories:
 tags:
 - baby
 # https://www.reshot.com/free-svg-icons/item/children-s-book-EQ4VBF5DT2/
-thumbnail: thumbnail.svg
 ---
 
 My baby book recommendations for new and existing parents.

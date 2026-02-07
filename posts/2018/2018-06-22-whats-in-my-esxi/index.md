@@ -7,7 +7,6 @@ tags:
 - vmware
 - esxi
 # https://www.iconfinder.com/icons/4417095/mount_rack_server_icon
-thumbnail: thumbnail.svg
 ---
 
 Four years have past since I build my home lab! I thought I'd share what virtual machines I'm currently rolling and what I've left behind in that time.

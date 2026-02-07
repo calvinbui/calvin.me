@@ -7,7 +7,6 @@ tags:
 - freenas
 - nas
 # https://www.iconfinder.com/icons/1720774/refresh_reload_icon
-thumbnail: thumbnail.svg
 ---
 
 Taking a look back how my SLOG device has been performing on my ZFS pool after fixing some significant problems.

@@ -6,7 +6,6 @@ tags:
 - sff
 - mini-itx
 # https://www.iconfinder.com/icons/4417102/desktop_pc_server_icon
-thumbnail: thumbnail.svg
 ---
 
 A tiny, 7.25L case sporting an i7 7700K and GTX 1080 Ti! Heaps of pictures too!

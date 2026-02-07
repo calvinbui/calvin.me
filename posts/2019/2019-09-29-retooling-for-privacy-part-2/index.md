@@ -10,7 +10,6 @@ tags:
 - snips
 - hauk
 # https://www.iconfinder.com/icons/5243664/shield_user_privacy_user_protection_user_shield_webpage_icon
-thumbnail: thumbnail.svg
 ---
 
 More I've done for my online privacy since my [previous post](/retooling-for-privacy).

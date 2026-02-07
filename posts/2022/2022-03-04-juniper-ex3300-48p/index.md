@@ -9,7 +9,6 @@ tags:
 - networking
 - switch
 # https://www.reshot.com/free-svg-icons/item/networking-switch-WNZUFME7BD/
-thumbnail: thumbnail.svg
 ---
 
 I purchased a Juniper EX3300-48P network switch which will be used to network the entire home.

@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - usb
 # https://www.iconfinder.com/icons/1790673/data_drive_flash_memory_usb_stick_icon
-thumbnail: thumbnail.svg
 ---
 
 When your drive dies, or in my case, the SATA port fails completely, this is a good temporary solution until the replacement arrives.

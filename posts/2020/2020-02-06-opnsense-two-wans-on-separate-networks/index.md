@@ -5,7 +5,6 @@ categories:
 tags:
 - opnsense
 # https://www.iconfinder.com/icons/2620499/employee_job_seeker_system_unemployee_work_icon
-thumbnail: thumbnail.svg
 ---
 
 How to use a different WAN interface on different internal networks within OPNsense.

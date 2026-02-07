@@ -7,7 +7,6 @@ tags:
 - microelectronics
 - tools
 # https://www.reshot.com/free-svg-icons/item/soldering-gun-3GYTVZSW7A/
-thumbnail: thumbnail.svg
 ---
 
 Updating my soldering tools.

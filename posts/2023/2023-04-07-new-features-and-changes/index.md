@@ -6,7 +6,6 @@ tags:
 - blog
 - gatsby
 # https://www.reshot.com/free-svg-icons/item/new-badge-6J4ZH378QE/
-thumbnail: thumbnail.svg
 ---
 
 I've been working on some new features and changes for this blog.

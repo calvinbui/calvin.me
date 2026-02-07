@@ -6,7 +6,6 @@ tags:
 - dotbot
 - dotfiles
 # https://www.iconfinder.com/icons/2559822/dots_media_network_social_icon
-thumbnail: thumbnail.svg
 ---
 
 How I manage configs across different computers and operating systems.

@@ -13,17 +13,19 @@ export default class PostTemplate extends Component {
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
 
+    const thumbnailFile = postNode.thumbnail
+
     let thumbnail
 
     post.id = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(11)
     post.category_id = config.postDefaultCategoryID
     post.date = postNode.fileAbsolutePath.split('/').slice(-2)[0].substr(0, 10)
 
-    if (post.thumbnail) {
-      if (post.thumbnail.childImageSharp) {
-        thumbnail = <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />
+    if (thumbnailFile) {
+      if (thumbnailFile.childImageSharp) {
+        thumbnail = <GatsbyImage image={thumbnailFile.childImageSharp.gatsbyImageData} />
       } else {
-        thumbnail = <div className="gatsby-image-wrapper"><img src={post.thumbnail.publicURL} alt="" /></div>
+        thumbnail = <div className="gatsby-image-wrapper"><img src={thumbnailFile.publicURL} alt="" /></div>
       }
     }
 
@@ -104,19 +106,19 @@ export const pageQuery = graphql`
         title
         categories
         tags
-        thumbnail {
-          childImageSharp {
-            gatsbyImageData(
-              layout: FIXED
-              width: 150
-              height: 150
-              quality: 100
-              placeholder: BLURRED
-            )
-          }
-          extension
-          publicURL
+      }
+      thumbnail {
+        childImageSharp {
+          gatsbyImageData(
+            layout: FIXED
+            width: 150
+            height: 150
+            quality: 100
+            placeholder: BLURRED
+          )
         }
+        extension
+        publicURL
       }
     }
   }

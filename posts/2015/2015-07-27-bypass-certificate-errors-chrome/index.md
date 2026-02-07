@@ -8,7 +8,6 @@ tags:
 - chrome
 - ssl
 # https://www.iconfinder.com/icons/4417116/navigation_bar_web_browser_icon
-thumbnail: thumbnail.svg
 ---
 
 Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of one to bypass certificate errors?!

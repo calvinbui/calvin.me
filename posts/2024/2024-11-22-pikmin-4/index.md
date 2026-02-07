@@ -7,7 +7,6 @@ tags:
 - nintendo switch
 - gaming
 # https://www.reshot.com/free-svg-icons/item/sprout-GRN6UDWBTE/
-thumbnail: thumbnail.svg
 ---
 
 Sharing my playthrough of Pikmin 4 on the Nintendo Switch.

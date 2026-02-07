@@ -8,7 +8,6 @@ tags:
 - hikvision
 - ipcam
 # https://www.iconfinder.com/icons/5243669/cctv_cctv_camera_monitoring_camera_security_camera_surveillance_icon
-thumbnail: thumbnail.svg
 ---
 
 This post covers some of my home security camera system. Not a lot of information is shared for obvious reasons, but enough to show its capabilities and configuration.

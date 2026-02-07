@@ -8,7 +8,6 @@ tags:
 - vmware
 - vlans
 # https://github.com/Iconscout/unicons/blob/master/svg/line/docker.svg
-thumbnail: thumbnail.svg
 ---
 
 My journey from VMware ESXi to purely Docker.

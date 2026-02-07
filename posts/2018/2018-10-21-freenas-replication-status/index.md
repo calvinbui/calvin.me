@@ -6,7 +6,6 @@ categories:
 tags:
 - freenas
 # https://www.iconfinder.com/icons/6725434/copy_document_extension_file_file_format_file_type_format_icon
-thumbnail: thumbnail.svg
 ---
 
 See the current status of a replication job in the FreeNAS shell.

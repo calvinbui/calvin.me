@@ -5,7 +5,6 @@ categories:
 tags:
 - monthly update
 # https://www.iconfinder.com/icons/2799192/camping_lamp_light_travel_camp_outdoor_icon
-thumbnail: thumbnail.svg
 ---
 
 In the monthly update, I like to cover what I've been doing throughout the past month in regards to technology, computers and more.

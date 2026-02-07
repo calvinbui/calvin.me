@@ -8,7 +8,6 @@ tags:
 - networking
 - 10gbe
 # https://www.reshot.com/free-svg-icons/item/reminder-paper-PMLJR6B7WH/
-thumbnail: thumbnail.svg
 ---
 
 I bought a [Juniper EX3300-48P switch](/juniper-ex3300-48p) at the beginning of the year. It has 4 SFP+ ports capable of 10-gigabit transfer speeds. I thought I'd make use of them, and connect it to a couple of devices I had.

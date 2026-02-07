@@ -7,7 +7,6 @@ tags:
 - migration
 - fastmail
 # https://www.reshot.com/free-svg-icons/item/email-H7RU3945ET/
-thumbnail: thumbnail.svg
 ---
 
 How to migrate between two Fastmail accounts without any downtime when using a custom domain.

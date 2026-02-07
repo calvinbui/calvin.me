@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - raid
 # https://www.iconfinder.com/icons/4417120/raid_alarm_desktop_drives_hard_icon
-thumbnail: thumbnail.svg
 ---
 
 Create a RAID1 (mirroring) array and install Ubuntu 18.04 onto it.

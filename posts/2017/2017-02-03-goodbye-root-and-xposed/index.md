@@ -7,7 +7,6 @@ tags:
 - xposed
 - android
 # https://www.iconfinder.com/icons/3377025/android_logo_media_social_icon
-thumbnail: thumbnail.svg
 ---
 
 Accept it or not, Google is moving transitioning to a non-root/non-xposed world.

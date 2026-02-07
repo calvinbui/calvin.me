@@ -8,7 +8,6 @@ tags:
 - television
 - entertainment
 # https://www.iconfinder.com/icons/4171338/day_love_movie_television_valentine_valentines_icon
-thumbnail: thumbnail.svg
 ---
 
 Sharing my living room setup which includes my television, speakers, gaming and karaoke.

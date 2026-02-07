@@ -10,7 +10,6 @@ tags:
 - reset
 - script
 # https://www.iconfinder.com/icons/1720769/reload_recycle_refresh_remove_synchronize_icon
-thumbnail: thumbnail.svg
 ---
 
 For testing and educational purposes only.

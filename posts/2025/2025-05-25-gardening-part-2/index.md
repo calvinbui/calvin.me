@@ -7,7 +7,6 @@ tags:
 - sprinklers
 - automation
 # https://icon666.com/icon/sprinkler_ep0ncmqa5525
-thumbnail: thumbnail.svg
 ---
 
 In [Part 1](/gardening-part-1), I was working on improving the state of then lawn. In this post, I will cover the jet water pump, spinklers, indoor plant sensors and fixing bent plants.

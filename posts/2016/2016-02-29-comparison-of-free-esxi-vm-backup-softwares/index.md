@@ -8,7 +8,6 @@ tags:
 - vmware
 - esxi
 # https://www.iconfinder.com/icons/4417097/backups_clock_hdd_scheduled_ssd_backup_storage_icon
-thumbnail: thumbnail.svg
 ---
 
 I searched and compared the offerings to backup VMs on the Internet so you don't have to.

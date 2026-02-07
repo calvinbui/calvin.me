@@ -8,7 +8,6 @@ tags:
 - fully kiosk browser
 - home assistant
 # https://www.reshot.com/free-svg-icons/item/control-panel-N8PXK53VMR/
-thumbnail: thumbnail.svg
 ---
 
 ![](dashboard/device-mockup.png)

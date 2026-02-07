@@ -8,7 +8,6 @@ tags:
 - case
 - testing
 # https://www.reshot.com/free-svg-icons/item/cooling-system-DJ2HZLEPQU/
-thumbnail: thumbnail.svg
 ---
 
 The [Quzao Sama I'm](http://www.sama.cn/archives/827) (sometimes IM, IM01 or IM-01) is a 21.9L computer case. It is best known as a micro-ATX (mATX) version of the mini-ITX (mITX) Cooler Master NR200, a very popular value case due to its hardware compatibility.

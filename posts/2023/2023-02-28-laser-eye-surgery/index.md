@@ -9,7 +9,6 @@ tags:
 - health
 - eyes
 # https://www.reshot.com/free-svg-icons/item/eye-F7XNYDGMJB/
-thumbnail: thumbnail.svg
 ---
 
 I had Laser Eye surgery last year and wanted to share my experience in a casual post.

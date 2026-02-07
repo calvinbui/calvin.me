@@ -7,7 +7,6 @@ tags:
 - obsidian
 - notes
 # https://www.reshot.com/free-svg-icons/item/agenda-book-US7NQTM32K/
-thumbnail: thumbnail.svg
 ---
 
 Sharing my note-taking migration from Joplin to Obsidian and how I use it everyday.

@@ -7,7 +7,6 @@ tags:
 - supplements
 - health
 # https://www.reshot.com/free-svg-icons/item/medical-checkup-BER8TMYSWU/
-thumbnail: thumbnail.svg
 ---
 
 For a while now, I've been taking vitamins and supplements to support my energy, focus and overall well-being. This is not medical advice, and I strongly recommend consulting with a healthcare provider before starting any supplement routine, especially if you have existing health conditions or take medications.

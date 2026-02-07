@@ -100,19 +100,19 @@ export const pageQuery = graphql`
             title
             tags
             categories
-            thumbnail {
-              childImageSharp {
-                gatsbyImageData(
-                  layout: FIXED
-                  width: 50
-                  height: 50
-                  quality: 100
-                  placeholder: BLURRED
-                )
-              }
-              extension
-              publicURL
+          }
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(
+                layout: FIXED
+                width: 50
+                height: 50
+                quality: 100
+                placeholder: BLURRED
+              )
             }
+            extension
+            publicURL
           }
         }
       }

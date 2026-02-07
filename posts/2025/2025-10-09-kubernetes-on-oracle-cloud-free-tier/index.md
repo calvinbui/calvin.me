@@ -8,7 +8,6 @@ tags:
 - kustomize
 - flux
 # https://www.reshot.com/free-svg-icons/item/ship-helm-TUQW4GJ85R/
-thumbnail: thumbnail.svg
 ---
 
 Oracle Cloud Infrastructure (OCI) provide a very generous free tier that is capable of running a highly available Kubernetes cluster.

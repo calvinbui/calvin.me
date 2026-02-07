@@ -9,7 +9,6 @@ tags:
 - ubuntu
 - unifi controller
 # https://www.iconfinder.com/icons/294391/install_download_retail_open_software_box_product_business_receive_peanut_shipping_delivery_packing_icon
-thumbnail: thumbnail.svg
 ---
 
 POST UP TO DATE 19/08/2015

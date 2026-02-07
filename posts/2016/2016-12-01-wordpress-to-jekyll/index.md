@@ -5,7 +5,6 @@ categories:
 tags:
 - jekyll
 # https://www.iconfinder.com/icons/4900842/blog_content_copywriting_seo_website_icon
-thumbnail: thumbnail.svg
 ---
 
 I've made the leap over from WordPress to Jekyll. Static sites are just easier, faster and more secure :thumbsup:

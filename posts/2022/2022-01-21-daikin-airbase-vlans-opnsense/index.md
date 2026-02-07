@@ -9,7 +9,6 @@ tags:
 - aircon
 - opnsense
 # https://www.iconfinder.com/icons/315809/cloud_wind_icon
-thumbnail: thumbnail.svg
 ---
 
 The [Daikin Airbase](https://www.daikin.com.au/controllers/daikin-airbase) is a Wi-Fi connected interface for controlling Daikin ducted air conditioning units. This gives the convenience of controlling temperature, timers, and zones from a mobile device or voice assistant.

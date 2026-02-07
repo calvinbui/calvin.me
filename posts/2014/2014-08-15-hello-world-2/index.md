@@ -5,7 +5,6 @@ categories:
 tags:
 - hello world
 # https://www.iconfinder.com/icons/1312084/circle_outline_social-media_wordpress_icon
-thumbnail: thumbnail.svg
 ---
 
 Hello World !

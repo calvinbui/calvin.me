@@ -6,7 +6,6 @@ categories:
 tags:
 - car
 # https://www.reshot.com/free-svg-icons/item/car-rental-YS3BFDX8GZ/
-thumbnail: thumbnail.svg
 ---
 
 Five years ago, I wrote about the [Tech Inside My 2018 Volkswagen Golf R](/tech-inside-my-2018-vw-golf-r/). I sold that car in November 2022 and have gone without one for a year and a half. Earlier this year, we purchased a used **2018 Hyundai i30 SR Premium** to regularly go bouldering and aid in transporting our newborn in a few months.

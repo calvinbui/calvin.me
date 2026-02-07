@@ -6,7 +6,6 @@ tags:
 - freenas
 - nas
 # https://www.iconfinder.com/icons/4263519/backups_disk_drive_hdd_icon
-thumbnail: thumbnail.svg
 ---
 
 It's been 5 years since my last one and I was starting to run out of space.

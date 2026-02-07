@@ -8,7 +8,6 @@ tags:
 - svs
 - speakers
 # https://icon666.com/icon/speaker_ptru6hlfctbm
-thumbnail: thumbnail.svg
 ---
 
 I added two SVS SB-3000 subwoofers to my living room entertainment area.

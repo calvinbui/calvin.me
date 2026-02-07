@@ -5,7 +5,6 @@ categories:
 tags:
 - anniversary
 # https://www.reshot.com/free-svg-icons/item/calendar-cake-Y4DNB3L5MG/
-thumbnail: thumbnail.svg
 ---
 
 This month marks 10 years since the very first post on this blog.

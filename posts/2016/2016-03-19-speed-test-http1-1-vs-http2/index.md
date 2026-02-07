@@ -6,7 +6,6 @@ tags:
 - http
 - speed test
 # https://www.iconfinder.com/icons/4263544/browser_fast_http/2_http2_loading_speed_window_icon
-thumbnail: thumbnail.svg
 ---
 
 Last week I updated the backend NGINX web servers to support HTTP/2. Now to find out how much difference it makes.

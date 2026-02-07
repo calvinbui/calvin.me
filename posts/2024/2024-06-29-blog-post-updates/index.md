@@ -6,7 +6,6 @@ tags:
 - blog
 - updates
 # https://www.reshot.com/free-svg-icons/item/blog-BELGWXJ89P/
-thumbnail: thumbnail.svg
 ---
 
 I've updated a lot of my older posts with new information.

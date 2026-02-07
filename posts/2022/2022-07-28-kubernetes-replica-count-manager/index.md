@@ -8,7 +8,6 @@ tags:
 - mtls
 - golang
 # https://www.reshot.com/free-svg-icons/item/helm-8T6N9KVFYM/
-thumbnail: thumbnail.svg
 ---
 
 This tool provides an API alongside the native Kubernetes deployment controller to manage the pod replica count of deployment resources.

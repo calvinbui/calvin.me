@@ -9,7 +9,6 @@ tags:
 - zfs
 - zil
 # https://www.iconfinder.com/icons/4417092/fast_load_speed_website_server_speedometer_web_icon
-thumbnail: thumbnail.svg
 ---
 
 A short post on how I exponentially sped up my VMware environment.

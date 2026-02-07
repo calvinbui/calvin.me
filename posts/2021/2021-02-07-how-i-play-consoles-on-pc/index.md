@@ -6,7 +6,6 @@ tags:
 - capture card
 - obs
 # https://www.iconfinder.com/icons/6780646/controller_gaming_soccer_joystick_icon
-thumbnail: thumbnail.svg
 ---
 
 This post shows how I play console games through my PC.

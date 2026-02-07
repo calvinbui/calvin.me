@@ -5,7 +5,6 @@ categories:
 tags:
 - hackintosh
 # https://www.iconfinder.com/icons/3259392/apple_media_social_icon
-thumbnail: thumbnail.svg
 ---
 
 OpenCore bootloader configuration and files for the ASUS ROG STRIX Z270-I GAMING motherboard.

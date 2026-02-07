@@ -7,7 +7,6 @@ tags:
 - log
 - parts
 # https://www.iconfinder.com/icons/3430590/avatar_female_girl_heart_love_valentine_woman_icon
-thumbnail: thumbnail.svg
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.

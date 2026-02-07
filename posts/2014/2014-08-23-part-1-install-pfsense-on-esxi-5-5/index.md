@@ -9,7 +9,6 @@ tags:
 - virtualised
 - vmware
 # https://www.iconfinder.com/icons/1337534/game_go_play_pokecenter_pokemon_icon
-thumbnail: thumbnail.svg
 ---
 
 pfSense is an open source firewall/router based on FreeBSD. It is more than just however, with the ability to be a DNS, VPN, IDS/IPS, DHCP, NTP and cache (using Squid). Why would you dedicate a full system to pfSense when it can easily run as a virtual machine to provide networking to your entire infrastructure.  This guide will walk you through replacing your current router with pfSense and how to install pfSense on ESXi.

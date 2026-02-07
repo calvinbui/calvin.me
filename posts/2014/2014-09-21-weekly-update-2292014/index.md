@@ -5,7 +5,6 @@ categories:
 tags:
 - weekly update
 # https://www.iconfinder.com/icons/5422817/document_paper_recycle_recycling_icon
-thumbnail: thumbnail.svg
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

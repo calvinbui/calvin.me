@@ -5,7 +5,6 @@ categories:
 tags:
 - fornightly update
 # https://www.iconfinder.com/icons/5243679/hacker_mysterious_unsafe_web_unsecure_website_hacked_icon
-thumbnail: thumbnail.svg
 ---
 
 In the fortnightly update, I bring you what I've been doing throughout the past two weeks in regards to technology, computers and more with links to tutorials and guides.

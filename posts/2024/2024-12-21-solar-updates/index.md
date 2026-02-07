@@ -10,7 +10,6 @@ tags:
 - fusionsolar
 - electricity
 # https://www.reshot.com/free-svg-icons/item/off-grid-energy-4USERQ5HTW/
-thumbnail: thumbnail.svg
 ---
 
 Updates about [my 12.76 kW solar system](/solar-power) installed at the end of July 2022.

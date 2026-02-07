@@ -7,7 +7,6 @@ tags:
 - smart
 - switch
 # https://www.reshot.com/free-svg-icons/item/switch-button-2EMSW8FL6Z/
-thumbnail: thumbnail.svg
 ---
 
 I've installed a Shelly smart relay for every possible light switch in my home over the past three and a half years. These are great devices that work over Wi-Fi, Bluetooth, Matter and Zigbee.

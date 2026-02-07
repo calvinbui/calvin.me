@@ -5,7 +5,6 @@ categories:
 tags:
 - dns
 # https://www.iconfinder.com/icons/1329080/burger_list_menu_numbers_string_text_icon
-thumbnail: thumbnail.svg
 ---
 
 Nothing. You should have zero public DNS entries for a domain purchased for private or internal use.

@@ -6,7 +6,6 @@ tags:
 - advice
 - IT
 # https://www.iconfinder.com/icons/2620524/cv_employee_job_seeker_unemployee_work_icon
-thumbnail: thumbnail.svg
 ---
 
 This is a talk I gave during my time at IBM to University of Western Sydney students who came for a site visit. They were all roughly my age (late teens, early twenties), with many looking for job opportunities such as internships, scholarships and graduate positions.

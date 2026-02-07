@@ -9,7 +9,6 @@ tags:
 - homeserver
 - hardware
 # https://www.reshot.com/free-svg-icons/item/disc-drive-QPCR5FJZM9/
-thumbnail: thumbnail.svg
 ---
 
 I built a new home server/lab a few months back to replace my [previous 7 year old server](/my-72tb-freenas-server/).

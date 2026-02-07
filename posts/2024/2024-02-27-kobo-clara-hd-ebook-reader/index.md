@@ -7,7 +7,6 @@ tags:
 - ebook
 - kobo
 # https://www.reshot.com/free-svg-icons/item/ebook-K2JX3M9DQW/
-thumbnail: thumbnail.svg
 ---
 
 Breathing life back into my [Kobo Clara HD eBook Reader](https://au.kobobooks.com/products/kobo-clara-hd) from 2018.

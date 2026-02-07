@@ -6,7 +6,6 @@ categories:
 tags:
 - car
 # https://www.iconfinder.com/icons/2526575/transportation_vehicle_icon
-thumbnail: thumbnail.svg
 ---
 
 I bought a new 2018 Volkswagen Golf R Wolfsburg Edition back in February. One of the main things I wanted was a car with a lot of features and this one stood out above the rest.

@@ -6,7 +6,6 @@ tags:
 - csgo
 - autopilot
 # https://www.iconfinder.com/icons/5243691/airgun_bullets_fireman_gun_weapon_icon
-thumbnail: thumbnail.svg
 ---
 
 Everything learnt from managing the Counter-Strike server at work.

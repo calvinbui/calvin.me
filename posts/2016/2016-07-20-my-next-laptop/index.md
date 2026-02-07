@@ -5,7 +5,6 @@ categories:
 tags:
 - laptop
 # https://www.iconfinder.com/icons/4417111/browser_laptop_on_web_browsing_surfing_icon
-thumbnail: thumbnail.svg
 ---
 
 I’m not into writing a buying guides, [LappyList](http://www.lappylist.com/) is probably the best place to find a laptop if you want something that would probably do the job pretty well. This is based off my own research I have done in preparation to replace my slowly dying (but strong) 5-year-old Lenovo X220. These laptops are what I would probably end up purchasing.

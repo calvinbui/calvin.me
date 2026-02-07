@@ -7,7 +7,6 @@ tags:
 - free
 - ipam
 # https://www.iconfinder.com/icons/4263533/hosting_monitors_server_shared_web_icon
-thumbnail: thumbnail.svg
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!

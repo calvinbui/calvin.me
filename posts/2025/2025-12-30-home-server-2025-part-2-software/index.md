@@ -8,7 +8,6 @@ tags:
 - podman
 - debian
 # https://www.reshot.com/free-svg-icons/item/dvd-W2739ZBG4Y/
-thumbnail: thumbnail.svg
 ---
 
 This post is the follow-up to my [previous post](/home-server-2025-part-1-hardware), where I covered the hardware build and the decisions behind each part, and it focuses on the software stack running on the system, including the BIOS configuration, the operating system, ZFS for storage, and how I am handling containerisation and services.

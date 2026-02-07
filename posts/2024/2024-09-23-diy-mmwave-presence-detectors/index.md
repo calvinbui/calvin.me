@@ -8,7 +8,6 @@ tags:
 - home assistant
 - sensors
 # https://www.reshot.com/free-svg-icons/item/motion-capture-XSRY79E5BC/
-thumbnail: thumbnail.svg
 ---
 
 Building a mmWave presence detector from off-the-shelf components.

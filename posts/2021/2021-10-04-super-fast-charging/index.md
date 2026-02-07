@@ -7,7 +7,6 @@ tags:
 - cables
 - usb-pd
 # https://www.iconfinder.com/icons/728907/battery_full_charge_electricity_energy_plug_power_icon
-thumbnail: thumbnail.svg
 ---
 
 [Super Fast Charging](https://www.samsung.com/global/galaxy/what-is/super-fast-charging/) is Samsung's marketing term for charging their mobile phones between 25W to 45W. I went deep into a rabbit hole to enable the feature recently upgraded after upgrading from a Galaxy S10+ to a Galaxy S21 ([on Telstra Day for AUD $624](https://www.ozbargain.com.au/node/648279)).

@@ -10,7 +10,6 @@ tags:
 - github
 - ansible
 # https://www.reshot.com/free-svg-icons/item/toolbox-K5UC8VFYRD/
-thumbnail: thumbnail.svg
 ---
 
 I've started running my own self-hosted Git server and CI/CD and wanted to share my use cases for it after avoiding both products for so long. Both can be great additions to a homelabber's toolbox.

@@ -7,7 +7,6 @@ tags:
 - vlan
 - vmware
 # https://www.iconfinder.com/icons/5243648/protection_secure_security_shield_icon
-thumbnail: thumbnail.svg
 ---
 
 My current set-up has [pfSense vitualised](https://www.pfsense.org/) on an [all-in-one ESXi host](/all-in-one-esxi-server/) providing networking to my entire infrastructure. This infrastructure is both virtual and physical and therefore denying guest access to them is very important so that not anyone can just type an IP address into their browser and begin changing settings.

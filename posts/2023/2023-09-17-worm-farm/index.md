@@ -7,7 +7,6 @@ tags:
 - farm
 - garden
 # https://www.reshot.com/free-svg-icons/item/watering-plant-WA3XVQCNKD/
-thumbnail: thumbnail.svg
 ---
 
 Sharing my worm farm journey over the past couple of weeks.

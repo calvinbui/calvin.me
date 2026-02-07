@@ -9,7 +9,6 @@ tags:
 - macOS
 - vmware
 # https://www.iconfinder.com/icons/1891024/apple_command_key_keyboard_modifier_icon
-thumbnail: thumbnail.svg
 ---
 
 UPDATE 18/10/16: Changed to support 10.12

@@ -5,7 +5,6 @@ categories:
 tags:
 - intel
 # https://www.iconfinder.com/icons/2317718/communication_computing_connection_internet_lan_lancard_satellite_icon
-thumbnail: thumbnail.svg
 ---
 
 You should update your NIC cause newer is always better right? Right!

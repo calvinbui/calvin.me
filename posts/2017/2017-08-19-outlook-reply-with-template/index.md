@@ -6,7 +6,6 @@ tags:
 - outlook
 - email
 # https://www.iconfinder.com/icons/834704/outlook_icon
-thumbnail: thumbnail.svg
 ---
 
 A simple macro to send a range of email templates, prefilled with different items like your subject line, recipients, CC and BCC.

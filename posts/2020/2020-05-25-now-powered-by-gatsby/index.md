@@ -7,7 +7,6 @@ tags:
 - react
 - netlify
 # https://www.gatsbyjs.com/Gatsby-Monogram.svg
-thumbnail: thumbnail.svg
 ---
 
 After [three and half years of Jekyll](/wordpress-to-jekyll), I've made the move over to [GatsbyJS](https://www.gatsbyjs.org/).

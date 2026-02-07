@@ -8,7 +8,6 @@ tags:
 - freenas
 - hyperconverging
 # https://www.iconfinder.com/icons/1055025/merge_arrow_on_ramp_icon
-thumbnail: thumbnail.svg
 ---
 
 I merged all my home servers together to improve performance while reducing power usage.

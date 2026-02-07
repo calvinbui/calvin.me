@@ -7,7 +7,6 @@ tags:
 - sport
 - transport
 # https://www.reshot.com/free-svg-icons/item/bicycle-QZRTBM6J3F/
-thumbnail: thumbnail.svg
 ---
 
 Last year, I bought a bike and began cycling near my home around Sydney Olympic Park.

@@ -9,7 +9,6 @@ tags:
 - virtualised
 - vmware
 # https://www.iconfinder.com/icons/1337533/game_go_poke_pokemon_star_trainer_two_icon
-thumbnail: thumbnail.svg
 ---
 
 In Part 2 of my virtualised pfSense installation on ESXi 5.5 we will be specifying the network interfaces for pfSense, configuring the LAN interface as well as connecting to the pfSense web interface. [Part 1 can be found here](/part-1-install-pfsense-on-esxi-5-5/).

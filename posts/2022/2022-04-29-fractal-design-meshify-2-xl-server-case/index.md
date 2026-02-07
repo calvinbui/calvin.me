@@ -7,7 +7,6 @@ tags:
 - computer case
 - server
 # https://www.reshot.com/free-svg-icons/item/case-TRMD2EBVYU/
-thumbnail: thumbnail.svg
 ---
 
 This is a short write-up of a switch in my server case. I went from the Norco RPC-431 to the Fractal Design Meshify 2 XL.

@@ -5,7 +5,6 @@ categories:
 tags:
 - vpn
 # https://github.com/mullvad/mullvadvpn-app/blob/master/graphics/icon.svg
-thumbnail: thumbnail.svg
 ---
 
 The entire process and tough criteria I went through to pick a VPN provider and escape mass surveillance.

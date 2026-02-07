@@ -5,7 +5,6 @@ categories:
 tags:
 - weekly update
 # https://www.iconfinder.com/icons/5027853/analytics_documents_report_statistics_icon
-thumbnail: thumbnail.svg
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

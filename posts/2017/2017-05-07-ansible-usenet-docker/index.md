@@ -7,7 +7,6 @@ tags:
 - usenet
 - docker
 # https://www.iconfinder.com/icons/1055068/download_arrow_cloud_down_icon
-thumbnail: thumbnail.svg
 ---
 
 I made a Ansible playbook to deploy Docker containers containing Usenet applications.

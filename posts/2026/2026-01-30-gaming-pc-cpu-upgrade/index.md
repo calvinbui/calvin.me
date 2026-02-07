@@ -13,7 +13,6 @@ tags:
 - rtx-3080-ti
 - ultrawide
 # https://www.reshot.com/free-svg-icons/item/computer-motherboard-73DFGL54HZ/
-thumbnail: thumbnail.svg
 ---
 
 I upgraded only my CPU and motherboard while keeping everything else the same. Memory/RAM pricing has gone completely stupid. DDR5 prices have quadrupled, and DDR4 prices have tripled. The AI ~~boom~~ bubble has pushed demand through the roof, and I was not interested in paying the inflated prices to upgrade to a new platform.

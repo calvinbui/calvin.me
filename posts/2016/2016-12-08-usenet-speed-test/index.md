@@ -5,7 +5,6 @@ categories:
 tags:
 - usenet
 # https://www.iconfinder.com/icons/1034366/speed_fast_stopwatch_timer_icon
-thumbnail: thumbnail.svg
 ---
 
 I signed up for a few trials before the Black Friday sales to test out some different providers and their download speeds.

@@ -7,7 +7,6 @@ tags:
 - domain
 - spam
 # https://www.reshot.com/free-svg-icons/item/spam-TEHY4G6WV7/
-thumbnail: thumbnail.svg
 ---
 
 Three weeks ago, I discovered that spammers had started using my email domain to send thousands of spam messages. This is how I am fighting back.

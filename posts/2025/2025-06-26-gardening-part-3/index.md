@@ -9,7 +9,6 @@ tags:
 - home-assistant
 - linktap
 # https://www.reshot.com/free-svg-icons/item/watering-plant-WA3XVQCNKD/
-thumbnail: thumbnail.svg
 ---
 
 In [Part 1](/gardening-part-1), I worked on improving the lawn. Then in [Part 2](/gardening-part-2), I covered the jet water pump, sprinklers, indoor plant sensors, and fixing bent plants. Now, in this final post, I'm sharing how I automated my watering system using poly pipe, LinkTap, and Home Assistant to make watering easier and more efficient.

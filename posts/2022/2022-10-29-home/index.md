@@ -8,7 +8,6 @@ tags:
 - property
 - blog
 # https://www.reshot.com/free-svg-icons/item/house-CJPGW24XHB/
-thumbnail: thumbnail.svg
 ---
 
 Last year, my wife and I purchased our first home together. I'll be sharing some of the wisdom we picked up from our 3-year-long search.

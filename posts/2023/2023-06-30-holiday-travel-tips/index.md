@@ -6,7 +6,6 @@ tags:
 - holiday
 - tips
 # https://www.reshot.com/free-svg-icons/item/island-HDLRPJF8UZ/
-thumbnail: thumbnail.svg
 ---
 
 <!-- more -->

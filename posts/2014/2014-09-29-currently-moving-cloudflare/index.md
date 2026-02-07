@@ -5,7 +5,6 @@ categories:
 tags:
 - cloudflare
 # https://www.iconfinder.com/icons/1084619/time_alarm_clock_timer_watch_icon
-thumbnail: thumbnail.svg
 ---
 
 Some stuff might break...

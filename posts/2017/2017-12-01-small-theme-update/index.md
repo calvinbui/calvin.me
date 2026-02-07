@@ -5,7 +5,6 @@ categories:
 tags:
 - jekyll
 # https://www.iconfinder.com/icons/1154378/brush_easel_art_paint_painting_icon
-thumbnail: thumbnail.svg
 ---
 
 Some small tweaks here and there.

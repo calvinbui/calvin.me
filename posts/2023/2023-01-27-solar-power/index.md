@@ -10,7 +10,6 @@ tags:
 - fusionsolar
 - electricity
 # https://www.reshot.com/free-svg-icons/item/solar-energy-NQTDV4EH7L/
-thumbnail: thumbnail.svg
 ---
 
 I got a 12.76 kW solar system installed at the end of July 2022. It's been half a year since then, and I'm immensely happy with how everything turned out. I'll cover every part of my journey from the research, installation and calculation of returns.

@@ -9,7 +9,6 @@ tags:
 - doors
 - alarms
 # https://www.reshot.com/free-svg-icons/item/shield-QHM3BY89NJ/
-thumbnail: thumbnail.svg
 ---
 
 Not that there's anything of value to steal.

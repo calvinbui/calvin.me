@@ -6,7 +6,6 @@ tags:
 - garden
 - lawn
 # https://icon666.com/icon/lawn_6w0gxbb0engv
-thumbnail: thumbnail.svg
 ---
 
 This is the first in a two-part post on my gardening adventure. In this post, I will cover pulling weeds, laying down new turf, watering equipment and lawn care. In part 2, I will cover the technological aspects including the automatic watering schedules and plant sensors.

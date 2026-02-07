@@ -7,7 +7,6 @@ tags:
 - switch
 - modchip
 # https://www.iconfinder.com/icons/7511698/game_logo_nintendo_switch_video_icon
-thumbnail: thumbnail.svg
 ---
 
 Modifying and installing homebrew on a Nintendo Switch OLED.

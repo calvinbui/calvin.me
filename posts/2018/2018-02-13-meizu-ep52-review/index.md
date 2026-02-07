@@ -7,7 +7,6 @@ tags:
 - audio
 - review
 # https://www.iconfinder.com/icons/4105545/audio_melody_music_sound_icon
-thumbnail: thumbnail.svg
 ---
 
 A really quick review of the Meizu EP52 earphones I use for the gym.

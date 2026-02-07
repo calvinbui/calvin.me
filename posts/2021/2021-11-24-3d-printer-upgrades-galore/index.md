@@ -7,7 +7,6 @@ tags:
 - prusa
 - bear-upgrade
 # https://www.reshot.com/free-svg-icons/item/3d-printer-8J4LRUYSXM/
-thumbnail: thumbnail.svg
 ---
 
 A lot of upgrades and add-ons for my Prusa i3 MK3S.

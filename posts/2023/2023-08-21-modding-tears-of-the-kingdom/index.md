@@ -7,7 +7,6 @@ tags:
 - modding
 - switch
 # https://www.iconfinder.com/icons/8595935/.svg_link_zelda_game_8bit_icon
-thumbnail: thumbnail.svg
 ---
 
 I want to share how I modded [The Legend of Zelda: Tears of the Kingdom](https://zelda.nintendo.com/tears-of-the-kingdom/) on my Nintendo Switch as guides on the internet were targetted at [Yuzu](https://yuzu-emu.org/) or [Ryujinx](https://ryujinx.org/) emulators.

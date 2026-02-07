@@ -10,7 +10,6 @@ tags:
 - vpn
 - mullvad
 # https://www.reshot.com/free-svg-icons/item/sharing-C6F57JEL49/
-thumbnail: thumbnail.svg
 ---
 
 I recently ran into an issue with Plex downloading content onto my mobile devices. It would error when on my Wi-Fi network, but not when downloading over mobile data. The problem for me had to do with OPNsense, my VPN provider and DNS-over-TLS.

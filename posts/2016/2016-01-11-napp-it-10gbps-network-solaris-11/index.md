@@ -15,7 +15,6 @@ tags:
 - solaris
 - solaris 11
 # https://www.iconfinder.com/icons/4960728/lan_mobile_ui_ux_web_icon
-thumbnail: thumbnail.svg
 ---
 
 While it can be difficult to have a transfer speed of 1.25GB per second (10Gbp/s), it wouldn't hurt to make sure it works well right?

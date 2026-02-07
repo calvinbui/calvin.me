@@ -9,7 +9,6 @@ tags:
 - gigabit
 - internet
 # https://www.iconfinder.com/icons/2570303/business_company_economic_finance_interprise_rocket_icon
-thumbnail: thumbnail.svg
 ---
 
 Testing the fastest residential NBN connection in Australia.

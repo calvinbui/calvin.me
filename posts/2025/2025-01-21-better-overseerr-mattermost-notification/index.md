@@ -7,7 +7,6 @@ tags:
 - mattermost
 - notifications
 # https://www.reshot.com/free-svg-icons/item/smart-alerts-XLEBPRC9ZS/
-thumbnail: thumbnail.svg
 ---
 
 Creating better notifications from [Overseerr](https://overseerr.dev/) to Slack/Mattermost using the webhooks.

@@ -6,7 +6,6 @@ tags:
 - tpu
 - prusa
 # https://www.reshot.com/free-svg-icons/item/fused-deposition-modelling-XMF4UTAYC9/
-thumbnail: thumbnail.svg
 ---
 
 Documenting how I succeeded in 3D printing with TPE/TPU on my Prusa i3 MK3S.
