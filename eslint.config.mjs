@@ -2,7 +2,6 @@ import { defineConfig, globalIgnores } from "eslint/config";
 import js from "@eslint/js";
 import react from "eslint-plugin-react";
 import jsxA11Y from "eslint-plugin-jsx-a11y";
-import babelParser from "@babel/eslint-parser";
 import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default defineConfig([
@@ -32,13 +31,12 @@ export default defineConfig([
             },
         },
         languageOptions: {
-            parser: babelParser,
             ecmaVersion: "latest",
             sourceType: "module",
+            // Espree can parse JSX without Babel.
             parserOptions: {
-                requireConfigFile: false,
-                babelOptions: {
-                    presets: ["@babel/preset-react"],
+                ecmaFeatures: {
+                    jsx: true,
                 },
             },
         },

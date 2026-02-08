@@ -9,7 +9,7 @@ export default class SEO extends Component {
     const { postNode, postPath, postSEO } = this.props
     let title
     let description
-    let image = ''
+    let image
     let postURL
 
     if (postSEO) {
