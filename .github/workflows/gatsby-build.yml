@@ -64,7 +64,7 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-
+          key: ${{ runner.os }}-gatsby-build-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
 
@@ -90,7 +90,7 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ steps.cache-gatsby-restore.cache-primary-key }}
+          key: ${{ steps.cache-gatsby-restore.outputs.cache-primary-key }}
 
   deploy:
     runs-on: ubuntu-latest
