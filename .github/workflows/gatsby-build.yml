@@ -39,10 +39,10 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
 
-      - name: 🧶 Get Yarn cache
-        uses: actions/cache@v4
+      - name: 🧶 Restore Yarn cache
+        id: cache-yarn-restore
+        uses: actions/cache/restore@v5
         with:
-          save-always: true
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
@@ -57,10 +57,10 @@ jobs:
       - name: ☄️ markdownlint
         run: yarn lint:md
 
-      - name: 🥡 Getting Gatsby cache
-        uses: actions/cache@v4
+      - name: 🥡 Restore Gatsby cache
+        uses: actions/cache/restore@v5
+        id: cache-gatsby-restore
         with:
-          save-always: true
           path: |
             public
             .cache
@@ -75,6 +75,22 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+
+      - name: 🧶 Save Yarn cache
+        uses: actions/cache/save@v5
+        if: always()
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ steps.cache-yarn-restore.outputs.cache-primary-key }}
+
+      - name: 🥡 Save Gatsby cache
+        uses: actions/cache/save@v5
+        if: always()
+        with:
+          path: |
+            public
+            .cache
+          key: ${{ steps.cache-gatsby-restore.cache-primary-key }}
 
   deploy:
     runs-on: ubuntu-latest
