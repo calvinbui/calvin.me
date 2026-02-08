@@ -22,7 +22,7 @@ jobs:
           timezoneLinux: "Australia/Sydney"
 
       - name: 🛎️ Check out master branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: master
 
