@@ -64,7 +64,7 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-${{ github.sha }}
+          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('gatsby-config.mjs', 'gatsby-node.js', 'gatsby-browser.js', 'gatsby-ssr.js', 'package.json', '**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
 
@@ -78,14 +78,14 @@ jobs:
 
       - name: 🧶 Save Yarn cache
         uses: actions/cache/save@v5
-        if: always()
+        if: always() && steps.cache-yarn-restore.outputs.cache-hit != 'true'
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ steps.cache-yarn-restore.outputs.cache-primary-key }}
 
       - name: 🥡 Save Gatsby cache
         uses: actions/cache/save@v5
-        if: always()
+        if: always() && steps.cache-gatsby-restore.outputs.cache-hit != 'true'
         with:
           path: |
             public
