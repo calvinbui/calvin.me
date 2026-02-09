@@ -30,6 +30,9 @@ export default {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        // Use `<!--more-->` to define the excerpt boundary for things like RSS.
+        // This prevents feeds from embedding full posts by default.
+        excerpt_separator: `<!--more-->`,
         plugins: [
           {
             resolve: `gatsby-remark-table-of-contents`,
@@ -146,15 +149,18 @@ export default {
           {
             serialize(ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata
+              const getPostUrl = postId => urljoin(rssMetadata.site_url, `${postId}/`)
+
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,
-                date: edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(0, 10),
+                date: edge.node.fields?.date,
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
-                url: rssMetadata.site_url + edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
-                guid: rssMetadata.site_url + edge.node.fileAbsolutePath.split('/').slice(-2)[0].substring(11),
+                url: getPostUrl(edge.node.fields?.postId),
+                guid: getPostUrl(edge.node.fields?.postId),
                 custom_elements: [
-                  { 'content:encoded': edge.node.html },
+                  // Keep RSS light: use the excerpt (bounded by `<!--more-->`) instead of full HTML.
+                  { 'content:encoded': edge.node.excerptHtml },
                   { author: config.userName },
                 ],
               }))
@@ -163,17 +169,19 @@ export default {
             {
               allMarkdownRemark(
                 limit: 1000,
-                sort: { fields: [fileAbsolutePath], order: DESC }
+                filter: { fields: { postId: { ne: null } } }
+                sort: { fields: { date: DESC } }
               ) {
                 edges {
                   node {
-                    excerpt(pruneLength: 180)
-                    html
-                    timeToRead
-                    fileAbsolutePath
+                    excerpt
+                    excerptHtml: excerpt(format: HTML)
+                    fields {
+                      date
+                      postId
+                    }
                     frontmatter {
                       title
-                      categories
                       tags
                     }
                   }
