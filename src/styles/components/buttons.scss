@@ -1,6 +1,9 @@
 /* Buttons
   =============== */
 
+@use 'sass:color';
+@use '../base' as *;
+
 // Main button styling
 %buttons {
   -webkit-appearance: none;
@@ -69,15 +72,15 @@
 .button.muted-button,
 a.button.muted-bottom {
   color: $font-color;
-  border: 2px solid darken($light, 5%);
-  background: darken($light, 5%);
+  border: 2px solid color.adjust($light, $lightness: -5%);
+  background: color.adjust($light, $lightness: -5%);
 
   &:hover,
   &:focus,
   &:active {
     color: $heading-font-color;
-    border: 2px solid darken($light, 10%);
-    background: darken($light, 10%);
+    border: 2px solid color.adjust($light, $lightness: -10%);
+    background: color.adjust($light, $lightness: -10%);
   }
 }
 

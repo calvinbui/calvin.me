@@ -1,6 +1,9 @@
 /* Scaffolding
   =============== */
 
+@use 'sass:color';
+@use '../base' as *;
+
 // HTML base
 html {
   // -webkit-font-smoothing: antialiased;
@@ -112,14 +115,14 @@ h3 {
   font-size: $h3-mobile;
   font-weight: 500;
   scroll-margin-top: 2.75em;
-  color: lighten($heading-font-color, 20%);
+  color: color.adjust($heading-font-color, $lightness: 20%);
 }
 
 h4 {
   font-size: $h4-mobile;
   font-weight: 500;
   scroll-margin-top: 2.75em;
-  color: lighten($heading-font-color, 40%);
+  color: color.adjust($heading-font-color, $lightness: 40%);
 }
 
 h5 {
@@ -189,7 +192,7 @@ ul {
       content: '\2022 ';
       position: absolute;
       left: 0;
-      color: lighten($font-color, 30%);
+      color: color.adjust($font-color, $lightness: 30%);
       font-size: 22px;
       line-height: 1.1;
     }
@@ -240,7 +243,7 @@ a {
 
     &:active,
     &:focus {
-      background: darken($link-hover-color, 10%);
+      background: color.adjust($link-hover-color, $lightness: -10%);
       color: $primary-hover;
     }
   }

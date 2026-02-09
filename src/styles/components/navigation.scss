@@ -1,3 +1,5 @@
+@use '../base' as *;
+
 .nav {
   transition: background 0.4s ease;
   position: fixed;

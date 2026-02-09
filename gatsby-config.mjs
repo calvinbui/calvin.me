@@ -19,7 +19,17 @@ export default {
     },
   },
   plugins: [
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        // Silence the Dart Sass warning triggered by older tooling that still
+        // calls the legacy JS API.
+        // https://sass-lang.com/d/legacy-js-api
+        sassOptions: {
+          silenceDeprecations: ['legacy-js-api'],
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use '../base' as *;
+
 #main-content {
   padding: 7em 0 0;
   min-height: calc(100vh - 190px);
@@ -197,7 +200,7 @@
       padding: 1rem 0;
       margin: 0;
       border: 1px solid transparent;
-      border-bottom: 1px solid lighten($border-color, 12%);
+      border-bottom: 1px solid color.adjust($border-color, $lightness: 12%);
 
       .date {
         margin: 0;
@@ -295,7 +298,7 @@
 
         &:hover {
           border-radius: $border-radius;
-          background: lighten($light, 3%);
+          background: color.adjust($light, $lightness: 3%);
 
           h2 {
             color: #111;
@@ -327,7 +330,7 @@
         .each {
           padding: 0.75rem 1rem;
           margin: 0 -1rem;
-          border-bottom: 1px solid lighten($border-color, 12%);
+          border-bottom: 1px solid color.adjust($border-color, $lightness: 12%);
 
           &:hover {
             border: 1px solid $light;
@@ -358,7 +361,7 @@
 .post,
 .page {
   h2 {
-    border-bottom: 1px solid lighten($border-color, 12%);
+    border-bottom: 1px solid color.adjust($border-color, $lightness: 12%);
   }
 }
 
@@ -372,7 +375,7 @@
     padding: 0.3rem 0.5rem;
     background: $light;
     border-radius: $border-radius;
-    color: lighten($font-color, 10%);
+    color: color.adjust($font-color, $lightness: 10%);
     font-size: 1rem;
     font-weight: 400;
     margin: 0 0.5rem 0.5rem 0;
@@ -386,7 +389,7 @@
     &:hover,
     &:active,
     &:focus {
-      background: darken($light, 5%);
+      background: color.adjust($light, $lightness: -5%);
       color: $font-color;
     }
   }
@@ -455,8 +458,8 @@
 
 blockquote {
   color: rgba(0, 0, 0, 0.8);
-  border: 2px solid lighten($yellow, 20%);
-  background: lighten($yellow, 25%);
+  border: 2px solid color.adjust($yellow, $lightness: 20%);
+  background: color.adjust($yellow, $lightness: 25%);
   border-radius: $border-radius;
   font-weight: 500;
   margin: 1.5rem 0;
@@ -481,7 +484,7 @@ blockquote {
     &:active,
     &:focus {
       color: #111 !important;
-      background: lighten($yellow, 18%) !important;
+      background: color.adjust($yellow, $lightness: 18%) !important;
     }
   }
 
@@ -517,7 +520,7 @@ blockquote {
 .filter-count {
   width: 80px;
   text-align: center;
-  color: darken($primary-color, 10%);
+  color: color.adjust($primary-color, $lightness: -10%);
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -545,12 +548,12 @@ blockquote {
     align-items: center;
     font-size: 0.85rem;
     padding: 0.5rem 0.75rem;
-    background: lighten($primary-color, 32%);
+    background: color.adjust($primary-color, $lightness: 32%);
     border-radius: $border-radius;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    color: darken($primary-color, 10%);
+    color: color.adjust($primary-color, $lightness: -10%);
     cursor: pointer;
 
     .count {
@@ -578,7 +581,7 @@ blockquote {
       &:active,
       &:focus {
         color: white;
-        background: darken($primary-color, 10%);
+        background: color.adjust($primary-color, $lightness: -10%);
       }
     }
 
@@ -587,8 +590,8 @@ blockquote {
     }
 
     &:hover {
-      background: lighten($primary-color, 28%);
-      color: darken($primary-color, 5%);
+      background: color.adjust($primary-color, $lightness: 28%);
+      color: color.adjust($primary-color, $lightness: -5%);
     }
   }
 }
@@ -686,7 +689,7 @@ nav.toc {
   right: 5vw;
   margin-left: 36px;
   max-width: 250px;
-  border-left: 1px solid lighten($border-color, 12%);
+  border-left: 1px solid color.adjust($border-color, $lightness: 12%);
 }
 
 /* Hide Table of Content when screen is smaller than 1440px */

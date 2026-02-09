@@ -1,6 +1,8 @@
 /* Tables
   =============== */
 
+@use '../base' as *;
+
 // Table expands to full width of containing element
 table {
   border-collapse: collapse;

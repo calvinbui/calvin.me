@@ -1,6 +1,9 @@
 /* Helpers
   =============== */
 
+@use 'sass:color';
+@use '../base' as *;
+
 .text-right {
   text-align: right;
 }
@@ -63,7 +66,7 @@
 }
 
 .yellow {
-  color: darken($yellow, 10%);
+  color: color.adjust($yellow, $lightness: -10%);
 }
 
 .crypto {

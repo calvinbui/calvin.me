@@ -1,0 +1,8 @@
+// Styles base module.
+//
+// Allows consumers to do:
+//   @use '../base' as *;
+// to access variables + mixins.
+
+@forward './base/variables';
+@forward './base/mixins';

@@ -1,26 +1,26 @@
 // Fonts
-@import 'fonts/stylesheet';
+@use 'fonts/stylesheet';
 
 // Configuration
-@import 'base/variables';
-@import 'base/mixins';
+@use 'base';
 
 // Reset
-@import 'base/reset';
+@use 'base/reset';
 
 // Components
-@import 'components/scaffolding';
-@import 'components/helpers';
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/tables';
-@import 'components/navigation';
-@import 'components/layout';
-@import 'components/new-moon';
+@use 'components/scaffolding';
+@use 'components/helpers';
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/tables';
+@use 'components/navigation';
+@use 'components/layout';
+@use 'components/new-moon';
 
 // Themes
-@import 'themes/dark';
-@import 'themes/404';
+@use 'themes/dark';
+// Default namespace would be `404` (invalid identifier), so give it an explicit one.
+@use 'themes/404' as theme404;
 
 // Other
-@import 'components/twitter';
+@use 'components/twitter';

@@ -3,6 +3,8 @@
  *
  * All variables and most of the configuration is defined on this page. */
 
+@use 'sass:color';
+
 /* Containers */
 
 $x-small: 720px;
@@ -30,7 +32,7 @@ $light: #f2f2f2;
 $alternate-background: #f0f0f0;
 $alternate-color: #404040;
 $link-color: $primary-color;
-$link-hover-color: darken($link-color, 10%);
+$link-hover-color: color.adjust($link-color, $lightness: -10%);
 $highlight: #ffeea8;
 $error: #d33c40;
 $bq-border: 16px solid #f0f0f0;
@@ -87,9 +89,9 @@ $box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.16);
 
 /* Buttons */
 
-$primary-hover: lighten($primary-color, 33%);
+$primary-hover: color.adjust($primary-color, $lightness: 33%);
 $button-background: $primary-color;
-$button-background-hover: darken($primary-color, 15%);
+$button-background-hover: color.adjust($primary-color, $lightness: -15%);
 $button-color: white;
 $button-font-weight: 500;
 $button-font-family: Helvetica Neue, 'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
@@ -114,9 +116,9 @@ $buttons: (
   '.button, a.button, button, [type=submit], [type=button]'
 );
 $input-background: #fff;
-$placeholder: darken($accent-color, 20%);
+$placeholder: color.adjust($accent-color, $lightness: -20%);
 $form-border: 2px solid $border-color;
-$form-border-hover: 2px solid darken($border-color, 10%);
+$form-border-hover: 2px solid color.adjust($border-color, $lightness: -10%);
 $form-border-focus: 2px solid $link-color;
 
 /* Tables */
