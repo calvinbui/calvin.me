@@ -14,6 +14,7 @@ Calvin's personal website running on Gatsby, React and Node.js.
 ## Development
 
 ### Setup
+
 ```shell-session
 git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
@@ -24,6 +25,7 @@ yarn gatsby telemetry --disable
 ```
 
 ### Developing
+
 ```shell-session
 yarn dev
 ```
