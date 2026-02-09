@@ -6,7 +6,6 @@
   "repository": "git@github.com:calvinbui/calvin.me",
   "dependencies": {
     "@babel/core": "^7.29.0",
-    "@babel/preset-react": "^7.28.5",
     "gatsby": "^5.13.3",
     "gatsby-cli": "^5.13.2",
     "gatsby-plugin-catch-links": "^5.13.1",
