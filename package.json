@@ -11,7 +11,6 @@
     "gatsby-plugin-feed": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-nprogress": "^5.13.1",
     "gatsby-plugin-offline": "^6.13.1",
     "gatsby-plugin-page-progress": "^2.2.1",
