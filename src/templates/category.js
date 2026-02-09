@@ -34,22 +34,20 @@ export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: {fileAbsolutePath: DESC}
+      sort: { fields: { date: DESC } }
       filter: {frontmatter: {categories: {in: [$category]}}}
     ) {
       totalCount
       edges {
         node {
-          excerpt
-          timeToRead
-          fileAbsolutePath
+          fields {
+            postId
+            date
+          }
           frontmatter {
             title
-            tags
-            categories
           }
           thumbnail {
-            extension
             publicURL
           }
         }

@@ -39,22 +39,20 @@ export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: {fileAbsolutePath: DESC}
+      sort: { fields: { date: DESC } }
       filter: {frontmatter: {tags: {in: [$tag]}}}
     ) {
       totalCount
       edges {
         node {
-          excerpt
-          timeToRead
-          fileAbsolutePath
+          fields {
+            postId
+            date
+          }
           frontmatter {
             title
-            tags
-            categories
           }
           thumbnail {
-            extension
             publicURL
           }
         }
