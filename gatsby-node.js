@@ -1,9 +1,5 @@
 const path = require('path')
 const kebabCase = require('lodash.kebabcase')
-const sharp = require('sharp')
-
-sharp.simd(false)
-sharp.cache(false)
 
 const postNodes = []
 
