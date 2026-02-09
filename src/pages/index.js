@@ -35,7 +35,7 @@ export default class Index extends Component {
   render() {
     const { filteredPosts, searchTerm } = this.state
     const filterCount = filteredPosts.length
-    const categories = this.props.data.categories.group
+    const categories = this.props.data.posts.group
 
     return (
       <Layout>
@@ -91,28 +91,28 @@ export function Head() {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    posts: allMarkdownRemark(limit: 2000, sort: {fileAbsolutePath: DESC}) {
-      edges {
-        node {
-          excerpt(pruneLength: 180)
-          timeToRead
-          fileAbsolutePath
-          frontmatter {
-            title
-            tags
-            categories
-          }
-          thumbnail {
-            extension
-            publicURL
-          }
-        }
-      }
-    }
-    categories: allMarkdownRemark(limit: 2000) {
+    posts: allMarkdownRemark(
+      limit: 2000
+      filter: { fields: { postId: { ne: null } } }
+      sort: { fields: { date: DESC } }
+    ) {
       group(field: {frontmatter: {categories: SELECT}}) {
         fieldValue
         totalCount
+      }
+      edges {
+        node {
+          fields {
+            postId
+            date
+          }
+          frontmatter {
+            title
+          }
+          thumbnail {
+            publicURL
+          }
+        }
       }
     }
   }
