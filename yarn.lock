@@ -5472,7 +5472,6 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
     eslint-plugin-react: "npm:^7.37.5"
     gatsby: "npm:^5.13.3"
-    gatsby-cli: "npm:^5.13.2"
     gatsby-plugin-catch-links: "npm:^5.13.1"
     gatsby-plugin-feed: "npm:^5.13.1"
     gatsby-plugin-image: "npm:^3.13.1"
