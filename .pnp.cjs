@@ -63,7 +63,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.2.4"],\
           ["react-dom", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:19.2.4"],\
           ["react-icons", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:5.5.0"],\
-          ["sass", "npm:1.71.1"],\
+          ["sass", "npm:1.97.3"],\
           ["sharp", "npm:0.34.5"],\
           ["smooth-scroll", "npm:16.1.3"],\
           ["url-join", "npm:5.0.0"]\
@@ -5005,6 +5005,31 @@ const RAW_RUNTIME_STATE =
           ["node-gyp", "npm:10.0.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-npm-2.5.6-aac795b349/node_modules/@parcel/watcher/",\
+        "packageDependencies": [\
+          ["@parcel/watcher", "npm:2.5.6"],\
+          ["@parcel/watcher-android-arm64", "npm:2.5.6"],\
+          ["@parcel/watcher-darwin-arm64", "npm:2.5.6"],\
+          ["@parcel/watcher-darwin-x64", "npm:2.5.6"],\
+          ["@parcel/watcher-freebsd-x64", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-arm-glibc", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-arm-musl", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-arm64-glibc", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-arm64-musl", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-x64-glibc", "npm:2.5.6"],\
+          ["@parcel/watcher-linux-x64-musl", "npm:2.5.6"],\
+          ["@parcel/watcher-win32-arm64", "npm:2.5.6"],\
+          ["@parcel/watcher-win32-ia32", "npm:2.5.6"],\
+          ["@parcel/watcher-win32-x64", "npm:2.5.6"],\
+          ["detect-libc", "npm:2.1.2"],\
+          ["is-glob", "npm:4.0.3"],\
+          ["node-addon-api", "npm:7.0.0"],\
+          ["node-gyp", "npm:10.0.1"],\
+          ["picomatch", "npm:4.0.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-android-arm64", [\
@@ -5012,6 +5037,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-android-arm64-npm-2.3.0-2c448e7b4f/node_modules/@parcel/watcher-android-arm64/",\
         "packageDependencies": [\
           ["@parcel/watcher-android-arm64", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-android-arm64-npm-2.5.6-3af976e716/node_modules/@parcel/watcher-android-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-android-arm64", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5023,6 +5055,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-darwin-arm64", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-arm64-npm-2.5.6-12ffeb78ea/node_modules/@parcel/watcher-darwin-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-darwin-arm64", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-darwin-x64", [\
@@ -5030,6 +5069,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-x64-npm-2.3.0-2d8304cd3f/node_modules/@parcel/watcher-darwin-x64/",\
         "packageDependencies": [\
           ["@parcel/watcher-darwin-x64", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-x64-npm-2.5.6-a1f8899512/node_modules/@parcel/watcher-darwin-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-darwin-x64", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5041,6 +5087,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-freebsd-x64", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-freebsd-x64-npm-2.5.6-ec01b811f2/node_modules/@parcel/watcher-freebsd-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-freebsd-x64", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-linux-arm-glibc", [\
@@ -5048,6 +5101,22 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-glibc-npm-2.3.0-7a1d8f17ee/node_modules/@parcel/watcher-linux-arm-glibc/",\
         "packageDependencies": [\
           ["@parcel/watcher-linux-arm-glibc", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-glibc-npm-2.5.6-757fc05ca9/node_modules/@parcel/watcher-linux-arm-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm-glibc", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-arm-musl", [\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-musl-npm-2.5.6-250e1ed4c3/node_modules/@parcel/watcher-linux-arm-musl/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm-musl", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5059,6 +5128,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-linux-arm64-glibc", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-glibc-npm-2.5.6-975ed11a63/node_modules/@parcel/watcher-linux-arm64-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm64-glibc", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-linux-arm64-musl", [\
@@ -5066,6 +5142,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-musl-npm-2.3.0-bdf4982f7c/node_modules/@parcel/watcher-linux-arm64-musl/",\
         "packageDependencies": [\
           ["@parcel/watcher-linux-arm64-musl", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-musl-npm-2.5.6-26220f5490/node_modules/@parcel/watcher-linux-arm64-musl/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm64-musl", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5077,6 +5160,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-linux-x64-glibc", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-glibc-npm-2.5.6-0ea9becf86/node_modules/@parcel/watcher-linux-x64-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-x64-glibc", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-linux-x64-musl", [\
@@ -5084,6 +5174,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-musl-npm-2.3.0-c39a01ccec/node_modules/@parcel/watcher-linux-x64-musl/",\
         "packageDependencies": [\
           ["@parcel/watcher-linux-x64-musl", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-musl-npm-2.5.6-9e855c68ef/node_modules/@parcel/watcher-linux-x64-musl/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-x64-musl", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5095,6 +5192,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-win32-arm64", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-arm64-npm-2.5.6-51d6df1f44/node_modules/@parcel/watcher-win32-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-arm64", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-win32-ia32", [\
@@ -5104,6 +5208,13 @@ const RAW_RUNTIME_STATE =
           ["@parcel/watcher-win32-ia32", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-ia32-npm-2.5.6-0b11b69b4f/node_modules/@parcel/watcher-win32-ia32/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-ia32", "npm:2.5.6"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@parcel/watcher-win32-x64", [\
@@ -5111,6 +5222,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-x64-npm-2.3.0-e70333e67f/node_modules/@parcel/watcher-win32-x64/",\
         "packageDependencies": [\
           ["@parcel/watcher-win32-x64", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.5.6", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-x64-npm-2.5.6-08d55e6e54/node_modules/@parcel/watcher-win32-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-x64", "npm:2.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7755,7 +7873,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.2.4"],\
           ["react-dom", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:19.2.4"],\
           ["react-icons", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:5.5.0"],\
-          ["sass", "npm:1.71.1"],\
+          ["sass", "npm:1.97.3"],\
           ["sharp", "npm:0.34.5"],\
           ["smooth-scroll", "npm:16.1.3"],\
           ["url-join", "npm:5.0.0"]\
@@ -8036,6 +8154,14 @@ const RAW_RUNTIME_STATE =
           ["is-glob", "npm:4.0.3"],\
           ["normalize-path", "npm:3.0.0"],\
           ["readdirp", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/chokidar-npm-4.0.3-962354fbb4-10c0.zip/node_modules/chokidar/",\
+        "packageDependencies": [\
+          ["chokidar", "npm:4.0.3"],\
+          ["readdirp", "npm:4.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12144,7 +12270,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:5.16.0"],\
           ["gatsby-plugin-sass", "virtual:c5b6baa0d285aca73aed4b6f9949801afe389f68044a9ec5f2598251abb90efeaa3c7bfcafc92db5b0ad728fc643dd18de196d4d2fe8eca89a7c1cb6030e996a#npm:6.16.0"],\
           ["resolve-url-loader", "npm:3.1.5"],\
-          ["sass", "npm:1.71.1"],\
+          ["sass", "npm:1.97.3"],\
           ["sass-loader", "virtual:d5e92eba09817e52f762eedd4f56b13de2682abdbe88fc9a100ce80ad256e68016ec3079ba1d5db7b85e3cbb9a3bcf54e2a2e046e21f4127be34c2bfb531bd14#npm:10.5.1"]\
         ],\
         "packagePeers": [\
@@ -13735,10 +13861,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.3.4", {\
-        "packageLocation": "../../.yarn/berry/cache/immutable-npm-4.3.4-2f54cf641b-10c0.zip/node_modules/immutable/",\
+      ["npm:5.1.4", {\
+        "packageLocation": "../../.yarn/berry/cache/immutable-npm-5.1.4-cddca3d05c-10c0.zip/node_modules/immutable/",\
         "packageDependencies": [\
-          ["immutable", "npm:4.3.4"]\
+          ["immutable", "npm:5.1.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17768,6 +17894,13 @@ const RAW_RUNTIME_STATE =
           ["picomatch", "npm:2.3.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/picomatch-npm-4.0.3-0a647b87cc-10c0.zip/node_modules/picomatch/",\
+        "packageDependencies": [\
+          ["picomatch", "npm:4.0.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["pkg-dir", [\
@@ -19199,6 +19332,13 @@ const RAW_RUNTIME_STATE =
           ["readdirp", "npm:3.6.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.1.2", {\
+        "packageLocation": "../../.yarn/berry/cache/readdirp-npm-4.1.2-3440472afe-10c0.zip/node_modules/readdirp/",\
+        "packageDependencies": [\
+          ["readdirp", "npm:4.1.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["recursive-readdir", [\
@@ -19869,12 +20009,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.71.1", {\
-        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.71.1-3aced13991-10c0.zip/node_modules/sass/",\
+      ["npm:1.97.3", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.97.3-632c69cd32-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["chokidar", "npm:3.5.3"],\
-          ["immutable", "npm:4.3.4"],\
-          ["sass", "npm:1.71.1"],\
+          ["@parcel/watcher", "npm:2.5.6"],\
+          ["chokidar", "npm:4.0.3"],\
+          ["immutable", "npm:5.1.4"],\
+          ["sass", "npm:1.97.3"],\
           ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -19900,7 +20041,7 @@ const RAW_RUNTIME_STATE =
           ["loader-utils", "npm:2.0.4"],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.71.1"],\
+          ["sass", "npm:1.97.3"],\
           ["sass-loader", "virtual:d5e92eba09817e52f762eedd4f56b13de2682abdbe88fc9a100ce80ad256e68016ec3079ba1d5db7b85e3cbb9a3bcf54e2a2e046e21f4127be34c2bfb531bd14#npm:10.5.1"],\
           ["schema-utils", "npm:3.3.0"],\
           ["semver", "npm:7.5.4"],\
