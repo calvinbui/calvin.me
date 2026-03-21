@@ -197,7 +197,7 @@ I recommend making a note of all the homebrew that installs folders into `/atmos
 I am not condoning piracy.
 
 - [sys-patch](https://github.com/impeeza/sys-patch): Patch Atmosphere to run unsigned code (such as backups).
-- [sigpatches](https://sigmapatches.su/): Same as sys-patch, but static instead of dynamic.
+- [sigpatches](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-package3.571543/): Same as sys-patch, but static instead of dynamic.
 - [Tinfoil](https://tinfoil.io/): Title/game manager.
 - [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
 - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
@@ -223,7 +223,6 @@ I am not condoning piracy.
 - [ovlSysmodule](https://github.com/ppkantorski/ovl-sysmodules): Toggle sysmodules on the fly.
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay): Hardware monitoring.
 - [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT): Change between handheld and docked state.
-  - [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool): To manage ReverseNX-RT.
   - [SaltyNX](https://github.com/masagrator/SaltyNX): Required to be installed first.
     - [SaltyNX-Tool](https://github.com/masagrator/SaltyNX-Tool): To manage SaltyNX.
 - [TextReaderOverlay](https://github.com/diwo/TextReaderOverlay-NX): Display text files.
@@ -260,7 +259,7 @@ I am not condoning piracy.
 
 1. Boot into Stock SysMMC and update the firmware.
 1. Wait for the modchip to retrain and boot back into Hekate.
-1. Run [Lockpick_RCM](https://sigmapatches.coomer.party/) and select **Dump from SysNAND**.
+1. Run [Lockpick_RCM](https://github.com/THZoria/Lockpick_RCMaster) and select **Dump from SysNAND**.
 1. Run [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer), select **Browse the SD card option** and run [this modified script](https://github.com/suchmememanyskill/TegraExplorer/issues/58#issuecomment-984845331) and select **Dump sysmmc**.
 1. Copy the latest [hekate](https://github.com/CTCaer/hekate) release over to the SD card.
 1. Copy the latest [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) release over to the SD card.
@@ -271,6 +270,7 @@ I am not condoning piracy.
 1. Run **Daybreak** and select `sdcard:/tegraexplorer/Firmware/xxx`. Choose `Perserve settings` and `Install (FAT32 + exFAT)`. Reboot and check everything works.
 1. Restore `sdcard:/atmosphere/contents/` and update all homebrew to be compatible with the new firmware.
 1. Themes will have to be reinstalled. Delete the `0100000000001000` and `0100000000001007` folders if they exists under `sdcard:/atmosphere/contents/` or Atmosphere will crash.
+1. Another reason it may not be boot is because of .kip files located in `sdcard://atmosphere/kips`.
 
 ## Theming
 
