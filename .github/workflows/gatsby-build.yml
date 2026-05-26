@@ -11,16 +11,14 @@ concurrency:
   group: gatsby
   cancel-in-progress: true
 
+env:
+  TZ: "Australia/Sydney"
+
 jobs:
   build-and-lint:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🕘 Set runner timezone
-        uses: MathRobin/timezone-action@v1.1
-        with:
-          timezoneLinux: "Australia/Sydney"
-
       - name: 🛎️ Check out master branch
         uses: actions/checkout@v6
         with:
