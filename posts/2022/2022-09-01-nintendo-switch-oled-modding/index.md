@@ -199,7 +199,7 @@ I am not condoning piracy.
 - [sys-patch](https://github.com/impeeza/sys-patch): Patch Atmosphere to run unsigned code (such as backups).
 - [sigpatches](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-package3.571543/): Same as sys-patch, but static instead of dynamic.
 - [Tinfoil](https://tinfoil.io/): Title/game manager.
-- [DBI](https://github.com/rashevskyv/dbi): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
+- [DBI](https://github.com/rashevskyv/DBIPatcher): Title/game manager alternative to Tinfoil. I prefer it's MTP feature over Tinfoil's.
 - [JKSV](https://github.com/J-D-K/JKSV): Save game manager.
 - [Breeze](https://github.com/tomvita/Breeze-Beta): Cheats. An updated version of [EdiZon SE](https://github.com/tomvita/EdiZon-SE/) by the same author.
 - [Mission Control](https://github.com/ndeadly/MissionControl): Use controllers from other consoles.
