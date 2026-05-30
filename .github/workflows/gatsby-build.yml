@@ -17,6 +17,7 @@ env:
 jobs:
   build-and-lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
       - name: 🛎️ Check out master branch
@@ -92,6 +93,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     environment:
       name: github-pages
