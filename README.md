@@ -18,7 +18,7 @@ Calvin's personal website running on Gatsby, React and Node.js.
 ```shell-session
 git clone https://gitea/calvinbui/calvin.me.git
 cd calvin.me
-nvm use
+fnm use
 npm install -g yarn
 yarn install --immutable
 yarn gatsby telemetry --disable
