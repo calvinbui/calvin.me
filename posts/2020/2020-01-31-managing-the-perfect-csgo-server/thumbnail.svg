@@ -1,17 +1,1 @@
-<?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 64 64;" version="1.1" viewBox="0 0 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
-	.st0{fill:#B4E6DD;}
-	.st1{fill:#80D4C4;}
-	.st2{fill:#D2F0EA;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#FBD872;}
-	.st5{fill:#DB7767;}
-	.st6{fill:#F38E7A;}
-	.st7{fill:#F6AF62;}
-	.st8{fill:#32A48E;}
-	.st9{fill:#A38FD8;}
-	.st10{fill:#7C64BD;}
-	.st11{fill:#EAA157;}
-	.st12{fill:#9681CF;}
-	.st13{fill:#F9C46A;}
-	.st14{fill:#CE6B61;}
-</style><g><g><rect class="st4" height="18.62" width="9.44" x="19.36" y="32.99"/><polygon class="st7" points="27.95,30.33 20.21,30.33 19.36,32.99 28.8,32.99   "/><rect class="st7" height="2.23" width="8.58" x="19.79" y="51.61"/><rect class="st4" height="2.16" width="9.44" x="19.36" y="53.84"/><rect class="st4" height="5.07" width="7.75" x="20.21" y="25.26"/><path class="st7" d="M27.85,25.27h-7.54c0-16,3.77-17.27,3.77-17.27S27.85,9.27,27.85,25.27z"/></g><g><rect class="st4" height="18.62" width="9.44" x="35.2" y="32.99"/><polygon class="st7" points="43.79,30.33 36.05,30.33 35.2,32.99 44.64,32.99   "/><rect class="st7" height="2.23" width="8.58" x="35.63" y="51.61"/><rect class="st4" height="2.16" width="9.44" x="35.2" y="53.84"/><rect class="st4" height="5.07" width="7.75" x="36.05" y="25.26"/><path class="st7" d="M43.69,25.27h-7.54c0-16,3.77-17.27,3.77-17.27S43.69,9.27,43.69,25.27z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" viewBox="0 0 64 64"><style>.st4{fill:#FBD872}.st7{fill:#F6AF62}</style><path d="M19.36 32.99h9.44v18.62h-9.44z" class="st4"/><path d="M27.95 30.33h-7.74l-.85 2.66h9.44zm-8.16 21.28h8.58v2.23h-8.58z" class="st7"/><path d="M19.36 53.84h9.44V56h-9.44zm.85-28.58h7.75v5.07h-7.75z" class="st4"/><path d="M27.85 25.27h-7.54c0-16 3.77-17.27 3.77-17.27s3.77 1.27 3.77 17.27" class="st7"/><path d="M35.2 32.99h9.44v18.62H35.2z" class="st4"/><path d="M43.79 30.33h-7.74l-.85 2.66h9.44zm-8.16 21.28h8.58v2.23h-8.58z" class="st7"/><path d="M35.2 53.84h9.44V56H35.2zm.85-28.58h7.75v5.07h-7.75z" class="st4"/><path d="M43.69 25.27h-7.54c0-16 3.77-17.27 3.77-17.27s3.77 1.27 3.77 17.27" class="st7"/></svg>
