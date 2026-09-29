@@ -7,6 +7,7 @@ tags:
 - shelving
 - storage
 - vevor
+# https://icon666.com/storage-shelf#id=o8t61ok6b5l9_
 ---
 
 I installed wall-mounted shelves all around my garage to make room for a longer car.
@@ -182,12 +183,14 @@ The main things I had to consider were clearance and weight. The tightest sectio
 
 All eight wall shelves are now installed, holding 29 storage tubs plus the boxes and other items that did not need another container. With the storage moved off the IKEA IVAR units and the networking gear, home server and 3D printer relocated, I could remove the floor-standing shelving completely.
 
-I will cover the separate wall-mounted rack for the networking gear in another post.
+I cover the [wall-mounted rack for the networking gear](/garage-wall-mounted-network-rack/) in a separate post.
 
 Buying steel wall shelves was cheaper than building custom plywood runs, and the combined garage rework recovered the floor space I needed.
 
 ![](progress/7.jpg)
 
 The longer car was my [Zeekr 7X](/zeekr-7x-sideloading-apps/). With all of the IVAR shelving gone, it now fits in the garage. That was the entire point.
+
+![](garage/i30.jpg)
 
 ![](garage/zeekr.jpg)
