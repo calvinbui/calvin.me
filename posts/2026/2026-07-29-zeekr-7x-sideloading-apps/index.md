@@ -2,7 +2,6 @@
 title: Sideloading Any Android App on the Zeekr 7X
 categories:
 - Hardware
-- Mobile
 tags:
 - android
 - car
