@@ -8,6 +8,7 @@ tags:
 - sideloading
 - zeekr
 - zeekr 7x
+# https://icon666.com/icon/car_reab3ck2dt1s
 ---
 
 The method I found for [sideloading Android apps on my Zeekr 7X](/zeekr-7x-sideloading-apps/) has been patched, but there is a new way in.
